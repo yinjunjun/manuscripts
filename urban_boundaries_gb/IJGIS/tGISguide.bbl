@@ -1,0 +1,67 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[\protect\citeauthoryear{Agutter}{1995}]{Agu95}
+Agutter, A.J., 1995. The linguistic significance of current British slang.
+  Thesis (PhD). Edinburgh University, UK.
+
+\bibitem[\protect\citeauthoryear{Cutler {\itshape{et~al.}}}{1986}]{cww86}
+Cutler, T., Williams, K., and Williams, J., 1986. {\itshape Keynes, Beveridge
+  and beyond}. 3rd ed. Twentieth century political economics Vol. II.   London:
+  Routledge.
+
+\bibitem[\protect\citeauthoryear{Evans}{1994}]{ev94}
+Evans, W.A., 1994. Approaches to intelligent information retrieval. {\itshape
+  Information {P}rocessing and {M}anagement}, 7 (2), 147--168.
+
+\bibitem[\protect\citeauthoryear{French}{1988}]{fzf88}
+French, F., 1988. English title of a chapter in the translation of a book in a
+  foreign language.  {\itshape{In}}: {\itshape Title of a book in another
+  language (Quoted in that language)}  [{\itshape English translation}],
+  translated by P. Smith.  New York: Dover (original work published 1923).
+
+\bibitem[\protect\citeauthoryear{Glover and Ribeiro}{1951}]{GloRib51}
+Glover, F. and Ribeiro, C.C., eds., 1951.   {\itshape Lessons of the British
+  war economy}. 2nd  ed.  Westport, CT: Greenwood Press,  1--24.
+
+\bibitem[\protect\citeauthoryear{Holland}{2004}]{Holl04}
+Holland, M., 2004. {\itshape Guide to citing Internet sources} [online]. Poole,
+  UK: Bournmouth University. Available from:
+  http://www.bournemouth.ac.uk/library/using/guide\_to\_citing\_internet\_sour%
+c.html [Accessed 4 November 2004].
+
+\bibitem[\protect\citeauthoryear{Kern}{1997}]{hk97}
+Kern, H., 1997. The resurgent Japanese economy and a Japan--United States free
+  trade agreement. {\itshape {In}}: C.~Lambert and G.~Holst, eds. {\itshape 4th
+  international conference on the restructuring of the economic and political
+  system in Japan}, Milan, Italy, 21--25 May 1996.  Singapore: World
+  Scientific,  147--156.
+
+\bibitem[\protect\citeauthoryear{Korb}{1995}]{Kor95}
+Korb, K.B., 1995. Persons and things: book review of {B}ringsjord on
+  robot-consciousness. {\itshape Psycoloquy} [online], 6 (15). Available from:
+  http://psycprints.ecs.soton.ac.uk/archive/00000462/ [Accessed 20 May 2004].
+
+\bibitem[\protect\citeauthoryear{Misner}{1973}]{cwm73}
+Misner, C.W., ed., 1973. Efficient algorithms for layer assignment problems.
+  {\itshape {In}}: {\itshape Gravitation in a collapsing {U}niverse}.  San
+  Francisco, CA: Freeman.
+
+\bibitem[\protect\citeauthoryear{Patel}{2002}]{fwp02}
+Patel, F.W., 2002. {\itshape Banking technology in an age of cynicism}.
+  Mongraphs on technical aspects Vol. XIII.   New York: Dover.
+
+\bibitem[\protect\citeauthoryear{Pierce {\itshape{et~al.}}}{1976}]{PeaEtAl76}
+Pierce, I.F., {\itshape et~al.}, 1976. A model of output, employment, wages and
+  prices in the UK. {\itshape {In}}: M.~Laguna and J.L. Gonz\'{a}les-Velarde,
+  eds. {\itshape Computing tools for modeling, optimization and simulation:
+  interfaces in computer science and operations research}. 2nd  ed.  Boston,
+  MA: Cambridge University Press,  1--24.
+
+\bibitem[\protect\citeauthoryear{Unesco}{1993}]{Une93}
+Unesco, 1993. {\itshape General information programme. }Technical report
+  PGI-93/WS/22, Unesco, Paris.
+
+\end{thebibliography}
