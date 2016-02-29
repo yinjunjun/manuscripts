@@ -1,0 +1,139 @@
+\documentclass[a4paper,11pt]{article}
+
+\makeatletter
+\renewcommand\@biblabel[1]{#1.}
+\makeatother
+%makeatletter \def\@biblabel#1{\@ifnotempty{#1}{#1}}
+
+
+\begin{document}
+%\title{A new geographical data source: geo-located Twitter data}
+%\title{A scalable geographical data framework for geo-located Twitter data}
+%\title{From massive collection of geo-located Tweets to a new geographical data source}
+\title{Generating Twitter user mobility data from massive collection of geo-located Tweets}
+
+%\author[1]{Junjun Yin}
+%\author[2]{Bin Jiang}
+%	\affil[1]
+%	{
+%	\it CyberGIS Center for Advanced Digital and Spatial Studies
+%%	\it Department of Geography and Geographic Information Science
+%%	\it	National Center for Supercomputing Applications \authorcr
+%	\it	University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA
+%	}
+%	\affil[2]
+%	{
+%	\it Department of Technology and Built Environment \authorcr
+%	\it University of Gävle, 80176, Sweden
+%	}
+
+\maketitle
+\section*{Abstract}
+geo-located Twitter data is attracting increasing attention from research communities
+
+
+the increasing popularity of accessing today's pervasive social media platform has enabled a new geographical data.
+
+In this paper, we present an efficient approach for geo-located data management and processing
+
+\section{Introduction}
+
+
+
+disseminate  
+
+While today's pervasive social media platforms connects people in the virtual space.
+
+The pervasive 
+
+
+The Location Based Social Media (LBSM)
+
+Herewith known as Twitter
+
+In this connection, it becomes increasingly popular for researchers to exploit the publicly accessible mobility data captured from today's pervasive Location Based Social Media (LBSM) platforms (e.g., Foursquare and Twitter).
+LBSM enables users to attach their current location as a geo-tag to the message they will post, which is derived from either the GPS or Wi-Fi positioning with a high position resolution down to 10 meters \cite{Jurdak2015}.
+A LBSM Big Data emerges when millions social media users constantly posting messages.
+
+
+
+\section*{Data collection}
+In general, Twitter (http://www.twitter.com) offers two kinds of search API 
+
+an alternative way to collect large is through the Twitter Streaming API (application programming interface)
+
+Geo-located tweets can be downloaded using 
+
+REST APIs responses are available in JSON.
+limitation
+
+
+Streaming APIs, also known as Twitter Fire 
+
+The Streaming APIs give developers low latency access to Twitter’s global stream of Tweet data. 
+A proper implementation of a streaming client will be pushed messages indicating Tweets and other events have occurred, without any of the overhead associated with polling a REST endpoint.
+
+
+If your intention is to conduct singular searches, read user profile information, or post Tweets, consider using the REST APIs instead.
+
+Twitter offers several streaming endpoints, each customized to certain use cases.
+
+
+\section*{Data management and processing}
+\subsection*{Accommodating massive Twitter Dataset with Hadoop}
+Apache Hadoop is an open source software framework designed to facilitate data intensive computing on large commodity clusters.
+It combines a distributed file system, namely Hadoop Distributed File System(HDFS) with MapReduce programming paradigm, which can be applied to wide range of data-intensive problems.
+MapReduce is a programming model and an associated software framework designed to process massive data in a distributed fashion.
+MapReduce breaks the entire computation into small tasks and schedule them among different computing nodes.
+MapReduce consists of two main stages: map and reduce.
+In the map stage, input data is converted into series of intermediate $\langle key, value\rangle$ pairs.
+Customized computation will be performed in the reduce stage based on the same intermediate key.
+This framework provides parallelization since both map and reduce tasks are considered independent and can be done in parallel. More importantly, it provides scalability in relation to the growth of data size, where Hadoop can scale to more computing nodes in the cluster to maintain the performance.
+
+Our framework benefits from using Hadoop in both data management and processing.
+First, since the input data is large it is desirable to store it on multiple machines.
+Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
+Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
+
+
+
+\section*{Case study}
+In this study, the geo-located tweets were downloaded using the Twitter Streaming API, where we specified a geographical bounding box as an area-of-interest to retrieve all the geo-located tweets that fall within it.
+To ensure the complete coverage over Great Britain, we have set the bounding box to British Isles (lower left coordinates in (latitude, longitude): (49.497, -14.854) and upper right coordinates: (61.186, 2.637)), which also includes the whole area of Ireland and a part of France.
+We have implemented a data crawler and continuously collected 7-month data (1st June – 31st December, 2014) with over 101.8 million tweets and 60 GB in size.
+During the data collection phase, the data crawler did not encounter any issue regarding whether it exceeds the data quota by the 1$\%$ policy mentioned in (Hawelka et al., 2014).
+It means we have managed to download all the geo-located tweets for the given bounding box.
+In particular, to showcase the overall spatial coverage of the collected geo-located tweets, a density map of the Twitter user locations in British Isles for July 2014 is shown in Figure 4, where the collected points alone visually reveal the geography of cities and countries, e.g. the clusters with high density of tweets (in color red) correspond to the skeleton of major cities.
+
+\cite{brockmann2006}
+
+\section*{Conclusion}
+
+\begin{thebibliography}{10}
+
+\bibitem{sakaki2010}
+Sakaki, T., Okazaki, M., Matsuo, Y., 2010. Earthquake Shakes Twitter Users: Real-time Event Detection by Social Sensors, in: Proceedings of the 19th International Conference on World Wide Web, WWW ’10. ACM, New York, NY, USA, pp. 851–860. doi:10.1145/1772690.1772777
+
+\bibitem{liuPopMobility}
+Liu, J., Zhao, K., Khan, S., Cameron, M., Jurdak, R., 2014. Multi-scale Population and Mobility Estimation with Geo-tagged Tweets. ArXiv14120327 Phys.
+
+
+\bibitem{hawelka}
+Hawelka, B., Sitko, I., Beinat, E., Sobolevsky, S., Kazakopoulos, P., Ratti, C., 2014. Geo-located Twitter as proxy for global mobility patterns. Cartography and Geographic Information Science, 41, 260–271. doi:10.1080/15230406.2014.890072
+
+\bibitem{frank2013}
+Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3. doi:10.1038/srep02625
+
+\bibitem{jurdak2015}
+Jurdak, R., Zhao, K., Liu, J., AbouJaoude, M., Cameron, M., Newth, D., 2015. Understanding Human Mobility from Twitter. PLoS ONE 10, e0131469. doi:10.1371/journal.pone.0131469
+
+
+
+\end{thebibliography}
+
+
+
+
+
+
+\end{document}
