@@ -12,7 +12,7 @@
 %\title{From massive collection of geo-located Tweets to a new geographical data source}
 %\title{Generating Twitter user mobility data from massive collection of geo-located Tweets}
 
-\title{ Harnessing  geo-located Tweets as a new geographical data source: Extracting mobility data from massive collection of geo-located Tweets}
+\title{Harnessing  geo-located Tweets as a new geographical data source: Extracting mobility data from massive collection of geo-located Tweets}
 
 %\author[1]{Junjun Yin}
 %\author[2]{Bin Jiang}
@@ -39,14 +39,14 @@ In this paper, we present an efficient approach for geo-located data management 
 
 \section{Introduction}
 Understanding human mobility patterns is of great importance for a broad range of applications from urban planning~\cite{zheng2008}, traffic management~\cite{jiang2009}, and even the spatial spread of epidemic diseases~\cite{belik2011}.
+Earlier research efforts relied on low resolution mobility data to understand human mobility patterns, such as using census records~\cite{greenwood1985} or questionnaires by asking volunteers to report the trace of bank notes ~\cite{brockmann2006}.
 However, the lack of detailed human movements with fine-grained spatial and temporal granularity limits the findings to capture mobility patterns of individuals~\cite{gonzalez2008,jurdak2015}.
+More recent approaches to collecting detailed mobility data 
+GPS trackers~\cite{zheng2008understanding, rhee2011levy} and mobile phone call records~\cite{gonzalez2008understanding,sevtsuk2010does,kung2014exploring}, 
 
 
 
-Earlier research efforts relied on low resolution mobility data to understand human mobility patterns, such as using census records to understand human migration patterns~\cite{greenwood1985human}, or delivering questionnaires and asking volunteers to report the track of bank notes to infer human travel patterns~\cite{brockmann2006scaling}.
-
-In addition to the mobility data collected by GPS trackers~\cite{zheng2008understanding, rhee2011levy} and mobile phone call records~\cite{gonzalez2008understanding,sevtsuk2010does,kung2014exploring}, 
-emerging as a new source for mobility data, today's pervasive Location Based Social Media (LBSM) platforms (e.g., Twitter and Foursquare) offer continuous spatial Big Data streams with massive amount of detailed and frequently updated user digital footprints~\cite{thatcher2014living} in the form of real-world trails and footprints.
+emerging as a new source for mobility data, today's pervasive Location Based Social Media (LBSM) platforms (e.g., Twitter and Foursquare) offer continuous spatial Big Data streams with massive amount of detailed and frequently updated user digital traces in the form of real-world trails and footprints~\cite{thatcher2014}.
 One significant advantage of LBSM data streams is the large spatial coverage, for example, researchers have used geo-located Twitter data for studying global mobility patterns~\cite{hawelka2014geo}, which is otherwise impossible by using other mobility datasets (e.g., GPS traces and mobile phone call records). 
 In addition, the publicly available LBSM data streams offer unique opportunities for conducting reproducible scientific findings regarding the concerns of infringement on individual privacy, such as using mobile phone call records~\cite{giannotti2008mobility,crampton2014collect,Jurdak2015}.
 
@@ -95,8 +95,8 @@ If your intention is to conduct singular searches, read user profile information
 Twitter offers several streaming endpoints, each customized to certain use cases.
 
 
-\section*{Data management and processing}
-\subsection*{Accommodating massive Twitter Dataset with Hadoop}
+\section{Data management and processing}
+\subsection{Accommodating massive Twitter Dataset with Hadoop}
 Apache Hadoop is an open source software framework designed to facilitate data intensive computing on large commodity clusters.
 It combines a distributed file system, namely Hadoop Distributed File System(HDFS) with MapReduce programming paradigm, which can be applied to wide range of data-intensive problems.
 MapReduce is a programming model and an associated software framework designed to process massive data in a distributed fashion.
@@ -111,14 +111,14 @@ First, since the input data is large it is desirable to store it on multiple mac
 Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
 Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
 
-\subsection*{Data extraction based on geographical regions}
+\subsection{Data extraction based on geographical regions}
 
 
-\subsection*{Constructing Twitter user space-time trajectories}
+\subsection{Constructing Twitter user space-time trajectories}
 
 
 
-\section*{Case study}
+\section{Case study}
 In this study, the geo-located tweets were downloaded using the Twitter Streaming API, where we specified a geographical bounding box as an area-of-interest to retrieve all the geo-located tweets that fall within it.
 To ensure the complete coverage over Great Britain, we have set the bounding box to British Isles (lower left coordinates in (latitude, longitude): (49.497, -14.854) and upper right coordinates: (61.186, 2.637)), which also includes the whole area of Ireland and a part of France.
 We have implemented a data crawler and continuously collected 7-month data (1st June – 31st December, 2014) with over 101.8 million tweets and 60 GB in size.
@@ -126,28 +126,38 @@ During the data collection phase, the data crawler did not encounter any issue r
 It means we have managed to download all the geo-located tweets for the given bounding box.
 In particular, to showcase the overall spatial coverage of the collected geo-located tweets, a density map of the Twitter user locations in British Isles for July 2014 is shown in Figure 4, where the collected points alone visually reveal the geography of cities and countries, e.g. the clusters with high density of tweets (in color red) correspond to the skeleton of major cities.
 
-\cite{brockmann2006}
 
 \section*{Conclusion}
 
 \begin{thebibliography}{10}
 \bibitem{zheng2008}
-Zheng, Y., Li, Q., Chen, Y., Xie, X., and Ma, W.-Y. (2008). Understanding mobility based on gps data. In Proceedings of the 10th international conference on Ubiquitous computing, pp. 312-321. ACM.
+Zheng, Y., Li, Q., Chen, Y., Xie, X., and Ma, W.-Y., 2008. Understanding mobility based on gps data. In Proceedings of the 10th international conference on Ubiquitous computing, pp. 312-321. ACM.
 
 \bibitem{jiang2009}
-Jiang, B., Yin, J., and Zhao, S. (2009). Characterizing the human mobility pattern in a large street network. Physical Review E, 80(2):021136.
+Jiang, B., Yin, J., and Zhao, S., 2009. Characterizing the human mobility pattern in a large street network. Physical Review E, 80(2):021136.
 
 \bibitem{belik2011}
-Belik, V., Geisel, T., and Brockmann, D. (2011). Natural human mobility patterns and spatial spread of infectious diseases. Physical Review X, 1(1):011001.
+Belik, V., Geisel, T., and Brockmann, D., 2011. Natural human mobility patterns and spatial spread of infectious diseases. Physical Review X, 1(1):011001.
+
+\bibitem{greenwood1985}
+Greenwood, M. J., 1985. Human migration: Theory, models, and empirical studies. Journal of regional Science, 25(4), pp. 521-544.
+
+\bibitem{brockmann2006}
+Brockmann, D., Hufnagel, L., and Geisel, T., 2006. The scaling laws of human travel. Nature, 439(7075), pp. 462-465.
 
 \bibitem{gonzalez2008}
-Gonzalez, M. C., Hidalgo, C. A., and Barabasi, A.-L. (2008). Understanding individual human mobility patterns. Nature, 453(7196), pp.779-782.
+Gonzalez, M. C., Hidalgo, C. A., and Barabasi, A.-L., 2008. Understanding individual human mobility patterns. Nature, 453(7196), pp.779-782.
 
 \bibitem{jurdak2015}
 Jurdak, R., Zhao, K., Liu, J., AbouJaoude, M., Cameron, M., Newth, D., 2015. Understanding Human Mobility from Twitter. PLoS ONE 10, e0131469. doi:10.1371/journal.pone.0131469
 
+\bibitem{thatcher2014}
+Thatcher, J. (2014). Living on fumes: Digital footprints, data fumes, and the limitations of spatial big data. International Journal of Communication, 8, 1765-1783.
+
+
 \bibitem{frank2013}
 Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3. doi:10.1038/srep02625
+
 
 
 
