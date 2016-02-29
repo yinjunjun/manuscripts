@@ -12,7 +12,7 @@
 %\title{From massive collection of geo-located Tweets to a new geographical data source}
 %\title{Generating Twitter user mobility data from massive collection of geo-located Tweets}
 
-\title{From massive collection of geo-located Tweets to a new geographical data source: Generating Twitter user mobility data from massive collection of geo-located Tweets}
+\title{ Harnessing  geo-located Tweets as a new geographical data source: Extracting mobility data from massive collection of geo-located Tweets}
 
 %\author[1]{Junjun Yin}
 %\author[2]{Bin Jiang}
@@ -33,25 +33,26 @@
 \section*{Abstract}
 geo-located Twitter data is attracting increasing attention from research communities
 
-
 the increasing popularity of accessing today's pervasive social media platform has enabled a new geographical data.
 
 In this paper, we present an efficient approach for geo-located data management and processing
 
 \section{Introduction}
+Understanding human mobility patterns is of great importance for a broad range of applications from urban planning~\cite{zheng2008}, traffic management~\cite{jiang2009}, and even the spatial spread of epidemic diseases~\cite{belik2011}.
+However, the lack of detailed human movements with fine-grained spatial and temporal granularity limits the findings to capture mobility patterns of individuals~\cite{gonzalez2008,jurdak2015}.
 
 
 
-disseminate  
+Earlier research efforts relied on low resolution mobility data to understand human mobility patterns, such as using census records to understand human migration patterns~\cite{greenwood1985human}, or delivering questionnaires and asking volunteers to report the track of bank notes to infer human travel patterns~\cite{brockmann2006scaling}.
 
-While today's pervasive social media platforms connects people in the virtual space.
+In addition to the mobility data collected by GPS trackers~\cite{zheng2008understanding, rhee2011levy} and mobile phone call records~\cite{gonzalez2008understanding,sevtsuk2010does,kung2014exploring}, 
+emerging as a new source for mobility data, today's pervasive Location Based Social Media (LBSM) platforms (e.g., Twitter and Foursquare) offer continuous spatial Big Data streams with massive amount of detailed and frequently updated user digital footprints~\cite{thatcher2014living} in the form of real-world trails and footprints.
+One significant advantage of LBSM data streams is the large spatial coverage, for example, researchers have used geo-located Twitter data for studying global mobility patterns~\cite{hawelka2014geo}, which is otherwise impossible by using other mobility datasets (e.g., GPS traces and mobile phone call records). 
+In addition, the publicly available LBSM data streams offer unique opportunities for conducting reproducible scientific findings regarding the concerns of infringement on individual privacy, such as using mobile phone call records~\cite{giannotti2008mobility,crampton2014collect,Jurdak2015}.
 
-The pervasive 
 
 
-The Location Based Social Media (LBSM)
-
-Herewith known as Twitter
+However, there are some limitations and complexities in directly using the LBSM data for study human mobility patterns. 
 
 In this connection, it becomes increasingly popular for researchers to exploit the publicly accessible mobility data captured from today's pervasive Location Based Social Media (LBSM) platforms (e.g., Foursquare and Twitter).
 LBSM enables users to attach their current location as a geo-tag to the message they will post, which is derived from either the GPS or Wi-Fi positioning with a high position resolution down to 10 meters \cite{Jurdak2015}.
@@ -63,11 +64,17 @@ Furthermore, as the data is collected in a continuous fashion, the accumulated d
 
 In this regard, this paper provides a scalable computing framework for efficient data processing.
 In particular, this framework utilizes 
- 
 
+Although Twitter allows users to gain access to the data streams, the obtained data cannot be shared directly with 
+since the content of each Twitter message concerns user privacy. Therefore, when conducting research using Twitter data, one must download the data
+
+The remainder of this paper is organized as follows. Section describes the 
 
 \section*{Data collection}
-In general, Twitter ({\tt{http://www.twitter.com}}) offers two kinds of search API 
+In general, Twitter ({\tt{http://www.twitter.com}}) provides two kinds of search APIs for retrieving Twitter messages:  REST API and Streaming API ({\tt{http://dev.twitter.com/overview/}}). 
+Twitter REST API is used to search tweets that belong to a particular user account and its followers  
+
+If your intention is to conduct singular searches, read user profile information, or post Tweets, consider using the REST APIs instead.
 
 an alternative way to collect large is through the Twitter Streaming API (application programming interface)
 
@@ -104,6 +111,11 @@ First, since the input data is large it is desirable to store it on multiple mac
 Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
 Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
 
+\subsection*{Data extraction based on geographical regions}
+
+
+\subsection*{Constructing Twitter user space-time trajectories}
+
 
 
 \section*{Case study}
@@ -119,6 +131,25 @@ In particular, to showcase the overall spatial coverage of the collected geo-loc
 \section*{Conclusion}
 
 \begin{thebibliography}{10}
+\bibitem{zheng2008}
+Zheng, Y., Li, Q., Chen, Y., Xie, X., and Ma, W.-Y. (2008). Understanding mobility based on gps data. In Proceedings of the 10th international conference on Ubiquitous computing, pp. 312-321. ACM.
+
+\bibitem{jiang2009}
+Jiang, B., Yin, J., and Zhao, S. (2009). Characterizing the human mobility pattern in a large street network. Physical Review E, 80(2):021136.
+
+\bibitem{belik2011}
+Belik, V., Geisel, T., and Brockmann, D. (2011). Natural human mobility patterns and spatial spread of infectious diseases. Physical Review X, 1(1):011001.
+
+\bibitem{gonzalez2008}
+Gonzalez, M. C., Hidalgo, C. A., and Barabasi, A.-L. (2008). Understanding individual human mobility patterns. Nature, 453(7196), pp.779-782.
+
+\bibitem{jurdak2015}
+Jurdak, R., Zhao, K., Liu, J., AbouJaoude, M., Cameron, M., Newth, D., 2015. Understanding Human Mobility from Twitter. PLoS ONE 10, e0131469. doi:10.1371/journal.pone.0131469
+
+\bibitem{frank2013}
+Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3. doi:10.1038/srep02625
+
+
 
 \bibitem{sakaki2010}
 Sakaki, T., Okazaki, M., Matsuo, Y., 2010. Earthquake Shakes Twitter Users: Real-time Event Detection by Social Sensors, in: Proceedings of the 19th International Conference on World Wide Web, WWW ’10. ACM, New York, NY, USA, pp. 851–860. doi:10.1145/1772690.1772777
@@ -130,11 +161,6 @@ Liu, J., Zhao, K., Khan, S., Cameron, M., Jurdak, R., 2014. Multi-scale Populati
 \bibitem{hawelka}
 Hawelka, B., Sitko, I., Beinat, E., Sobolevsky, S., Kazakopoulos, P., Ratti, C., 2014. Geo-located Twitter as proxy for global mobility patterns. Cartography and Geographic Information Science, 41, 260–271. doi:10.1080/15230406.2014.890072
 
-\bibitem{frank2013}
-Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3. doi:10.1038/srep02625
-
-\bibitem{jurdak2015}
-Jurdak, R., Zhao, K., Liu, J., AbouJaoude, M., Cameron, M., Newth, D., 2015. Understanding Human Mobility from Twitter. PLoS ONE 10, e0131469. doi:10.1371/journal.pone.0131469
 
 
 
