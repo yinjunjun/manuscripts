@@ -67,9 +67,9 @@ It provides a new understanding of the interactions between human activity and u
 
 \section{Materials and Methods}
 \subsection{Overview}
-We use large-scale Twitter user spatial interactions inferred from the collective mobility patterns of Twitter users to delineate urban boundaries in Great Britain.
+In this research, we use large-scale Twitter user spatial interactions inferred from the collective mobility patterns of Twitter users to delineate urban boundaries in Great Britain.
 A Twitter user's movement is defined here as the individual's geographic relocation or displacement~\citep{gonzalez2008}.
-This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two recorded locations is one month.
+This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two consecutive recorded locations is one month.
 To identify the clusters of urban regional connectedness using large-scale Twitter data, we first imposed a virtual fishnet over the islands of Great Britain.
 Twitter user movements were then used to establish the connectivity between fishnet cells to form a connectivity network where each cell is considered a node within the network. 
 Finally, by detecting strongly connected clusters in the network space using community detection methods~\citep{coscia2011}, we were able to reveal urban boundaries within the geographic space. 
@@ -106,11 +106,12 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 \end{center}
 \end{figure}
 
-To verify the collected tweets are from human users, the raw tweets were further filtered using the following steps. 
+To verify the collected tweets are from human users, the raw tweets were further filtered using the following steps.
 First we removed the duplicated messages in the dataset.
 Next, we removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
 We adopted a relocation speed threshold of 240 m/s as used by \citep{jurdak2015}. 
 We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold.
+
 Because the original location information embedded in the geo-tag is given in units of latitude and longitude, we projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
 Finally, we used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
 Based on these restrictions, the filtered dataset for the following study contains 69,847,497 tweets made by 1,153,891 twitter users.
