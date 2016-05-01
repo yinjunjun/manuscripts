@@ -2,14 +2,24 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{lastpage,fancyhdr,graphicx}
 \graphicspath{ {/figure/} }
+\usepackage{authblk}
 
 \begin{document}
 %\title{Mining sequential mobility patterns from semantic Twitter user trajectories}
 \title{Sequential mobility patterns in people's daily life}
-\author{Junjun Yin and Chao Zhang}
+\author[1]{Junjun Yin}
+\author[2]{Chao Zhang}
+\author[1]{Shaowen Wang\thanks{shaowen@illinois.edu}}
+\affil[1]{CyberGIS Center for Advanced Digtial and Spatial Studies}
+\affil[2]{Department of Computer Science}
+\affil[ ]{University of Illinois at Urbana-Champaign, IL, 61801, USA}
+
+\renewcommand\Authands{ and }
+
+
 \maketitle
 
-\section*{Abstract}
+\section*{\centering Abstract}
 Understanding human mobility patterns 
 
 
@@ -25,9 +35,10 @@ One significant advantage of LBSM data streams is the large spatial coverage, fo
 In addition, the publicly available LBSM data streams offer unique opportunities for conducting reproducible scientific findings regarding the concerns of infringement on individual privacy, such as using mobile phone call records~\cite{giannotti2008mobility,crampton2014collect,Jurdak2015}.
 
 
-
+\section*{Related Work}
 
 \section*{Methods and Materials}
+
 \subsection*{Geo-located Twitter Data}
 In this study, the geo-located tweets were downloaded using the Twitter Streaming API, where we specified a geographical bounding box as an area-of-interest to retrieve all the geo-located tweets that fall within it.
 To ensure the complete coverage over Great Britain, we have set the bounding box to British Isles (lower left coordinates in (latitude, longitude): (49.497, -14.854) and upper right coordinates: (61.186, 2.637)), which also includes the whole area of Ireland and a part of France.
@@ -38,23 +49,32 @@ In particular, to showcase the overall spatial coverage of the collected geo-loc
   
 \subsection*{The shape of human mobility}
 
+
 \begin{figure}[ht]
 	\includegraphics[width=1.0\linewidth]{./figure/gyration_chicago}
-	\caption{{\bf The density map of the Twitter user locations for July 2014}}
+	\caption{{\bf The distribution of the radius of gyrations for Twitter users in Chicago}}
 	\label{Fig_gyration}
 \end{figure}
 
 
 \begin{figure}[ht]
 	\includegraphics[width=1.0\linewidth]{./figure/Chicago_Shape}
-	\caption{{\bf The density map of the Twitter user locations for July 2014}}
+	\caption{{\bf The shape of Twitter user mobility in Chicago for year 2014}}
+	\label{Fig_shape}
+\end{figure}
+
+\begin{figure}[ht]
+	\includegraphics[width=1.0\linewidth]{./figure/firsttime}
+	\caption{{\bf The shape of Twitter user mobility in Chicago for year 2014}}
 	\label{Fig_shape}
 \end{figure}
 
 
 
 
+\section*{Results}
 
+\section*{Discussion and Conclusion}
 
 
 \end{document}
