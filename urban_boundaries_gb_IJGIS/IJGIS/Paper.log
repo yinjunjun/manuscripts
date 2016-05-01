@@ -1,23 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.19)  20 APR 2016 02:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  1 MAY 2016 18:17
 entering extended mode
 **Paper.tex
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\Pape
-r.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\tGIS
-2e.cls
+(Paper.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+(tGIS2e.cls
 Document Class: tGIS2e 2009/04/22 v3.6 International Journal of Geographical In
 formation Science LaTeX2e document class
 \draftrule=\dimen102
@@ -112,9 +99,7 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 \biblabelsep=\dimen132
 \bibleftmargini=\dimen133
 \c@dummy=\count91
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\natb
-ib.sty
+ (natbib.sty
 Package: natbib 2000/07/24 7.0a (PWD)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -122,9 +107,7 @@ LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count92
 
 Local config file natbib.cfg used
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\natb
-ib.cfg))
+(natbib.cfg))
 \SFB@measure=\dimen134
 \minute=\count93
 \hour=\count94
@@ -141,28 +124,24 @@ ib.cfg))
 \c@corollary=\count102
 \c@definition=\count103
 \c@notation=\count104
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\amsb
-sy.sty
+ (amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen138
 )
 \pmbraise@=\dimen139
 )
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\amsf
-onts.sty
+(amsfonts.sty
 Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 133.
-)
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\amsm
-ath.sty
+) (amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip46
 
@@ -214,27 +193,21 @@ Package amsmath Warning: Unable to redefine math accent \check.
 \mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-)
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\amss
-ymb.sty
+) (amssymb.sty
 Package: amssymb 2002/01/22 v2.2d
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks19
 )
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\epsf
-ig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
+) (epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\grap
-hicx.sty
+(graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -242,7 +215,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -261,17 +234,15 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen149
 \epsfysize=\dimen150
 )
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\rota
-ting.sty
+(rotating.sty
 Package: rotating 1997/09/26, v2.13 Rotation package
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count118
 \rot@float@box=\box30
 )
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\subf
-igure.sty
+(subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip49
 \subfigcapskip=\skip50
@@ -291,8 +262,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip53
 \subfig@bottom=\skip54
 ))
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\Pape
-r.aux)
+(Paper.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
@@ -334,7 +304,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
 
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 36.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
-File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <11> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 36.
@@ -349,7 +319,7 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
@@ -468,12 +438,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [3 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS/
-figure/S1_overview_Fig_2.png>] <./figure/usa.jpg, id=22, 3037.59843pt x 4906.07
-906pt>
+ [3 <./figure/S1_overview_Fig_2.png>]
+<./figure/usa.jpg, id=22, 3037.59843pt x 4906.07906pt>
 File: ./figure/usa.jpg Graphic file (type jpg)
-
-<use ./figure/usa.jpg>
+ <use ./figure/usa.jpg>
 Package pdftex.def Info: ./figure/usa.jpg used on input line 103.
 (pdftex.def)             Requested size: 336.00128pt x 542.6648pt.
 Missing character: There is no Ã in font cmr10!
@@ -530,8 +498,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [5 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS/
-figure/usa.jpg>]
+ [5 <./figure/usa.jpg>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -618,8 +585,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [8 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS/
-figure/S3_visitation.png>]
+ [8 <./figure/S3_visitation.png>]
 <./figure/S4_radius_displacement.png, id=48, 4604.20125pt x 4807.46063pt>
 File: ./figure/S4_radius_displacement.png Graphic file (type png)
 
@@ -669,8 +635,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [9 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS/
-figure/S4_radius_displacement.png>]
+ [9 <./figure/S4_radius_displacement.png>]
 <./figure/S5_community.png, id=54, 487.8225pt x 791.20593pt>
 File: ./figure/S5_community.png Graphic file (type png)
 
@@ -770,8 +735,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [12 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS
-/figure/S5_community.png>]
+ [12 <./figure/S5_community.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -798,8 +762,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [13 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS
-/figure/S6_community_london.png>]
+ [13 <./figure/S6_community_london.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -826,8 +789,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [14 <C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_IJGIS/IJGIS
-/figure/S7_london.png>]
+ [14 <./figure/S7_london.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
@@ -1009,8 +971,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [17]
-(C:\Users\Jun\Documents\GitHub\manuscripts\urban_boundaries_gb_IJGIS\IJGIS\Pape
-r.aux)
+(Paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occured.
@@ -1020,12 +981,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3132 strings out of 493921
- 39430 string characters out of 3144882
- 100111 words of memory out of 3000000
- 6393 multiletter control sequences out of 15000+200000
+ 3128 strings out of 493671
+ 37294 string characters out of 3141420
+ 104375 words of memory out of 3000000
+ 6443 multiletter control sequences out of 15000+200000
  12148 words of font info for 47 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 1025 hyphenation exceptions out of 8191
  41i,11n,34p,630b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
@@ -1044,7 +1005,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (17 pages, 8155618 bytes).
+Output written on Paper.pdf (17 pages, 8156004 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
