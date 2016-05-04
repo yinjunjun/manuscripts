@@ -62,13 +62,9 @@ The identification of connected regions at each of these distance ranges yielded
 Our study provides a first step in connecting human mobility research with the definition of non-administrative anthropographic urban boundaries based on Twitter user spatial interaction. 
 It provides a new understanding of the interactions between human activity and urban structures. 
 
-<<<<<<< HEAD
+
 \section{Background and Related Work}
 
-=======
-\section{Related Work}
-jr
->>>>>>> origin/master
 
 \section{Materials and Methods}
 \subsection{Overview}
@@ -105,13 +101,8 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 
 \begin{figure}[ht]
 \begin{center}
-<<<<<<< Updated upstream
 \includegraphics[width=0.8\linewidth]{./figure/usa}
 \caption{\bfseries{Each point corresponds to a geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}}
-=======
-\includegraphics[width=0.6\linewidth]{./figure/usa}
-\caption{\bfseries{A density map of the Twitter user locations for July 2014}}
->>>>>>> Stashed changes
 \label{S2_Fig}
 \end{center}
 \end{figure}
@@ -128,7 +119,11 @@ Based on these restrictions, the filtered dataset for the following study contai
 
 At this stage, each geo-located tweet is represented as a tuple $\langle user\_id, loc, t, m \rangle$, where $user\_id$ is an anonymous Twitter user id; $loc$ is the recorded location of the tweet as a coordinate pair; $t$ is the timestamp of the tweet's post; and $m$ is the actual content of the tweet. 
 To protect Twitter user privacy, the id field was replaced with a randomly generated unique number. 
-Because we are interested in collective Twitter user movement instead of individual user trajectories, the content of the message was removed. 
+Because we are interested in collective Twitter user movement instead of individual user trajectories,
+each geo-location of a
+similar to the approach used in
+
+the content of the message was removed. 
 Our simplified geo-located tweet dataset can be shared with other researchers upon request.
 
 \subsection{A network of large-scale Twitter user spatial interactions}
@@ -321,6 +316,9 @@ De Domenico, M., Lancichinetti, A., Arenas, A., Rosvall, M., 2015. Identifying M
 
 \bibitem[\protect\citeauthoryear{Fortunato and Barthélemy}{2007}]{fortunato2007}
 Fortunato, S., Barthélemy, M., 2007. Resolution limit in community detection. Proceedings of the National Academy of Sciences, 104, pp. 36-41. doi:10.1073/pnas.0605965104
+
+\bibitem[\protect\citeauthoryear{Frank {\itshape{et~al.}}}{2013}]{frank2013}
+Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3.
 
 \bibitem[\protect\citeauthoryear{Gao {\itshape{et~al.}}}{2014}]{gao2014}
 Gao, S., Yang, J.A., Yan, B., Hu, Y., Janowicz, K. and McKenzie, G., 2014. Detecting Origin-Destination Mobility Flows From Geotagged Tweets in Greater Los Angeles Area. In Eighth International Conference on Geographic Information Science (GIScience'14).
