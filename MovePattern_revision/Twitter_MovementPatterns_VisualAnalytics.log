@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 APR 2016 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2016 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -31,15 +31,13 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count88
 \c@affil=\count89
 )
-(./natbib.sty
-Package: natbib 2000/07/24 7.0a (PWD)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
-LaTeX Info: Redefining \cite on input line 508.
+LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count90
-
-Local config file natbib.cfg used
-(./natbib.cfg))
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/regexpatch/regexpatch.sty
 (/usr/local/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2014/05/20 v4814 L3 programming layer (loader) 
@@ -526,8 +524,8 @@ ions
 . Defining document command \xpatchparametertext with arg. spec. 'm+m+m+m+m'
 . on line 892.
 .................................................
-) (./graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
@@ -989,10 +987,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11644 strings out of 493117
- 215336 string characters out of 6135433
- 290710 words of memory out of 5000000
- 15009 multiletter control sequences out of 15000+600000
+ 11807 strings out of 493117
+ 218963 string characters out of 6135433
+ 292210 words of memory out of 5000000
+ 15173 multiletter control sequences out of 15000+600000
  10160 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,38p,10441b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1011,8 +1009,8 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Twitter_MovementPatterns_VisualAnalytics.pdf (22 pages, 28030
-18 bytes).
+Output written on Twitter_MovementPatterns_VisualAnalytics.pdf (22 pages, 28029
+68 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
