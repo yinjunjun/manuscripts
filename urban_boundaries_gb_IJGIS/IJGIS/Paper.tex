@@ -48,8 +48,13 @@ For example, a large set of telephone call records were used to represent the ne
 Extending the previous method to different countries~\citep{sobolevsky2013}, the authors argue that this method yields cohesive geographic divisions that follow the socio-economic boundaries.
 While other researchers use social ties of Twitter users to identify cohesive regions for different countries across the world~\citep{kallus2015}, they found evidence for dividing the urban space due to local conflicts and cross-country unifying trends that further support the ``bottom-up" approach to mapping non-administrative anthropographic boundaries.
 
-In this study, we describe a novel approach to delineating urban boundaries based on the actual movements (i.e., the reallocation in space) of 
-Twitter users extracted from more than 69 million Twitter messages from June $1^{st}$ to December $31^{st}$, 2014.
+Talk about spatial proximity
+
+
+
+
+
+In this study, we describe a novel approach to delineating urban boundaries based on the actual movements of Twitter users (i.e., the reallocation in space) extracted from more than 69 million Twitter messages from June $1^{st}$ to December $31^{st}$, 2014.
 Geo-located Twitter data is proven to be a useful source for studying human mobility patterns at large spatial scales (e.g. the country level)~\citep{hawelka,jurdak2015}.
 We argue here that Twitter user mobility patterns provide a different view of non-administrative units based on physical commutes rather than social ties or phone call initiation. 
 A unique advantage is that non-administrative anthropographic urban boundaries can be delineated in a hierarchical fashion based upon different ranges of physical movement, which are inferred from the collective mobility patterns of Twitter users in Great Britain. 
@@ -59,6 +64,12 @@ We delineated the geography of urban boundaries in Great Britain by imposing a v
 Twitter user movements were used to establish the connections between the fishnet's cells to form a connectivity network, where each cell acts as a node within the network.
 We applied the map equation algorithm~\citep{domenico2015} to partition the network and associate geographic regions.
 The map equation algorithm was selected to avoid the inherent resolution problem~\citep{fortunato2007} of the common modularity maximization method~\citep{newman2006}. 
+
+While the 
+
+
+
+
 We found that the collective mobility patterns of Twitter users in Great Britain are divided into several distance ranges starting from short, intra- to inter-city movements with clear distinction points. 
 The identification of connected regions at each of these distance ranges yielded hierarchical boundaries of the urban space in Great Britain.
 Our study provides a first step in connecting human mobility research with the definition of non-administrative anthropographic urban boundaries based on Twitter user spatial interaction. 
@@ -66,8 +77,15 @@ It provides a new understanding of the interactions between human activity and u
 
 
 \section{Background and Related Work}
+
+
 Due to rapid urbanization, modern urban environments are evolving with dynamic forms and complex structures. 
 
+
+\subsection{Potential limitation of }
+
+
+mainly about the intensity of human interactions across the geographical regions, however, 
 
 \section{Materials and Methods}
 \subsection{Overview}
@@ -104,8 +122,8 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.8\linewidth]{./figure/uk}
-\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain.} Each point corresponds to a geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}
+\includegraphics[width=1.0\linewidth]{./figure/uk}
+\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to a geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}
 \label{S2_Fig}
 \end{center}
 \end{figure}
@@ -115,6 +133,14 @@ First we removed the duplicated messages in the dataset.
 Next, we removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
 We adopted a relocation speed threshold of 240 m/s as used by \citep{jurdak2015}. 
 We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold.
+
+That is that the time interval between a user's first and last recorded 
+
+ agglomeration
+
+
+
+
 
 Because the original location information embedded in the geo-tag is given in units of latitude and longitude, we projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
 Finally, we used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
