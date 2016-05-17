@@ -144,7 +144,7 @@ That is that the time interval between a user's first and last recorded
 
 Because the original location information embedded in the geo-tag is given in units of latitude and longitude, we projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
 Finally, we used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
-Based on these restrictions, the filtered dataset for the following study contains 69,847,497 tweets made by 1,153,891 twitter users.
+Based on these restrictions, the filtered dataset for the following study contains 69,847,497 tweets made by 1,153,891 Twitter users.
 
 At this stage, each geo-located tweet is represented as a tuple $\langle user\_id, loc, t, m \rangle$, where $user\_id$ is an anonymous Twitter user id; $loc$ is the recorded location of the tweet as a coordinate pair; $t$ is the timestamp of the tweet's post; and $m$ is the actual content of the tweet. 
 To protect Twitter user privacy, the id field was replaced with a randomly generated unique number. 
