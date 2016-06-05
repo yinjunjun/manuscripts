@@ -20,8 +20,8 @@
 
 \begin{document}
 %\input{./Title.tex}
-\title{\itshape Exploring multi-scale spatiotemporal Twitter user mobility patterns with a scalable visual-analytics framework}
-%\title{\itshape Exploring Multi-scale Spatiotemporal Twitter User Mobility Patterns Using Geo-located Twitter Data}
+%\title{\itshape Exploring multi-scale spatiotemporal Twitter user mobility patterns with a scalable visual-analytics framework}
+\title{\itshape Exploring Multi-scale Spatiotemporal Twitter User Mobility Patterns Using Geo-located Twitter Data}
 	\author{}
 %	\author[1, 2, 3]{Junjun Yin}
 %	\author[1, 2, 3, 4]{Shaowen Wang}	
@@ -67,7 +67,7 @@ In this study, we have extracted high-resolution mobility data from a collection
 Regarding the concerns of infringement on individual privacy, such as the mobile phone call data with restricted access, the dataset is collected from publicly accessible Twitter data streams.
 In this study, we have developed a scalable visual-analytics framework to deliver efficiency and scalability in filtering large volume of geo-located tweets, modeling and extracting Twitter user movements, generating space-time user trajectories, and summarizing multi-scale spatiotemporal user mobility patterns.
 We have performed a set of statistical analysis to understand Twitter user mobility patterns across multi-level spatial scales and temporal granularity.
-In particular, the Twitter user mobility patterns measured by the displacements and radius of gyrations of individuals have revealed multi-scale or multi-modal Twitter user mobility patterns.
+In particular, the Twitter user mobility patterns measured by the displacements and radius of gyrations of individuals have revealed different groups of Twitter users with multi-scale or multi-modal mobility patterns.
 By further studying such mobility patterns in different temporal ranges, we have identified both consistency and seasonal fluctuations regarding the distance decay effects in the corresponding mobility patterns.
 \newline
 
@@ -109,6 +109,7 @@ The remainder of this paper is organized as follows.
 Section 2 describes the related work in the context of studying mobility patterns using LBSM data, in particular, geo-located Twitter data.
 We focus on research challenges in visual-analytics methods to enable multi-scale
 spatiotemporal analysis with massive movement datasets, including data management, multi-level spatiotemporal user trajectory modeling and visualization.
+In particular, we look into high performance distributed computing approach for addressing such challenges.
 Section 3 details the processes for extracting, aggregating and summarizing multi-level spatiotemporal Twitter user mobility patterns.
 Section 4 presents the case study of performing visual-analytics for seeking Twitter mobility patterns in the United States of year 2014. Section 5 concludes the paper.
 
@@ -142,6 +143,7 @@ For example, a geo-visualization approach was used to study human activity patte
 Instead of directly visualizing individual user trajectories, a space-time cube approach was proposed in analyzing and visualizing the collective trajectories by providing flexibilities in setting up both spatial and temporal ranges, and therefore to study the mobility patterns across different spatial units (e.g. countries, states, and cities, etc.) and identify the changes over space and time~\citep{maceachren2001research, maceachren2004maps}.
 In this connection, visual-analytics methods are proposed to help better convey the findings in terms of analyzing and visualizing multi-level spatiotemporal mobility patterns~\citep{andrienko2007designing,andrienko2007visual}.
 Visual-analytics methods focus on the synergy of computational and analytical methods to reduce the visual clutter, where aggregation methods are suggested to perform grouping/dividing individual's moving trajectories at different spatial and temporal granularity, e.g., utilizing the space-time cube approach~\citep{andrienko2007designing}.
+Also, it is useful to group the subsets of user trajectories based on the shared characteristics for smooth transformations of space and time. For example, a network approach was used to summarize the actual movements in Twitter user trajectories as movement flows among different countries~\citep{hawelka2014geo}.
 
 Employing visual-analytics methods dealing with massive movement datasets is not only beneficial for optimizing visualizations but also provides a great deal of flexibilities for performing statistical analysis in seeking mobility patterns with different level of spatiotemporal details. 
 By conveying the findings from statistical analysis, it provides another visualization form regarding the corresponding mobility patterns, in a sense, to avoid the problems of visual clutters.
@@ -152,20 +154,20 @@ Such a task is already computationally demanding, let along breaking the traject
 In particular, developing a multi-scale spatiotemporal analysis framework is identified as one of the research challenges for dealing with social media Big Data~\citep{tsou2015}. 
 To address the data-intensive challenges, there is a need to develop a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
 
-%\subsection{Accommodating LBSM Big Data with Hadoop}
-%Apache Hadoop is an open source software framework designed to facilitate data intensive computing on large commodity clusters.
-%It combines a distributed file system, namely Hadoop Distributed File System(HDFS)~\citep{shvachko2010hadoop} with MapReduce programming paradigm, which can be applied to wide range of data-intensive problems.
-%MapReduce is a programming model and an associated software framework designed to process massive data in a distributed fashion~\citep{dean2008mapreduce}.
-%MapReduce breaks the entire computation into small tasks and schedule them among different computing nodes.
-%MapReduce consists of two main stages: map and reduce.
-%In the map stage, input data is converted into series of intermediate $\langle key, value\rangle$ pairs.
-%Customized computation will be performed in the reduce stage based on the same intermediate key.
-%This framework provides parallelization since both map and reduce tasks are considered independent and can be done in parallel. More importantly, it provides scalability in relation to the growth of data size, where Hadoop can scale to more computing nodes in the cluster to maintain the performance.
-%
-%Our framework benefits from using Hadoop in both data management and processing.
-%First, since the input data is large it is desirable to store it on multiple machines.
-%Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
-%Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
+\subsection{Accommodating LBSM Big Data with Hadoop}
+Apache Hadoop is an open source software framework designed to facilitate data intensive computing on large commodity clusters.
+It combines a distributed file system, namely Hadoop Distributed File System(HDFS)~\citep{shvachko2010hadoop} with MapReduce programming paradigm, which can be applied to wide range of data-intensive problems.
+MapReduce is a programming model and an associated software framework designed to process massive data in a distributed fashion~\citep{dean2008mapreduce}.
+MapReduce breaks the entire computation into small tasks and schedule them among different computing nodes.
+MapReduce consists of two main stages: map and reduce.
+In the map stage, input data is converted into series of intermediate $\langle key, value\rangle$ pairs.
+Customized computation will be performed in the reduce stage based on the same intermediate key.
+This framework provides parallelization since both map and reduce tasks are considered independent and can be done in parallel. More importantly, it provides scalability in relation to the growth of data size, where Hadoop can scale to more computing nodes in the cluster to maintain the performance.
+
+Our framework benefits from using Hadoop in both data management and processing.
+First, since the input data is large it is desirable to store it on multiple machines.
+Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
+Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
 
 \section{Materials and Methods}
 \subsection{Geo-located Twitter data}
@@ -248,27 +250,27 @@ where $ i = 1, 2, 3...n$
 %The second part presents the details of the interactive 3D virtual globe web mapping interface for exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements. 
 %In particular, the interface provides capability to dynamically visualize the movements and summarize movement flows based on a given spatial scale and time range, which are specified by the users when they are interacting with the web interface.
 
-%\subsection{An overview of the Twitter user population}
-%To investigate the overall geographical distribution of the Twitter population in our dataset, we have carried out analysis at both county and state level to test their correlations and stability regarding the census population estimates.
-%For this study, we have derived the census information of 48 states plus Washington, D.C., and 3108 counties of the United States (i.e., excluding Alaska and Hawaii) of year 2014 from the US census bureau\footnote{http://www.census.gov/}.
-%For every state and county, the framework summarizes the number of unique users in each unit for the year 2014 (as well as every month). 
-%The results of the correlations between the number of unique Twitter user and the census population estimates in each state is show in Figure 3. 
-%\newline
-%
-%
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=1\linewidth]{./figures/test}
-%\caption{The correlation between the number of unique Twitter user and the census population estimates in each state (a) based on year 2014 and (b) based on each month of year 2014}
-%\label{fig:Arch}
-%\end{figure}
-%\FloatBarrier
-%
-%The results show that the number of unique Twitter users is well ($R^{2}=0.92$ and p-value $<$ 0.01) correlated with the state level census population estimates in year 2014 (Figure 3(a)) and it is consistent (with all $R^{2} > 0.95$ and p-value $<$ 0.01) in each month (Figure 3(b)).
-%However, such correlations are not significant at the county level. 
-%Interestingly, zero Twitter population were found in  4 (out of 3108) counties (i.e., Manassas Park city, Covington city, Cumberland county, Lipscomb county) throughout the year, which means no geo-located tweets were captured from those areas. 
-%It is not clear whether people in those 4 counties do not send geo-located tweets at all or the tweets were lost due to 1 \% policy mentioned in~\citep{hawelka2014geo} as both cases are unlikely. Nevertheless, this does show the limitation of directly using Twitter population as proxies of real population. 
-%In addition,  the dramatic difference between the correlations at state level and the county level could be useful for other researchers when studying population dynamics at a specific spatial scale.
+\subsection{An overview of the Twitter user population}
+To investigate the overall geographical distribution of the Twitter population in our dataset, we have carried out analysis at both county and state level to test their correlations and stability regarding the census population estimates.
+For this study, we have derived the census information of 48 states plus Washington, D.C., and 3108 counties of the United States (i.e., excluding Alaska and Hawaii) of year 2014 from the US census bureau\footnote{http://www.census.gov/}.
+For every state and county, the framework summarizes the number of unique users in each unit for the year 2014 (as well as every month). 
+The results of the correlations between the number of unique Twitter user and the census population estimates in each state is show in Figure 3. 
+\newline
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\linewidth]{./figures/test}
+\caption{The correlation between the number of unique Twitter user and the census population estimates in each state (a) based on year 2014 and (b) based on each month of year 2014}
+\label{fig:Arch}
+\end{figure}
+\FloatBarrier
+
+The results show that the number of unique Twitter users is well ($R^{2}=0.92$ and p-value $<$ 0.01) correlated with the state level census population estimates in year 2014 (Figure 3(a)) and it is consistent (with all $R^{2} > 0.95$ and p-value $<$ 0.01) in each month (Figure 3(b)).
+However, such correlations are not significant at the county level. 
+Interestingly, zero Twitter population were found in  4 (out of 3108) counties (i.e., Manassas Park city, Covington city, Cumberland county, Lipscomb county) throughout the year, which means no geo-located tweets were captured from those areas. 
+It is not clear whether people in those 4 counties do not send geo-located tweets at all or the tweets were lost due to 1 \% policy mentioned in~\citep{hawelka2014geo} as both cases are unlikely. Nevertheless, this does show the limitation of directly using Twitter population as proxies of real population. 
+In addition,  the dramatic difference between the correlations at state level and the county level could be useful for other researchers when studying population dynamics at a specific spatial scale.
 
 \subsection{Spatiotemporal Twitter user mobility patterns}
 The situation of using geo-located tweets to track people's movements is complex as users' tweeting behavior can be significantly different from one to another, in particular the frequency and time-interval between two consecutive tweets. For example, some people may tweet once a day while others do more; some people may tweet regularly while others do not.  
@@ -348,23 +350,23 @@ We found that the probability distribution of Twitter user movement flows of vis
 \end{figure}
 \FloatBarrier
 
-\subsection{The interactive 3D virtual globe web mapping interface}
-In addition to providing supports for understanding Twitter user mobility patterns with statistical analysis, the framework integrates a 3D virtual globe interface to enable users to perform exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements. 
-The 3D virtual globe is developed and extended from the Cesium library\footnote{http://cesiumjs.org/}, which is an open-source WebGL virtual globe and map engine. 
-We customized the map engine to adapt different spatial scales, which correspond to the hierarchical spatial layers,  for aggregating movements in different level-of-details.
-The map interface interprets user's interactions, such as area-of-interest, time window, and zoom levels, etc. as parameters and send to the dedicated visualization servlet on the CyberGIS Gateway\footnote{http://sandbox.cigi.illinois.edu/home/}, which is the leading online cyberGIS environment for a large number of users to perform computing- and data-intensive, and collaborative geospatial problem-solving enabled by advanced cyberinfrastructure~\citep{liu2014cybergis}.
-In return, the map interface visualizes the corresponding movement flows on the virtual globe.
-
-An overview of the web mapping interface is shown in Figure 9. In terms of performing exploratory visual-analytics of Twitter user movement patterns, users can specify the time window to enable the query. 
-When the results are shown, users can hover the mouse over each individual lines on the map to see the value of movement flows for both in and out directions. If the selected criteria keep unchanged, whenever the user zooms in/out, tilt or rotate the globe, the mapping interface will automatically provide the corresponding level-of-details on the fly.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{./figures/vocation}
-\caption{An overview of the 3D interactive web mapping interface}
-\label{fig:Web_Interface}
-\end{figure}
-%\FloatBarrier
+%\subsection{The interactive 3D virtual globe web mapping interface}
+%In addition to providing supports for understanding Twitter user mobility patterns with statistical analysis, our framework integrates a 3D virtual globe web mapping interface to enable users to perform exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements. 
+%The 3D virtual globe is developed and extended from the Cesium library\footnote{http://cesiumjs.org/}, which is an open-source WebGL virtual globe and map engine. 
+%We customized the map engine to adapt different spatial scales, which correspond to the hierarchical spatial layers,  for aggregating movements in different level-of-details.
+%The map interface interprets user's interactions, such as area-of-interest, time window, and zoom levels, etc. as parameters and send to the dedicated visualization servlet on the CyberGIS Gateway\footnote{http://sandbox.cigi.illinois.edu/home/}, which is the leading online cyberGIS environment for a large number of users to perform computing- and data-intensive, and collaborative geospatial problem-solving enabled by advanced cyberinfrastructure~\citep{liu2014cybergis}.
+%In return, the map interface visualizes the corresponding movement flows on the virtual globe.
+%
+%An overview of the web mapping interface is shown in Figure 9. In terms of performing exploratory visual-analytics of Twitter user movement patterns, users can specify the time window to enable the query. 
+%When the results are shown, users can hover the mouse over each individual lines on the map to see the value of movement flows for both in and out directions. If the selected criteria keep unchanged, whenever the user zooms in/out, tilt or rotate the globe, the mapping interface will automatically provide the corresponding level-of-details on the fly.
+%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.8\linewidth]{./figures/vocation}
+%\caption{An overview of the 3D interactive web mapping interface}
+%\label{fig:Web_Interface}
+%\end{figure}
+%%\FloatBarrier
 
 For state level Twitter user movements, we provide an interactive chord diagram to explicitly illustrate the movement flows among different states (Figure 9). Figure 9 demonstrates the Twitter movement flows among different states in January, 2014. The size of each color patch is proportional to the volume of total incoming movements from other states, which allow us to visually identify those states that dominate the incoming movement flows and which states the flows are generated from.
 By interacting with the state names, it will highlight the details of incoming movement flows from other states, in this case California is selected, which has the largest incoming movement flows in January.\newline
@@ -387,14 +389,17 @@ By interacting with the state names, it will highlight the details of incoming m
 %%\FloatBarrier
 
 
-\section{Conclusions}
+\section{Conclusions and Discussions}
 In this study, we have used large volume of geo-located tweets to study Twitter user mobility patterns across multi-level spatial scales and temporal granularity in the United States during the year 2014. 
 To address the data-intensive challenges, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
 This framework is implemented based on high-performance distributed computing environment using Apache Hadoop.
 It delivers scalability in filtering large volume of geo-located tweets, modeling and extracting Twitter user movements, generating space-time user trajectories, and summarizing multi-level spatiotemporal user mobility patterns.
 
 With this framework, we have found some interesting Twitter user mobility patterns, both statically and visually.
-We studied the collective Twitter user visiting behavior regarding the frequency of Twitter users visiting different locations, which was fitted by a two-tier power-law distribution function.
+We first examined the Twitter population by exploring the correlations between the number of unique users and the census population estimates at both state and county level (excluding Hawaii and Alaska). 
+Although these two correlate well at the state level, there is no significance at the county level. 
+Interestingly, no geo-located Twitter messages were found in 4 (out of 3108) counties (i.e., Manassas Park city, Covington city, Cumberland county, Lipscomb county) throughout the year.
+We then studied the collective Twitter user visiting behavior regarding the frequency of Twitter users visiting different locations, which was fitted by a two-tier power-law distribution function.
 The two-tier power law distribution indicates that the collective behaviors of Twitter user visiting different locations can be well approximated with a (truncated) L\'{e}vy Walk model, which has also been identified in many human mobility studies using different mobility data.
 The similarities among the cumulative distributions suggest that the mobility data collected from geo-located tweets are temporally stable, at least at the monthly interval, which provides supports that we are not just capturing a random snapshot of the whole data stream. 
 
@@ -402,7 +407,8 @@ We studied the distance decay effects in the collective Twitter user movements m
 These distributions can all be approximated by a combination of three functions: an exponential function, a stretched-exponential function and a power-law function. In particular, distance bounds between different fitting functions in displacement distribution reveals the existence of multi-scale or multi-modal mobility patterns of the Twitter users in the United States, whereas the distribution of radius of gyration reveals different groups of Tweet users with different types of spatial coverages.   
 More importantly, we further studied these mobility patterns in different temporal scales to investigate the temporal changes in the mobility patterns. 
 We found that the accumulated displacements are almost identical in different months, while the long distance radius of gyration (i.e., above 30 km) will experience more seasonal changes in the Twitter user mobility pattern.
-
+In particular, by comparing the mobility patterns revealed by displacements and radius of gyrations of Twitter users in the United States and Australia, there are slightly difference regarding the exact value of distance bounds between different fitting functions. 
+However, the fact that these measurements are of people (i.e., Twitter users) in different countries (in this case, continent) and their probability distributions can all be approximated by a combination of three functions, has clearly show the values in using geo-located tweets for conducting replicable human mobility studies. 
 
 
 %\section*{Acknowledgements}
