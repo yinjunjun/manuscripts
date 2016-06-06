@@ -127,7 +127,7 @@ More importantly, by continuously monitoring the geo-located Twitter data stream
 
 \subsection{Data-intensive challenges for multi-scale geo-visual analytics}
 Mobility data is essentially a collection of spatiotemporal records of people moving from one location to another in the geographic space.
-To study mobility patterns of individuals, a space-time trajectory~\citep{hagerstrand1985time} of each individual should be modeled and constructed to quantify the collective movements over space and time.
+To study mobility patterns of individuals, a space-time trajectory of each individual should be modeled and constructed to quantify the collective movements over space and time.
 Based on the extracted space-time trajectories, aforementioned studies are able to perform analysis, such as the measurements of displacements and radius of gyrations of individuals, to study the mobility dynamics.
 At the same time, space-time trajectory is one of the core concepts in H{\"a}gerstrand's time geography to understand the embedded spatiotemporal dynamics~\citep{hagerstrand1985time}, which has provided useful insights to explore movements across different geographical scales and temporal granularity.
 For example, a geo-visualization approach was used to study human activity patterns, where user trajectories are mapped in a 3D space ordered by timestamps in the third dimension~\citep{kwan2004geovisualization}. While such an approach enables visualization of detailed trajectories, its capability is limited in dealing with large-volume movement datasets~\citep{andrienko2007designing}.
@@ -161,13 +161,15 @@ To address the data-intensive challenges, there is a need to develop a scalable 
 
 \section{Materials and Methods}
 \subsection{Geo-located Twitter data}
-Geo-located tweets are tweets appended with an additional geo-tag in the form of a pair of geographical coordinates, which represents the location a tweet was sent at. In this study, the geo-located tweets were downloaded using the Twitter Streaming API, where we specified a geographical bounding box as an area-of-interest to retrieve all the geo-located tweets that fall within it. 
-In our case, to ensure the complete coverage over the United States, we implemented a crawler that selects North America as the initial area-of-interest, where the geographical boundary is specified with lower left (latitude: 5.4, longitude: -167.3) and upper right (latitude: 83.2, longitude: -52.2).
+Geo-located tweets are tweets appended with an additional geo-tag in the form of a pair of geographical coordinates, which represents the location a tweet was sent at. 
+In this study, the geo-located tweets were downloaded using the Twitter Streaming API, where we specified a geographical bounding box as an area-of-interest to retrieve all the geo-located tweets that fall within it. 
+To ensure complete coverage over the United States, we implemented a crawler that selects North America as the initial area-of-interest, where the geographical boundary is specified with lower left (latitude: 5.4, longitude: -167.3) and upper right (latitude: 83.2, longitude: -52.2).
 The crawler is constantly running with over 2 million geo-located raw tweets ($\sim$2GB in size) collected per day.
 We have collected more than 1.3 billion geo-located tweets from 1$^{st}$ January to 31$^{st}$ December, 2014 with 6,147,430 Twitter users and 1 TB in file size.
 
 As a social media account is not equal to a real person in the physical world~\citep{tsou2015}, to ensure the data quality, the collected raw tweets were further filtered by the following steps: We first removed the duplicated messages\footnote{https://support.twitter.com/articles/18311-the-twitter-rules} in the dataset; and then we attempted to remove non-human users based on unusual relocating speed (Hawelka et al., 2014; Jurdak et al., 2015). 
-In this case, we adopted the speed limit value as 240 m/s used in (Jurdak et al., 2015), where we examined all the consecutive locations of each user and excluded those with relocating speed over the limit. 
+In this case, we adopted the speed limit value as 240 m/s used in (Jurdak et al., 2015), where we examined all the consecutive locations of each user and excluded those with relocating speed over the limit.
+Note that the original location information embedded in each geo-located tweet is given in units of latitude and longitude. To reduce the complexity in calculating distances and performing spatial aggregations directly based on geographical coordinates, we projected the all the points using North America Albers Equal Area Conic (ESRI:102008) coordinate system.
 Finally, we used the geographic boundaries of the United States\footnote{https://www.census.gov/geo/maps-data/data/} (excluding Alaska and Hawaii) to further restrict the remaining tweets, where the technical details is presented in the following section. Based on these reinforcements, the dataset contains 1,052,861,000 tweets and 4,559,205 unique users.
 
 \subsection{A scalable visual-analytics framework}
@@ -183,11 +185,9 @@ An overall system architecture of the framework that chains the three units is s
 \end{figure}
 \FloatBarrier
 
-
-
 \subsection{Space-time Twitter user trajectories}
 To derive meaningful mobility patterns of individuals, a space-time trajectory of each individual user should be constructed~\citep{hagerstrand1985time}.
-Each raw geo-located tweet contains multiple fields of information, such as the created time, country, language code, and location, etc. To construct a space-time trajectory from the data collection, we are interested in the following fields: \textit{User ID, location, timestamp}, which can be represented by a tuple $\left\langle id, loc, t\right\rangle$, where \textit{id} is a unique string representing a Twitter user's id; \textit{loc} is the recorded location of the message represented as a pair of coordinates $\left\langle latitude, longitude\right\rangle$;
+Each raw geo-located tweet contains multiple fields of information, such as the created time, country, language code, and location, etc. To construct a space-time trajectory from the data collection, we are interested in the following fields: \textit{User ID, location, timestamp}, which can be represented by a tuple $\left\langle id, loc, t\right\rangle$, where \textit{id} is a unique string representing a Twitter user's id; \textit{loc} is the recorded location of the message represented as a pair of projected coordinates $\left\langle x, y\right\rangle$;
 and \textit{t} is the timestamp of when the message was posted; A Twitter user's space-time trajectory is defined as follows.
 \newline
 
@@ -236,32 +236,6 @@ where $ i = 1, 2, 3...n$
 \FloatBarrier
 
 \section{Multi-scale spatiotemporal Twitter user mobility patterns}
-%This section is divided into two parts. The first part presents a set of statistical analysis to explore Twitter user mobility patterns (e.g., movement flows, user visiting behavior, displacements and radius of gyrations) across multi-level spatial scales and temporal granularity in the United States during the year 2014, where all the measurements are enabled by the framework.  
-%The second part presents the details of the interactive 3D virtual globe web mapping interface for exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements. 
-%In particular, the interface provides capability to dynamically visualize the movements and summarize movement flows based on a given spatial scale and time range, which are specified by the users when they are interacting with the web interface.
-
-%\subsection{An overview of the Twitter user population}
-%To investigate the overall geographical distribution of the Twitter population in our dataset, we have carried out analysis at both county and state level to test their correlations and stability regarding the census population estimates.
-%For this study, we have derived the census information of 48 states plus Washington, D.C., and 3108 counties of the United States (i.e., excluding Alaska and Hawaii) of year 2014 from the US census bureau\footnote{http://www.census.gov/}.
-%For every state and county, the framework summarizes the number of unique users in each unit for the year 2014 (as well as every month). 
-%The results of the correlations between the number of unique Twitter user and the census population estimates in each state is show in Figure 3. 
-%\newline
-%
-%
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=1\linewidth]{./figures/test}
-%\caption{The correlation between the number of unique Twitter user and the census population estimates in each state (a) based on year 2014 and (b) based on each month of year 2014}
-%\label{fig:Arch}
-%\end{figure}
-%\FloatBarrier
-%
-%The results show that the number of unique Twitter users is well ($R^{2}=0.92$ and p-value $<$ 0.01) correlated with the state level census population estimates in year 2014 (Figure 3(a)) and it is consistent (with all $R^{2} > 0.95$ and p-value $<$ 0.01) in each month (Figure 3(b)).
-%However, such correlations are not significant at the county level. 
-%Interestingly, zero Twitter population were found in  4 (out of 3108) counties (i.e., Manassas Park city, Covington city, Cumberland county, Lipscomb county) throughout the year, which means no geo-located tweets were captured from those areas. 
-%It is not clear whether people in those 4 counties do not send geo-located tweets at all or the tweets were lost due to 1 \% policy mentioned in~\citep{hawelka2014geo} as both cases are unlikely. Nevertheless, this does show the limitation of directly using Twitter population as proxies of real population. 
-%In addition,  the dramatic difference between the correlations at state level and the county level could be useful for other researchers when studying population dynamics at a specific spatial scale.
-
 \subsection{Spatiotemporal Twitter user mobility patterns}
 The situation of using geo-located tweets to track people's movements is complex as users' tweeting behavior can be significantly different from one to another, in particular the frequency and time-interval between two consecutive tweets. For example, some people may tweet once a day while others do more; some people may tweet regularly while others do not.  
 These tweeting behaviors are expected as such human dynamics are also seen in the mobile phone call data~\citep{gonzalez2008understanding}. 
@@ -347,7 +321,7 @@ We customized the map engine to adapt different spatial scales, which correspond
 The map interface interprets user's interactions, such as area-of-interest, time window, and zoom levels, etc. as parameters and send to the dedicated visualization servlet on the CyberGIS Gateway\footnote{http://sandbox.cigi.illinois.edu/home/}, which is the leading online cyberGIS environment for a large number of users to perform computing- and data-intensive, and collaborative geospatial problem-solving enabled by advanced cyberinfrastructure~\citep{liu2014cybergis}.
 In return, the map interface visualizes the corresponding movement flows on the virtual globe.
 
-An overview of the web mapping interface is shown in Figure 9. In terms of performing exploratory visual-analytics of Twitter user movement patterns, users can specify the time window to enable the query. 
+An overview of the web mapping interface is shown in Figure 8. In terms of performing exploratory visual-analytics of Twitter user movement patterns, users can specify the time window to enable the query. 
 When the results are shown, users can hover the mouse over each individual lines on the map to see the value of movement flows for both in and out directions. If the selected criteria keep unchanged, whenever the user zooms in/out, tilt or rotate the globe, the mapping interface will automatically provide the corresponding level-of-details on the fly.
 
 \begin{figure}[h]
@@ -368,15 +342,6 @@ By interacting with the state names, it will highlight the details of incoming m
 \label{fig:vaca_movement}
 \end{figure}
 \FloatBarrier
-
-
-%%\begin{figure}[h]
-%%\centering
-%%\includegraphics[width=0.7\linewidth]{./figures/vaca_globe}
-%%\caption{3D extruded polygons with heights proportional to the volume of incoming Twitter user movements in each state }
-%%\label{fig:vaca_movement}
-%%\end{figure}
-%%\FloatBarrier
 
 
 \section{Conclusions}
