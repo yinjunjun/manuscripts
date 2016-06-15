@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  30 MAY 2016 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  14 JUN 2016 22:48
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -297,56 +297,56 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
   
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 42.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 38.
+(Font)              size <5> substituted on input line 42.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 38.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 42.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <11> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7.69997> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5.5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 38.
+(Font)              size <5> substituted on input line 42.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7.69997> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 38.
+(Font)              size <5> substituted on input line 42.
 
-LaTeX Font Info:    Try loading font information for OMX+cmr on input line 38.
-LaTeX Font Info:    No file OMXcmr.fd. on input line 38.
+LaTeX Font Info:    Try loading font information for OMX+cmr on input line 42.
+LaTeX Font Info:    No file OMXcmr.fd. on input line 42.
 
 LaTeX Font Warning: Font shape `OMX/cmr/m/n' undefined
-(Font)              using `OMX/cmex/m/n' instead on input line 38.
+(Font)              using `OMX/cmex/m/n' instead on input line 42.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -375,7 +375,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -417,41 +417,41 @@ Missing character: There is no ¡ in font cmr10!
 File: ./figure/S1_overview_Fig_2.png Graphic file (type png)
 
 <use ./figure/S1_overview_Fig_2.png>
-Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 108.
+Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 113.
 
 (pdftex.def)             Requested size: 420.0pt x 229.70227pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (650.43pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (711.0pt too high) has occurred while \output is active []
-
- [3 <./figure/S1_overview_Fig_2.png>]
-<./figure/uk.png, id=21, 1096.095pt x 1016.79875pt>
+<./figure/uk.png, id=18, 1096.095pt x 1016.79875pt>
 File: ./figure/uk.png Graphic file (type png)
  <use ./figure/uk.png>
-Package pdftex.def Info: ./figure/uk.png used on input line 125.
+Package pdftex.def Info: ./figure/uk.png used on input line 130.
 (pdftex.def)             Requested size: 420.0pt x 389.61469pt.
 
-Underfull \vbox (badness 3701) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (650.43pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (711.0pt too high) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -477,7 +477,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [4]
+ [4 <./figure/S1_overview_Fig_2.png>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
@@ -538,13 +538,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [6]
-<./figure/S3_visitation.png, id=35, 1415.2875pt x 673.76718pt>
-File: ./figure/S3_visitation.png Graphic file (type png)
-
-<use ./figure/S3_visitation.png>
-Package pdftex.def Info: ./figure/S3_visitation.png used on input line 221.
-(pdftex.def)             Requested size: 420.0pt x 199.9419pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -569,6 +562,12 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [7]
+<./figure/S3_visitation.png, id=40, 1415.2875pt x 673.76718pt>
+File: ./figure/S3_visitation.png Graphic file (type png)
+
+<use ./figure/S3_visitation.png>
+Package pdftex.def Info: ./figure/S3_visitation.png used on input line 226.
+(pdftex.def)             Requested size: 420.0pt x 199.9419pt.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
@@ -601,20 +600,31 @@ File: ./figure/S4_radius_displacement.png Graphic file (type png)
 
 <use ./figure/S4_radius_displacement.png>
 Package pdftex.def Info: ./figure/S4_radius_displacement.png used on input line
- 248.
+ 253.
 (pdftex.def)             Requested size: 420.0pt x 438.52126pt.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 249.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 254.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 249.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 254.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 249.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 254.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
+
+<./figure/S5_community.png, id=49, 487.8225pt x 791.20593pt>
+File: ./figure/S5_community.png Graphic file (type png)
+
+<use ./figure/S5_community.png>
+Package pdftex.def Info: ./figure/S5_community.png used on input line 274.
+(pdftex.def)             Requested size: 377.99744pt x 613.08168pt.
+
+
+LaTeX Warning: Float too large for page by 23.02612pt on input line 278.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -639,57 +649,44 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [9 <./figure/S4_radius_displacement.png>]
-<./figure/S5_community.png, id=54, 487.8225pt x 791.20593pt>
-File: ./figure/S5_community.png Graphic file (type png)
-
-<use ./figure/S5_community.png>
-Package pdftex.def Info: ./figure/S5_community.png used on input line 269.
-(pdftex.def)             Requested size: 377.99744pt x 613.08168pt.
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-LaTeX Warning: Float too large for page by 23.02612pt on input line 273.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<./figure/S6_community_london.png, id=55, 776.14969pt x 740.7675pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (650.43pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (711.0pt too high) has occurred while \output is active []
+
+ [10 <./figure/S4_radius_displacement.png>]
+<./figure/S6_community_london.png, id=58, 776.14969pt x 740.7675pt>
 File: ./figure/S6_community_london.png Graphic file (type png)
 
 <use ./figure/S6_community_london.png>
 Package pdftex.def Info: ./figure/S6_community_london.png used on input line 29
-1.
+6.
 (pdftex.def)             Requested size: 336.00128pt x 320.68272pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (650.43pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (711.0pt too high) has occurred while \output is active []
-
- [10]
 <./figure/S7_london.png, id=59, 621.522pt x 563.2242pt>
 File: ./figure/S7_london.png Graphic file (type png)
 
 <use ./figure/S7_london.png>
-Package pdftex.def Info: ./figure/S7_london.png used on input line 307.
+Package pdftex.def Info: ./figure/S7_london.png used on input line 312.
 (pdftex.def)             Requested size: 336.00128pt x 304.48889pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -797,13 +794,13 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 6658) in paragraph at lines 349--350
+Underfull \hbox (badness 6658) in paragraph at lines 354--355
 []\OT1/cmr/m/n/10.95 Fortunato, S., Barth-lemy, M., 2007. Res-o-lu-tion limit i
 n com-mu-nity de-tec-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 349--350
+Underfull \hbox (badness 3417) in paragraph at lines 354--355
 \OT1/cmr/m/n/10.95 tion. Pro-ceed-ings of the Na-tional Academy of Sci-ences, 1
 04, pp. 36-41.
  []
@@ -843,13 +840,13 @@ Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Underfull \hbox (badness 4291) in paragraph at lines 361--362
+Underfull \hbox (badness 4291) in paragraph at lines 366--367
 []\OT1/cmr/m/n/10.95 Good, B.H., de Mon-tjoye, Y.-A., Clauset, A., 2010. Per-fo
 r-mance of mod-u-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 361--362
+Underfull \hbox (badness 2343) in paragraph at lines 366--367
 \OT1/cmr/m/n/10.95 lar-ity max-i-miza-tion in prac-ti-cal con-texts. Phys-i-cal
  Re-view E, 81, 046106.
  []
@@ -857,13 +854,13 @@ Underfull \hbox (badness 2343) in paragraph at lines 361--362
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Underfull \hbox (badness 1735) in paragraph at lines 364--365
+Underfull \hbox (badness 1735) in paragraph at lines 369--370
 \OT1/cmr/m/n/10.95 in ran-dom graphs and com-plex net-works. Phys-i-cal Re-view
  E, 70, 025101.
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 376--377
+Underfull \hbox (badness 3724) in paragraph at lines 381--382
 []\OT1/cmr/m/n/10.95 Jurdak, R., Zhao, K., Liu, J., Abou-Jaoude, M., Cameron, M
 ., Newth, D.,
  []
@@ -871,7 +868,7 @@ Underfull \hbox (badness 3724) in paragraph at lines 376--377
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 
-Underfull \hbox (badness 1412) in paragraph at lines 388--389
+Underfull \hbox (badness 1412) in paragraph at lines 393--394
 \OT1/cmr/m/n/10.95 struc-ture with taxi trip data. J. Trans-porta-tion Ge-og-ra
 -phy, 43, pp. 78-90.
  []
@@ -966,7 +963,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3132 strings out of 493671
  37338 string characters out of 3141420
- 104608 words of memory out of 3000000
+ 103609 words of memory out of 3000000
  6448 multiletter control sequences out of 15000+200000
  12148 words of font info for 47 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -988,7 +985,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (17 pages, 3350519 bytes).
+Output written on Paper.pdf (17 pages, 3350217 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
