@@ -99,12 +99,6 @@ Twitter user movements were then used to establish the connectivity between fish
 Finally, by detecting strongly connected clusters in the network space using community detection methods~\citep{coscia2011}, we were able to reveal urban boundaries within the geographic space. 
 An overview of the approach is illustrated in Fig.~\ref{S1_Fig} and the details are presented in the following sections. 
 
-%\begin{figure}[ht]
-%\includegraphics[width=1\linewidth]{./figure/S1_overview_Fig_2}
-%\caption{{\bf An overview for delineating urban boundaries from Twitter user movements}}
-%\label{S1_Fig}
-%\end{figure}
-
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=1\linewidth]{./figure/S1_overview_Fig_2}
@@ -113,7 +107,7 @@ An overview of the approach is illustrated in Fig.~\ref{S1_Fig} and the details 
 \end{center}
 \end{figure}
 
-\subsection{Geo-located Twitter Data}
+\subsection{Geo-located Twitter Data and Data Processing}
 A geo-located tweet is a Twitter message with an additional geo-tag expressed as a pair of geographical coordinates that represent the location from which the tweet was sent.
 For this study, geo-located tweets were collected using the Twitter Streaming API (
 {\tt{https://dev.twitter.com/streaming/overview}}) by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.497, -14.854), (61.186, 2.637) respectively. This does include the whole of Ireland part of France.
@@ -124,17 +118,16 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=1.0\linewidth]{./figure/uk}
-\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to a geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}
+\includegraphics[width=1.0\linewidth]{./figure/S2_twitter_density_Fig_1}
+\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to an individual geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}
 \label{S2_Fig}
 \end{center}
 \end{figure}
 
-To verify the collected tweets are from human users, the raw tweets were further filtered using the following steps.
+To remove tweets of non-human users from the collected database, the raw tweets were further filtered using the following steps.
 First we removed the duplicated messages in the dataset.
 Next, we removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
-We adopted a relocation speed threshold of 240 m/s as used by \citep{jurdak2015}. 
-We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold.
+We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}. 
 
 That is that the time interval between a user's first and last recorded 
 
@@ -164,7 +157,7 @@ Therefore, this study connects urban regions when a twitter user's movement begi
 These connections can be represented by an origin-destination (OD) matrix based on the collective Twitter user displacements within the dataset.
 This OD matrix is essentially a mathematical representation of a weighted directed graph $G\equiv\langle V, E_{w}\rangle$, where $V$ is a set of spatial nodes corresponding to the underlying urban regions and $E_{w}$ is a set of edges representing the connections between a pair of nodes and the corresponding weights are assigned by the accumulated volume of Twitter user movements.
 
-To build our spatial network at a national level, we had to determine the basic units to serve as spatial nodes of the connectivity network of urban regions.
+To build the spatial network at a national level, we had to determine the basic units to serve as spatial nodes of the connectivity network of urban regions.
 Previous studies have suggested equi-distant spatial tessellation to generate nodes, which uses voronoi polygons to partition the space based on the collected points~\citep{rinzivillo2012,zhong2014}. 
 This approach demonstrates improvements for estimating the locations of mobile phone records based on the cell tower triangulation~\cite{gonzalez2008,qian2013}.
 However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{sakaki2010,zandbergen2009}.
@@ -175,6 +168,11 @@ The radius of gyration is a metric to distinguish mobility patterns of individua
 
 \begin{equation} \label{eq:2}
 r_{g} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(p_{i} -  p_{centroid})^{2}}, \textrm{where}\hspace{1ex} p_{centroid} = \frac{1}{n}\sum_{i=1}^{n}p_{i}
+\end{equation}
+
+
+\begin{equation} \label{eq:3}
+<T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
 \end{equation}
 
 \noindent It measures the accumulated distances of deviation from the center of mass of an individual user's trajectory, where $p_{i}$ is one of the user's locations and $p_{centroid}$ is the center of mass of the user's trajectory.
