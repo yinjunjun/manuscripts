@@ -21,7 +21,7 @@
 
 \begin{abstract}
 Urban regions are discrete urban areas with various socio-economic relationships and citizen commute patterns.
-Defining the boundaries of urban regions is important to city planning, traffic management and resource allocation.
+Defining the boundaries of urban regions is important to a variety of urban planning applications.
 Existing urban boundaries are usually defined by government political and administrative purposes, however, it is not clear whether the boundaries truly reflect people's interactions with the urban space in their intra- and inter regional activities.
 In this study, we presented a method to redraw urban boundaries based upon human interaction with the physical space.
 Specifically, we depicted the urban boundaries of Great Britain using a spatial Twitter user interaction network that was inferred from over 69 million geo-located Twitter messages.
@@ -29,7 +29,7 @@ We redrew the non-administrative anthropographic boundaries in a hierarchical fa
 The results of strongly connected urban regions in the form of communities in the network space yield geographically cohesive, non-overlapping urban areas that provides a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain.
 The technique was applied to both national scale (Great Britain) and municipal scale (the London metropolis).
 While our results corresponded well to the administrative boundaries, many unexpected and interesting boundaries were identified.
-More importantly, as the depicted urban boundaries exhibit a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to justify the distance decay effects in shaping the delineated urban boundaries.
+More importantly, as the depicted urban boundaries exhibit a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
 The well fitted gravity model explains how the geographical distances found in the mobility pattern affecting the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activity and urban space.
 \newline
 
@@ -41,13 +41,29 @@ Official urban boundaries are defined by government agencies for political and a
 Urban environments are conceptualized as spaces that are recreated and formed by human activities~\citep{schliephake}.
 A fundamental question when using the administrative, ``top-down'', approach to defining urban boundaries is whether the outcome reflects the spatial interactions of humans.
 These interactions can take the form of trade, commerce, social connections, and political activity across the borders.
-Urban boundaries that respect the human interaction space can be very important to city planning, traffic management and resource allocation~\citep{lynch1960,jiang2015,liu2015,long2015}.
+Urban boundaries that respect the human interaction space can be very important to city planning, traffic management and resource allocation~\citep{gao2014, jiang2015,liu2015,long2015}.
 Many studies adopt a ``bottom-up'' approach to urban boundary delineation, where the geographic space is partitioned into small units and each unit is modeled as a node within a network structure.
 A suitable community detection algorithm is applied to partition the network and associated geographic space based on the strength of human interaction among the nodes~\citep{lancichinetti2009}.
 Different social and physical human interactions were considered to establish the edges of the network connecting the nodes.
 For example, a large set of telephone call records were used to represent the network of human interaction across space to delineate urban boundaries in Great Britain~\citep{ratti2010}.
 Extending the previous method to different countries~\citep{sobolevsky2013}, the authors argue that this method yields cohesive geographic divisions that follow the socio-economic boundaries.
 While other researchers use social ties of Twitter users to identify cohesive regions for different countries across the world~\citep{kallus2015}, they found evidence for dividing the urban space due to local conflicts and cross-country unifying trends that further support the ``bottom-up" approach to mapping non-administrative anthropographic boundaries.
+
+A common outcome observed from the mentioned studies is that the strongly connected urban regions in the form of communities in the network space yield geographically cohesive, non-overlapping urban areas, in spite of different community detection methods and various forms of social and physical human interactions were used. 
+The general consensus is that the derived cohesive geographic divisions 
+
+In spite of different community with different forms of human interaction, 
+However, there 
+
+The notion of distance decay has a close relationship with The First Law of Geography: ‘everything is
+related to everything else, but near things are more related than distant things’ (Tobler
+1970, p. 236). Although highly developed urban areas offer various means of transportation,
+human activity remains to be restricted by a number of factors such as distance and
+accessibility. 
+Many researchers argue that the ‘death of distance’ hypothesis is premature even with today’s technologies (Wang et al. 2003, Rietveld and Vickerman 2004).
+
+
+
 
 In this study, we describe a novel approach to delineating urban boundaries from a mobility network of physical human spatial interactions. 
 
@@ -119,7 +135,8 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 \end{center}
 \end{figure}
 
-To remove tweets of non-human users from the collected database, the raw tweets were further filtered using the following steps.
+To reduce the effects from tweets of non-human users,  
+remove tweets of non-human users from the collected database, the raw tweets were further filtered using the following steps.
 First we removed the duplicated messages in the dataset.
 Next, we removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
 We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}. 
@@ -398,10 +415,6 @@ Long, Y., Han, H., Tu, Y., Shu, X., 2015. Evaluating the effectiveness of urban 
 
 \bibitem[\protect\citeauthoryear{Long {\itshape{et~al.}}}{2015}]{long2015}
 Luo, F., Cao, G., Mulligan, K., Li, X., 2016. Explore spatiotemporal and demographic characteristics of human mobility via Twitter: A case study of Chicago, Applied Geography, 70, pp. 11-25
-
-
-\bibitem[\protect\citeauthoryear{Lynch}{1960}]{lynch1960}
-Lynch, K., 1960. The image of the city. MIT press.
 
 \bibitem[\protect\citeauthoryear{Newman}{2006}]{newman2006}
 Newman, M.E.J., 2006. Modularity and community structure in networks. Proceedings of the National Academy of Sciences, 103, pp. 8577-8582. doi:10.1073/pnas.0601602103
