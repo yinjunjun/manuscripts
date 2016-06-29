@@ -49,21 +49,13 @@ For example, a large set of telephone call records were used to represent the ne
 Extending the previous method to different countries~\citep{sobolevsky2013}, the authors argue that this method yields cohesive geographic divisions that follow the socio-economic boundaries.
 While other researchers use social ties of Twitter users to identify cohesive regions for different countries across the world~\citep{kallus2015}, they found evidence for dividing the urban space due to local conflicts and cross-country unifying trends that further support the ``bottom-up" approach to mapping non-administrative anthropographic boundaries.
 
-A common outcome observed from the mentioned studies is that the strongly connected urban regions in the form of communities in the network space yield geographically cohesive, non-overlapping urban areas, in spite of different community detection methods and various forms of social and physical human interactions were used.
-The general consensus is that the geographically cohesive urban areas are instances of spatial proximity effects, where 
-
-The notion of distance decay has a close relationship with The First Law of Geography: ‘everything is
-related to everything else, but near things are more related than distant things’ (Tobler
-1970, p. 236). Although highly developed urban areas offer various means of transportation,
-human activity remains to be restricted by a number of factors such as distance and
-accessibility. 
-Many researchers argue that the ‘death of distance’ hypothesis is premature even with today’s technologies (Wang et al. 2003, Rietveld and Vickerman 2004).
-
-
-
+A common outcome observed from the mentioned studies is that the strongly connected urban regions in the form of communities in the network space yield geographically cohesive urban areas, in spite of different community detection methods and various forms of social and physical human interactions were used.
+The general consensus is that those geographically cohesive urban areas are instances of spatial proximity effects, where the interaction strength between two urban regions decreases as the geographical distance between them increases~\citep{fotheringham1981}.
+In particular, spatial proximity is closely related to Tobler's First Law of Geography: ``\textit{everything is related to everything else, but near things are more related than distant things}''~\citep{miller2004}.
+While it is intuitively logical, few research efforts were further carried out to quantitatively understand how the spatial interactions shape the forms of connected urban areas (i.e., urban boundaries). One of the reason may due to the      
+it is not an explicit constraints in these 
 
 In this study, we describe a novel approach to delineating urban boundaries from a mobility network of physical human spatial interactions. 
-
 actual movements of Twitter users (i.e., the reallocation in space) extracted from more than 69 million Twitter messages from June $1^{st}$ to December $31^{st}$, 2014.
 Geo-located Twitter data is proven to be a useful source for studying human mobility patterns at large spatial scales (e.g. the country level)~\citep{hawelka,jurdak2015}.
 We argue here that Twitter user mobility patterns provide a different view of non-administrative units based on physical commutes rather than social ties or phone call initiation. 
@@ -365,6 +357,9 @@ De Domenico, M., Lancichinetti, A., Arenas, A., Rosvall, M., 2015. Identifying M
 \bibitem[\protect\citeauthoryear{Fortunato and Barthélemy}{2007}]{fortunato2007}
 Fortunato, S., Barthélemy, M., 2007. Resolution limit in community detection. Proceedings of the National Academy of Sciences, 104, pp. 36-41. doi:10.1073/pnas.0605965104
 
+\bibitem[\protect\citeauthoryear{Fotheringham}{1981}]{fotheringham1981}
+Fotheringham, A.S., 1981. Spatial structure and distance-decay parameters. Annals of the Association of American Geographers, 71(3), pp.425-436.
+
 \bibitem[\protect\citeauthoryear{Frank {\itshape{et~al.}}}{2013}]{frank2013}
 Frank, M.R., Mitchell, L., Dodds, P.S. and Danforth, C.M., 2013. Happiness and the patterns of life: A study of geolocated tweets. Scientific reports, 3.
 
@@ -416,6 +411,9 @@ Luo, F., Cao, G., Mulligan, K., Li, X., 2016. Explore spatiotemporal and demogra
 \bibitem[\protect\citeauthoryear{Newman}{2006}]{newman2006}
 Newman, M.E.J., 2006. Modularity and community structure in networks. Proceedings of the National Academy of Sciences, 103, pp. 8577-8582. doi:10.1073/pnas.0601602103
 
+\bibitem[\protect\citeauthoryear{Miller}{2004}]{miller2004}
+Miller, H.J., 2004. Tobler's first law and spatial analysis. Annals of the Association of American Geographers, 94(2), pp.284-289.
+
 \bibitem[\protect\citeauthoryear{Openshaw}{1984}]{openshaw1984}
 Openshaw, S., 1984. The modifiable areal unit problem. Geo Abstracts University of East Anglia.
 
@@ -455,7 +453,6 @@ Sobolevsky S, Szell M, Campari R, Couronné T, Smoreda Z, Ratti, C., 2013. Delin
 \bibitem[\protect\citeauthoryear{Song {\itshape{et~al.}}}{2012}]{song2012}
 Song, C., Wang, D., Barabási, A.-L., 2012. Connections between human dynamics and network science. ArXiv Prepr. ArXiv12091411.
 
-
 \bibitem[\protect\citeauthoryear{Steiger {\itshape{et~al.}}}{2015}]{steiger2015}
 Steiger, E., Westerholt, R., Resch, B. and Zipf, A., 2015. Twitter as an indicator for whereabouts of people? Correlating twitter with uk census data. Computers, Environment and Urban Systems, 54, pp. 255-265.
 
@@ -474,6 +471,7 @@ Zhao, K., Musolesi, M., Hui, P., Rao, W., and Tarkoma, S., 2015. Explaining the 
 
 \bibitem[\protect\citeauthoryear{Zhong {\itshape{et~al.}}}{2014}]{zhong2014}
 Zhong, C., Arisona, S.M., Huang, X., Batty, M., Schmitt, G., 2014. Detecting the dynamics of urban structure through spatial network analysis. International Journal of Geographical Information Science, 28, pp. 2178-2199, doi:10.1080/13658816.2014.914521
+
 
 \end{thebibliography}
 
