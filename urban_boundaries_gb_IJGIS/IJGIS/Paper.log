@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  29 JUN 2016 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  29 JUN 2016 17:48
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -421,55 +421,31 @@ Missing character: There is no © in font cmr10!
 
 
 Package natbib Warning: Citation `greenwood1985human' on page 3 undefined on in
-put line 88.
+put line 94.
 
 
 Package natbib Warning: Citation `brockmann2006scaling' on page 3 undefined on 
-input line 88.
+input line 94.
 
 
 Package natbib Warning: Citation `gonzalez2008understanding' on page 3 undefine
-d on input line 88.
+d on input line 94.
 
 
 Package natbib Warning: Citation `zheng2008understanding' on page 3 undefined o
-n input line 89.
+n input line 95.
 
 
 Package natbib Warning: Citation `zheng2010geolife' on page 3 undefined on inpu
-t line 89.
+t line 95.
 
 
 Package natbib Warning: Citation `rhee2011levy' on page 3 undefined on input li
-ne 89.
+ne 95.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 89.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 3 undefine
-d on input line 91.
-
-
-Package natbib Warning: Citation `sevtsuk2010does' on page 3 undefined on input
- line 91.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 91.
-
-
-Package natbib Warning: Citation `becker2013human' on page 3 undefined on input
- line 92.
-
-
-Package natbib Warning: Citation `sobolevsky2013delineating' on page 3 undefine
-d on input line 92.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 92.
+ut line 95.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -497,57 +473,81 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [3]
 
-Package natbib Warning: Citation `Jurdak2015' on page 4 undefined on input line
- 95.
+Package natbib Warning: Citation `gonzalez2008understanding' on page 4 undefine
+d on input line 97.
+
+
+Package natbib Warning: Citation `sevtsuk2010does' on page 4 undefined on input
+ line 97.
+
+
+Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
+ut line 97.
+
+
+Package natbib Warning: Citation `becker2013human' on page 4 undefined on input
+ line 98.
+
+
+Package natbib Warning: Citation `sobolevsky2013delineating' on page 4 undefine
+d on input line 98.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
 ut line 98.
 
 
-Package natbib Warning: Citation `tsou2015' on page 4 undefined on input line 9
-8.
+Package natbib Warning: Citation `Jurdak2015' on page 4 undefined on input line
+ 101.
+
+
+Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
+ut line 104.
+
+
+Package natbib Warning: Citation `tsou2015' on page 4 undefined on input line 1
+04.
 
 
 Package natbib Warning: Citation `mitchell2013geography' on page 4 undefined on
- input line 99.
+ input line 105.
 
 
 Package natbib Warning: Citation `longley2015geotemporal' on page 4 undefined o
-n input line 99.
+n input line 105.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 101.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 101.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 101.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 
 Package natbib Warning: Citation `cranshaw2012livehoods' on page 4 undefined on
- input line 101.
+ input line 107.
 
 
 Package natbib Warning: Citation `hasan2013understanding' on page 4 undefined o
-n input line 101.
+n input line 107.
 
 
 Package natbib Warning: Citation `Jurdak2015' on page 4 undefined on input line
- 103.
+ 109.
 
 
 Package natbib Warning: Citation `hawelka2014geo' on page 4 undefined on input 
-line 103.
+line 109.
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Overfull \vbox (4.56915pt too high) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -578,17 +578,9 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S1_overview_Fig_2.png Graphic file (type png)
 
 <use ./figure/S1_overview_Fig_2.png>
-Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 126.
+Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 132.
 
 (pdftex.def)             Requested size: 420.0pt x 229.70227pt.
-
-<./figure/S2_twitter_density_Fig_1.png, id=25, 1096.095pt x 1016.79875pt>
-File: ./figure/S2_twitter_density_Fig_1.png Graphic file (type png)
-
-<use ./figure/S2_twitter_density_Fig_1.png>
-Package pdftex.def Info: ./figure/S2_twitter_density_Fig_1.png used on input li
-ne 143.
-(pdftex.def)             Requested size: 420.0pt x 389.61469pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -614,6 +606,14 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [5 <./figure/S1_overview_Fig_2.png>]
+<./figure/S2_twitter_density_Fig_1.png, id=29, 1096.095pt x 1016.79875pt>
+File: ./figure/S2_twitter_density_Fig_1.png Graphic file (type png)
+
+<use ./figure/S2_twitter_density_Fig_1.png>
+Package pdftex.def Info: ./figure/S2_twitter_density_Fig_1.png used on input li
+ne 149.
+(pdftex.def)             Requested size: 420.0pt x 389.61469pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -705,7 +705,7 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S3_visitation.png Graphic file (type png)
 
 <use ./figure/S3_visitation.png>
-Package pdftex.def Info: ./figure/S3_visitation.png used on input line 244.
+Package pdftex.def Info: ./figure/S3_visitation.png used on input line 250.
 (pdftex.def)             Requested size: 420.0pt x 199.9419pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -735,25 +735,6 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-<./figure/S4_radius_displacement.png, id=51, 1473.3444pt x 1538.3874pt>
-File: ./figure/S4_radius_displacement.png Graphic file (type png)
-
-<use ./figure/S4_radius_displacement.png>
-Package pdftex.def Info: ./figure/S4_radius_displacement.png used on input line
- 271.
-(pdftex.def)             Requested size: 420.0pt x 438.53886pt.
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 272.
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 272.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 272.
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -778,6 +759,22 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [10 <./figure/S3_visitation.png>]
+<./figure/S4_radius_displacement.png, id=55, 1473.3444pt x 1538.3874pt>
+File: ./figure/S4_radius_displacement.png Graphic file (type png)
+
+<use ./figure/S4_radius_displacement.png>
+Package pdftex.def Info: ./figure/S4_radius_displacement.png used on input line
+ 277.
+(pdftex.def)             Requested size: 420.0pt x 438.53886pt.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 278.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 278.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 278.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -806,18 +803,18 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S5_community.png Graphic file (type png)
 
 <use ./figure/S5_community.png>
-Package pdftex.def Info: ./figure/S5_community.png used on input line 292.
+Package pdftex.def Info: ./figure/S5_community.png used on input line 298.
 (pdftex.def)             Requested size: 377.99744pt x 613.08168pt.
 
 
-LaTeX Warning: Float too large for page by 23.02612pt on input line 296.
+LaTeX Warning: Float too large for page by 23.02612pt on input line 302.
 
 <./figure/S6_community_london.png, id=62, 776.14969pt x 740.7675pt>
 File: ./figure/S6_community_london.png Graphic file (type png)
 
 <use ./figure/S6_community_london.png>
-Package pdftex.def Info: ./figure/S6_community_london.png used on input line 31
-4.
+Package pdftex.def Info: ./figure/S6_community_london.png used on input line 32
+0.
 (pdftex.def)             Requested size: 336.00128pt x 320.68272pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -851,14 +848,14 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S7_london.png Graphic file (type png)
 
 <use ./figure/S7_london.png>
-Package pdftex.def Info: ./figure/S7_london.png used on input line 330.
+Package pdftex.def Info: ./figure/S7_london.png used on input line 336.
 (pdftex.def)             Requested size: 336.00128pt x 304.48889pt.
 
 <./figure/Gravity.png, id=67, 903.375pt x 1111.90407pt>
 File: ./figure/Gravity.png Graphic file (type png)
 
 <use ./figure/Gravity.png>
-Package pdftex.def Info: ./figure/Gravity.png used on input line 338.
+Package pdftex.def Info: ./figure/Gravity.png used on input line 344.
 (pdftex.def)             Requested size: 336.00128pt x 413.56975pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -992,18 +989,18 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
  [17 <./figure/Gravity.png (PNG copy)>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 345.
+(Font)              size <5> substituted on input line 351.
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 6658) in paragraph at lines 384--385
+Underfull \hbox (badness 6658) in paragraph at lines 387--388
 []\OT1/cmr/m/n/10.95 Fortunato, S., Barth-lemy, M., 2007. Res-o-lu-tion limit i
 n com-mu-nity de-tec-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 384--385
+Underfull \hbox (badness 3417) in paragraph at lines 387--388
 \OT1/cmr/m/n/10.95 tion. Pro-ceed-ings of the Na-tional Academy of Sci-ences, 1
 04, pp. 36-41.
  []
@@ -1043,13 +1040,13 @@ Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Underfull \hbox (badness 4291) in paragraph at lines 399--400
+Underfull \hbox (badness 4291) in paragraph at lines 402--403
 []\OT1/cmr/m/n/10.95 Good, B.H., de Mon-tjoye, Y.-A., Clauset, A., 2010. Per-fo
 r-mance of mod-u-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 399--400
+Underfull \hbox (badness 2343) in paragraph at lines 402--403
 \OT1/cmr/m/n/10.95 lar-ity max-i-miza-tion in prac-ti-cal con-texts. Phys-i-cal
  Re-view E, 81, 046106.
  []
@@ -1057,13 +1054,13 @@ Underfull \hbox (badness 2343) in paragraph at lines 399--400
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Underfull \hbox (badness 1735) in paragraph at lines 402--403
+Underfull \hbox (badness 1735) in paragraph at lines 405--406
 \OT1/cmr/m/n/10.95 in ran-dom graphs and com-plex net-works. Phys-i-cal Re-view
  E, 70, 025101.
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 414--415
+Underfull \hbox (badness 3724) in paragraph at lines 417--418
 []\OT1/cmr/m/n/10.95 Jurdak, R., Zhao, K., Liu, J., Abou-Jaoude, M., Cameron, M
 ., Newth, D.,
  []
@@ -1071,7 +1068,7 @@ Underfull \hbox (badness 3724) in paragraph at lines 414--415
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 
-Underfull \hbox (badness 1412) in paragraph at lines 426--427
+Underfull \hbox (badness 1412) in paragraph at lines 429--430
 \OT1/cmr/m/n/10.95 struc-ture with taxi trip data. J. Trans-porta-tion Ge-og-ra
 -phy, 43, pp. 78-90.
  []
@@ -1121,33 +1118,6 @@ Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (36.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (650.43pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (711.0pt too high) has occurred while \output is active []
-
- [20]
 
 Package natbib Warning: There were undefined citations.
 
@@ -1178,7 +1148,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
- [21]
+ [20]
 (Paper.aux
 
 Package natbib Warning: Citation(s) may have changed.
@@ -1194,13 +1164,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3182 strings out of 493671
- 38205 string characters out of 3141420
- 103660 words of memory out of 3000000
- 6490 multiletter control sequences out of 15000+200000
+ 3181 strings out of 493671
+ 38192 string characters out of 3141420
+ 103621 words of memory out of 3000000
+ 6489 multiletter control sequences out of 15000+200000
  15264 words of font info for 59 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,34p,769b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,34p,769b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -1219,9 +1189,9 @@ onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (21 pages, 3455060 bytes).
+Output written on Paper.pdf (20 pages, 3454554 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

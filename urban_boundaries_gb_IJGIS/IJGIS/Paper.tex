@@ -77,13 +77,30 @@ It provides a new understanding of the interactions between human activity and u
 \section{Background and Related Work}
 
 
+The spatial extent of those places 
+
+
+Official urban boundaries are defined by government agencies for political and administrative purposes. 
+Urban environments are conceptualized as spaces that are recreated and formed by human activities~\citep{schliephake}.
+A fundamental question when using the administrative, ``top-down'', approach to defining urban boundaries is whether the outcome reflects the spatial interactions of humans.
+These interactions can take the form of trade, commerce, social connections, and political activity across the borders.
+
+mainly about the intensity of human interactions across the geographical regions, however, 
+
+
+While government agencies provide a variety of set of boundaries  
+Official urban boundaries are defined by government agencies for political and administrative purposes.
+
+The idea of 
+
+
+Regarding using crowd-sourced data to determine the spatial extent of places
+
 
 Distance decay effects
 where a city boundary ends and another city boundary emerges.
 Spatial Distribution of City Tweets and Their Densities
 
-
-Due to rapid urbanization, modern urban environments are evolving with dynamic forms and complex structures. 
 
 
 \subsection{Potential limitation of }
@@ -105,14 +122,6 @@ In this study, geo-located Twitter data is chosen as source for studying detaile
 In addition, it presents some unique advantages that make it suitable for studying human mobility patterns.
 For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{Jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka2014geo}, which is almost impossible for other mobility datasets.
 More importantly, by continuously monitoring the geo-located Twitter data streams with large volumes of detailed and frequently updated spatiotemporal  records of Twitter users, it offers a great deal of potential for studying mobility patterns of large groups of individuals at different spatial scales (e.g., movements across cities, states or even countries) and temporal gratuity (e.g., weekly, monthly, and seasonal movements).
-
-
-
-
-
-
-
-mainly about the intensity of human interactions across the geographical regions, however, 
 
 \section{Materials and Methods}
 \subsection{Overview}
@@ -233,7 +242,7 @@ We first modeled different aspects of the collective mobility patterns of Twitte
 These patterns include: the number of visited locations per user,  the collective user displacements, and the radius of gyration of individuals in order to identify natural breaks in user travel patterns.
 We then used these natural breaks within the mobility patterns to partition the geographic space of Great Britain into fine-grained cells and established the connectivity among these cells to redraw non-administrative anthropographic urban boundaries. 
 
-We found that the cumulative distribution function~\citep{clauset2009} of the number of locations visited by each Twitter user follows a two-tier power law distribution (shown in Fig.~\ref{S3_Fig}). 
+We found that the cumulative distribution function of the number of locations visited by each Twitter user follows a two-tier power law distribution (shown in Fig.~\ref{S3_Fig}). 
 The majority of the data distributed follows a truncated power-law distribution $P(X\geq x)\sim x^{-\alpha}e^{-\lambda x}$, where $\alpha = 1.24, \lambda =0.00132$; and the tail part (less than 2$\%$ of the whole population) follows a power-law distribution  $P(X \geq x)\sim x^{-\alpha}$ with $\alpha$ value is 3.2.
 The distribution was found to be consistent over all individual months examined (June to December, 2014), which has a slight offset in the truncated power-law distribution (the mean $\alpha$ value is 1.26 $ \pm$ with a 0.05 $\sigma$ and the mean $\lambda$ value as 0.00134 $ \pm$  with a 0.0002 $\sigma$). 
 
@@ -373,9 +382,6 @@ Yet, our approach is still applicable when more detailed mobility data is availa
 
 \bibitem[\protect\citeauthoryear{Brockmann {\itshape{et~al.}}}{2006}]{brockmann2006}
 Brockmann, D., Hufnagel, L., Geisel, T., 2006. The scaling laws of human travel. Nature 439, pp. 462-465. doi:10.1038/nature04292
-
-\bibitem[\protect\citeauthoryear{Clauset {\itshape{et~al.}}}{2009}]{clauset2009}
-Clauset, A., Shalizi, C., Newman, M., 2009. Power-Law Distributions in Empirical Data. Society for Industrial and Applied Mathematics Review. 51, pp. 661-703. doi:10.1137/070710111
 
 \bibitem[\protect\citeauthoryear{Coscia {\itshape{et~al.}}}{2011}]{coscia2011}
 Coscia, M., Giannotti, F. and Pedreschi, D., 2011. A classification for community discovery methods in complex networks. Statistical Analysis and Data Mining, 4(5), pp. 512-546.
