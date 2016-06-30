@@ -76,10 +76,12 @@ It provides a new understanding of the interactions between human activity and u
 
 \section{Background and Related Work}
 In real-world geography, urban regions are discrete individuals, with or without physical boundaries separating them.
-While government agencies define various sets of boundaries to partition the geographical space into  
-However, the spatial extent of these defined unit    
+For political and administrative purposes, government agencies define various sets of boundaries to partition the geographical space into units at different spatial scale, for instances, states, counties or census tracts and electoral districts.
+\cite{
+However, the spatial extent of these defined units overlaps via connections of various human activities amongst themselves, such as social-economic relations and commute patterns of citizens, where certain groups of units are more strongly connected as clusters than others.
 
-Although, their physical boundaries can be adjacent or distant, based on various connections amongst themselves, such as social-economic relations and commute patterns of citizens, certain groups of urban regions are more strongly connected as clusters than others. 
+
+agglomeration
 
 how citizens perceive, organize their image of a city and interact with the urban environments. On the other hand, today’s urban boundaries (i.e. edges and districts) are usually defined by government agencies for political and administrative purposes. A fundamental question for this “top-down” based approach to defining urban boundaries is whether it reflects the real situations of humans interacting across space, such as commuting or trading between the borders. Further, the urban boundaries that respect how people naturally interact with the space can be in grate importance for decision makers regarding city planning, resource allocation and even marketing campaigns. 
 
@@ -110,7 +112,7 @@ Spatial Distribution of City Tweets and Their Densities
 
 
 
-\subsection{Potential limitation of }
+\subsection{Large-scale mobility network from geo-located Twitter data}
 To understand detailed human mobility patterns of individuals, the capability of capturing human movements with fine-grained spatial and temporal granularity is critical.
 However, the low-resolution mobility data collected from census records~\citep{greenwood1985human} is estimated and aggregated at census tract level, while tracking of bank notes~\citep{brockmann2006scaling} is at zip code level and do not necessarily reflecting movements of the same individuals~\citep{gonzalez2008understanding}.
 In terms of collecting detailed mobility data of individuals, using GPS trackers tends to produce, to date, the most accurate records of individuals' movements regarding the accuracy of recorded user locations and update frequency~\citep{zheng2008understanding}. However, the data is often limited in spatial scale (e.g. within a specific city or region) with a small group of people, for example, 182 and 226 volunteers participated in collecting such mobility data in~\citep{zheng2010geolife} and~\citep{rhee2011levy} respectively. Other than tracking people directly, the vehicle-based GPS data is often tied to a specific vehicle (e.g. taxi), which may only be accessible for a certain group of people~\citep{kung2014exploring}. 
@@ -125,8 +127,8 @@ However, there are some limitations and complexities in directly using the LBSM 
 For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located message or check-in at a new place. It has been criticized for the lack of representativeness of the population as not all people use social media or send geo-located messages~\citep{kung2014exploring}. Another research challenge is to identify the users, as a social media account is not equal to a real person in the physical world~\citep{tsou2015}.
 Although many studies started to look into the demographic information of LBSM data, in particular Twitter data~\citep{mitchell2013geography,longley2015geotemporal}, these issues certainly require us to pose more strict criteria in filtering and extracting individual movements.
 
-In this study, geo-located Twitter data is chosen as source for studying detailed mobility patterns. Compared to other LBSM platforms, Twitter is one of the most popular platforms and is been actively used in many countries. It provides a publicly accessible streaming API\footnote{https://dev.twitter.com/streaming/overview} for easy access to its data, in fact, many other LBSM data can be collected from the data streams, such as Foursquare check-in data~\citep{cranshaw2012livehoods, hasan2013understanding}.
-In addition, it presents some unique advantages that make it suitable for studying human mobility patterns.
+In this study, geo-located Twitter data is chosen as source for studying detailed mobility patterns. Twitter is one of the most popular platforms and is been actively used in many countries. It provides a publicly accessible streaming API\footnote{https://dev.twitter.com/streaming/overview} for easy access to its data.
+It presents some unique advantages that make it suitable for studying human mobility patterns.
 For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{Jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka2014geo}, which is almost impossible for other mobility datasets.
 More importantly, by continuously monitoring the geo-located Twitter data streams with large volumes of detailed and frequently updated spatiotemporal  records of Twitter users, it offers a great deal of potential for studying mobility patterns of large groups of individuals at different spatial scales (e.g., movements across cities, states or even countries) and temporal gratuity (e.g., weekly, monthly, and seasonal movements).
 
@@ -387,6 +389,9 @@ Yet, our approach is still applicable when more detailed mobility data is availa
 \begin{thebibliography}{9}
 \markboth{}{International Journal of Geographical Information Science}
 
+\bibitem[\protect\citeauthoryear{Blanford {\itshape{et~al.}}}{2015}]{blanford2015}
+Blanford, J.I., Huang, Z., Savelyev, A. and MacEachren, A.M., 2015. Geo-located tweets. enhancing mobility maps and capturing cross-border movement. PloS one, 10(6), p.e0129202.
+
 \bibitem[\protect\citeauthoryear{Brockmann {\itshape{et~al.}}}{2006}]{brockmann2006}
 Brockmann, D., Hufnagel, L., Geisel, T., 2006. The scaling laws of human travel. Nature 439, pp. 462-465. doi:10.1038/nature04292
 
@@ -513,6 +518,8 @@ Zhao, K., Musolesi, M., Hui, P., Rao, W., and Tarkoma, S., 2015. Explaining the 
 
 \bibitem[\protect\citeauthoryear{Zhong {\itshape{et~al.}}}{2014}]{zhong2014}
 Zhong, C., Arisona, S.M., Huang, X., Batty, M., Schmitt, G., 2014. Detecting the dynamics of urban structure through spatial network analysis. International Journal of Geographical Information Science, 28, pp. 2178-2199, doi:10.1080/13658816.2014.914521
+
+
 
 
 \end{thebibliography}
