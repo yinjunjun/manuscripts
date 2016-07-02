@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  30 JUN 2016 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  1 JUL 2016 15:40
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -297,62 +297,56 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 22--35
- \OT1/cmr/m/n/10.95 na-tional (Great Britain) and mu-nic-i-pal scale (the Lon-d
-on metropo-lis). 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--35
+Underfull \hbox (badness 10000) in paragraph at lines 22--34
   
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 38.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 38.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <11> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7.69997> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5.5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 38.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 38.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7.69997> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 38.
 
-LaTeX Font Info:    Try loading font information for OMX+cmr on input line 39.
-LaTeX Font Info:    No file OMXcmr.fd. on input line 39.
+LaTeX Font Info:    Try loading font information for OMX+cmr on input line 38.
+LaTeX Font Info:    No file OMXcmr.fd. on input line 38.
 
 LaTeX Font Warning: Font shape `OMX/cmr/m/n' undefined
-(Font)              using `OMX/cmex/m/n' instead on input line 39.
+(Font)              using `OMX/cmex/m/n' instead on input line 38.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -384,7 +378,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -418,15 +412,6 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
  [2]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
@@ -457,75 +442,95 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
  [3]
 
 Package natbib Warning: Citation `greenwood1985human' on page 4 undefined on in
-put line 116.
+put line 112.
 
 
 Package natbib Warning: Citation `brockmann2006scaling' on page 4 undefined on 
-input line 116.
+input line 112.
 
 
 Package natbib Warning: Citation `gonzalez2008understanding' on page 4 undefine
-d on input line 116.
+d on input line 112.
 
 
 Package natbib Warning: Citation `zheng2008understanding' on page 4 undefined o
-n input line 117.
+n input line 113.
 
 
 Package natbib Warning: Citation `zheng2010geolife' on page 4 undefined on inpu
-t line 117.
+t line 113.
 
 
 Package natbib Warning: Citation `rhee2011levy' on page 4 undefined on input li
-ne 117.
+ne 113.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
-ut line 117.
+ut line 113.
 
 
 Package natbib Warning: Citation `gonzalez2008understanding' on page 4 undefine
-d on input line 119.
+d on input line 115.
 
 
 Package natbib Warning: Citation `sevtsuk2010does' on page 4 undefined on input
- line 119.
+ line 115.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
-ut line 119.
+ut line 115.
 
 
 Package natbib Warning: Citation `becker2013human' on page 4 undefined on input
- line 120.
+ line 116.
 
 
 Package natbib Warning: Citation `sobolevsky2013delineating' on page 4 undefine
-d on input line 120.
+d on input line 116.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
-ut line 120.
+ut line 116.
 
 
 Package natbib Warning: Citation `Jurdak2015' on page 4 undefined on input line
- 123.
+ 119.
 
 
 Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
-ut line 126.
+ut line 122.
 
 
 Package natbib Warning: Citation `tsou2015' on page 4 undefined on input line 1
-26.
+22.
 
 
 Package natbib Warning: Citation `mitchell2013geography' on page 4 undefined on
- input line 127.
+ input line 123.
 
 
 Package natbib Warning: Citation `longley2015geotemporal' on page 4 undefined o
-n input line 127.
+n input line 123.
+
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+
+Package natbib Warning: Citation `Jurdak2015' on page 4 undefined on input line
+ 127.
+
+
+Package natbib Warning: Citation `hawelka2014geo' on page 4 undefined on input 
+line 127.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -552,36 +557,24 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [4]
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 5 undefined on input line
- 131.
-
-
-Package natbib Warning: Citation `hawelka2014geo' on page 5 undefined on input 
-line 131.
-
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
+
 <./figure/S1_overview_Fig_2.png, id=23, 759.83875pt x 415.5525pt>
 File: ./figure/S1_overview_Fig_2.png Graphic file (type png)
 
 <use ./figure/S1_overview_Fig_2.png>
-Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 146.
+Package pdftex.def Info: ./figure/S1_overview_Fig_2.png used on input line 142.
 
 (pdftex.def)             Requested size: 420.0pt x 229.70227pt.
+
+<./figure/S2_twitter_density_Fig_1.png, id=24, 1096.095pt x 1016.79875pt>
+File: ./figure/S2_twitter_density_Fig_1.png Graphic file (type png)
+
+<use ./figure/S2_twitter_density_Fig_1.png>
+Package pdftex.def Info: ./figure/S2_twitter_density_Fig_1.png used on input li
+ne 159.
+(pdftex.def)             Requested size: 420.0pt x 389.61469pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -607,13 +600,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [5]
-<./figure/S2_twitter_density_Fig_1.png, id=29, 1096.095pt x 1016.79875pt>
-File: ./figure/S2_twitter_density_Fig_1.png Graphic file (type png)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use ./figure/S2_twitter_density_Fig_1.png>
-Package pdftex.def Info: ./figure/S2_twitter_density_Fig_1.png used on input li
-ne 163.
-(pdftex.def)             Requested size: 420.0pt x 389.61469pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -727,7 +715,7 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S3_visitation.png Graphic file (type png)
 
 <use ./figure/S3_visitation.png>
-Package pdftex.def Info: ./figure/S3_visitation.png used on input line 264.
+Package pdftex.def Info: ./figure/S3_visitation.png used on input line 260.
 (pdftex.def)             Requested size: 420.0pt x 199.9419pt.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
@@ -761,14 +749,14 @@ File: ./figure/S4_radius_displacement.png Graphic file (type png)
 
 <use ./figure/S4_radius_displacement.png>
 Package pdftex.def Info: ./figure/S4_radius_displacement.png used on input line
- 291.
+ 287.
 (pdftex.def)             Requested size: 420.0pt x 438.53886pt.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 292.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 288.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 292.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 288.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
@@ -776,11 +764,11 @@ Missing character: There is no ° in font cmr10!
 File: ./figure/S5_community.png Graphic file (type png)
 
 <use ./figure/S5_community.png>
-Package pdftex.def Info: ./figure/S5_community.png used on input line 312.
+Package pdftex.def Info: ./figure/S5_community.png used on input line 308.
 (pdftex.def)             Requested size: 377.99744pt x 613.08168pt.
 
 
-LaTeX Warning: Float too large for page by 23.02612pt on input line 316.
+LaTeX Warning: Float too large for page by 23.02612pt on input line 312.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -836,21 +824,21 @@ File: ./figure/S6_community_london.png Graphic file (type png)
 
 <use ./figure/S6_community_london.png>
 Package pdftex.def Info: ./figure/S6_community_london.png used on input line 33
-4.
+0.
 (pdftex.def)             Requested size: 336.00128pt x 320.68272pt.
 
 <./figure/S7_london.png, id=66, 621.522pt x 563.2242pt>
 File: ./figure/S7_london.png Graphic file (type png)
 
 <use ./figure/S7_london.png>
-Package pdftex.def Info: ./figure/S7_london.png used on input line 350.
+Package pdftex.def Info: ./figure/S7_london.png used on input line 346.
 (pdftex.def)             Requested size: 336.00128pt x 304.48889pt.
 
 <./figure/Gravity.png, id=67, 903.375pt x 1111.90407pt>
 File: ./figure/Gravity.png Graphic file (type png)
 
 <use ./figure/Gravity.png>
-Package pdftex.def Info: ./figure/Gravity.png used on input line 358.
+Package pdftex.def Info: ./figure/Gravity.png used on input line 354.
 (pdftex.def)             Requested size: 336.00128pt x 413.56975pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -984,18 +972,18 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
  [17 <./figure/Gravity.png (PNG copy)>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 365.
+(Font)              size <5> substituted on input line 361.
 
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 6658) in paragraph at lines 404--405
+Underfull \hbox (badness 6658) in paragraph at lines 400--401
 []\OT1/cmr/m/n/10.95 Fortunato, S., Barth-lemy, M., 2007. Res-o-lu-tion limit i
 n com-mu-nity de-tec-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 404--405
+Underfull \hbox (badness 3417) in paragraph at lines 400--401
 \OT1/cmr/m/n/10.95 tion. Pro-ceed-ings of the Na-tional Academy of Sci-ences, 1
 04, pp. 36-41.
  []
@@ -1035,13 +1023,13 @@ Missing character: There is no ° in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
-Underfull \hbox (badness 4291) in paragraph at lines 419--420
+Underfull \hbox (badness 4291) in paragraph at lines 415--416
 []\OT1/cmr/m/n/10.95 Good, B.H., de Mon-tjoye, Y.-A., Clauset, A., 2010. Per-fo
 r-mance of mod-u-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 419--420
+Underfull \hbox (badness 2343) in paragraph at lines 415--416
 \OT1/cmr/m/n/10.95 lar-ity max-i-miza-tion in prac-ti-cal con-texts. Phys-i-cal
  Re-view E, 81, 046106.
  []
@@ -1049,13 +1037,13 @@ Underfull \hbox (badness 2343) in paragraph at lines 419--420
 Missing character: There is no √ in font cmr10!
 Missing character: There is no † in font cmr10!
 
-Underfull \hbox (badness 1735) in paragraph at lines 422--423
+Underfull \hbox (badness 1735) in paragraph at lines 418--419
 \OT1/cmr/m/n/10.95 in ran-dom graphs and com-plex net-works. Phys-i-cal Re-view
  E, 70, 025101.
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 434--435
+Underfull \hbox (badness 3724) in paragraph at lines 430--431
 []\OT1/cmr/m/n/10.95 Jurdak, R., Zhao, K., Liu, J., Abou-Jaoude, M., Cameron, M
 ., Newth, D.,
  []
@@ -1063,7 +1051,7 @@ Underfull \hbox (badness 3724) in paragraph at lines 434--435
 Missing character: There is no √ in font cmr10!
 Missing character: There is no º in font cmr10!
 
-Underfull \hbox (badness 1412) in paragraph at lines 446--447
+Underfull \hbox (badness 1412) in paragraph at lines 442--443
 \OT1/cmr/m/n/10.95 struc-ture with taxi trip data. J. Trans-porta-tion Ge-og-ra
 -phy, 43, pp. 78-90.
  []
@@ -1186,13 +1174,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3180 strings out of 493671
- 38159 string characters out of 3141420
- 103661 words of memory out of 3000000
- 6488 multiletter control sequences out of 15000+200000
+ 3181 strings out of 493671
+ 38170 string characters out of 3141420
+ 103686 words of memory out of 3000000
+ 6489 multiletter control sequences out of 15000+200000
  15264 words of font info for 59 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,34p,769b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,34p,769b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -1211,7 +1199,7 @@ onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (21 pages, 3456475 bytes).
+Output written on Paper.pdf (21 pages, 3456843 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
