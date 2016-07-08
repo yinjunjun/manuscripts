@@ -75,32 +75,27 @@ This provides a new understanding of the interactions between human activity and
 
 \section{Background and Related Work}
 In real-world geography, urban regions are discrete individuals, with or without physical boundaries separating them~\citep{jiang2015}.
-For political and administrative purposes, government agencies define various sets of boundaries to partition the geographical space into units at different spatial scale, for instances, states, counties or census tracts and electoral districts.
+For political and administrative purposes, government agencies define various sets of boundaries to partition the geographical space into spatial units at different scales, for instances, states, counties or census tracts and electoral districts.
 However, the spatial extents of these defined units often overlap and agglomerate depending how citizens perceive, organize their image of a city and interact with the urban environments~\citep{lynch1960}.
+As connections are made among these units via various human activities crossing the boarders, such as social-economic relations and commute patterns of citizens, certain groups of units are more strongly connected as clusters than others. The boundaries of the agglomeration of these units are argued to reflect how people naturally interact with the geographic space, which is important for city planning~\citep{hollenstein2010}, urban growth evaluations~\citep{jiang2015,long2015}, and traffic management~\citep{gao2014}. 
+Empirical studies have attempted to delineate such boundaries with different methods and data sets.
+In general, the methods from existing literatures can be summarized into two, spatial clustering and network based, approaches.
+Spatial clustering based approaches determine the boundaries based the intensity of geographic locations related to human activities, for instances, locations of social media check-ins~\citep{jiang2015,sun2016}, place descriptions from crowd-sourced Web content~\citep{vasardani2013} and geo-tagged Flickr data~\citep{stefanidis2013,hu2016}.
+While interesting boundaries of urban areas were captured and delineated, the dynamic connections among different spatial units were not considered in the spatial clustering based approaches, where the results are discrete and independent areas reflecting high intensity of human activities.
 
-\citep{vasardani2013}
-\citep{hollenstein2010}
-\citep{stefanidis2013}
-
-
-
-For example, empirical studies have utilized 
-Connections are made among these units with various human activities crossing the boarders, such as social-economic relations and commute patterns of citizens. 
-In such cases, certain groups of units are more strongly connected as clusters than others, and the boarders of agglomeration of these units
-how people naturally interact with the space can be in grate importance for decision makers regarding city planning, resource allocation and even marketing campaigns. 
-
+On the other hand, network based approaches attempt to delineate urban boundaries based on the intensity of human interactions among different spatial units, where each spatial unit is treated as a node and the edge is modeled by human interactions between two nodes.
+Such human interactions can take physical or virtual forms, such as trade, commerce, social connections, and political activity across the borders.
+Regarding virtual networks of human spatial interactions, social ties of Twitter users are used to identify cohesive regions for different countries across the world~\citep{kallus2015}, a map of Great Britain is redrew based the communication network of phone call initiation~\cite{ratti2010},
+   
 
 
 
 
-These interactions can take the form of trade, commerce, social connections, and political activity across the borders.
 
-mainly about the intensity of human interactions across the geographical regions, however, 
-
-The idea of 
+ 
 
 
-Regarding using crowd-sourced data to determine the spatial extent of places
+
 
 
 Distance decay effects
@@ -190,8 +185,6 @@ the content of the message was removed.
 Our simplified geo-located tweet dataset can be shared with other researchers upon request.
 
 \subsection{A network of large-scale Twitter user spatial interactions}
-Urban regions are discrete urban areas with various socio-economic relationships and citizen commute patterns. 
-Some urban regions are more strongly connected to each other than other urban regions.
 Therefore, this study connects urban regions when a twitter user's movement begins in one region and ends in another region.
 These connections can be represented by an origin-destination (OD) matrix based on the collective Twitter user displacements within the dataset.
 This OD matrix is essentially a mathematical representation of a weighted directed graph $G\equiv\langle V, E_{w}\rangle$, where $V$ is a set of spatial nodes corresponding to the underlying urban regions and $E_{w}$ is a set of edges representing the connections between a pair of nodes and the corresponding weights are assigned by the accumulated volume of Twitter user movements.
@@ -321,7 +314,7 @@ Increasing the displacement distance results in revealing the large region conne
 
 Using Twitter user mobility to delineate non-administrative anthropographic boundaries enables the researcher to redraw the city at different mobility ranges inferred objectively from the user's collective distribution. 
 In addition, the distance range of the movements is usually explained by local socio-economic factors (e.g., work commuting ) that provide for a specific interpretation of the apparent patterns.
-The patterns obtained from Twitter user mobility are comparable to the patterns produced by those of the network of landline phone calls~\citep{ratti2010}.\
+The patterns obtained from Twitter user mobility are comparable to the patterns produced by those of the network of landline phone calls~\citep{ratti2010}.
 For example, the region of Wales appears to consist of three communities as found in the connectivity of both phone calls and long distance movements. 
 However, the regions extracted from the mobility network seems to be more spatially consistent with minimal spatial gaps compared to the partitions extracted from land-line call networks in Great Britain~\citep{ratti2010}.
 
@@ -423,6 +416,9 @@ Hawelka, B., Sitko, I., Beinat, E., Sobolevsky, S., Kazakopoulos, P., Ratti, C.,
 \bibitem[\protect\citeauthoryear{Hollenstein and Purves}{2010}]{hollenstein2010}
 Hollenstein, L. and Purves, R., 2010. Exploring place through user-generated content: Using Flickr tags to describe city cores. Journal of Spatial Information Science, 2010(1), pp.21-48.
 
+\bibitem[\protect\citeauthoryear{Hu {\itshape{et~al.}}}{2016}]{hu2016}
+Hu, Y., Gao, S., Janowicz, K., Yu, B., Li, W. and Prasad, S., 2015. Extracting and understanding urban areas of interest using geotagged photos. Computers, Environment and Urban Systems, 54, pp.240-254.
+
 \bibitem[\protect\citeauthoryear{Huang {\itshape{et~al.}}}{2016}]{huang2016}
 Huang, Q. and Wong, D.W., 2016. Activity patterns, socioeconomic status and urban spatial structure: what can social media data tell us?. International Journal of Geographical Information Science, pp.1-26.
 
@@ -442,7 +438,7 @@ Lancichinetti, A., Fortunato, S., 2009. Community detection algorithms: A compar
 Liu, J., Zhao, K., Khan, S., Cameron, M., Jurdak, R., 2014. Multi-scale Population and Mobility Estimation with Geo-tagged Tweets. ArXiv14120327 Phys.
 
 \bibitem[\protect\citeauthoryear{Liu {\itshape{et~al.}}}{2015}]{liu2015}
-Liu, X., Gong, L., Gong, Y., Liu, Y., 2015. Revealing travel patterns and city structure with taxi trip data. J. Transportation Geography, 43, pp. 78-90. doi:10.1016/j.jtrangeo.2015.01.016
+Liu, X., Gong, L., Gong, Y., Liu, Y., 2015. Revealing travel patterns and city structure with taxi trip data. Journal of Transportation Geography, 43, pp. 78-90. doi:10.1016/j.jtrangeo.2015.01.016
 
 \bibitem[\protect\citeauthoryear{Liu {\itshape{et~al.}}}{2015}]{liu2014}
 Liu, Y., Sui, Z., Kang, C., Gao, Y., 2014. Uncovering patterns of inter-urban trip and spatial interaction from social media check-in data. PLoS ONE, 9(1), p.e86026.
@@ -450,7 +446,7 @@ Liu, Y., Sui, Z., Kang, C., Gao, Y., 2014. Uncovering patterns of inter-urban tr
 \bibitem[\protect\citeauthoryear{Long {\itshape{et~al.}}}{2015}]{long2015}
 Long, Y., Han, H., Tu, Y., Shu, X., 2015. Evaluating the effectiveness of urban growth boundaries using human mobility and activity records. Cities, 46, pp. 76-84.
 
-\bibitem[\protect\citeauthoryear{Long {\itshape{et~al.}}}{2015}]{long2015}
+\bibitem[\protect\citeauthoryear{Luo {\itshape{et~al.}}}{2016}]{luo2016}
 Luo, F., Cao, G., Mulligan, K., Li, X., 2016. Explore spatiotemporal and demographic characteristics of human mobility via Twitter: A case study of Chicago, Applied Geography, 70, pp. 11-25
 
 \bibitem[\protect\citeauthoryear{Lynch}{1960}]{lynch1960}
@@ -470,6 +466,9 @@ Qian, W., Stanley, K. G., Osgood, N. D., 2013. The impact of spatial resolution 
 
 \bibitem[\protect\citeauthoryear{Ratti {\itshape{et~al.}}}{2010}]{ratti2010}
 Ratti, C., Sobolevsky, S., Calabrese, F., Andris, C., Reades, J., Martino, M., Claxton, R., Strogatz, S.H., 2010. Redrawing the Map of Great Britain from a Network of Human Interactions. PLoS ONE 5, e14248. doi:10.1371/journal.pone.0014248
+
+\bibitem[\protect\citeauthoryear{Rae}{2009}]{rae2009}
+Rae, A., 2009. From spatial interaction data to spatial interaction information? Geovisualisation and spatial structures of migration from the 2001 UK census. Computers, Environment and Urban Systems, 33(3), pp.161-178.
 
 \bibitem[\protect\citeauthoryear{Reynolds}{2012}]{reynolds2012}
 Reynolds, A., 2012. Truncated levy walks are expected beyond the scale of data collection when correlated random walks embody observed movement patterns. Journal of The Royal Society Interface, 9(68), pp. 528-534.
@@ -506,6 +505,9 @@ Stefanidis, A., Cotnoir, A., Croitoru, A., Crooks, A., Rice, M. and Radzikowski,
 
 \bibitem[\protect\citeauthoryear{Steiger {\itshape{et~al.}}}{2015}]{steiger2015}
 Steiger, E., Westerholt, R., Resch, B. and Zipf, A., 2015. Twitter as an indicator for whereabouts of people? Correlating twitter with uk census data. Computers, Environment and Urban Systems, 54, pp. 255-265.
+
+\bibitem[\protect\citeauthoryear{Sun {\itshape{et~al.}}}{2016}]{sun2016}
+Sun, Y., Fan, H., Li, M. and Zipf, A., 2016. Identifying the city center using human travel flows generated from location-based social networking data. Environment and Planning B: Planning and Design, 43(3), pp.480-498.
 
 \bibitem[\protect\citeauthoryear{Thiemann {\itshape{et~al.}}}{2010}]{thiemann}
 Thiemann, C., Theis, F., Grady, D., Brune, R., Brockmann, D., 2010. The Structure of Borders in a Small World. PLoS ONE 5, e15422. doi:10.1371/journal.pone.0015422
