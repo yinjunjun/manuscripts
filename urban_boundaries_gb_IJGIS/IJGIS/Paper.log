@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  9 JUL 2016 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  9 JUL 2016 23:39
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -436,6 +436,22 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [3]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+
+
+Package natbib Warning: Citation `becker2013human' on page 4 undefined on input
+ line 104.
+
+
+Package natbib Warning: Citation `sobolevsky2013delineating' on page 4 undefine
+d on input line 104.
+
+
+Package natbib Warning: Citation `kung2014exploring' on page 4 undefined on inp
+ut line 104.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -460,30 +476,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (711.0pt too high) has occurred while \output is active []
 
  [4]
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 5 undefine
-d on input line 103.
-
-
-Package natbib Warning: Citation `sevtsuk2010does' on page 5 undefined on input
- line 103.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 5 undefined on inp
-ut line 103.
-
-
-Package natbib Warning: Citation `becker2013human' on page 5 undefined on input
- line 104.
-
-
-Package natbib Warning: Citation `sobolevsky2013delineating' on page 5 undefine
-d on input line 104.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 5 undefined on inp
-ut line 104.
-
 
 Package natbib Warning: Citation `Jurdak2015' on page 5 undefined on input line
  107.
@@ -1126,13 +1118,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3162 strings out of 493671
- 37822 string characters out of 3141420
+ 3160 strings out of 493671
+ 37778 string characters out of 3141420
  104993 words of memory out of 3000000
- 6475 multiletter control sequences out of 15000+200000
+ 6473 multiletter control sequences out of 15000+200000
  13076 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,34p,727b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,34p,630b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -1150,7 +1142,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (21 pages, 3212503 bytes).
+Output written on Paper.pdf (21 pages, 3212558 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
