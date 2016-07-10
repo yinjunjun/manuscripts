@@ -101,23 +101,25 @@ However, the low-resolution mobility data collected from census records~\citep{r
 In terms of collecting detailed mobility data of individuals, using GPS trackers tends to produce, to date, the most accurate records of individuals' movements regarding the accuracy of recorded user locations and update frequency~\citep{zheng2008}. However, the data is often limited in spatial scale (e.g. within a specific city or region) with a small group of people, for example, 182 and 226 volunteers participated in collecting such mobility data in~\citep{zheng2008} and~\citep{rhee2011} respectively. 
 Other than tracking people directly, the vehicle-based GPS data is often tied to a specific vehicle (e.g. taxi), which may only be accessible for a certain group of people~\citep{kung2014}. 
 Another popular mobility data source found in the literatures is the mobile phone call data in the form of Call Detail Records (CDR), where the locations of mobile users are estimated by cell tower triangulation with accuracy in the order of kilometers~\citep{gonzalez2008,kung2014,zhong2014}. 
-Such a dataset can cover relatively large spatial scale (e.g., country level)~\citep{becker2013human,sobolevsky2013delineating} and a large portion of the population in the study region~\citep{kung2014exploring}. However, due to the concerns of infringement on individual privacy, the mobile phone call data is not publicly accessible, which is not ideal  for conducting replicable scientific findings, such as validating or extending the existing discoveries.
+Such a dataset can cover relatively large spatial scale (e.g., country level)~\citep{sobolevsky2013} and a large portion of the population in the study region~\citep{kung2014}. 
+However, due to the concerns of infringement on individual privacy, the mobile phone call data is not publicly accessible, which is not ideal  for conducting replicable scientific findings or comparisons across different regions.
 
-In this connection, it becomes increasingly popular for researchers to exploit the publicly accessible mobility data captured from today's pervasive Location Based Social Media (LBSM) platforms (e.g., Foursquare and Twitter). 
-LBSM enables users to attach their current location as a geo-tag to the message they will post, which is derived from either the GPS or Wi-Fi positioning with a high position resolution down to 10 meters~\citep{Jurdak2015}.
-A Big Data scenario emerges when millions social media users constantly posting messages.
-However, there are some limitations and complexities in directly using the LBSM data for study human mobility patterns. 
-For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located message or check-in at a new place. It has been criticized for the lack of representativeness of the population as not all people use social media or send geo-located messages~\citep{kung2014exploring}. Another research challenge is to identify the users, as a social media account is not equal to a real person in the physical world~\citep{tsou2015}.
+In this connection, it becomes increasingly popular for researchers to exploit the publicly accessible mobility data captured from today's pervasive Location Based Social Media (LBSM) platforms (e.g., Foursquare and Twitter).
+This is also evident from the related studies mentioned above.
+However, there are some limitations and complexities in directly extracting and using the mobility data from the LBSM data sets. 
+For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located tweet or check-in at a new place.
+It has been criticized for the lack of representativeness of the population as not all people use social media or send geo-located messages~\citep{kung2014}. 
+Another research challenge is to identify the users, as a social media account is not equal to a real person in the physical world~\citep{tsou2015}.
 Although many studies started to look into the demographic information of LBSM data, in particular Twitter data~\citep{mitchell2013geography,longley2015geotemporal}, these issues certainly require us to pose more strict criteria in filtering and extracting individual movements.
 
-In this study, geo-located Twitter data is chosen as source for studying detailed mobility patterns. Twitter is one of the most popular platforms and is been actively used in many countries. It provides a publicly accessible streaming API ({\tt{https://dev.twitter.com/streaming/overview}}) for easy access to its data.
-It presents some unique advantages that make it suitable for studying human mobility patterns.
-For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{Jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka}, which is almost impossible for other mobility datasets.
-More importantly, by continuously monitoring the geo-located Twitter data streams with large volumes of detailed and frequently updated spatiotemporal  records of Twitter users, it offers a great deal of potential for studying mobility patterns of large groups of individuals at different spatial scales (e.g., movements across cities, states or even countries) and temporal gratuity (e.g., weekly, monthly, and seasonal movements).
-
+In this study, geo-located Twitter data is chosen as source for studying detailed mobility patterns.
 A geo-located tweet is a Twitter message with an additional geo-tag expressed as a pair of geographical coordinates that represent the location from which the tweet was sent.
+Twitter is one of the most popular platforms and is been actively used in many countries. 
+It provides a publicly accessible streaming API ({\tt{https://dev.twitter.com/streaming/overview}}) for easy access to its data.
+It presents some unique advantages that make it suitable for studying human mobility patterns.
+For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka}, which is almost impossible for other mobility datasets.
 
-
+The CEUS paper and song gao
 
 \section{Materials and Methods}
 %\subsection{Overview}
@@ -138,7 +140,7 @@ A geo-located tweet is a Twitter message with an additional geo-tag expressed as
 %\end{figure}
 
 \subsection{Geo-located Twitter Data and Data Processing}
-For this study, geo-located tweets were collected using the Twitter Streaming API by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.497, -14.854), (61.186, 2.637) respectively. This does include the whole of Ireland part of France.
+For this study, the geo-located tweets were collected using the Twitter Streaming API by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.49, -14.85), (61.18, 2.63) respectively. This does include the whole of Ireland part of France.
 We implemented a data crawler to continuously collect 7-months of data (June $1^{st}$ -- December $31^{st}$, 2014) resulting in over 101.8 million tweets with a total data volume of 60 GB, which we restrict to 69 million based on a process outlined below. 
 To showcase the overall spatial coverage of the collected geo-located tweets, a density map of the tweet locations in British Isles for July 2014 is shown in Fig.~\ref{S2_Fig}.
 The collected point visualization reveals the geography of cities.
@@ -146,8 +148,8 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=1.0\linewidth]{./figure/S2_twitter_density_Fig_1}
-\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to an individual geo-located tweet collected for this study. Twitter activity is most apparent in urban areas.}
+\includegraphics[width=.8\linewidth]{./figure/S2_twitter_density_Fig_1}
+\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to an individual geo-located tweet collected for this study. Note that Twitter activities are most apparent in urban areas.}
 \label{S2_Fig}
 \end{center}
 \end{figure}
@@ -195,9 +197,6 @@ The radius of gyration is a metric to distinguish mobility patterns of individua
 \begin{equation} \label{eq:2}
 r_{g} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(p_{i} -  p_{centroid})^{2}}, \textrm{where}\hspace{1ex} p_{centroid} = \frac{1}{n}\sum_{i=1}^{n}p_{i}
 \end{equation}
-\begin{equation} \label{eq:3}
-<T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
-\end{equation}
 \noindent It measures the accumulated distances of deviation from the center of mass of an individual user's trajectory, where $p_{i}$ is one of the user's locations and $p_{centroid}$ is the center of mass of the user's trajectory.
 By examining the probability distributions of the radius of gyration, also known as the spatial dispersal kernel $P(r_g)$~\cite{brockmann2006}, we chose 10 km as the cell size to quantify the spatial coverage of the majority of Twitter users in Great Britain (Fig.~\ref{S4_Fig} - c, with details shown in the next section). 
 Thus, we created a fishnet with 2784 10-km size cells.
@@ -221,6 +220,11 @@ In this regard, this algorithm can be intuitively tailored to describe strongly 
 The detailed literatures and implementations of Infomap can be found on this website ({\tt{http://mapequation.org}}).
 Note that Infomap is capable of performing multi-level community detection~\cite{domenico2015}, but we only use the algorithm to produce our most detailed community structures
 to examine groups of strongly connected urban regions.
+
+\subsection{Distance decay effects with a gravity model}
+\begin{equation} \label{eq:3}
+<T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
+\end{equation}
 
 \section{Results}
 \subsection{Collective Mobility Patterns of Twitter Users in Great Britain}
