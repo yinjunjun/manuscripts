@@ -96,9 +96,10 @@ However, few research efforts are carried out to explore the linkages between th
 While geographical distance is not explicitly expressed constraint in the ``virtual'' human interactions, we argue that seeking answers from the mobility network of spatial interactions with the characteristics of underlying mobility patterns can help to explain how distance decay effects affect the interaction strength and the shape of depicted urban boundaries.  
 
 \subsection{Large-scale mobility network from geo-located Twitter data}
-To construct a large scale mobility network of human spatial interactions, the capability of capturing human movements with fine-grained spatial and temporal granularity is critical.
-However, the low-resolution mobility data collected from census records~\citep{rae2009} is estimated and aggregated at census tract level and do not necessarily reflecting movements of the same individuals.
-In terms of collecting detailed mobility data of individuals, using GPS trackers tends to produce, to date, the most accurate records of individuals' movements regarding the accuracy of recorded user locations and update frequency~\citep{zheng2008}. However, the data is often limited in spatial scale (e.g. within a specific city or region) with a small group of people, for example, 182 and 226 volunteers participated in collecting such mobility data in~\citep{zheng2008} and~\citep{rhee2011} respectively. 
+To construct a large-scale mobility network of human spatial interactions, the capability of capturing human movements with fine-grained spatial and temporal granularity is critical.
+The low-resolution mobility data collected from census records~\citep{rae2009} is estimated and aggregated at census tract level and do not necessarily reflecting movements of the same individuals.
+In terms of collecting detailed mobility data of individuals, using GPS trackers tends to produce, to date, the most accurate records of individuals' movements regarding the accuracy of recorded user locations and update frequency~\citep{zheng2008}.
+However, the data is often limited in spatial scale (e.g. within a specific city or region) with a small group of people, for example, 182 and 226 volunteers participated in collecting such mobility data in~\citep{zheng2008} and~\citep{rhee2011} respectively.
 Other than tracking people directly, the vehicle-based GPS data is often tied to a specific vehicle (e.g. taxi), which may only be accessible for a certain group of people~\citep{kung2014}. 
 Another popular mobility data source found in the literatures is the mobile phone call data in the form of Call Detail Records (CDR), where the locations of mobile users are estimated by cell tower triangulation with accuracy in the order of kilometers~\citep{gonzalez2008,kung2014,zhong2014}. 
 Such a dataset can cover relatively large spatial scale (e.g., country level)~\citep{sobolevsky2013} and a large portion of the population in the study region~\citep{kung2014}. 
@@ -110,16 +111,14 @@ However, there are some limitations and complexities in directly extracting and 
 For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located tweet or check-in at a new place.
 It has been criticized for the lack of representativeness of the population as not all people use social media or send geo-located messages~\citep{kung2014}. 
 Another research challenge is to identify the users, as a social media account is not equal to a real person in the physical world~\citep{tsou2015}.
-Although many studies started to look into the demographic information of LBSM data, in particular Twitter data~\citep{mitchell2013geography,longley2015geotemporal}, these issues certainly require us to pose more strict criteria in filtering and extracting individual movements.
+Many studies started to look into the demographic information of LBSM data, in particular Twitter data~\citep{steiger2015,luo2016}. 
+While the used methods varies, these studies suggest that the mentioned issues require us to pose more strict criteria in filtering and extracting individual movements.
 
-In this study, geo-located Twitter data is chosen as source for studying detailed mobility patterns.
+In this study, geo-located Twitter data are chosen as the source for constructing large-scale mobility networks of human spatial interactions and studying detailed mobility patterns.
 A geo-located tweet is a Twitter message with an additional geo-tag expressed as a pair of geographical coordinates that represent the location from which the tweet was sent.
 Twitter is one of the most popular platforms and is been actively used in many countries. 
-It provides a publicly accessible streaming API ({\tt{https://dev.twitter.com/streaming/overview}}) for easy access to its data.
-It presents some unique advantages that make it suitable for studying human mobility patterns.
-For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka}, which is almost impossible for other mobility datasets.
-
-The CEUS paper and song gao
+It provides a publicly accessible streaming API ({\tt{http://dev.twitter.com/streaming}}) for easy data access.
+The geo-located Twitter data present some unique advantages regarding the purpose of this study, for example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka}, which is almost impossible for other mobility datasets. Also, it provides the opportunities for reproducing this study in other countries.
 
 \section{Materials and Methods}
 %\subsection{Overview}
@@ -140,49 +139,41 @@ The CEUS paper and song gao
 %\end{figure}
 
 \subsection{Geo-located Twitter Data and Data Processing}
-For this study, the geo-located tweets were collected using the Twitter Streaming API by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.49, -14.85), (61.18, 2.63) respectively. This does include the whole of Ireland part of France.
-We implemented a data crawler to continuously collect 7-months of data (June $1^{st}$ -- December $31^{st}$, 2014) resulting in over 101.8 million tweets with a total data volume of 60 GB, which we restrict to 69 million based on a process outlined below. 
-To showcase the overall spatial coverage of the collected geo-located tweets, a density map of the tweet locations in British Isles for July 2014 is shown in Fig.~\ref{S2_Fig}.
+For this study, the geo-located tweets were collected using the Twitter Streaming API by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. 
+To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.49, -14.85), (61.18, 2.63) respectively. This does include the whole of Ireland part of France.
+We implemented a data crawler to continuously collect 7-months of data (June $1^{st}$ -- December $31^{st}$, 2014) resulting in over 101.8 million tweets with a total data volume of 60 GB.
+During the data collection phase, the data crawler did not encounter any issue regarding whether it exceeds the data quota by the 1\% policy mentioned in~\citep{hawelka}). It means we have managed to download all the geo-located tweets for the given bounding box.
+To showcase the overall spatial coverage of the collected geo-located tweets, the geo-locations of all the collected Tweets are shown in Fig.~\ref{S2_Fig}.
 The collected point visualization reveals the geography of cities.
 Notice the clusters with higher densities of tweets correspond to the locations of major cities.
 
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=.8\linewidth]{./figure/S2_twitter_density_Fig_1}
-\caption{{\bf The spatial coverage of collected geo-located Twitter messages in Great Britain (left) and London (right).} Each point corresponds to an individual geo-located tweet collected for this study. Note that Twitter activities are most apparent in urban areas.}
+\caption{{\bf The spatial coverage of collected geo-located Tweets in Great Britain (left) and London (right).} Each point corresponds to an individual geo-located tweet collected for this study. Note that Twitter activities are most apparent in urban areas.}
 \label{S2_Fig}
 \end{center}
 \end{figure}
-
-To reduce the effects from tweets of non-human users,  
-remove tweets of non-human users from the collected database, the raw tweets were further filtered using the following steps.
-First we removed the duplicated messages in the dataset.
-Next, we removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
-We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}. 
-
-That is that the time interval between a user's first and last recorded 
-
- agglomeration
-
-
-
-
-
 Because the original location information embedded in the geo-tag is given in units of latitude and longitude, we projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
-Finally, we used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
-Based on these restrictions, the filtered dataset for the following study contains 69,847,497 tweets made by 1,153,891 Twitter users.
+We used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
+Based on these restrictions, the filtered dataset contains 69,847,497 tweets made by 1,153,891 Twitter users.
+To reduce the effects of tweets from non-human users, the raw tweets were further filtered using the following steps.
+First we removed the duplicated messages in the dataset.
+We then removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
+We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}.
+Finally, to reflect the spatial interactions of residents rather than tourists, we further impose a condition that the time interval between a user's first and last recorded tweets should be more than 30 days.
+In other words, a user that is identified to have stayed in the study region more than 30 days is considered as a resident.
+The filtered dataset for the following study contains 60,209,778 tweets made by 824,712 Twitter users.
 
 At this stage, each geo-located tweet is represented as a tuple $\langle user\_id, loc, t, m \rangle$, where $user\_id$ is an anonymous Twitter user id; $loc$ is the recorded location of the tweet as a coordinate pair; $t$ is the timestamp of the tweet's post; and $m$ is the actual content of the tweet. 
-To protect Twitter user privacy, the id field was replaced with a randomly generated unique number. 
-Because we are interested in collective Twitter user movement instead of individual user trajectories,
-each geo-location of a
-similar to the approach used in
-
-the content of the message was removed. 
+To protect Twitter users’ privacy, the id field was replaced with a randomly generated unique number and the content of the message was removed.
+In addition, the actual location of each geo-located Tweet is only used for distance calculation and determining the corresponding geographic unit it falls in. 
 Our simplified geo-located tweet dataset can be shared with other researchers upon request.
 
 \subsection{A network of large-scale Twitter user spatial interactions}
-Therefore, this study connects urban regions when a twitter user's movement begins in one region and ends in another region.
+A Twitter user's movement is defined here as the individual's geographic relocation or displacement~\citep{gonzalez2008}.
+This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two consecutive recorded locations is one month.
+To identify the clusters of urban regional connectedness, Twitter user movements are used to establish a connectivity network, where two urban region connects when a twitter user's movement begins in one and ends in another.
 These connections can be represented by an origin-destination (OD) matrix based on the collective Twitter user displacements within the dataset.
 This OD matrix is essentially a mathematical representation of a weighted directed graph $G\equiv\langle V, E_{w}\rangle$, where $V$ is a set of spatial nodes corresponding to the underlying urban regions and $E_{w}$ is a set of edges representing the connections between a pair of nodes and the corresponding weights are assigned by the accumulated volume of Twitter user movements.
 
@@ -194,16 +185,20 @@ Another popular approach is to partition the space into a grid of spatial pixels
 However, the size of the cell can potentially lead to biases due to the Modifiable Area Unit Problem (MAUP)~\citep{openshaw1984,wong2009}, where different choices of unit size can lead to significant variant findings. 
 To compare our investigation with the findings of similar studies, and avoid subjectively deciding the cell size, we performed statistical analysis of Twitter user mobility patterns in Great Britain and measured the distribution of collective Twitter user displacements and the radius of gyrations of individuals \citep{gonzalez2008,jurdak2015}.
 The radius of gyration is a metric to distinguish mobility patterns of individuals~\citep{gonzalez2008}, which is defined as Eq. \eqref{eq:2}:
+
 \begin{equation} \label{eq:2}
 r_{g} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(p_{i} -  p_{centroid})^{2}}, \textrm{where}\hspace{1ex} p_{centroid} = \frac{1}{n}\sum_{i=1}^{n}p_{i}
 \end{equation}
+
 \noindent It measures the accumulated distances of deviation from the center of mass of an individual user's trajectory, where $p_{i}$ is one of the user's locations and $p_{centroid}$ is the center of mass of the user's trajectory.
-By examining the probability distributions of the radius of gyration, also known as the spatial dispersal kernel $P(r_g)$~\cite{brockmann2006}, we chose 10 km as the cell size to quantify the spatial coverage of the majority of Twitter users in Great Britain (Fig.~\ref{S4_Fig} - c, with details shown in the next section). 
+By examining the probability distributions of the radius of gyration, also known as the spatial dispersal kernel $P(r_g)$~\citep{brockmann2006}, we chose 10 km as the cell size at the national level of Great Britain (Fig.~\ref{S4_Fig} - c, with details shown in the next section). 
+More importantly, as 10 km is the distinct geographic distance for separating two main groups of Twitter users in terms of the spatial coverage in Great Britain, a 10-km size cell serves as a mask to partitioning the space.
+In this way, we can focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.  
 Thus, we created a fishnet with 2784 10-km size cells.
 The cells of the fishnet act as proxies to represent individuals' spatial coverage areas to focus more on the inter-connectivity among cells and identify strongly connected cell clusters. 
 
-\subsection{Community structure of the spatial networks}
-Based on the derived spatial network, which is a directed weighted graph, we further determined clusters of strongly connected spatial nodes, known as communities, in the graph space~\citep{coscia2011}. 
+\subsection{Community structure of the network of spatial interactions}
+Based on the derived mobility network of spatial interactions, which is a directed weighted graph, we further determined clusters of strongly connected spatial nodes, known as communities, in the graph space~\citep{coscia2011}. 
 There are a variety of community detection algorithms that produce different results depending the definition of community within the network~\citep{coscia2011}.
 A common community detection method is based on modularity maximization~\citep{newman2006}, seen in previous studies~\citep{hawelka,ratti2010,song2012}.
 However, such an approach is often problematic: it is found to have an inherent resolution problem, where small communities are either ignored~\citep{fortunato2007} or assigned with high modularity scores \citep{guimera2004}; and it is found to produce less informative partitions in many empirical networks~\citep{good2010}.
@@ -222,9 +217,21 @@ Note that Infomap is capable of performing multi-level community detection~\cite
 to examine groups of strongly connected urban regions.
 
 \subsection{Distance decay effects with a gravity model}
+As it is mentioned above, the clusters of urban regions in the form of communities in the network space often yield geographically cohesive urban areas. 
+This phenomenon is speculated to be related to the distance decay effects, where the interaction strength between two urban regions decreases as the geographical distance between them increases.
+A gravity model is often used to express such relations, as is shown in Eq. \eqref{eq:3}, where $<T_{ij}>$ and $d_{ij}$ denote the interaction from i to j and distance between two places, $K$ is a constant, and $P_{i}$ and $P_{j}$ are the population size of place $i$ and $j$ respectively. 
+The interaction strength decreases with respect to the geographic distance is expressed by the distance decay function, $f(d_{ij})$, where the parameter $\beta$ reveals the distance impact on interaction strength.
+A greater $\beta$ indicates faster decay effects and the interaction strength is more influenced by distance~\citep{liu2014}.
+While it is suggested that population size may be an accurate indicator to describe the repulsion or attractiveness between places, the gravity model is usually fit by using observed interaction strength and the distance between geographical entities~\citep{liu2014}.
 \begin{equation} \label{eq:3}
 <T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
 \end{equation}
+
+In this study, the main purpose for adopting the gravity model is not to find the best $\beta$ value to estimate the potential interaction strength among depicted urban areas.
+Interestingly, the distance decay effects are also found in human mobility patterns~\citep{zhao2016}, the authors argue that it is due to the constraints of complex urban structure.
+In this study, in line with the idea that urban environments are conceptualized spaces that are recreated and formed by human activities~\citep{schliephake}, we speculate that the distance decay effects in affecting the interaction strength of two geographic regions and ultimately depicting the urban structures (e.g., urban boundaries), is contributed by (or related to) the distance decay parameters found in the underlying mobility patterns. 
+In particular, since we have used a mobility network of spatial interactions, if our hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how people move across geographic regions. 
+
 
 \section{Results}
 \subsection{Collective Mobility Patterns of Twitter Users in Great Britain}
@@ -313,7 +320,7 @@ However, the regions extracted from the mobility network seems to be more spatia
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.8\linewidth]{./figure/S6_community_london}
+\includegraphics[width=0.7\linewidth]{./figure/S6_community_london}
 \caption{{\bf The non-administrative anthropographic regions inferred from Twitter user displacements greater than 4 km (left) and 10 km (right) in comparison with major cities in England (upper figures) and Scotland (bottom figures).}  Each color represents a unique community. Including short distance movements has increased the power to differentiate the influence of nearby cities such as Glasgow and Edinburgh (lower left), while restricting the analysis to longer distance movements grouped travelers from the two previous cities into the same community (lower right).}
 \label{S6_Fig}
 \end{center}
@@ -363,6 +370,9 @@ Urban boundaries redrawn based on Twitter user movement represent physical commu
 This study provides a first step in connecting human mobility research with defining non-administrative anthropographic boundaries, which could assist in resource allocation, political campaigns and urban planning.
 However, the geo-located twitter data is not able to generalize to the entire population; therefore, the urban regions that do not have any, or limited, Twitter coverage can be missed during the delineation process.
 Yet, our approach is still applicable when more detailed mobility data is available. 
+
+The purpose of trip
+contextualizing 
 
 %\subsection{Acknowledgements}
 
@@ -511,6 +521,9 @@ Sun, Y., Fan, H., Li, M. and Zipf, A., 2016. Identifying the city center using h
 \bibitem[\protect\citeauthoryear{Thiemann {\itshape{et~al.}}}{2010}]{thiemann}
 Thiemann, C., Theis, F., Grady, D., Brune, R., Brockmann, D., 2010. The Structure of Borders in a Small World. PLoS ONE 5, e15422. doi:10.1371/journal.pone.0015422
 
+\bibitem[\protect\citeauthoryear{Tsou}{2015}]{tsou2015}
+Tsou, M.H., 2015. Research challenges and opportunities in mapping social media and Big Data. Cartography and Geographic Information Science, 42(sup1), pp.70-74.
+
 \bibitem[\protect\citeauthoryear{Vasardani {\itshape{et~al.}}}{2013}]{vasardani2013}
 Vasardani, M., Winter, S. and Richter, K.F., 2013. Locating place names from place descriptions. International Journal of Geographical Information Science, 27(12), pp.2509-2532.
 
@@ -522,6 +535,9 @@ Zandbergen, P.A., 2009. Accuracy of iPhone Locations: A Comparison of Assisted G
 
 \bibitem[\protect\citeauthoryear{Zhao {\itshape{et~al.}}}{2015}]{zhao2015}
 Zhao, K., Musolesi, M., Hui, P., Rao, W., and Tarkoma, S., 2015. Explaining the power-law distribution of human mobility through transportation modality decomposition. Scientific reports, 5.
+
+\bibitem[\protect\citeauthoryear{Zhao {\itshape{et~al.}}}{2016}]{zhao2016}
+Zhao, Z., Shaw, S.L., Xu, Y., Lu, F., Chen, J. and Yin, L., 2016. Understanding the bias of call detail records in human mobility research. International Journal of Geographical Information Science, 30(9), pp.1738-1762.
 
 \bibitem[\protect\citeauthoryear{Zheng {\itshape{et~al.}}}{2008}]{zheng2008}
 Zheng, Y., Li, Q., Chen, Y., Xie, X. and Ma, W.Y., 2008, September. Understanding mobility based on GPS data. In Proceedings of the 10th international conference on Ubiquitous computing (pp. 312-321). ACM.
