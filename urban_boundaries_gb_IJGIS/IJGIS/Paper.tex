@@ -344,11 +344,16 @@ For example, East Barnet and West Enfield seem to have higher interactions than 
 
 \subsection{Explaining the Distance decay effects with the gravity model}
 The results of strongly connected urban regions in the form of communities in the mobility network of Twitter user spatial interactions yield geographically cohesive, non-overlapping urban areas. 
-While it provides a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain, the reasons on why they are geographically cohesive and non-overlapping or why the boundaries stop/emerge at certain spatial extend that leads to different size of the urban areas are not clear. 
-As the depicted urban boundaries exhibited a strong instance of spatial proximity, we adopt the gravity model (Eq. \eqref{eq:3}) to explain how distance decay effects found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas.
+While it provides a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain, the reasons on why they are geographically cohesive and non-overlapping or why the boundaries stop/emerge at certain spatial extent that leads to different size of the urban areas are not clear. 
+As the depicted urban boundaries exhibit a strong instance of spatial proximity, the gravity model is employed (Eq. \eqref{eq:3}) to explain how distance decay effects found in the mobility patterns affect the interaction strength among non-administrative anthropographic urban areas.
 
-In this case, the distance between two derived urban areas is measured by the geodetic distance between the centroid locations of the two.   
-
+In this model, the distance between two derived urban areas is measured by the geodetic distance between the centroid locations of the two.
+As it is mentioned above,  $P_{i}$ and $P_{j}$  are the observed interaction between urban area $i$ and $j$, which are measured by the aggregation of movement flux in each urban area.
+In particular, we set the distance decay parameter $\beta$ value as 0.8: (1) As we hypothesize that the distance decay parameters found in the underlying mobility patterns potentially contribute to $\beta$ in the gravity model (2) and we have chosen the 10-km cell size based on the collective Twitter user mobility pattern regarding radius of gyration, where the distance decay parameter is 0.8 when radius of gyration $r_{g} > 10 km$ (Fig.~\ref{S4_Fig}(c)).
+We found that the gravity model indicates strong linear correlation between the observed versus the estimated interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.
+This confirms that the depicted urban areas are results of spatial proximity effects, where the strength of human (in this case, Twitter user) spatial interaction between two urban regions decreases as the geographic distance between them increases.
+More importantly, since we have used a mobility network to delineate the boundaries, the distance decay effects are well related and explained by the underlying mobility patterns.
+In return, the well fitted gravity model provides support that the depicted urban areas are not random artifacts but indeed reflect how people move across geographic regions. 
 
 \begin{figure}[ht]
 \begin{center}
@@ -360,10 +365,6 @@ In this case, the distance between two derived urban areas is measured by the ge
 
 \clearpage
 \section{Conclusion and Discussion}
-Talk about interplay between human mobility 
-
-
-
 In this study, we delineated the non-administrative anthropographic urban boundaries in Great Britain using a network of Twitter user spatial interactions, which were inferred from the collective Twitter user movement data extracted from more than 69 million Twitter messages.
 In contrast to administrative urban boundaries, our ``bottom-up" approach imposes a virtual fishnet over the islands of Great Britain to partition the space.
 By studying the probability distributions of the radius of gyrations of individual Twitters users, we selected a cell size of 10 km to quantify the spatial coverage of the majority of Twitter users in Great Britain. 
@@ -379,8 +380,9 @@ This study provides a first step in connecting human mobility research with defi
 However, the geo-located twitter data is not able to generalize to the entire population; therefore, the urban regions that do not have any, or limited, Twitter coverage can be missed during the delineation process.
 Yet, our approach is still applicable when more detailed mobility data is available. 
 
-The purpose of trip
-contextualizing 
+%Talk about interplay between human mobility 
+%The purpose of trip
+%contextualizing 
 
 %\subsection{Acknowledgements}
 
