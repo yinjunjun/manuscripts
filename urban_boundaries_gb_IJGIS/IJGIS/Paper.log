@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  10 JUL 2016 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  11 JUL 2016 00:01
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -642,23 +642,23 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-<./figure/S4_radius_displacement.png, id=51, 1473.3444pt x 1538.3874pt>
+<./figure/S4_radius_displacement.png, id=51, 1585.3629pt x 1538.3874pt>
 File: ./figure/S4_radius_displacement.png Graphic file (type png)
 
 <use ./figure/S4_radius_displacement.png>
 Package pdftex.def Info: ./figure/S4_radius_displacement.png used on input line
- 280.
-(pdftex.def)             Requested size: 420.0pt x 438.53886pt.
+ 278.
+(pdftex.def)             Requested size: 377.99744pt x 366.77924pt.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 281.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 279.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 281.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 279.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 281.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 279.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 281.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
@@ -740,7 +740,7 @@ Package pdftex.def Info: ./figure/S7_london.png used on input line 339.
 File: ./figure/Gravity.png Graphic file (type png)
 
 <use ./figure/Gravity.png>
-Package pdftex.def Info: ./figure/Gravity.png used on input line 347.
+Package pdftex.def Info: ./figure/Gravity.png used on input line 355.
 (pdftex.def)             Requested size: 293.99872pt x 361.87352pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -874,7 +874,7 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
  [17 <./figure/Gravity.png (PNG copy)>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 354.
+(Font)              size <5> substituted on input line 362.
 
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
@@ -909,13 +909,13 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 6658) in paragraph at lines 399--400
+Underfull \hbox (badness 6658) in paragraph at lines 407--408
 []\OT1/cmr/m/n/10.95 Fortunato, S., Barth-lemy, M., 2007. Res-o-lu-tion limit i
 n com-mu-nity de-tec-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 399--400
+Underfull \hbox (badness 3417) in paragraph at lines 407--408
 \OT1/cmr/m/n/10.95 tion. Pro-ceed-ings of the Na-tional Academy of Sci-ences, 1
 04, pp. 36-41.
  []
@@ -925,13 +925,13 @@ Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
-Underfull \hbox (badness 4291) in paragraph at lines 414--415
+Underfull \hbox (badness 4291) in paragraph at lines 422--423
 []\OT1/cmr/m/n/10.95 Good, B.H., de Mon-tjoye, Y.-A., Clauset, A., 2010. Per-fo
 r-mance of mod-u-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 414--415
+Underfull \hbox (badness 2343) in paragraph at lines 422--423
 \OT1/cmr/m/n/10.95 lar-ity max-i-miza-tion in prac-ti-cal con-texts. Phys-i-cal
  Re-view E, 81, 046106.
  []
@@ -939,13 +939,13 @@ Underfull \hbox (badness 2343) in paragraph at lines 414--415
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no   in font cmr10!
 
-Underfull \hbox (badness 1735) in paragraph at lines 417--418
+Underfull \hbox (badness 1735) in paragraph at lines 425--426
 \OT1/cmr/m/n/10.95 in ran-dom graphs and com-plex net-works. Phys-i-cal Re-view
  E, 70, 025101.
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 435--436
+Underfull \hbox (badness 3724) in paragraph at lines 443--444
 []\OT1/cmr/m/n/10.95 Jurdak, R., Zhao, K., Liu, J., Abou-Jaoude, M., Cameron, M
 ., Newth, D.,
  []
@@ -1060,7 +1060,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3155 strings out of 493671
  37666 string characters out of 3141420
- 104053 words of memory out of 3000000
+ 105053 words of memory out of 3000000
  6468 multiletter control sequences out of 15000+200000
  13076 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1082,7 +1082,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (21 pages, 3216503 bytes).
+Output written on Paper.pdf (21 pages, 3062434 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -230,7 +230,7 @@ While it is suggested that population size may be an accurate indicator to descr
 In this study, the main purpose for adopting the gravity model is not to find the best $\beta$ value to estimate the potential interaction strength among depicted urban areas.
 Interestingly, the distance decay effects are also found in human mobility patterns~\citep{zhao2016}, the authors argue that it is due to the constraints of complex urban structure.
 In this study, in line with the idea that urban environments are conceptualized spaces that are recreated and formed by human activities~\citep{schliephake}, we speculate that the distance decay effects in affecting the interaction strength of two geographic regions and ultimately depicting the urban structures (e.g., urban boundaries), is contributed by (or related to) the distance decay parameters found in the underlying mobility patterns. 
-In particular, since we have used a mobility network of spatial interactions, if our hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how people move across geographic regions. 
+In particular, since we have used a mobility network of spatial interactions, if this hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how people move across geographic regions. 
 
 
 \section{Results}
@@ -239,7 +239,7 @@ We first modeled different aspects of the collective mobility patterns of Twitte
 These patterns include: the number of visited locations per user,  the collective user displacements, and the radius of gyration of individuals in order to identify natural breaks in user travel patterns.
 We then used these natural breaks within the mobility patterns to partition the geographic space of Great Britain into fine-grained cells and established the connectivity among these cells to redraw non-administrative anthropographic urban boundaries. 
 
-We found that the cumulative distribution function of the number of locations visited by each Twitter user follows a two-tier power law distribution (shown in Fig.~\ref{S3_Fig}). 
+We found that the cumulative distribution function of the number of locations visited by each Twitter user follows a two-tier power law distribution (Fig.~\ref{S3_Fig}). 
 The majority of the data follow a truncated power-law distribution $P(X\geq x)\sim x^{-\alpha}e^{-\lambda x}$, where $\alpha = 1.24, \lambda =0.00132$; and the tail part (less than 2$\%$ of the whole population) follows a power-law distribution  $P(X \geq x)\sim x^{-\alpha}$ with $\alpha$ value is 3.2.
 The distribution was found to be consistent over all individual months examined (June to December, 2014), which has a slight offset in the truncated power-law distribution (the mean $\alpha$ value is 1.26 $ \pm$ with a 0.05 $\sigma$ and the mean $\lambda$ value as 0.00134 $ \pm$  with a 0.0002 $\sigma$). 
 
@@ -255,7 +255,7 @@ It, in turn, justifies our choice of using the map equation community detection 
 \label{S3_Fig}
 \end{figure}
 
-We further studied two aspects of the Twitter user mobility patterns: the distribution of Twitter user displacement and the radius of gyration. 
+We then studied two aspects of the Twitter user mobility patterns: the distribution of Twitter user displacement and the radius of gyration. 
 Twitter user displacement refers to the distance between two consecutive locations in a user's trajectory using a straight-line distance metric.
 The radius of gyration describes the deviation of distance from the center of mass in a user's trajectory.
 The probability distributions of the collective user displacement $P(d)$ and radius of gyration $P(r_g)$ are presented in Fig.~\ref{S4_Fig}, where the fitting method for identifying different distance ranges is derived from~\citep{jurdak2015}.
@@ -268,8 +268,6 @@ Further, we analyzed the distribution of radius of gyration to understand the mo
 The distribution of the radius of gyration can be approximated through a combination of three functions: $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}, {r_{g}}_{min}=10m$ from [10 m, 30m], $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}$ from [50m, 10km], and $P(r_{g}) \sim {r_{g}}^{-\alpha}$ [10km, 100km], where these three functions account for 92$\%$ of all the users.
 This suggests that there are three primary types of users that: (1) tend to stay at one location or at nearby locations when they tweet, or (2) tend to move at the intra-city scale when they tweet, or (3)  tend to exhibit a large spatial coverage. 
 (1) and (2) account for approximately 53$\%$ of all users.  
-The radius of gyration between 30m and 100km can be further approximated by two power law distributions with a cut-off point at 2.5km (35 $\%$ users with radius of gyration less than 2.5km and 57$\%$ users with radius of gyration between 3km and 100km) that suggests two main types of spatial coverage of Twitter user movement within 
-Great Britain. 
 Note that the accuracy of these values for defining the distance bound depends upon the accuracy of the location information of each geo-located tweet. 
 These findings are consistent with the findings in the literature on human mobility, where the radius of gyration of human movement is bounded to different distance ranges~\citep{brockmann2006,gonzalez2008}.
 The distance-decay effects found in both user displacements and the radius of gyration shows evidence of spatial proximity in Twitter user movement. 
@@ -277,13 +275,15 @@ It explains that the communities of urban regions within the graph space are geo
 
 
 \begin{figure}[ht]
-\includegraphics[width=1.0\linewidth]{./figure/S4_radius_displacement}
-\caption{{\bf The probability distribution of Twitter user displacements and radius of gyration:} (a) The displacement distribution $P(d)$ is approximated by an exponential, a stretched-exponential and a power-law function (b) the distance between [70m, 70km] is approximated by a double power-law functions (c) The distribution of radius of gyration $P(r_g)$ is approximated by the combination of an exponential, a stretched-exponential and a power-law function (d) the distance between [30m, 100 km] is approximated by a double power-law functions}
+\includegraphics[width=0.9\linewidth]{./figure/S4_radius_displacement}
+\caption{{\bf The probability distribution of Twitter user displacements and radius of gyration:} (a) $P(d)$ is approximated by an exponential, a stretched-exponential and a power-law function (b) the distance between [70m, 70km] is approximated by a double power-law functions (c) $P(r_g)$ is approximated by the combination of an exponential, a stretched-exponential and a power-law function. (The green patch shows the distance range)}
 \label{S4_Fig}
 \end{figure}
 
 \subsection{Redrawing Great Britain's Urban Boundaries}
-The network of Twitter user spatial interaction was constructed by nodes representing 10 km by 10 km fishnet cells that provide an adequate resolution for a country wide investigation~\citep{ratti2010}.
+The mobility network of Twitter user spatial interaction was constructed by nodes representing 10 km by 10 km fishnet cells, where 10 km is the distinct geographic distance for separating two main groups of Twitter users in terms of the spatial coverage (i.e., radius of gyration) in Great Britain.
+The cells of the fishnet act as proxies to represent individuals' spatial coverage areas to focus more on the inter-connectivity among cells and identify strongly connected cell clusters.
+It provides an adequate resolution for a country wide investigation~\citep{ratti2010}.
 The edges of this network were derived from the number of directed Twitter user displacements between each pair of cells.
 We used this connectivity network as a proxy to partition the space associated with its nodes.
 Coherent geographic regions were identified as individual fishnet cells showing more internal user movement compared to user movements across the cell boundaries to neighboring cells.
@@ -342,10 +342,18 @@ For example, East Barnet and West Enfield seem to have higher interactions than 
 \end{center}
 \end{figure}
 
+\subsection{Explaining the Distance decay effects with the gravity model}
+The results of strongly connected urban regions in the form of communities in the mobility network of Twitter user spatial interactions yield geographically cohesive, non-overlapping urban areas. 
+While it provides a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain, the reasons on why they are geographically cohesive and non-overlapping or why the boundaries stop/emerge at certain spatial extend that leads to different size of the urban areas are not clear. 
+As the depicted urban boundaries exhibited a strong instance of spatial proximity, we adopt the gravity model (Eq. \eqref{eq:3}) to explain how distance decay effects found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas.
+
+In this case, the distance between two derived urban areas is measured by the geodetic distance between the centroid locations of the two.   
+
+
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.7\linewidth]{./figure/Gravity}
-\caption{{\bf The observed interaction strength versus the estimated ones from the adopted gravity model with $\bf{\beta}$ = 0.8 } Note that }
+\caption{{\bf The observed interaction strength versus the estimated ones from the adopted gravity model with $\bf{\beta}$ = 0.8 } Note that the $\beta$ value is taken from the probability density function of radius of gyration when $r_{g} > 10 km$. The red dash line indicate strong linear correlation between the estimated and observed interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.}
 \label{S8_Fig}
 \end{center}
 \end{figure}
