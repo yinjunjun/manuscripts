@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  13 JUL 2016 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  14 JUL 2016 00:01
 entering extended mode
 **Paper.tex
 (Paper.tex
@@ -903,18 +903,6 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 
-Underfull \hbox (badness 6658) in paragraph at lines 409--410
-[]\OT1/cmr/m/n/10.95 Fortunato, S., Barth-lemy, M., 2007. Res-o-lu-tion limit i
-n com-mu-nity de-tec-
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 409--410
-\OT1/cmr/m/n/10.95 tion. Pro-ceed-ings of the Na-tional Academy of Sci-ences, 1
-04, pp. 36-41.
- []
-
-
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
 
@@ -948,32 +936,8 @@ Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
-
-Underfull \hbox (badness 4291) in paragraph at lines 424--425
-[]\OT1/cmr/m/n/10.95 Good, B.H., de Mon-tjoye, Y.-A., Clauset, A., 2010. Per-fo
-r-mance of mod-u-
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 424--425
-\OT1/cmr/m/n/10.95 lar-ity max-i-miza-tion in prac-ti-cal con-texts. Phys-i-cal
- Re-view E, 81, 046106.
- []
-
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no   in font cmr10!
-
-Underfull \hbox (badness 1735) in paragraph at lines 427--428
-\OT1/cmr/m/n/10.95 in ran-dom graphs and com-plex net-works. Phys-i-cal Re-view
- E, 70, 025101.
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 445--446
-[]\OT1/cmr/m/n/10.95 Jurdak, R., Zhao, K., Liu, J., Abou-Jaoude, M., Cameron, M
-., Newth, D.,
- []
-
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 
@@ -1082,13 +1046,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3155 strings out of 493671
- 37666 string characters out of 3141420
- 105053 words of memory out of 3000000
- 6468 multiletter control sequences out of 15000+200000
+ 3154 strings out of 493671
+ 37655 string characters out of 3141420
+ 105016 words of memory out of 3000000
+ 6467 multiletter control sequences out of 15000+200000
  13076 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,34p,630b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,34p,630b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -1106,7 +1070,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (22 pages, 3065071 bytes).
+Output written on Paper.pdf (22 pages, 3063885 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
