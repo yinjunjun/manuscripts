@@ -122,6 +122,23 @@ It provides a publicly accessible streaming API ({\tt{http://dev.twitter.com/str
 The geo-located Twitter data present some unique advantages regarding the purpose of this study, for example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\citep{jurdak2015}; the large spatial coverage enables to study global mobility patterns~\citep{hawelka}, which is almost impossible for other mobility datasets. Also, it provides the opportunities for reproducing this study in other countries.
 
 \section{Materials and Methods}
+%\subsection{Overview}
+%In this research, we use large-scale Twitter user spatial interactions inferred from the collective mobility patterns of Twitter users to delineate urban boundaries in Great Britain.
+%A Twitter user's movement is defined here as the individual's geographic relocation or displacement~\citep{gonzalez2008}.
+%This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two consecutive recorded locations is one month.
+%To identify the clusters of urban regional connectedness using large-scale Twitter data, we first imposed a virtual fishnet over the islands of Great Britain.
+%Twitter user movements were then used to establish the connectivity between fishnet cells to form a connectivity network where each cell is considered a node within the network. 
+%Finally, by detecting strongly connected clusters in the network space using community detection methods~\citep{coscia2011}, we were able to reveal urban boundaries within the geographic space. 
+%An overview of the approach is illustrated in Fig.~\ref{S1_Fig} and the details are presented in the following sections. 
+%
+%\begin{figure}[ht]
+%\begin{center}
+%\includegraphics[width=1\linewidth]{./figure/S1_overview_Fig_2}
+%\caption{\bfseries{An overview for delineating urban boundaries from Twitter user movements}}
+%\label{S1_Fig}
+%\end{center}
+%\end{figure}
+
 \subsection{Geo-located Twitter Data and Data Processing}
 For this study, the geo-located tweets were collected using the Twitter Streaming API by supplying a geographical bounding box to retrieve all the  geo-located tweets within an area of interest. 
 To ensure complete coverage of Great Britain, we set the bounding box to the British Isles using the lower left and upper right coordinates (49.49, -14.85), (61.18, 2.63) respectively. This does include the whole of Ireland part of France.
@@ -138,14 +155,13 @@ Notice the clusters with higher densities of tweets correspond to the locations 
 \label{S2_Fig}
 \end{center}
 \end{figure}
-The original location information embedded in the geo-tag is given in units of latitude and longitude.
-We projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
+Because the original location information embedded in the geo-tag is given in units of latitude and longitude, we projected the points into the British National Grid (EPSG: 27700) coordinate system to reduce the complexity of the required distance calculations. 
 We used the geographical boundary of Great Britain, which is derived from Office for National Statistics (ONS) of UK ({\tt{http://www.ons.gov.uk/ons}}), to further restrict the remaining tweets to be ``domestic".
 Based on these restrictions, the filtered dataset contains 69,847,497 tweets made by 1,153,891 Twitter users.
 To reduce the effects of tweets from non-human users, the raw tweets were further filtered using the following steps.
-First we removed the duplicated messages from the dataset.
+First we removed the duplicated messages in the dataset.
 We then removed non-human users based on unusual relocation speed \citep{hawelka,jurdak2015}. 
-We then examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}.
+We examined all of the consecutive locations of each user and excluded those with relocating speeds in excess of the threshold of 240 m/s as used by \citep{jurdak2015}.
 Finally, to reflect the spatial interactions of residents rather than tourists, we further impose a condition that the time interval between a user's first and last recorded tweets should be more than 30 days.
 In other words, a user that is identified to have stayed in the study region more than 30 days is considered as a resident.
 The filtered dataset for the following study contains 60,209,778 tweets made by 824,712 Twitter users.
@@ -158,7 +174,7 @@ Our simplified geo-located tweet dataset can be shared with other researchers up
 \subsection{A network of large-scale Twitter user spatial interactions}
 A Twitter user's movement is defined here as the individual's geographic relocation or displacement~\citep{gonzalez2008}.
 This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two consecutive recorded locations is one month.
-To identify the clusters of urban regional connectedness, Twitter user movements are used to establish a connectivity network, where two urban regions connect when a Twitter user's movement begins in one and ends in another.
+To identify the clusters of urban regional connectedness, Twitter user movements are used to establish a connectivity network, where two urban region connects when a twitter user's movement begins in one and ends in another.
 These connections can be represented by an origin-destination (OD) matrix based on the collective Twitter user displacements within the dataset.
 This OD matrix is essentially a mathematical representation of a weighted directed graph $G\equiv\langle V, E_{w}\rangle$, where $V$ is a set of spatial nodes corresponding to the underlying urban regions and $E_{w}$ is a set of edges representing the connections between a pair of nodes and the corresponding weights are assigned by the accumulated volume of Twitter user movements.
 
@@ -166,16 +182,16 @@ To build the spatial network at a national level, we had to determine the basic 
 Previous studies have suggested equi-distant spatial tessellation to generate nodes, which uses voronoi polygons to partition the space based on the collected points~\citep{rinzivillo2012,zhong2014}. 
 This approach demonstrates improvements for estimating the locations of mobile phone records based on the cell tower triangulation~\citep{gonzalez2008,qian2013}.
 However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{sakaki2010,zandbergen2009}.
-Another approach is to partition the space into a grid of spatial pixels~\citep{liuPopMobility,ratti2010}.
+Another popular approach is to partition the space into a grid of spatial pixels~\citep{liuPopMobility,ratti2010}.
 However, the size of the cell can potentially lead to biases due to the Modifiable Area Unit Problem (MAUP)~\citep{openshaw1984,wong2009}, where different choices of unit size can lead to significant variant findings. 
 To compare our investigation with the findings of similar studies, and avoid subjectively deciding the cell size, we performed statistical analysis of Twitter user mobility patterns in Great Britain and measured the distribution of collective Twitter user displacements and the radius of gyrations of individuals \citep{gonzalez2008,jurdak2015}.
-The radius of gyration is a metric to distinguish mobility patterns of individuals~\citep{gonzalez2008}, which is defined as Eq. \eqref{eq:1}:
+The radius of gyration is a metric to distinguish mobility patterns of individuals~\citep{gonzalez2008}, which is defined as Eq. \eqref{eq:2}:
 
-\begin{equation} \label{eq:1}
+\begin{equation} \label{eq:2}
 r_{g} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(p_{i} -  p_{centroid})^{2}}, \textrm{where}\hspace{1ex} p_{centroid} = \frac{1}{n}\sum_{i=1}^{n}p_{i}
 \end{equation}
 
-\noindent This measures the accumulated distances of deviation from the center of mass of an individual user's trajectory, where $p_{i}$ is one of the user's locations and $p_{centroid}$ is the center of mass of the user's trajectory.
+\noindent It measures the accumulated distances of deviation from the center of mass of an individual user's trajectory, where $p_{i}$ is one of the user's locations and $p_{centroid}$ is the center of mass of the user's trajectory.
 By examining the probability distributions of the radius of gyration, also known as the spatial dispersal kernel $P(r_g)$~\citep{brockmann2006}, we chose 10 km as the cell size at the national level of Great Britain (Fig.~\ref{S4_Fig} - c, with details shown in the next section). 
 More importantly, as 10 km is the distinct geographic distance for separating two main groups of Twitter users in terms of the spatial coverage in Great Britain, a 10-km size cell serves as a mask to partitioning the space.
 In this way, we can focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.  
@@ -183,7 +199,7 @@ Thus, we created a fishnet with 2784 10-km size cells.
 The cells of the fishnet act as proxies to represent individuals' spatial coverage areas to focus more on the inter-connectivity among cells and identify strongly connected cell clusters. 
 
 \subsection{Community structure of the network of spatial interactions}
-Based on the derived mobility network of spatial interactions, which is a directed weighted graph, we further determined clusters of strongly connected spatial nodes, known as communities, in the graph space. 
+Based on the derived mobility network of spatial interactions, which is a directed weighted graph, we further determined clusters of strongly connected spatial nodes, known as communities, in the graph space~\citep{coscia2011}. 
 There are a variety of community detection algorithms that produce different results depending the definition of community within the network~\citep{coscia2011}.
 A common community detection method is based on modularity maximization~\citep{newman2006}, seen in previous studies~\citep{hawelka,ratti2010,song2012}.
 However, such an approach is often problematic: it is found to have an inherent resolution problem, where small communities are either ignored~\citep{fortunato2007} or assigned with high modularity scores \citep{guimera2004}; and it is found to produce less informative partitions in many empirical networks~\citep{good2010}.
@@ -191,21 +207,22 @@ Since our graph is a directed weighted graph, the alternative community detectio
 
 Infomap uses the map equation~\citep{rosvall2010} to represent the probability of flow of random walks within information systems~\citep{rosvall2008}.
 It identifies communities by minimizing the expected description length of the trajectory of a random walker, which is shown below:
-\begin{equation} \label{eq:2}
+\begin{equation} \label{eq:1}
 L(M)=qH(Q) + \sum_{i=1}^{m} p_{i}H(p_{i})
 \end{equation}
-In Eq.\eqref{eq:2}, $L(M)$ consists of two terms: qH(Q) is the entropy of the movement among clusters and $ \sum_{i=1}^{m} p_{i}H(p_{i})$ is the entropy of movement within clusters. 
-Specifically, q is the probability that a random walker jumps from one cluster to another, while $p_i$ is the probability of the in-cluster movement of cluster i.
-This algorithm can be intuitively tailored to describe strongly connected clusters of urban regions based on Twitter user movement.
+In Eq. \eqref{eq:1} , $L(M)$ consists of two terms: qH(Q) is the entropy of the movement among clusters and $ \sum_{i=1}^{m} p_{i}H(p_{i})$ is the entropy of movement within clusters. 
+To be more specific, q is the probability that a random walker jumps from one cluster to another, while $p_i$ is the probability of the in-cluster movement of cluster i.
+In this regard, this algorithm can be intuitively tailored to describe strongly connected clusters of urban regions based on Twitter user movement.
 The detailed literatures and implementations of Infomap can be found on this website ({\tt{http://mapequation.org}}).
-Note that Infomap is capable of performing multi-level community detection~\citep{domenico2015}, but we only use this algorithm to produce our most detailed community structures in order to examine groups of strongly connected urban regions.
+Note that Infomap is capable of performing multi-level community detection~\citep{domenico2015}, but we only use the algorithm to produce our most detailed community structures
+to examine groups of strongly connected urban regions.
 
 \subsection{Distance decay effects with a gravity model}
-As mentioned above, the clusters of urban regions in the form of communities in the network space often yield geographically cohesive urban areas. 
+As it is mentioned above, the clusters of urban regions in the form of communities in the network space often yield geographically cohesive urban areas. 
 This phenomenon is speculated to be related to the distance decay effects, where the interaction strength between two urban regions decreases as the geographical distance between them increases.
 A gravity model is often used to express such relations, as is shown in Eq. \eqref{eq:3}, where $<T_{ij}>$ and $d_{ij}$ denote the interaction from i to j and distance between two places, $K$ is a constant, and $P_{i}$ and $P_{j}$ are the population size of place $i$ and $j$ respectively. 
-The interaction strength decreasing with respect to increasing geographic distance is expressed by the distance decay function, $f(d_{ij})$, where the parameter $\beta$ reveals the distance impact on interaction strength.
-A greater $\beta$ indicates stronger decay and the interaction strength is more influenced by distance~\citep{liu2014}.
+The interaction strength decreases with respect to the geographic distance is expressed by the distance decay function, $f(d_{ij})$, where the parameter $\beta$ reveals the distance impact on interaction strength.
+A greater $\beta$ indicates faster decay effects and the interaction strength is more influenced by distance~\citep{liu2014}.
 While it is suggested that population size may be an accurate indicator to describe the repulsion or attractiveness between places, the gravity model is usually fit by using observed interaction strength and the distance between geographical entities~\citep{liu2014}.
 \begin{equation} \label{eq:3}
 <T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
@@ -225,10 +242,10 @@ We then used these natural breaks within the mobility patterns to partition the 
 
 We found that the cumulative distribution function of the number of locations visited by each Twitter user follows a two-tier power law distribution (Fig.~\ref{S3_Fig}). 
 The majority of the data follow a truncated power-law distribution $P(X\geq x)\sim x^{-\alpha}e^{-\lambda x}$, where $\alpha = 1.24, \lambda =0.00132$; and the tail part (less than 2$\%$ of the whole population) follows a power-law distribution  $P(X \geq x)\sim x^{-\alpha}$ with $\alpha$ value is 3.2.
-The distribution was found to be consistent over each month examined (June to December, 2014), which has a slight offset in the truncated power-law distribution (the mean $\alpha$ value is 1.26 $ \pm$ with a 0.05 $\sigma$ and the mean $\lambda$ value as 0.00134 $ \pm$  with a 0.0002 $\sigma$). 
+The distribution was found to be consistent over all individual months examined (June to December, 2014), which has a slight offset in the truncated power-law distribution (the mean $\alpha$ value is 1.26 $ \pm$ with a 0.05 $\sigma$ and the mean $\lambda$ value as 0.00134 $ \pm$  with a 0.0002 $\sigma$). 
 
 The two-tier power law distribution indicates that the collective behavior of Twitter users visiting different locations can be well approximated with a (truncated) L\'{e}vy Walk (a random walk) model~\citep{rhee2011,reynolds2012}, which has also been identified in many human mobility studies using different mobility data~\citep{zhao2015}.
-The similarity among the distributions suggests that the mobility data collected from geo-located tweets is temporally stable, at least at monthly intervals, which indicates that our approach using Twitter user mobility to delineate urban boundaries is viable.  
+The similarity among the distributions suggests that the mobility data collected from geo-located tweets is temporally stable, at least at the monthly interval, which indicates that our approach using Twitter user mobility to delineate urban boundaries is viable.  
 In addition, the L\'{e}vy Walk model reveals the diversity regarding the number of visited locations per user, which indicates a level of ``randomness'' in Twitter user movement across space. 
 It, in turn, justifies our choice of using the map equation community detection algorithm~\citep{rosvall2008} to identify the clusters of urban regional connectedness using large-scale Twitter user movement data.
 
@@ -272,7 +289,7 @@ The edges of this network were derived from the number of directed Twitter user 
 We used this connectivity network as a proxy to partition the space associated with its nodes.
 Coherent geographic regions were identified as individual fishnet cells showing more internal user movement compared to user movements across the cell boundaries to neighboring cells.
 Fig.~\ref{S5_Fig}  presents the delineated urban boundaries based on Twitter user displacement distance less than 4 km, greater than 4km, greater than 10 km, and using all available displacements together compared to the administrative boundaries of Great Britain.
-One clear observation in both the coarse and fine delineations is that most of the geographic divisions are centered around big urban cores with relatively high populations.
+One clear observation across the coarse and fine delineations is that most of the geographic divisions are centered around big urban cores with relatively high populations.
 These results are expected given that most of the tweets originate in urban centers.
 However, what is remarkable is the performance of this approach in dividing the remaining space between cities.
 We found that restricting the trip distance results in different delineations of the catchment area around these centers.
