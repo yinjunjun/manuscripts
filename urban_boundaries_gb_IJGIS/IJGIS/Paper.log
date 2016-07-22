@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.19)  22 JUL 2016 17:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.19)  22 JUL 2016 17:49
 entering extended mode
 **Paper.tex
 
@@ -679,18 +679,18 @@ File: ./figure/S4_radius_displacement_3.png Graphic file (type png)
 
 <use ./figure/S4_radius_displacement_3.png>
 Package pdftex.def Info: ./figure/S4_radius_displacement_3.png used on input li
-ne 263.
+ne 265.
 (pdftex.def)             Requested size: 420.0pt x 404.63484pt.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 264.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 264.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 264.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 266.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 266.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
 
@@ -722,11 +722,11 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S5_community.png Graphic file (type png)
 
 <use ./figure/S5_community.png>
-Package pdftex.def Info: ./figure/S5_community.png used on input line 286.
+Package pdftex.def Info: ./figure/S5_community.png used on input line 288.
 (pdftex.def)             Requested size: 377.99744pt x 646.2517pt.
 
 
-LaTeX Warning: Float too large for page by 56.19614pt on input line 290.
+LaTeX Warning: Float too large for page by 56.19614pt on input line 292.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -758,15 +758,15 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S6_community_london.png Graphic file (type png)
 
 <use ./figure/S6_community_london.png>
-Package pdftex.def Info: ./figure/S6_community_london.png used on input line 30
-8.
+Package pdftex.def Info: ./figure/S6_community_london.png used on input line 31
+0.
 (pdftex.def)             Requested size: 293.99872pt x 227.74463pt.
 
 <./figure/S7_london.png, id=64, 1933.97531pt x 1927.95282pt>
 File: ./figure/S7_london.png Graphic file (type png)
 
 <use ./figure/S7_london.png>
-Package pdftex.def Info: ./figure/S7_london.png used on input line 324.
+Package pdftex.def Info: ./figure/S7_london.png used on input line 326.
 (pdftex.def)             Requested size: 293.99872pt x 293.06364pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -797,12 +797,12 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/Gravity.png Graphic file (type png)
 
 <use ./figure/Gravity.png>
-Package pdftex.def Info: ./figure/Gravity.png used on input line 345.
+Package pdftex.def Info: ./figure/Gravity.png used on input line 347.
 (pdftex.def)             Requested size: 293.99872pt x 361.87352pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 352.
+(Font)              size <5> substituted on input line 354.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1063,7 +1063,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  3158 strings out of 493921
  39801 string characters out of 3144882
- 101752 words of memory out of 3000000
+ 100752 words of memory out of 3000000
  6417 multiletter control sequences out of 15000+200000
  13076 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1085,7 +1085,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (21 pages, 3708740 bytes).
+Output written on Paper.pdf (21 pages, 3709141 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
