@@ -24,7 +24,7 @@ Existing urban boundaries are usually defined by government agencies for politic
 However, it is not clear whether the boundaries truly reflect people's interactions with the urban space in their intra- and inter-regional activities.
 Defining urban boundaries which consider socio-economic relationships and citizen commute patterns is important for many aspects of urban planning.
 In this study, we presented a method to redraw urban boundaries based upon human interactions with the physical space.
-Specifically, we depicted the urban boundaries of Great Britain using a spatial Twitter user interaction network that was inferred from over 69 million geo-located Twitter messages.
+Specifically, we depicted the urban boundaries of Great Britain using a mobility network of Twitter user spatial interactions that was inferred from over 69 million geo-located Twitter messages.
 We redrew the non-administrative anthropographic boundaries in a hierarchical fashion based on different physical movement ranges of users inferred from the collective mobility patterns of Twitter users in Great Britain.
 The results of strongly connected urban regions in the form of communities in the network space yield geographically cohesive, non-overlapping urban areas, which provide a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain.
 The technique was applied to both national (Great Britain) and municipal scales (the London metropolis).
@@ -286,7 +286,7 @@ Empty cells were found in regions where no, or few, Twitter users had visited (e
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{./figure/S5_community}
-\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) displacements longer than 10 km (b) displacements shorter than 4 km (c) and displacements longer than 4 km (d) The partition of space was done using a 10 km fishnet to map the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed in black.}
+\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L = 7.79$. (b) displacements longer than 10 km ($L=xx$) (c) displacements shorter than 4 km ($L=xx$) (d) and displacements longer than 4 km ($L=xx$).The partition of space was done using a 10 km fishnet to map the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed in black.}
 \label{S5_Fig}
 \end{center}
 \end{figure}
@@ -314,6 +314,7 @@ However, the regions extracted from the mobility network seems to be more spatia
 \end{figure}
 
 A more detailed study was conducted over the greater London region revealing the intra-city spatial interaction patterns.
+
 The spatial partitions derived from a fine grid of 1km using all available Twitter user trips without any restriction on trip distances yields geographic boundaries comparable to some of London's boroughs  (Fig.~\ref{S7_Fig}).
 However, some areas are shown to be more cohesive and display greater spatial interactions across the administrative boundaries, for instance, central London.
 Although, these results suggest that travelers seem to be localized over certain areas of the city most of the time, some regions do exhibit long distance interaction patterns.
@@ -352,6 +353,10 @@ In return, the well fitted gravity model provides support that the depicted urba
 
 %\clearpage
 \section{Discussions}
+In this study, 
+
+
+
 
 \section{Conclusion}
 In this study, we delineated the non-administrative anthropographic urban boundaries in Great Britain using a network of Twitter user spatial interactions, which were inferred from the collective Twitter user movement data extracted from more than 69 million Twitter messages.
@@ -542,13 +547,7 @@ Zheng, Y., Li, Q., Chen, Y., Xie, X. and Ma, W.Y., 2008, September. Understandin
 \bibitem[\protect\citeauthoryear{Zhong {\itshape{et~al.}}}{2014}]{zhong2014}
 Zhong, C., Arisona, S.M., Huang, X., Batty, M., Schmitt, G., 2014. Detecting the dynamics of urban structure through spatial network analysis. International Journal of Geographical Information Science, 28, pp. 2178-2199.
 \end{thebibliography}
-
 \bibliographystyle{tGIS}
-%\bibliography{Twitter_Urban_Boundary}
-
-
-
-
 \label{lastpage}
 
 \end{document}
