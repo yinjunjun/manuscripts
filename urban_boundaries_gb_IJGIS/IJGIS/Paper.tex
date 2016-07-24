@@ -260,7 +260,6 @@ However, as it reflects intra-city level mobility patterns, there is no distinct
 The distance-decay effects found in both user displacements and the radius of gyration shows evidence of spatial proximity in Twitter user movement. 
 It explains that the communities of urban regions within the graph space are geographically close, but are able to be separated from other groups, which results in the delineation of urban boundaries based on the spatial interactions of Twitter users.
 
-
 \begin{figure}[ht]
 \includegraphics[width=1.0\linewidth]{./figure/S4_radius_displacement_3}
 \caption{{\bf The probability distribution of Twitter user displacements and radius of gyration:} (a) $P(d)$ is approximated by an exponential, a stretched-exponential and a power-law function (b) the distance between [70m, 70km] is approximated by a double power-law functions (c) $P(r_g)$ of Great Britain is approximated by the combination of an exponential, a stretched-exponential and a power-law function. (d) $P(r_g)$ of London is approximated an exponential and a stretched-exponential function. (The green patch shows the distance range)}
@@ -268,7 +267,7 @@ It explains that the communities of urban regions within the graph space are geo
 \end{figure}
 
 \subsection{Redrawing Great Britain's Urban Boundaries}
-The mobility network of Twitter user spatial interaction was constructed by nodes representing 10 km by 10 km fishnet cells, where 10 km is the distinct geographic distance for separating two main groups of Twitter users in terms of the spatial coverage (i.e., radius of gyration) in Great Britain.
+The mobility network of Twitter user spatial interaction was constructed by nodes representing 10 km by 10 km fishnet cells, where 10 km is the distinct geographic distance for separating two main groups of Twitter users in terms of the spatial coverage (i.e., radius of gyration) in Great Britain (see Fig.~\ref{S4_Fig} - c).
 The cells of the fishnet act as proxies to represent individuals' spatial coverage areas to focus more on the inter-connectivity among cells and identify strongly connected cell clusters.
 It provides an adequate resolution for a country wide investigation~\citep{ratti2010}.
 The edges of this network were derived from the number of directed Twitter user displacements between each pair of cells.
@@ -314,8 +313,9 @@ However, the regions extracted from the mobility network seems to be more spatia
 \end{figure}
 
 A more detailed study was conducted over the greater London region revealing the intra-city spatial interaction patterns.
-
-The spatial partitions derived from a fine grid of 1km using all available Twitter user trips without any restriction on trip distances yields geographic boundaries comparable to some of London's boroughs  (Fig.~\ref{S7_Fig}).
+Since the captured Twitter user movements were on intra-city level (in comparison to the national level in Fig.~\ref{S4_Fig}-c), there was no distinct distance range to separate Twitter user spatial coverage in terms of radius of gyration (see Fig.~\ref{S4_Fig}-d). 
+We chose 1-km cell size as referred from the related literature~\citep{liu2015}, which suggested 1-km cell size is detailed enough to depict urban structures.
+The spatial partitions derived from a fine grid of 1km used all available Twitter user trips without any restriction on trip distances yields geographic boundaries comparable to some of London's boroughs  (Fig.~\ref{S7_Fig}).
 However, some areas are shown to be more cohesive and display greater spatial interactions across the administrative boundaries, for instance, central London.
 Although, these results suggest that travelers seem to be localized over certain areas of the city most of the time, some regions do exhibit long distance interaction patterns.
 For example, the separate geographic areas in the south of Hillingdon which includes Heathrow Airport exhibits more connectivity to central London than its surrounding areas, which is explained by the usual flight passenger routes.
