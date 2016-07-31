@@ -282,7 +282,7 @@ Empty cells were found in regions where no, or few, Twitter users had visited (e
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{./figure/S5_community}
-\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L = 7.8$. (b) displacements longer than 10 km ($L=8.5$) (c) displacements shorter than 4 km ($L=4.5$) (d) and displacements longer than 4 km ($L=8.1$).The partition of space was done using a 10 km fishnet to map the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
+\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L(M)= 7.8$. (b) displacements longer than 10 km ($L(M)=8.5$) (c) displacements shorter than 4 km ($L(M)=4.5$) (d) and displacements longer than 4 km ($L(M)=8.1$).The partition of space was done using a 10 km fishnet for the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
 \label{S5_Fig}
 \end{center}
 \end{figure}
@@ -322,7 +322,7 @@ For example, East Barnet and West Enfield seem to have higher interactions than 
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.7\linewidth]{./figure/S7_london}
-\caption{{\bf Non-administrative anthropographic boundaries inferred from collective Twitter user displacements in the city of London compared to the boundaries of London boroughs ($L=8.1$)}  A fine fishnet of 1 km cells were used to identify the detailed connectivity patterns based on all the Twitter user displacements in the area.  Each unique color represents a different non-administrative anthropographic region. Notice that some remote regions like the airport (light purple region in south of Hillingdon) share the same class with downtown because it is well connected despite the geographic separation.}
+\caption{{\bf Non-administrative anthropographic boundaries inferred from collective Twitter user displacements in the city of London compared to the boundaries of London boroughs ($L(M)=8.1$)}  A fine fishnet of 1 km cells were used to identify the detailed connectivity patterns based on all the Twitter user displacements in the area.  Each unique color represents a different non-administrative anthropographic region. Notice that some remote regions like the airport (light purple region in south of Hillingdon) share the same class with downtown because it is well connected despite the geographic separation.}
 \label{S7_Fig}
 \end{center}
 \end{figure}
@@ -350,43 +350,69 @@ In return, the well fitted gravity model provides support that the depicted urba
 
 %\clearpage
 \section{Discussion}
-It is worth noting that constructing a mobility network of spatial interaction using geo-located Twitter data has some potential concerns.
+It is worth noting that constructing a mobility network of spatial interaction using geo-located Twitter data has some potential concerns to limit the results from this study.
 First, the geo-located Twitter data is not able to generalize to the entire population.
-The demographic information of the Twitter users cannot be easily identified, therefore, the result of delineated urban boundaries may not reflect a complete real-world image from human movements.
-The urban regions that do not have any, or limited, Twitter coverage can be missed during the delineation process.
-Related studies have been carried out to examine the demographic information in geo-located Twitter data~\citep{steiger2015,luo2016}, which should be considered in future studies.
-Nevertheless, since this study focus on the connections made through Twitter user movements between urban regions, the concern of spatial sparseness of geo-located Twitter data may cause .
+As the demographic information of the Twitter users cannot be easily identified, the results of delineated urban boundaries may not reflect a complete real-world image from human movements. 
+The demographics of Twitter users in this study can be an under/over-representation of the all overall population in Great Britain.
+Related studies have been carried out to examine the demographic information in geo-located Twitter data~\citep{steiger2015,luo2016}, which should be carefully considered in future studies.
+Second, regarding the concern of spatial sparseness of geo-located Twitter data~\citep{steiger2015}, the urban regions that do not have any, or limited, Twitter coverage can be missed during the delineation process.
+To investigate whether this limited the ability to capture the connections made through Twitter user movements between urban regions, we visualized the flows of Twitter user movements using the method mentioned in~\citep{rae2009}(see Supplement Materials section 1). 
+The outcome showed that the Twitter user movements in this study connected most urban areas in Great Britain and clearly exhibited long and short distance movements, where was essential for investigating the connection strength between urban regions.   
+Third, since the collective radius of gyration was used to determine the cell-size in the network, we examined the temporal stability for the measurement in the geo-located Twitter data.
+The probability distributions of the radius of gyration for Twitter users in the Great Britain are verified to be consistent across different monthly time span, (see Supplement Materials section 2), which indicates the stability of using such measurements in this study.  
+Finally, as the geo-located Twitter data offers easy data accessibility, the methods in this study can be reproduced for other countries. 
+Along with the large sample size and spatial coverage, geo-located Twitter data demonstrated its applicability for this study.
 
+A major component in this study was imposing a virtual fishnet to partition the geographic space over Great Britain.
+We should be aware that using different approaches to partitioning the space will produce different mobility networks, and can potentially lead 
+to different delineations of the urban boundaries.
+Indeed, we had used the ward divisions as spatial units for aggregating Twitter user movements, which is the finest administrative boundaries of Great Britain (see Supplement Materials section 3).
+Without looking into the details of the results, the derived communities in the network space are similar to the ones from using fishnet approach.
+The strongly connected communities also yield geographically cohesive, non-overlapping urban areas.
+However, as the ward division is still defined by administrative purpose, the polygonal units tend to be geographically continuous.
+It causes problems to aggregate regions that do not have Twitter coverage into certain clusters.
+Aggregating Twitter user movements at the ward level also imposes more apparent concerns of the mismatch of the overall population, where less populated areas were overly represented and connected into large areas.
+These are the reasons why we chose a virtual fishnet approach for this study.
 
+As it is discussed above, we chose 10 km as the cell-size of the fishnet at national level in this study.
+We also carried out an experiment by arbitrarily setting the cell-size to 5 km at the national level (see Supplement Materials section 4).
+Note that the cell-size could be set to any value, such as 4.9 km or 5.1 km.
+The fishnet with smaller cell-size (i.e., 5 km) produced more and smaller strongly-connected communities within the network space.
+It indicates that the spatial resolution of the fishnet cells does affect the outcome from the community detection method employed in this study, where fishnet with smaller cell-size leads to more discrete and locally connected (i.e., smaller) clusters of urban areas.
+Such an effect can be explained by the probability distributions of the radius of gyrations of individual Twitter users. The probability of distance that deviates from a user's center location decays with a stretched-exponential function from [50m, 10km], which means the movements from Twitter users with smaller spatial coverage dominate the delineation of the connected urban areas.
+To avoid arbitrarily deciding the cell-size, we studied the probability distributions of the radius of gyrations of individual Twitter users and selected 10-km as the cell-size, which is the distinct geographic distance for separating two main groups of Twitter users in terms of their spatial coverage at the national level.
+In addition, this choice enabled us to focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.
 
-
-we visualized the mobility flux of Twitter user movements using the method mentioned in~\citep{rae2009}(see Supplement Materials section 1). The outcome showed that the Twitter user movements in this study connect most urban areas in Great Britain and clearly exhibited long and short distance movements. In this connection, geo-located Twitter data demonstrated its applicability for this study, along with the large spatial coverage and easy data accessibility as mentioned above.  
-In addition, 
-
-
-The probability distributions of the radius of gyration for Twitter users in the Great Britain are verified to be consistent across different monthly time span, (see Supplement Materials section 1), which indicates the stability of using such measurements in this study.
-
-
-
-Yet, our approach is still applicable when more detailed mobility data is available. 
+To apply the map equation algorithm, the mobility network should be organized as a weighted and directed graph, on which we confirmed an undirected graph cannot lead to a meaningful result (see Supplement Materials section 4).
+Since we used different physical movement ranges of users in delineating the urban boundaries, the description length $L(M)$ appeared to get larger when longer movement distances were used, which corresponded to less and larger geographically cohesive, non-overlapping urban areas.
+We believed that different movement ranges of users changed the weights of this graph and affected the interaction strength between two fishnet cells.
+As we have illustrated that the geographically cohesive, non-overlapping urban areas were instances of spatial proximity effects, where the gravity model model employed suggested the interaction strength between two fishnet cells decreases as the geographical distance increases, the longer movement distances were used, the larger $L(M)$ the map equation algorithm can maximize.
 
 \section{Conclusion}
 In this study, we presented a method to delineate the non-administrative anthropographic urban boundaries in Great Britain using a mobility network of Twitter user spatial interactions, which were inferred from the collective Twitter user movement data extracted from more than 69 million Twitter messages.
 In contrast to administrative urban boundaries, our ``bottom-up" approach imposes a virtual fishnet over the islands of Great Britain to partition the space.
-To avoid deciding the cell size arbitrarily, we studied the probability distributions of the radius of gyrations of individual Twitters users and selected 10-km as the cell size, which is the distinct geographic distance for separating two main groups of Twitter users in terms of their spatial coverage at the national level.
-In addition, this choice enables us to focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.  
-
+By studying the probability distributions of the radius of gyrations of individual Twitters users, we selected a cell size of 10 km to quantify the spatial coverage of the majority of Twitter users in Great Britain. 
 Twitter user movements were used to establish a connectivity network of the fishnet cells.
 Then we applied the map equation algorithm to partition the network and associated geographic regions.
 The strongly connected communities within the network space yields geographically cohesive, non-overlapping urban areas that provides a clear delineation of the urban boundaries in Great Britain.
 By performing a statistical analysis of Twitter user mobility patterns in Great Britain, in particular the distribution of collective Twitter user displacements, we found multi-scale and multi-modal urban movements that were divided into several distance ranges starting from short intra-city to inter-city movements with clear destination points.
 Identifying the connected regions at each of these distance ranges yielded hierarchical boundaries of  the urban space in Great Britain.
 
-
 The power of using Twitter user mobility to delineate non-administrative anthropographic boundaries is the ability to redraw the city at different mobility ranges inferred objectively from the collective mobility patterns. 
 Urban boundaries redrawn based on Twitter user movement represent physical commutes rather than social ties or phone call initiation to reflect the human interaction space.
 This study provides a first step in connecting human mobility research with defining non-administrative anthropographic boundaries, which could assist in resource allocation, political campaigns and urban planning.
-One final remark from this study is that we 
+
+
+More importantly, as the depicted urban boundaries exhibited a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
+This well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activity and urban space.
+
+Yet, our approach is still applicable when more detailed mobility data is available. 
+
+A final remark of this research 
+
+More importantly, as the depicted urban boundaries exhibited a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
+This well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activity and urban space.
+
 
 %\subsection{Acknowledgements}
 
@@ -434,7 +460,7 @@ Hollenstein, L. and Purves, R., 2010. Exploring place through user-generated con
 \bibitem[\protect\citeauthoryear{Hu {\itshape{et~al.}}}{2016}]{hu2016}
 Hu, Y., Gao, S., Janowicz, K., Yu, B., Li, W. and Prasad, S., 2015. Extracting and understanding urban areas of interest using geotagged photos. Computers, Environment and Urban Systems, 54, pp.240-254.
 
-\bibitem[\protect\citeauthoryear{Huang {\itshape{et~al.}}}{2016}]{2016}
+\bibitem[\protect\citeauthoryear{Huang {\itshape{et~al.}}}{2016}]{huang2016}
 Huang, Q. and Wong, D.W., 2016. Activity patterns, socioeconomic status and urban spatial structure: what can social media data tell us?. International Journal of Geographical Information Science, pp.1-26.
 
 \bibitem[\protect\citeauthoryear{Jiang and Miao}{2015}]{jiang2015}
