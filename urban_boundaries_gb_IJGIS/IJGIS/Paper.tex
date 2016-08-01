@@ -68,8 +68,8 @@ We found that the collective mobility patterns of Twitter users in Great Britain
 The identification of connected regions at each of these distance ranges yielded hierarchical boundaries of urban spaces in Great Britain.
 As the depicted urban boundaries exhibited a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
 The well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas. 
-Our study provides a first step in connecting human mobility research with the definition of non-administrative anthropographic urban boundaries based on Twitter user spatial interaction. 
-This provides a new understanding of the interactions between human activity and urban structures. 
+Our study provides a first-step in connecting human mobility research with the delineation of non-administrative anthropographic urban boundaries based on Twitter user spatial interaction. 
+This provides a new understanding of the interactions between human activities and urban space. 
 
 \section{Background and Related Work}
 In real-world geography, urban regions are discrete components in a greater set of regions, with or without physical boundaries separating them~\citep{jiang2015}.
@@ -215,7 +215,6 @@ Interestingly, the distance decay effects are also found in human mobility patte
 In this study, in line with the idea that urban environments are conceptualized spaces that are recreated and formed by human activities~\citep{schliephake}, we speculate that the distance decay effects in affecting the interaction strength of two geographic regions and ultimately depicting the urban structures (e.g., urban boundaries), is contributed by (or related to) the distance decay parameters found in the underlying mobility patterns. 
 In particular, since we have used a mobility network of spatial interactions, if this hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how people move across geographic regions. 
 
-
 \section{Results}
 \subsection{Collective Mobility Patterns of Twitter Users in Great Britain}
 We first modeled different aspects of the collective mobility patterns of Twitter users.
@@ -337,7 +336,7 @@ As it is mentioned above,  $P_{i}$ and $P_{j}$  are the observed interaction bet
 In particular, we set the distance decay parameter $\beta$ value as 0.8: (1) As we hypothesize that the distance decay parameters found in the underlying mobility patterns potentially contribute to $\beta$ in the gravity model (2) and we have chosen the 10-km cell size based on the collective Twitter user mobility pattern regarding radius of gyration, where the distance decay parameter is 0.8 when radius of gyration $r_{g} > 10 km$ (Fig.~\ref{S4_Fig}(c)).
 We found that the gravity model indicates strong linear correlation between the observed versus the estimated interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.
 This confirms that the depicted urban areas are results of spatial proximity effects, where the strength of human (in this case, Twitter user) spatial interaction between two urban regions decreases as the geographic distance between them increases.
-More importantly, since we have used a mobility network to delineate the boundaries, the distance decay effects are well related and explained by the underlying mobility patterns.
+More importantly, since we have used a mobility network to delineate the boundaries, the distance decay effects are well related and explained by the distance decay parameters found in the underlying mobility patterns.
 In return, the well fitted gravity model provides support that the depicted urban areas are not random artifacts but indeed reflect how people move across geographic regions. 
 
 \begin{figure}[ht]
@@ -354,7 +353,7 @@ It is worth noting that constructing a mobility network of spatial interaction u
 First, the geo-located Twitter data is not able to generalize to the entire population.
 As the demographic information of the Twitter users cannot be easily identified, the results of delineated urban boundaries may not reflect a complete real-world image from human movements. 
 The demographics of Twitter users in this study can be an under/over-representation of the all overall population in Great Britain.
-Related studies have been carried out to examine the demographic information in geo-located Twitter data~\citep{steiger2015,luo2016}, which should be carefully considered in future studies.
+Related studies have been carried out to examine the demographic information in geo-located Twitter data~\citep{steiger2015,luo2016,huang2016}, which should be carefully considered in future studies.
 Second, regarding the concern of spatial sparseness of geo-located Twitter data~\citep{steiger2015}, the urban regions that do not have any, or limited, Twitter coverage can be missed during the delineation process.
 To investigate whether this limited the ability to capture the connections made through Twitter user movements between urban regions, we visualized the flows of Twitter user movements using the method mentioned in~\citep{rae2009}(see Supplement Materials section 1). 
 The outcome showed that the Twitter user movements in this study connected most urban areas in Great Britain and clearly exhibited long and short distance movements, where was essential for investigating the connection strength between urban regions.   
@@ -389,9 +388,9 @@ We believed that different movement ranges of users changed the weights of this 
 As we have illustrated that the geographically cohesive, non-overlapping urban areas were instances of spatial proximity effects, where the gravity model model employed suggested the interaction strength between two fishnet cells decreases as the geographical distance increases, the longer movement distances were used, the larger $L(M)$ the map equation algorithm can maximize.
 
 \section{Conclusion}
-In this study, we presented a method to delineate the non-administrative anthropographic urban boundaries in Great Britain using a mobility network of Twitter user spatial interactions, which were inferred from the collective Twitter user movement data extracted from more than 69 million Twitter messages.
-In contrast to administrative urban boundaries, our ``bottom-up" approach imposes a virtual fishnet over the islands of Great Britain to partition the space.
-By studying the probability distributions of the radius of gyrations of individual Twitters users, we selected a cell size of 10 km to quantify the spatial coverage of the majority of Twitter users in Great Britain. 
+In this study, we presented a method that connected human mobility research with the delineation of the non-administrative anthropographic urban boundaries in Great Britain using a mobility network of Twitter user spatial interactions.
+In contrast to administrative urban boundaries, our ``bottom-up" approach imposed a virtual fishnet over the islands of Great Britain to partition the space.
+By studying the probability distributions of the radius of gyrations of individual Twitters users, we selected a cell-size of 10 km at the national level and 1 km for the greater London region.
 Twitter user movements were used to establish a connectivity network of the fishnet cells.
 Then we applied the map equation algorithm to partition the network and associated geographic regions.
 The strongly connected communities within the network space yields geographically cohesive, non-overlapping urban areas that provides a clear delineation of the urban boundaries in Great Britain.
@@ -399,21 +398,11 @@ By performing a statistical analysis of Twitter user mobility patterns in Great 
 Identifying the connected regions at each of these distance ranges yielded hierarchical boundaries of  the urban space in Great Britain.
 
 The power of using Twitter user mobility to delineate non-administrative anthropographic boundaries is the ability to redraw the city at different mobility ranges inferred objectively from the collective mobility patterns. 
-Urban boundaries redrawn based on Twitter user movement represent physical commutes rather than social ties or phone call initiation to reflect the human interaction space.
-This study provides a first step in connecting human mobility research with defining non-administrative anthropographic boundaries, which could assist in resource allocation, political campaigns and urban planning.
-
-
+Urban boundaries redrawn based on Twitter user movement represent physical commutes rather than social ties or phone call initiation to reflect the human interactions with the geographical space.
 More importantly, as the depicted urban boundaries exhibited a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
-This well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activity and urban space.
-
-Yet, our approach is still applicable when more detailed mobility data is available. 
-
-A final remark of this research 
-
-More importantly, as the depicted urban boundaries exhibited a strong instance of spatial proximity, we further employed a gravity model to connect human mobility research to understand and justify the distance decay effects in shaping the delineated urban boundaries.
-This well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activity and urban space.
-
-
+This well fitted gravity model explains how geographical distances found in the mobility patterns affect the interaction strength among different non-administrative anthropographic urban areas, which provides a new understanding of the interactions between human activities and urban space.
+A final remark from this study for future studies is that geographical distance plays an important role in affecting human mobility patterns and the strength of human spatial interactions across space.
+Our approach can be considered to assist in understanding human spatial interactions from the mobility perspective, which is applicable for detailed geo-located Twitter data in different countries, as well as future mobility datasets with detailed location information of individuals and large spatial coverage.  
 %\subsection{Acknowledgements}
 
 \begin{thebibliography}{9}
