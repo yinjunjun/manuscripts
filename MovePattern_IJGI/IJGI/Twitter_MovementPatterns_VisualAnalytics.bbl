@@ -1,0 +1,146 @@
+\begin{thebibliography}{-------}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[Zheng \em{et~al.}(2008)Zheng, Li, Chen, Xie, and
+  Ma]{zheng2008understanding}
+Zheng, Y.; Li, Q.; Chen, Y.; Xie, X.; Ma, W.Y.
+\newblock Understanding mobility based on GPS data.
+\newblock  Proceedings of the 10th international conference on Ubiquitous
+  computing. ACM,  2008, pp. 312--321.
+
+\bibitem[Jiang \em{et~al.}(2009)Jiang, Yin, and Zhao]{jiang2009characterizing}
+Jiang, B.; Yin, J.; Zhao, S.
+\newblock Characterizing the human mobility pattern in a large street network.
+\newblock {\em Physical Review E} {\bf 2009}, {\em 80},~021136.
+
+\bibitem[Belik \em{et~al.}(2011)Belik, Geisel, and Brockmann]{belik2011natural}
+Belik, V.; Geisel, T.; Brockmann, D.
+\newblock Natural human mobility patterns and spatial spread of infectious
+  diseases.
+\newblock {\em Physical Review X} {\bf 2011}, {\em 1},~011001.
+
+\bibitem[Greenwood(1985)]{greenwood1985human}
+Greenwood, M.J.
+\newblock Human migration: Theory, models, and empirical studies.
+\newblock {\em Journal of regional Science} {\bf 1985}, {\em 25},~521--544.
+
+\bibitem[Brockmann \em{et~al.}(2006)Brockmann, Hufnagel, and
+  Geisel]{brockmann2006scaling}
+Brockmann, D.; Hufnagel, L.; Geisel, T.
+\newblock The scaling laws of human travel.
+\newblock {\em Nature} {\bf 2006}, {\em 439},~462--465.
+
+\bibitem[Gonzalez \em{et~al.}(2008)Gonzalez, Hidalgo, and
+  Barabasi]{gonzalez2008understanding}
+Gonzalez, M.C.; Hidalgo, C.A.; Barabasi, A.L.
+\newblock Understanding individual human mobility patterns.
+\newblock {\em Nature} {\bf 2008}, {\em 453},~779--782.
+
+\bibitem[Jurdak \em{et~al.}(2015)Jurdak, Zhao, Liu, AbouJaoude, Cameron, and
+  Newth]{Jurdak2015}
+Jurdak, R.; Zhao, K.; Liu, J.; AbouJaoude, M.; Cameron, M.; Newth, D.
+\newblock Understanding Human Mobility from Twitter.
+\newblock {\em PLoS ONE} {\bf 2015}, {\em 10},~e0131469.
+
+\bibitem[Rhee \em{et~al.}(2011)Rhee, Shin, Hong, Lee, Kim, and
+  Chong]{rhee2011levy}
+Rhee, I.; Shin, M.; Hong, S.; Lee, K.; Kim, S.J.; Chong, S.
+\newblock On the levy-walk nature of human mobility.
+\newblock {\em IEEE/ACM transactions on networking (TON)} {\bf 2011}, {\em
+  19},~630--643.
+
+\bibitem[Sevtsuk and Ratti(2010)]{sevtsuk2010does}
+Sevtsuk, A.; Ratti, C.
+\newblock Does urban mobility have a daily routine? Learning from the aggregate
+  data of mobile networks.
+\newblock {\em Journal of Urban Technology} {\bf 2010}, {\em 17},~41--60.
+
+\bibitem[Kung \em{et~al.}(2014)Kung, Greco, Sobolevsky, and
+  Ratti]{kung2014exploring}
+Kung, K.S.; Greco, K.; Sobolevsky, S.; Ratti, C.
+\newblock Exploring universal patterns in human home-work commuting from mobile
+  phone data.
+\newblock {\em PloS one} {\bf 2014}, {\em 9},~e96180.
+
+\bibitem[Thatcher(2014)]{thatcher2014living}
+Thatcher, J.
+\newblock Living on fumes: Digital footprints, data fumes, and the limitations
+  of spatial big data.
+\newblock {\em International Journal of Communication} {\bf 2014}, {\em
+  8},~1765--1783.
+
+\bibitem[Hawelka \em{et~al.}(2014)Hawelka, Sitko, Beinat, Sobolevsky,
+  Kazakopoulos, and Ratti]{hawelka2014geo}
+Hawelka, B.; Sitko, I.; Beinat, E.; Sobolevsky, S.; Kazakopoulos, P.; Ratti, C.
+\newblock Geo-located Twitter as proxy for global mobility patterns.
+\newblock {\em Cartography and Geographic Information Science} {\bf 2014}, {\em
+  41},~260--271.
+
+\bibitem[Giannotti and Pedreschi(2008)]{giannotti2008mobility}
+Giannotti, F.; Pedreschi, D.
+\newblock {\em Mobility, data mining and privacy: Geographic knowledge
+  discovery}; Springer Science \& Business Media,  2008.
+
+\bibitem[Crampton(2014)]{crampton2014collect}
+Crampton, J.W.
+\newblock Collect it all: national security, Big Data and governance.
+\newblock {\em GeoJournal} {\bf 2014}, pp. 1--13.
+
+\bibitem[Wu \em{et~al.}(2014)Wu, Zhi, Sui, and Liu]{wu2014intra}
+Wu, L.; Zhi, Y.; Sui, Z.; Liu, Y.
+\newblock Intra-urban human mobility and activity transition: Evidence from
+  social media check-in data.
+\newblock {\em PloS one} {\bf 2014}, {\em 9},~e97010.
+
+\bibitem[Hasan \em{et~al.}(2013)Hasan, Zhan, and
+  Ukkusuri]{hasan2013understanding}
+Hasan, S.; Zhan, X.; Ukkusuri, S.V.
+\newblock Understanding urban human activity and mobility patterns using
+  large-scale location-based data from online social media.
+\newblock  Proceedings of the 2nd ACM SIGKDD international workshop on urban
+  computing. ACM,  2013, p.~6.
+
+\bibitem[Cho \em{et~al.}(2011)Cho, Myers, and Leskovec]{cho2011friendship}
+Cho, E.; Myers, S.A.; Leskovec, J.
+\newblock Friendship and mobility: user movement in location-based social
+  networks.
+\newblock  Proceedings of the 17th ACM SIGKDD international conference on
+  Knowledge discovery and data mining. ACM,  2011, pp. 1082--1090.
+
+\bibitem[Noulas \em{et~al.}(2012)Noulas, Scellato, Lambiotte, Pontil, and
+  Mascolo]{noulas2012tale}
+Noulas, A.; Scellato, S.; Lambiotte, R.; Pontil, M.; Mascolo, C.
+\newblock A tale of many cities: universal patterns in human urban mobility.
+\newblock {\em PloS one} {\bf 2012}, {\em 7},~e37027.
+
+\bibitem[Balcan \em{et~al.}(2009)Balcan, Colizza, Gon{\c{c}}alves, Hu, Ramasco,
+  and Vespignani]{balcan2009multiscale}
+Balcan, D.; Colizza, V.; Gon{\c{c}}alves, B.; Hu, H.; Ramasco, J.J.;
+  Vespignani, A.
+\newblock Multiscale mobility networks and the spatial spreading of infectious
+  diseases.
+\newblock {\em Proceedings of the National Academy of Sciences} {\bf 2009},
+  {\em 106},~21484--21489.
+
+\bibitem[Tamerius \em{et~al.}(2011)Tamerius, Nelson, Zhou, Viboud, Miller, and
+  Alonso]{tamerius2011global}
+Tamerius, J.; Nelson, M.I.; Zhou, S.Z.; Viboud, C.; Miller, M.A.; Alonso, W.J.
+\newblock Global influenza seasonality: reconciling patterns across temperate
+  and tropical regions.
+\newblock {\em Environmental health perspectives} {\bf 2011}, {\em 119},~439.
+
+\bibitem[Tsou(2015)]{tsou2015}
+Tsou, M.H.
+\newblock Research challenges and opportunities in mapping social media and Big
+  Data.
+\newblock {\em Cartography and Geographic Information Science} {\bf 2015}, {\em
+  42},~70--74.
+
+\bibitem[Cao \em{et~al.}(2014)Cao, Wang, Hwang, Padmanabhan, Zhang, and
+  Soltani]{cao2014scalable}
+Cao, G.; Wang, S.; Hwang, M.; Padmanabhan, A.; Zhang, Z.; Soltani, K.
+\newblock A Scalable Framework for Spatiotemporal Analysis of Location-based
+  Social Media Data.
+\newblock {\em arXiv preprint arXiv:1409.2826} {\bf 2014}.
+
+\end{thebibliography}

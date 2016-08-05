@@ -109,7 +109,7 @@ This is also evident from the related studies mentioned above.
 However, there are some limitations and complexities in directly extracting and using the mobility data from the LBSM data sets. 
 For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located tweet or check-in at a new place.
 LBSM data have also been criticized for lacking of representativeness of the population, as not all people use social media or send geo-located messages~\citep{kung2014}. 
-Another research challenge is to identify the users, as a social media account is not equivalent to a real person in the physical world~\citep{tsou2015}.
+Another research challenge is to identify the users, as a social media account is not equivalent to a real person in the physical world.
 Many studies have started to look into the demographic aspect of LBSM data, in particular Twitter data~\citep{steiger2015,luo2016}. 
 While the used methods vary, these studies suggest that the mentioned issues require us to pose stricter criteria in filtering and extracting individual movements.
 
@@ -150,11 +150,12 @@ In other words, a user that is identified to have stayed in the study region mor
 The filtered dataset for the following study contains 60,209,778 tweets made by 824,712 Twitter users.
 
 At this stage, each geo-located tweet is represented as a tuple $\langle user\_id, loc, t, m \rangle$, where $user\_id$ is an anonymous Twitter user id; $loc$ is the recorded location of the tweet as a coordinate pair; $t$ is the timestamp of the tweet's post; and $m$ is the actual content of the tweet. 
+We then constructed a trajectory for each Twitter user by appending all the recorded locations (with the same  $user\_id$) in the chronological order (based on the timestamps).
 To protect Twitter users’ privacy, the id field was replaced with a randomly generated unique number and the content of the message was removed.
 In addition, the actual location of each geo-located Tweet is only used for distance calculation and determining the corresponding geographic unit it falls in. 
 Our simplified geo-located tweet dataset can be shared with other researchers upon request.
 
-\subsection{A network of large-scale Twitter user spatial interactions}
+\subsection{Mobility network of Twitter user spatial interactions}
 A Twitter user's movement is defined here as the individual's geographic relocation or displacement~\citep{gonzalez2008}.
 This is not equivalent to a ``trip" taken by an individual, because, displacement includes situations when the time interval between two consecutive recorded locations is one month.
 To identify the clusters of urban regional connectedness, Twitter user movements are used to establish a connectivity network, where two urban regions connect when a Twitter user's movement begins in one and ends in another.
@@ -199,13 +200,13 @@ This algorithm can be intuitively tailored to describe strongly connected cluste
 The detailed literatures and implementations of Infomap can be found on this website ({\tt{http://mapequation.org}}).
 Note that Infomap is capable of performing multi-level community detection~\citep{domenico2015}, but we only use this algorithm to produce our most detailed community structures in order to examine groups of strongly connected urban regions.
 
-\subsection{Distance decay effects with a gravity model}
+\subsection{Distance decay effect and gravity model}
 As mentioned above, the clusters of urban regions in the form of communities in the network space often yield geographically cohesive urban areas. 
 This phenomenon is speculated to be related to the distance decay effects, where the interaction strength between two urban regions decreases as the geographical distance between them increases.
 A gravity model is often used to express such relations, as is shown in Eq. \eqref{eq:3}, where $<T_{ij}>$ and $d_{ij}$ denote the interaction from i to j and distance between two places, $K$ is a constant, and $P_{i}$ and $P_{j}$ are the population size of place $i$ and $j$ respectively. 
 The interaction strength decreasing with respect to increasing geographic distance is expressed by the distance decay function, $f(d_{ij})$, where the parameter $\beta$ reveals the distance impact on interaction strength.
 A greater $\beta$ indicates stronger decay and the interaction strength is more influenced by distance~\citep{liu2014}.
-While it is suggested that population size may be an accurate indicator to describe the repulsion or attractiveness between places, the gravity model is usually fit by using observed interaction strength and the distance between geographical entities~\citep{liu2014}.
+While it is suggested that population size may not be an accurate indicator to describe the repulsion or attractiveness between places, the gravity model is usually fitted by using observed interaction strength and the distance between geographical entities~\citep{liu2014}.
 \begin{equation} \label{eq:3}
 <T_{ij}>=k*\dfrac{P_{i} * P_{j}}{f(d_{ij})},  \textrm{and}\hspace{1ex} f(d_{ij}) \sim d_{ij}^{\beta}
 \end{equation}
@@ -213,11 +214,11 @@ While it is suggested that population size may be an accurate indicator to descr
 In this study, the main purpose for adopting the gravity model is not to find the best $\beta$ value to estimate the potential interaction strength among depicted urban areas.
 Interestingly, the distance decay effects are also found in human mobility patterns~\citep{zhao2016}, the authors argue that it is due to the constraints of complex urban structure.
 In this study, in line with the idea that urban environments are conceptualized spaces that are recreated and formed by human activities~\citep{schliephake}, we speculate that the distance decay effects in affecting the interaction strength of two geographic regions and ultimately depicting the urban structures (e.g., urban boundaries), is contributed by (or related to) the distance decay parameters found in the underlying mobility patterns. 
-In particular, since we have used a mobility network of spatial interactions, if this hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how people move across geographic regions. 
+In particular, since we have used a mobility network of spatial interactions, if this hypothesis stands, it will provide strong support that the depicted urban boundaries are not random artifacts but indeed reflect how naturally people move across the geographical regions. 
 
 \section{Results}
 \subsection{Collective Mobility Patterns of Twitter Users in Great Britain}
-We first modeled different aspects of the collective mobility patterns of Twitter users.
+We modeled different aspects of the collective mobility patterns of Twitter users.
 These patterns include: the number of visited locations per user,  the collective user displacements, and the radius of gyration of individuals in order to identify natural breaks in user travel patterns.
 We then used these natural breaks within the mobility patterns to partition the geographic space of Great Britain into fine-grained cells and established the connectivity among these cells to redraw non-administrative anthropographic urban boundaries. 
 
@@ -326,18 +327,20 @@ For example, East Barnet and West Enfield seem to have higher interactions than 
 \end{center}
 \end{figure}
 
-\subsection{Distance decay effects with a gravity model}
-The results of strongly connected urban regions in the form of communities in the mobility network of Twitter user spatial interactions yield geographically cohesive, non-overlapping urban areas. 
+\subsection{Explaining the distance decay effect with a gravity model}
+The results of strongly connected urban regions in the form of communities, which are derived from the mobility network of Twitter user spatial interactions, yield geographically cohesive, non-overlapping urban areas. 
 While it provides a clear delineation of the non-administrative anthropographic urban boundaries of Great Britain, the reasons on why they are geographically cohesive and non-overlapping or why the boundaries stop/emerge at certain spatial extent that leads to different size of the urban areas are not clear. 
-As the depicted urban boundaries exhibit a strong instance of spatial proximity, a gravity model is employed (Eq. \eqref{eq:3}) to explain how distance decay effects found in the mobility patterns affect the interaction strength among non-administrative anthropographic urban areas.
+As the depicted urban boundaries exhibit a strong instance of spatial proximity, a gravity model is employed (Eq. \eqref{eq:3}) to explain how distance decay effects found in the mobility patterns affect the interaction strength between the derived non-administrative anthropographic urban areas.
 
 In this model, the distance between two derived urban areas is measured by the geodetic distance between the centroid locations of the two.
-As it is mentioned above,  $P_{i}$ and $P_{j}$  are the observed interaction between urban area $i$ and $j$, which are measured by the aggregation of movement flux in each urban area.
-In particular, we set the distance decay parameter $\beta$ value as 0.8: (1) As we hypothesize that the distance decay parameters found in the underlying mobility patterns potentially contribute to $\beta$ in the gravity model (2) and we have chosen the 10-km cell size based on the collective Twitter user mobility pattern regarding radius of gyration, where the distance decay parameter is 0.8 when radius of gyration $r_{g} > 10 km$ (Fig.~\ref{S4_Fig}(c)).
+As it is mentioned above,  $P_{i}$ and $P_{j}$  are the observed interaction between urban area $i$ and $j$, which are measured by the aggregation of movement flows in each urban area.
+In particular, we set the distance decay parameter $\beta$ value as 0.8: (1) As we hypothesize that the distance decay parameters found in the underlying mobility patterns potentially contribute to $\beta$ in the gravity model (2) and we chose the 10 km cell-size based on the collective Twitter user mobility pattern regarding radius of gyration, where the distance decay parameter is 0.8 when radius of gyration $r_{g} > 10 km$ (Fig.~\ref{S4_Fig}(c)).
 We found that the gravity model indicates strong linear correlation between the observed versus the estimated interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.
-This confirms that the depicted urban areas are results of spatial proximity effects, where the strength of human (in this case, Twitter user) spatial interaction between two urban regions decreases as the geographic distance between them increases.
+This confirms that the depicted urban areas are instances of spatial proximity effects, where the strength of human (in this case, Twitter user) spatial interaction between two urban regions decreases as the geographic distance between them increases. 
+The well fitted gravity model provides support that the depicted urban areas are not just random artifacts but reflect how naturally move across geographic regions.
 More importantly, since we have used a mobility network to delineate the boundaries, the distance decay effects are well related and explained by the distance decay parameters found in the underlying mobility patterns.
-In return, the well fitted gravity model provides support that the depicted urban areas are not random artifacts but indeed reflect how people move across geographic regions. 
+To elaborate, the spatial interaction strength decreases along with the decay for the probability of longer distance Twitter user movements, and eventually stops at certain spatial extent, which leads to more geographically cohesive cluster of urban regions.
+
 
 \begin{figure}[ht]
 \begin{center}
@@ -358,14 +361,12 @@ Second, regarding the concern of spatial sparseness of geo-located Twitter data~
 To investigate whether this limited the ability to capture the connections made through Twitter user movements between urban regions, we visualized the flows of Twitter user movements using the method mentioned in~\citep{rae2009}(see Supplement Materials section 1). 
 The outcome showed that the Twitter user movements in this study connected most urban areas in Great Britain and clearly exhibited long and short distance movements, where was essential for investigating the connection strength between urban regions.   
 Third, since the collective radius of gyration was used to determine the cell-size in the network, we examined the temporal stability for the measurement in the geo-located Twitter data.
-The probability distributions of the radius of gyration for Twitter users in the Great Britain are verified to be consistent across different monthly time span, (see Supplement Materials section 2), which indicates the stability of using such measurements in this study.  
-Finally, as the geo-located Twitter data offers easy data accessibility, the methods in this study can be reproduced for other countries. 
+The probability distributions of the radius of gyration for Twitter users in the Great Britain are verified to be consistent across different monthly time span (see Supplement Materials section 2), which indicates the stability of using such measurements in this study.  
+Finally, as the geo-located Twitter data offers easy data accessibility, our methods can be reproduced for other countries. 
 Along with the large sample size and spatial coverage, geo-located Twitter data demonstrated its applicability for this study.
 
 A major component in this study was imposing a virtual fishnet to partition the geographic space over Great Britain.
-We should be aware that using different approaches to partitioning the space will produce different mobility networks, and can potentially lead 
-to different delineations of the urban boundaries.
-Indeed, we had used the ward divisions as spatial units for aggregating Twitter user movements, which is the finest administrative boundaries of Great Britain (see Supplement Materials section 3).
+Alternatively, we had used the ward divisions as spatial units for aggregating Twitter user movements, which is the finest administrative boundaries of Great Britain (see Supplement Materials section 3).
 Without looking into the details of the results, the derived communities in the network space are similar to the ones from using fishnet approach.
 The strongly connected communities also yield geographically cohesive, non-overlapping urban areas.
 However, as the ward division is still defined by administrative purpose, the polygonal units tend to be geographically continuous.
@@ -373,19 +374,21 @@ It causes problems to aggregate regions that do not have Twitter coverage into c
 Aggregating Twitter user movements at the ward level also imposes more apparent concerns of the mismatch of the overall population, where less populated areas were overly represented and connected into large areas.
 These are the reasons why we chose a virtual fishnet approach for this study.
 
+We should be aware that using different fishnet cell-size to partition the space will produce different mobility networks, and can potentially lead to different delineations of the urban boundaries.
 As it is discussed above, we chose 10 km as the cell-size of the fishnet at national level in this study.
 We also carried out an experiment by arbitrarily setting the cell-size to 5 km at the national level (see Supplement Materials section 4).
 Note that the cell-size could be set to any value, such as 4.9 km or 5.1 km.
 The fishnet with smaller cell-size (i.e., 5 km) produced more and smaller strongly-connected communities within the network space.
 It indicates that the spatial resolution of the fishnet cells does affect the outcome from the community detection method employed in this study, where fishnet with smaller cell-size leads to more discrete and locally connected (i.e., smaller) clusters of urban areas.
-Such an effect can be explained by the probability distributions of the radius of gyrations of individual Twitter users. The probability of distance that deviates from a user's center location decays with a stretched-exponential function from [50m, 10km], which means the movements from Twitter users with smaller spatial coverage dominate the delineation of the connected urban areas.
+Such an effect can be explained by the probability distributions of the radius of gyrations of individual Twitter users.
+The probability of distance that deviates from a user's center location decays with a stretched-exponential function from [50m, 10km], which means the movements from Twitter users with smaller spatial coverage dominate the delineation of the connected urban areas.
 To avoid arbitrarily deciding the cell-size, we studied the probability distributions of the radius of gyrations of individual Twitter users and selected 10-km as the cell-size, which is the distinct geographic distance for separating two main groups of Twitter users in terms of their spatial coverage at the national level.
 In addition, this choice enabled us to focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.
 
 To apply the map equation algorithm, the mobility network should be organized as a weighted and directed graph, on which we confirmed an undirected graph cannot lead to a meaningful result (see Supplement Materials section 4).
-Since we used different physical movement ranges of users in delineating the urban boundaries, the description length $L(M)$ appeared to get larger when longer movement distances were used, which corresponded to less and larger geographically cohesive, non-overlapping urban areas.
+Since we used different physical movement ranges of users in delineating the urban boundaries, the description length $L(M)$ appeared to get larger when longer displacements were used, which corresponded to less and larger geographically cohesive, non-overlapping urban areas.
 We believed that different movement ranges of users changed the weights of this graph and affected the interaction strength between two fishnet cells.
-As we have illustrated that the geographically cohesive, non-overlapping urban areas were instances of spatial proximity effects, where the gravity model model employed suggested the interaction strength between two fishnet cells decreases as the geographical distance increases, the longer movement distances were used, the larger $L(M)$ the map equation algorithm produces.
+As we have illustrated that the geographically cohesive, non-overlapping urban areas were instances of spatial proximity effects, where the employed gravity model model suggested the interaction strength between two fishnet cells decreases as the geographical distance increases, the longer displacements were used, the larger $L(M)$ were produced from the map equation algorithm.
 
 \section{Conclusion}
 In this study, we presented a method that connected human mobility research with the delineation of the non-administrative anthropographic urban boundaries in Great Britain using a mobility network of Twitter user spatial interactions.
@@ -473,7 +476,7 @@ Liu, J., Zhao, K., Khan, S., Cameron, M., Jurdak, R., 2014. Multi-scale Populati
 \bibitem[\protect\citeauthoryear{Liu {\itshape{et~al.}}}{2015}]{liu2015}
 Liu, X., Gong, L., Gong, Y., Liu, Y., 2015. Revealing travel patterns and city structure with taxi trip data. Journal of Transportation Geography, 43, pp. 78-90.
 
-\bibitem[\protect\citeauthoryear{Liu {\itshape{et~al.}}}{2015}]{liu2014}
+\bibitem[\protect\citeauthoryear{Liu {\itshape{et~al.}}}{2014}]{liu2014}
 Liu, Y., Sui, Z., Kang, C., Gao, Y., 2014. Uncovering patterns of inter-urban trip and spatial interaction from social media check-in data. PLoS ONE, 9(1), p.e86026.
 
 \bibitem[\protect\citeauthoryear{Long {\itshape{et~al.}}}{2015}]{long2015}
@@ -544,9 +547,6 @@ Sun, Y., Fan, H., Li, M. and Zipf, A., 2016. Identifying the city center using h
 
 \bibitem[\protect\citeauthoryear{Thiemann {\itshape{et~al.}}}{2010}]{thiemann}
 Thiemann, C., Theis, F., Grady, D., Brune, R., Brockmann, D., 2010. The Structure of Borders in a Small World. PLoS ONE 5, e15422.
-
-\bibitem[\protect\citeauthoryear{Tsou}{2015}]{tsou2015}
-Tsou, M.H., 2015. Research challenges and opportunities in mapping social media and Big Data. Cartography and Geographic Information Science, 42(sup1), pp.70-74.
 
 \bibitem[\protect\citeauthoryear{Vasardani {\itshape{et~al.}}}{2013}]{vasardani2013}
 Vasardani, M., Winter, S. and Richter, K.F., 2013. Locating place names from place descriptions. International Journal of Geographical Information Science, 27(12), pp.2509-2532.
