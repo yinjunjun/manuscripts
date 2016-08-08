@@ -170,20 +170,6 @@ Such a task is already computationally demanding, let along breaking the traject
 In particular, developing a multi-scale spatiotemporal analysis framework is identified as one of the research challenges for dealing with social media Big Data~\cite{tsou2015}. 
 To address the data-intensive challenges, there is a need to develop a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
 
-%\subsection{Accommodating LBSM Big Data with Hadoop}
-%Apache Hadoop is an open source software framework designed to facilitate data intensive computing on large commodity clusters.
-%It combines a distributed file system, namely Hadoop Distributed File System(HDFS)~\cite{shvachko2010hadoop} with MapReduce programming paradigm, which can be applied to wide range of data-intensive problems.
-%MapReduce is a programming model and an associated software framework designed to process massive data in a distributed fashion~\cite{dean2008mapreduce}.
-%MapReduce breaks the entire computation into small tasks and schedule them among different computing nodes.
-%MapReduce consists of two main stages: map and reduce.
-%In the map stage, input data is converted into series of intermediate $\langle key, value\rangle$ pairs.
-%Customized computation will be performed in the reduce stage based on the same intermediate key.
-%This framework provides parallelization since both map and reduce tasks are considered independent and can be done in parallel. More importantly, it provides scalability in relation to the growth of data size, where Hadoop can scale to more computing nodes in the cluster to maintain the performance.
-%
-%Our framework benefits from using Hadoop in both data management and processing.
-%First, since the input data is large it is desirable to store it on multiple machines.
-%Second, by using Hadoop we can parallelize the computational tasks and make the data processing faster and more efficient.
-%Further, by adopting the MapReduce computing paradigm, we can model each individual user's trajectory by treating user's unique ID as key, and summarize the movement flows among different spatial units by utilizing the ID of the spatial unit as key. The details will be introduced in the following section.
 
 \section{Materials and Methods}
 \subsection{Geo-located Twitter data}
@@ -259,7 +245,7 @@ where $ i = 1, 2, 3...n$
 \caption{Hierarchical spatial layers for aggregating movements in different level-of-details}
 \label{fig:multilevel}
 \end{figure}
-%\FloatBarrier
+\FloatBarrier
 
 \section{Multi-scale spatiotemporal Twitter user mobility patterns}
 \subsection{Spatiotemporal Twitter user mobility patterns}
@@ -284,7 +270,7 @@ In addition, the two-tier power law also reveals the diversity in the Twitter us
 \caption{Two-tier power law distribution of the collective Twitter user visitation behaviors}
 \label{fig:Arch}
 \end{figure}
-%\FloatBarrier
+\FloatBarrier
 
 As it is mentioned earlier, the measurements of displacements and radius of gyrations of individuals are two popular metrics to investigate and quantify the distance decay effects in the collective mobility patterns~\cite{gonzalez2008understanding}. In this case, we first gathered the displacements from all the collected Twitter users in the United States (excluding Hawaii and Alaska) in year 2014, where those Twitter users with only one geo-located tweet were filtered out. 
 In addition, to investigate the mobility patterns of individuals, we derived the accumulated displacements and the radius of gyrations of each individual Twitter user based on the corresponding space-time trajectories over the one year period.
@@ -302,7 +288,7 @@ The probability distribution of radius of gyrations of individuals (Figure 6 (a)
 \includegraphics[width=1.0\linewidth]{./figures/displacement}
 \caption{(a) The probability distribution of the collective Twitter user displacements P(d) (b) the distance between [100m, 80km] is approximated by a double power-law functions (c) The probability distribution of the accumulated displacements of individual Twitter users P(d) (d) The probability distribution of the accumulated displacements of individual Twitter users in 3 different months}
 \label{fig:Arch}
-\end{figure}\textbf{}
+\end{figure}
 \FloatBarrier
 
 \begin{figure}[h]
@@ -311,19 +297,19 @@ The probability distribution of radius of gyrations of individuals (Figure 6 (a)
 \caption{ (a) The probability distribution of radius of gyration of individual Twitter users P($r_{g}$) (b) the distance between [50m, 30 km] is approximated by a double power-law functions}
 \label{fig:Arch}
 \end{figure}
-%\FloatBarrier
+\FloatBarrier
 
 More importantly, as our framework can aggregate Twitter user trajectories within different temporal ranges, we further analyzed the probability distributions of accumulated displacements took places in January, June, and October (Figure 5 (d)) and radius of gyrations within 4 quarters in year 2014 (Figure 7), in order to examine whether there are temporal changes in the mobility patterns. While the probability distributions of accumulated displacements are almost identical in those selected three months,  we do find changes in the probability distributions of radius of gyrations in different quarters of the year. 
 The fluctuations in the tails of the distributions indicate that long distance radius of gyrations (i.e., above 30 km) will experience more seasonal changes in the Twitter user mobility pattern, which means the increase or decrease of long distance movement activities in the corresponding time period. 
 However, it is worthy noting that the overall trends in the Twitter user mobility patterns revealed by radius of gyrations are still consistent.  In summary, by comparing these results with the same measurements in~\cite{Jurdak2015}, (slightly) different distance bounds were identified for describing the Twitter user mobility patterns in the USA and Australia, however the overall similarity and consistence found in using a combination of three functions to approximate the probability distribution functions of displacements and radius of gyrations, clearly provide supports for using geo-located tweets for conducting replicable human mobility studies.       
  
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1.0\linewidth]{./figures/gyration_season}
 \caption{The probability distribution of radius of gyration of individual Twitter users in different quarters of year 2014}
 \label{fig:Arch}
 \end{figure}
-%\FloatBarrier
+\FloatBarrier
 
 The above analysis of Twitter user mobility patterns mainly focus on the temporal aspects where the spatial scale is fixed to the country level.
 Our framework provides the flexibility to aggregate and extract Twitter user trajectories in a specific spatial scale and re-produce the analysis. 
@@ -332,13 +318,13 @@ In particular, the movement flows in the state level are summarized and visualiz
 We tested the overall distribution of the movement flows (in the form of weighted in-degree and out-degree of a graph, where each state is treated as a node) among different states in year 2014.  
 We found that the probability distribution of Twitter user movement flows of visiting different states follows a log-normal distribution: $p(x)\sim \frac{1}{x}exp[-\frac{(lnx - \mu)^{2}}{2\sigma^{2}}]$, which suggests the flux of Twitter user movements among the states are highly skewed and dominated by a few states. It also indicates that although the Twitter population seems to be linearly correlated with the population at state level, it is not proportional to account the movement flux among the states, which may provide some insights for other researchers in studying social-economical aspects of the migration dynamics.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\linewidth]{./figures/degree}
 \caption{The distribution of Twitter user movement flows among different states in year 2014 measured in weighted in- and out-degrees}
 \label{fig:Arch}
 \end{figure}
-%\FloatBarrier
+\FloatBarrier
 
 \subsection{The interactive 3D virtual globe web mapping interface}
 In addition to providing supports for understanding Twitter user mobility patterns with statistical analysis, the framework integrates a 3D virtual globe interface to enable users to perform exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements. 
