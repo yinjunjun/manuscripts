@@ -143,4 +143,122 @@ Cao, G.; Wang, S.; Hwang, M.; Padmanabhan, A.; Zhang, Z.; Soltani, K.
   Social Media Data.
 \newblock {\em arXiv preprint arXiv:1409.2826} {\bf 2014}.
 
+\bibitem[Zheng \em{et~al.}(2010)Zheng, Xie, and Ma]{zheng2010geolife}
+Zheng, Y.; Xie, X.; Ma, W.Y.
+\newblock GeoLife: A Collaborative Social Networking Service among User,
+  Location and Trajectory. {\bf 2010}.
+
+\bibitem[Becker \em{et~al.}(2013)Becker, C{\'a}ceres, Hanson, Isaacman, Loh,
+  Martonosi, Rowland, Urbanek, Varshavsky, and Volinsky]{becker2013human}
+Becker, R.; C{\'a}ceres, R.; Hanson, K.; Isaacman, S.; Loh, J.M.; Martonosi,
+  M.; Rowland, J.; Urbanek, S.; Varshavsky, A.; Volinsky, C.
+\newblock Human mobility characterization from cellular network data.
+\newblock {\em Communications of the ACM} {\bf 2013}, {\em 56},~74--82.
+
+\bibitem[Sobolevsky \em{et~al.}(2013)Sobolevsky, Szell, Campari, Couronn{\'e},
+  Smoreda, and Ratti]{sobolevsky2013delineating}
+Sobolevsky, S.; Szell, M.; Campari, R.; Couronn{\'e}, T.; Smoreda, Z.; Ratti,
+  C.
+\newblock Delineating geographical regions with networks of human interactions
+  in an extensive set of countries.
+\newblock {\em PLoS One} {\bf 2013}, {\em 8},~e81707.
+
+\bibitem[Mitchell \em{et~al.}(2013)Mitchell, Frank, Harris, Dodds, and
+  Danforth]{mitchell2013geography}
+Mitchell, L.; Frank, M.R.; Harris, K.D.; Dodds, P.S.; Danforth, C.M.
+\newblock The geography of happiness: Connecting twitter sentiment and
+  expression, demographics, and objective characteristics of place {\bf 2013}.
+
+\bibitem[Longley \em{et~al.}(2015)Longley, Adnan, Lansley,
+  et~al.]{longley2015geotemporal}
+Longley, P.A.; Adnan, M.; Lansley, G.; others.
+\newblock The geotemporal demographics of Twitter usage.
+\newblock {\em Environment and Planning A} {\bf 2015}, {\em 47},~465--484.
+
+\bibitem[Cranshaw \em{et~al.}(2012)Cranshaw, Schwartz, Hong, and
+  Sadeh]{cranshaw2012livehoods}
+Cranshaw, J.; Schwartz, R.; Hong, J.I.; Sadeh, N.M.
+\newblock The Livehoods Project: Utilizing Social Media to Understand the
+  Dynamics of a City.
+\newblock  ICWSM,  2012.
+
+\bibitem[H{\"a}gerstrand \em{et~al.}(1985)H{\"a}gerstrand
+  et~al.]{hagerstrand1985time}
+H{\"a}gerstrand, T.; others.
+\newblock Time-geography: focus on the corporeality of man, society, and
+  environment.
+\newblock {\em The science and praxis of complexity} {\bf 1985}, pp. 193--216.
+
+\bibitem[Kwan and Lee(2004)]{kwan2004geovisualization}
+Kwan, M.P.; Lee, J.
+\newblock Geovisualization of human activity patterns using 3D GIS: a
+  time-geographic approach.
+\newblock {\em Spatially integrated social science} {\bf 2004}, {\em 27}.
+
+\bibitem[Andrienko and Andrienko(2007)]{andrienko2007designing}
+Andrienko, N.; Andrienko, G.
+\newblock Designing visual analytics methods for massive collections of
+  movement data.
+\newblock {\em Cartographica: The International Journal for Geographic
+  Information and Geovisualization} {\bf 2007}, {\em 42},~117--138.
+
+\bibitem[MacEachren and Kraak(2001)]{maceachren2001research}
+MacEachren, A.M.; Kraak, M.J.
+\newblock Research challenges in geovisualization.
+\newblock {\em Cartography and Geographic Information Science} {\bf 2001}, {\em
+  28},~3--12.
+
+\bibitem[MacEachren(2004)]{maceachren2004maps}
+MacEachren, A.M.
+\newblock {\em How maps work: representation, visualization, and design};
+  Guilford Press,  2004.
+
+\bibitem[Andrienko \em{et~al.}(2007)Andrienko, Andrienko, and
+  Wrobel]{andrienko2007visual}
+Andrienko, G.; Andrienko, N.; Wrobel, S.
+\newblock Visual analytics tools for analysis of movement data.
+\newblock {\em ACM SIGKDD Explorations Newsletter} {\bf 2007}, {\em 9},~38--46.
+
+\bibitem[Gao \em{et~al.}(2012)Gao, Tang, and Liu]{gao2012exploring}
+Gao, H.; Tang, J.; Liu, H.
+\newblock Exploring Social-Historical Ties on Location-Based Social Networks.
+\newblock  ICWSM,  2012.
+
+\bibitem[Buttenfield and McMaster(1991)]{buttenfield1991map}
+Buttenfield, B.P.; McMaster, R.B.
+\newblock {\em Map Generalization: Making rules for knowledge representation};
+  Longman Scientific \& Technical New York,  1991.
+
+\bibitem[Samet(1984)]{samet1984quadtree}
+Samet, H.
+\newblock The quadtree and related hierarchical data structures.
+\newblock {\em ACM Computing Surveys (CSUR)} {\bf 1984}, {\em 16},~187--260.
+
+\bibitem[Clauset \em{et~al.}(2009)Clauset, Shalizi, and
+  Newman]{clauset2009power}
+Clauset, A.; Shalizi, C.R.; Newman, M.E.
+\newblock Power-law distributions in empirical data.
+\newblock {\em SIAM review} {\bf 2009}, {\em 51},~661--703.
+
+\bibitem[Reynolds(2012)]{reynolds2012truncated}
+Reynolds, A.
+\newblock Truncated L{\'e}vy walks are expected beyond the scale of data
+  collection when correlated random walks embody observed movement patterns.
+\newblock {\em Journal of The Royal Society Interface} {\bf 2012}, {\em
+  9},~528--534.
+
+\bibitem[Zhao \em{et~al.}(2015)Zhao, Musolesi, Hui, Rao, and
+  Tarkoma]{zhao2015explaining}
+Zhao, K.; Musolesi, M.; Hui, P.; Rao, W.; Tarkoma, S.
+\newblock Explaining the power-law distribution of human mobility through
+  transportation modality decomposition.
+\newblock {\em Scientific reports} {\bf 2015}, {\em 5}.
+
+\bibitem[Liu \em{et~al.}(2014)Liu, Padmanabhan, and Wang]{liu2014cybergis}
+Liu, Y.; Padmanabhan, A.; Wang, S.
+\newblock CyberGIS Gateway for enabling data-rich geospatial research and
+  education.
+\newblock {\em Concurrency and Computation: Practice and Experience} {\bf
+  2014}.
+
 \end{thebibliography}

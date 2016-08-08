@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Twitter_MovementPatterns_VisualAnalytics.aux
+The style file: mdpi.bst
+Database file #1: lite.bib
+Warning--empty journal in zheng2010geolife
+Warning--empty journal in mitchell2013geography
+You've used 41 entries,
+            2795 wiz_defined-function locations,
+            792 strings with 11899 characters,
+and the built_in function-call counts, 15786 in all, are:
+= -- 1301
+> -- 961
+< -- 19
++ -- 366
+- -- 284
+* -- 1431
+:= -- 2574
+add.period$ -- 121
+call.type$ -- 41
+change.case$ -- 41
+chr.to.int$ -- 41
+cite$ -- 43
+duplicate$ -- 725
+empty$ -- 1292
+format.name$ -- 338
+if$ -- 3259
+int.to.chr$ -- 1
+int.to.str$ -- 41
+missing$ -- 44
+newline$ -- 204
+num.names$ -- 123
+pop$ -- 264
+preamble$ -- 0
+purify$ -- 41
+quote$ -- 0
+skip$ -- 389
+stack$ -- 0
+substring$ -- 754
+swap$ -- 177
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 278
+warning$ -- 2
+while$ -- 136
+width$ -- 0
+write$ -- 490
+(There were 2 warnings)

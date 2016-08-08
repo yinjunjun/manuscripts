@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  5 AUG 2016 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 AUG 2016 17:43
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Twitter_MovementPatterns_VisualAnalytics.tex
 (./Twitter_MovementPatterns_VisualAnalytics.tex
@@ -702,6 +701,9 @@ Package caption Info: hyperref package is loaded.
 \@justcentbox=\box33
 \wideitemsep=\skip67
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 \c@thm=\count134
 \c@ex=\count135
 \c@re=\count136
@@ -725,23 +727,23 @@ LaTeX Warning: Label `fig:Arch' multiply defined.
 )
 \openout1 = `Twitter_MovementPatterns_VisualAnalytics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 91.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -765,7 +767,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 113.
+(lastpage)             ! on input line 91.
 \AtBeginShipoutBox=\box35
  (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
@@ -775,7 +777,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 91.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -785,9 +787,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./Twitter_MovementPatterns_VisualAnalytics.out)
 (./Twitter_MovementPatterns_VisualAnalytics.out)
@@ -839,65 +841,62 @@ Package epstopdf Info: Source file: <logo-mdpi.eps>
 (epstopdf)                    size: 67429 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo-mdpi-eps-converted-to
 .pdf logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 <logo-mdpi-eps-converted-to.pdf, id=57, 88.33pt x 58.2175pt>
 File: logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: logo-mdpi-eps-converted-to.pdf used on input line 113.
-
+Package pdftex.def Info: logo-mdpi-eps-converted-to.pdf used on input line 91.
 (pdftex.def)             Requested size: 43.16885pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <18> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 113.
-
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 91.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 113
-.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 91.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 113
-.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 91.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 113
-.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 91.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 113
-.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 91.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 113.
+(Font)              scaled to size 10.42007pt on input line 91.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 113.
+(Font)              scaled to size 7.91925pt on input line 91.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 113.
+(Font)              scaled to size 6.25204pt on input line 91.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 113.
+(Font)              scaled to size 9.37807pt on input line 91.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 113.
+(Font)              scaled to size 7.29405pt on input line 91.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 113.
+(Font)              scaled to size 5.21004pt on input line 91.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 113.
-
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 91.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -906,281 +905,177 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo-
 mdpi-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 141.
- [2]
-
-Package natbib Warning: Citation `zheng2010geolife' on page 3 undefined on inpu
-t line 159.
-
-
-Package natbib Warning: Citation `becker2013human' on page 3 undefined on input
- line 162.
-
-
-Package natbib Warning: Citation `sobolevsky2013delineating' on page 3 undefine
-d on input line 162.
-
-
-Package natbib Warning: Citation `mitchell2013geography' on page 3 undefined on
- input line 169.
-
-
-Package natbib Warning: Citation `longley2015geotemporal' on page 3 undefined o
-n input line 169.
-
-
-Package natbib Warning: Citation `cranshaw2012livehoods' on page 3 undefined on
- input line 171.
-
-[3]
-
-Package natbib Warning: Citation `hagerstrand1985time' on page 4 undefined on i
-nput line 180.
-
-
-Package natbib Warning: Citation `kwan2004geovisualization' on page 4 undefined
- on input line 181.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 181.
-
-
-Package natbib Warning: Citation `maceachren2001research' on page 4 undefined o
-n input line 182.
-
-
-Package natbib Warning: Citation `maceachren2004maps' on page 4 undefined on in
-put line 182.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 183.
-
-
-Package natbib Warning: Citation `andrienko2007visual' on page 4 undefined on i
-nput line 183.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 184.
-
-[4]
-Underfull \hbox (badness 1394) in paragraph at lines 224--227
+(Font)              scaled to size 8.33606pt on input line 119.
+ [2] [3] [4]
+Underfull \hbox (badness 1394) in paragraph at lines 202--205
 []\T1/ppl/m/n/10 To ad-dress the data-intensive chal-lenges, we have de-vel-ope
 d a scal-able visual-analytics
  []
 
-<./figures/Overall_Architecture222.png, id=157, 638.385pt x 768.8725pt>
+<./figures/Overall_Architecture222.png, id=184, 638.385pt x 768.8725pt>
 File: ./figures/Overall_Architecture222.png Graphic file (type png)
 
 <use ./figures/Overall_Architecture222.png>
 Package pdftex.def Info: ./figures/Overall_Architecture222.png used on input li
-ne 230.
+ne 208.
 (pdftex.def)             Requested size: 266.32062pt x 320.75381pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package natbib Warning: Citation `hagerstrand1985time' on page 5 undefined on i
-nput line 237.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--241
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 215--219
 
  []
 
-[5]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 242.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 220.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 226--228
 \T1/ppl/m/n/10 if the speed be-tween any two con-sec-u-tive lo-ca-tions in the 
 user's tra-jec-tory with $\OML/zplm/m/it/10 speed$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
-
- []
-
-
-Package natbib Warning: Citation `gao2012exploring' on page 6 undefined on inpu
-t line 252.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--259
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
 
  []
 
 [6 <./figures/Overall_Architecture222.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+Underfull \hbox (badness 10000) in paragraph at lines 232--237
 
  []
 
 
-Package natbib Warning: Citation `andrienko2007designing' on page 7 undefined o
-n input line 267.
-
-
-Package natbib Warning: Citation `andrienko2007visual' on page 7 undefined on i
-nput line 267.
-
-
-Package natbib Warning: Citation `buttenfield1991map' on page 7 undefined on in
-put line 268.
-
-
-Package natbib Warning: Citation `samet1984quadtree' on page 7 undefined on inp
-ut line 272.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
-[7] <./figures/multilevel.png, id=184, 584.1825pt x 709.65125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+[7] <./figures/multilevel.png, id=218, 584.1825pt x 709.65125pt>
 File: ./figures/multilevel.png Graphic file (type png)
 
 <use ./figures/multilevel.png>
-Package pdftex.def Info: ./figures/multilevel.png used on input line 280.
+Package pdftex.def Info: ./figures/multilevel.png used on input line 258.
 (pdftex.def)             Requested size: 266.32062pt x 323.53069pt.
-
-
-Package natbib Warning: Citation `clauset2009power' on page 8 undefined on inpu
-t line 293.
-
-[8 <./figures/multilevel.png>]
-
-Package natbib Warning: Citation `reynolds2012truncated' on page 9 undefined on
- input line 298.
-
-
-Package natbib Warning: Citation `zhao2015explaining' on page 9 undefined on in
-put line 298.
-
-<./figures/visitation2.png, id=192, 1231.60126pt x 629.35126pt>
+ [8 <./figures/multilevel.png>]
+<./figures/visitation2.png, id=230, 1231.60126pt x 629.35126pt>
 File: ./figures/visitation2.png Graphic file (type png)
 
 <use ./figures/visitation2.png>
-Package pdftex.def Info: ./figures/visitation2.png used on input line 305.
+Package pdftex.def Info: ./figures/visitation2.png used on input line 283.
 (pdftex.def)             Requested size: 443.86319pt x 226.81595pt.
  [9 <./figures/visitation2.png>]
-<./figures/displacement.png, id=203, 1477.4397pt x 1536.942pt>
+<./figures/displacement.png, id=244, 1477.4397pt x 1536.942pt>
 File: ./figures/displacement.png Graphic file (type png)
 
 <use ./figures/displacement.png>
-Package pdftex.def Info: ./figures/displacement.png used on input line 324.
+Package pdftex.def Info: ./figures/displacement.png used on input line 302.
 (pdftex.def)             Requested size: 443.86319pt x 461.74281pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/gyration.png, id=205, 1734.48pt x 870.8535pt>
+[10] [11 <./figures/displacement.png>]
+<./figures/gyration.png, id=256, 1734.48pt x 870.8535pt>
 File: ./figures/gyration.png Graphic file (type png)
 
 <use ./figures/gyration.png>
-Package pdftex.def Info: ./figures/gyration.png used on input line 332.
+Package pdftex.def Info: ./figures/gyration.png used on input line 310.
 (pdftex.def)             Requested size: 443.86319pt x 222.85535pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./figures/gyration_season.png, id=207, 1415.2875pt x 673.76718pt>
+<./figures/gyration_season.png, id=258, 1415.2875pt x 673.76718pt>
 File: ./figures/gyration_season.png Graphic file (type png)
 
 <use ./figures/gyration_season.png>
-Package pdftex.def Info: ./figures/gyration_season.png used on input line 344.
+Package pdftex.def Info: ./figures/gyration_season.png used on input line 322.
 (pdftex.def)             Requested size: 443.86319pt x 211.30223pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] <./figures/degree.png, id=212, 883.80188pt x 603.0028pt>
+[12
+
+ <./figures/gyration.png>]
+<./figures/degree.png, id=265, 883.80188pt x 603.0028pt>
 File: ./figures/degree.png Graphic file (type png)
 
 <use ./figures/degree.png>
-Package pdftex.def Info: ./figures/degree.png used on input line 359.
+Package pdftex.def Info: ./figures/degree.png used on input line 337.
 (pdftex.def)             Requested size: 355.0919pt x 242.27336pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `liu2014cybergis' on page 11 undefined on inpu
-t line 369.
-
-<./figures/vocation.png, id=213, 1213.53375pt x 709.14937pt>
+<./figures/vocation.png, id=267, 1213.53375pt x 709.14937pt>
 File: ./figures/vocation.png Graphic file (type png)
 
 <use ./figures/vocation.png>
-Package pdftex.def Info: ./figures/vocation.png used on input line 377.
+Package pdftex.def Info: ./figures/vocation.png used on input line 355.
 (pdftex.def)             Requested size: 355.0919pt x 207.50922pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--385
+[13 <./figures/gyration_season.png (PNG copy)>] [14 <./figures/degree.png> <./f
+igures/vocation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 361--363
 
  []
 
-<./figures/vaca_flow.png, id=214, 695.59875pt x 682.04813pt>
+<./figures/vaca_flow.png, id=281, 695.59875pt x 682.04813pt>
 File: ./figures/vaca_flow.png Graphic file (type png)
 
 <use ./figures/vaca_flow.png>
-Package pdftex.def Info: ./figures/vaca_flow.png used on input line 388.
+Package pdftex.def Info: ./figures/vaca_flow.png used on input line 366.
 (pdftex.def)             Requested size: 443.86319pt x 435.2084pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 396--400
+Underfull \hbox (badness 1354) in paragraph at lines 374--378
 []\T1/ppl/m/n/10 In this study, we have used large vol-ume of geo-located tweet
 s to study Twit-ter user
  []
 
-[11]
-Underfull \hbox (badness 1077) in paragraph at lines 406--410
+[15
+
+ <./figures/vaca_flow.png>]
+Underfull \hbox (badness 1077) in paragraph at lines 384--388
 \T1/ppl/m/n/10 by the prob-a-bil-ity dis-tri-bu-tions of the dis-place-ments an
 d ra-dius of gy-ra-tions of in-di-vid-u-als.
  []
 
-(./Twitter_MovementPatterns_VisualAnalytics.bbl [12])
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 430.
+(./Twitter_MovementPatterns_VisualAnalytics.bbl [16]
+Underfull \hbox (badness 1320) in paragraph at lines 153--157
+\T1/ppl/m/n/9 S.; Var-shavsky, A.; Volin-sky, C.  Hu-man mo-bil-ity char-ac-ter
+-i-za-tion from cel-lu-lar net-work data.
+ []
 
+[17])
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 408.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 430.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 408.
 
 
 AED: lastpage setting LastPage
-[13] [14 <./figures/displacement.png>] [15 <./figures/gyration.png> <./figures/
-gyration_season.png (PNG copy)>] [16 <./figures/degree.png> <./figures/vocation
-.png>] [17 <./figures/vaca_flow.png>]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
-(./Twitter_MovementPatterns_VisualAnalytics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 408.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
+ (./Twitter_MovementPatterns_VisualAnalytics.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
 Package rerunfilecheck Info: File `Twitter_MovementPatterns_VisualAnalytics.out
 ' has not changed.
 (rerunfilecheck)             Checksum: 9D0B21103C65C58AB75AA2AFD807C9DA;3431.
@@ -1190,13 +1085,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13794 strings out of 493117
- 196400 string characters out of 6135433
- 296803 words of memory out of 5000000
- 16939 multiletter control sequences out of 15000+600000
+ 13868 strings out of 493117
+ 198354 string characters out of 6135433
+ 296230 words of memory out of 5000000
+ 16989 multiletter control sequences out of 15000+600000
  54901 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,2020b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,2020b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -1211,11 +1106,11 @@ st/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Twitter_MovementPatterns_VisualAnalytics.pdf (17 pages, 36887
-07 bytes).
+Output written on Twitter_MovementPatterns_VisualAnalytics.pdf (18 pages, 36948
+93 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
