@@ -136,13 +136,6 @@ Tsou, M.H.
 \newblock {\em Cartography and Geographic Information Science} {\bf 2015}, {\em
   42},~70--74.
 
-\bibitem[Cao \em{et~al.}(2014)Cao, Wang, Hwang, Padmanabhan, Zhang, and
-  Soltani]{cao2014scalable}
-Cao, G.; Wang, S.; Hwang, M.; Padmanabhan, A.; Zhang, Z.; Soltani, K.
-\newblock A Scalable Framework for Spatiotemporal Analysis of Location-based
-  Social Media Data.
-\newblock {\em arXiv preprint arXiv:1409.2826} {\bf 2014}.
-
 \bibitem[Zheng \em{et~al.}(2010)Zheng, Xie, and Ma]{zheng2010geolife}
 Zheng, Y.; Xie, X.; Ma, W.Y.
 \newblock GeoLife: A Collaborative Social Networking Service among User,
@@ -163,6 +156,13 @@ Sobolevsky, S.; Szell, M.; Campari, R.; Couronn{\'e}, T.; Smoreda, Z.; Ratti,
   in an extensive set of countries.
 \newblock {\em PLoS One} {\bf 2013}, {\em 8},~e81707.
 
+\bibitem[Cranshaw \em{et~al.}(2012)Cranshaw, Schwartz, Hong, and
+  Sadeh]{cranshaw2012livehoods}
+Cranshaw, J.; Schwartz, R.; Hong, J.I.; Sadeh, N.M.
+\newblock The Livehoods Project: Utilizing Social Media to Understand the
+  Dynamics of a City.
+\newblock  ICWSM,  2012.
+
 \bibitem[Mitchell \em{et~al.}(2013)Mitchell, Frank, Harris, Dodds, and
   Danforth]{mitchell2013geography}
 Mitchell, L.; Frank, M.R.; Harris, K.D.; Dodds, P.S.; Danforth, C.M.
@@ -174,13 +174,6 @@ Mitchell, L.; Frank, M.R.; Harris, K.D.; Dodds, P.S.; Danforth, C.M.
 Longley, P.A.; Adnan, M.; Lansley, G.; others.
 \newblock The geotemporal demographics of Twitter usage.
 \newblock {\em Environment and Planning A} {\bf 2015}, {\em 47},~465--484.
-
-\bibitem[Cranshaw \em{et~al.}(2012)Cranshaw, Schwartz, Hong, and
-  Sadeh]{cranshaw2012livehoods}
-Cranshaw, J.; Schwartz, R.; Hong, J.I.; Sadeh, N.M.
-\newblock The Livehoods Project: Utilizing Social Media to Understand the
-  Dynamics of a City.
-\newblock  ICWSM,  2012.
 
 \bibitem[H{\"a}gerstrand \em{et~al.}(1985)H{\"a}gerstrand
   et~al.]{hagerstrand1985time}
@@ -218,6 +211,25 @@ MacEachren, A.M.
 Andrienko, G.; Andrienko, N.; Wrobel, S.
 \newblock Visual analytics tools for analysis of movement data.
 \newblock {\em ACM SIGKDD Explorations Newsletter} {\bf 2007}, {\em 9},~38--46.
+
+\bibitem[Cao \em{et~al.}(2014)Cao, Wang, Hwang, Padmanabhan, Zhang, and
+  Soltani]{cao2014scalable}
+Cao, G.; Wang, S.; Hwang, M.; Padmanabhan, A.; Zhang, Z.; Soltani, K.
+\newblock A Scalable Framework for Spatiotemporal Analysis of Location-based
+  Social Media Data.
+\newblock {\em arXiv preprint arXiv:1409.2826} {\bf 2014}.
+
+\bibitem[Shvachko \em{et~al.}(2010)Shvachko, Kuang, Radia, and
+  Chansler]{shvachko2010hadoop}
+Shvachko, K.; Kuang, H.; Radia, S.; Chansler, R.
+\newblock The hadoop distributed file system.
+\newblock  Mass Storage Systems and Technologies (MSST), 2010 IEEE 26th
+  Symposium on. IEEE,  2010, pp. 1--10.
+
+\bibitem[Dean and Ghemawat(2008)]{dean2008mapreduce}
+Dean, J.; Ghemawat, S.
+\newblock MapReduce: simplified data processing on large clusters.
+\newblock {\em Communications of the ACM} {\bf 2008}, {\em 51},~107--113.
 
 \bibitem[Gao \em{et~al.}(2012)Gao, Tang, and Liu]{gao2012exploring}
 Gao, H.; Tang, J.; Liu, H.
