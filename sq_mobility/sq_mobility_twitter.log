@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  15 AUG 2016 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  17 AUG 2016 03:04
 entering extended mode
 **C:/Users/Jun/Documents/GitHub/manuscripts/sq_mobility/sq_mobility_twitter.tex
 
@@ -81,8 +81,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2016/06/17 v0.06h Graphics/color for pdfTeX
+(C:\Users\Jun\AppData\Roaming\MiKTeX\2.9\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -216,74 +216,60 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+(Font)              <6> on input line 19.
 
 
-LaTeX Warning: Citation `thatcher2014' on page 1 undefined on input line 33.
+LaTeX Warning: Citation `thatcher2014' on page 1 undefined on input line 32.
 
 
-LaTeX Warning: Citation `hawelka2014geo' on page 1 undefined on input line 34.
+LaTeX Warning: Citation `hawelka2014geo' on page 1 undefined on input line 33.
 
 
 LaTeX Warning: Citation `giannotti2008mobility' on page 1 undefined on input li
-ne 35.
+ne 34.
 
 
 LaTeX Warning: Citation `crampton2014collect' on page 1 undefined on input line
- 35.
+ 34.
 
 
-LaTeX Warning: Citation `Jurdak2015' on page 1 undefined on input line 35.
+LaTeX Warning: Citation `Jurdak2015' on page 1 undefined on input line 34.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 46.
+(Font)              <10.95> on input line 45.
 [1
 
 {C:/Users/Jun/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./figure/gyration_chicago.png, id=14, 722.7pt x 383.031pt>
+<./figure/gyration_chicago.png, id=11, 722.7pt x 383.031pt>
 File: ./figure/gyration_chicago.png Graphic file (type png)
 
 <use ./figure/gyration_chicago.png>
-Package pdftex.def Info: ./figure/gyration_chicago.png used on input line 54.
+Package pdftex.def Info: ./figure/gyration_chicago.png used on input line 53.
 (pdftex.def)             Requested size: 452.9679pt x 240.07175pt.
 
-<./figure/Chicago_Shape.png, id=16, 2569.6pt x 1204.5pt>
+<./figure/Chicago_Shape.png, id=13, 2569.6pt x 1204.5pt>
 File: ./figure/Chicago_Shape.png Graphic file (type png)
 
 <use ./figure/Chicago_Shape.png>
-Package pdftex.def Info: ./figure/Chicago_Shape.png used on input line 61.
+Package pdftex.def Info: ./figure/Chicago_Shape.png used on input line 60.
 (pdftex.def)             Requested size: 452.9679pt x 212.31613pt.
 
-<./figure/firsttime.png, id=17, 1445.4pt x 690.32906pt>
+<./figure/firsttime.png, id=14, 1445.4pt x 690.32906pt>
 File: ./figure/firsttime.png Graphic file (type png)
 
 <use ./figure/firsttime.png>
-Package pdftex.def Info: ./figure/firsttime.png used on input line 67.
+Package pdftex.def Info: ./figure/firsttime.png used on input line 66.
 (pdftex.def)             Requested size: 452.9679pt x 216.33824pt.
- 
+ [2 <./figure/gyration_chicago.png> <./figure/Chicago_Shape.png (PNG copy)>] 
 AED: lastpage setting LastPage
-[2 <./figure/gyration_chicago.png>] [3 <./figure/Chicago_Shape.png (PNG copy)> 
-<./figure/firsttime.png (PNG copy)>] (sq_mobility_twitter.aux)
+[3 <./figure/firsttime.png (PNG copy)>] (sq_mobility_twitter.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -292,25 +278,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2257 strings out of 493335
- 32259 string characters out of 3139266
- 100778 words of memory out of 3000000
- 5762 multiletter control sequences out of 15000+200000
- 9723 words of font info for 34 fonts, out of 3000000 for 9000
+ 2231 strings out of 493335
+ 31906 string characters out of 3139266
+ 100813 words of memory out of 3000000
+ 5742 multiletter control sequences out of 15000+200000
+ 8811 words of font info for 31 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,43p,463b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,5n,43p,463b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-
-Output written on sq_mobility_twitter.pdf (3 pages, 471184 bytes).
+public/amsfonts/cm/cmr8.pfb>
+Output written on sq_mobility_twitter.pdf (3 pages, 444930 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
