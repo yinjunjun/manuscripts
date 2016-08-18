@@ -1,51 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sq_mobility_twitter.aux
-I couldn't open style file naturemag.bst
----line 19 of file sq_mobility_twitter.aux
- : \bibstyle{naturemag
- :                    }
-I'm skipping whatever remains of this command
-I found no style file---while reading file sq_mobility_twitter.aux
-You've used 5 entries,
-            0 wiz_defined-function locations,
-            91 strings with 613 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+The style file: naturemag.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "thatcher2014"
+Warning--I didn't find a database entry for "giannotti2008mobility"
+Warning--I didn't find a database entry for "crampton2014collect"
+Warning--I didn't find a database entry for "Jurdak2015"
+You've used 1 entry,
+            2348 wiz_defined-function locations,
+            988 strings with 9088 characters,
+and the built_in function-call counts, 433 in all, are:
+= -- 31
+> -- 8
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 4
+- -- 2
+* -- 52
+:= -- 55
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 1
+duplicate$ -- 36
+empty$ -- 39
+format.name$ -- 3
+if$ -- 81
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 13
+num.names$ -- 1
+pop$ -- 4
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 5
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 25
+swap$ -- 35
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+while$ -- 3
+width$ -- 2
+write$ -- 18
+(There were 4 warnings)

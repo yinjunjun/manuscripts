@@ -1,17 +1,18 @@
 # Fdb version 3
-["bibtex sq_mobility_twitter"] 1471504217 "sq_mobility_twitter.aux" "sq_mobility_twitter.bbl" "sq_mobility_twitter" 1471504218
+["bibtex sq_mobility_twitter"] 1471505451 "sq_mobility_twitter.aux" "sq_mobility_twitter.bbl" "sq_mobility_twitter" 1471505452
   "naturemag.bst" 0 -1 0 ""
-  "sample.bib" 1465519362 251 102e4c94e44acc90acf4631e1056dca1 ""
-  "sq_mobility_twitter.aux" 1471504218 2057 9c9e93661a7c62dfbcc149fbd9ce2dae ""
+  "ref.bib" 1471505024 803 45d68fe4cf103504cf85861356236e6f ""
+  "sq_mobility_twitter.aux" 1471505452 2054 400d2f72fe38e3bf1a79578ff3edb5b9 ""
   "sq_mobility_twitter.bcf" 0 -1 0 ""
   (generated)
+  "sq_mobility_twitter.blg"
   "sq_mobility_twitter.bbl"
-["pdflatex"] 1471504218 "sq_mobility_twitter.tex" "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.pdf" "sq_mobility_twitter" 1471504218
+["pdflatex"] 1471505451 "sq_mobility_twitter.tex" "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.pdf" "sq_mobility_twitter" 1471505452
   "./figure/Chicago_Shape.png" 1471492530 199467 734ad85e03cef86b43c37dfd10ede2ba ""
   "./figure/firsttime.png" 1471492530 45263 f58f17d07ba7a49f22e6a99c33e6f1ac ""
   "./figure/gyration_chicago.png" 1471492530 150848 98de3113cab415202dbb824f09337498 ""
   "/etc/texmf/web2c/texmf.cnf" 1471295254 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.aux" 1471504218 2057 9c9e93661a7c62dfbcc149fbd9ce2dae ""
+  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.aux" 1471505452 2054 400d2f72fe38e3bf1a79578ff3edb5b9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -122,15 +123,15 @@
   "figure/Chicago_Shape.png" 1471492530 199467 734ad85e03cef86b43c37dfd10ede2ba ""
   "figure/firsttime.png" 1471492530 45263 f58f17d07ba7a49f22e6a99c33e6f1ac ""
   "figure/gyration_chicago.png" 1471492530 150848 98de3113cab415202dbb824f09337498 ""
-  "sq_mobility_twitter.aux" 1471504218 2057 9c9e93661a7c62dfbcc149fbd9ce2dae ""
-  "sq_mobility_twitter.bbl" 1471504218 0 d41d8cd98f00b204e9800998ecf8427e "bibtex sq_mobility_twitter"
-  "sq_mobility_twitter.out" 1471504218 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sq_mobility_twitter.tex" 1471504216 5262 747ffb2088f2e961aad1abb0fb442258 ""
+  "sq_mobility_twitter.aux" 1471505452 2054 400d2f72fe38e3bf1a79578ff3edb5b9 ""
+  "sq_mobility_twitter.bbl" 1471505451 0 d41d8cd98f00b204e9800998ecf8427e "bibtex sq_mobility_twitter"
+  "sq_mobility_twitter.out" 1471505452 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "sq_mobility_twitter.tex" 1471504285 5259 fb061c05b9dfc53d44c1ce88732cf540 ""
   "wlscirep.cls" 1465519362 5599 5c038a0e05ee1ee6078b59c4efa1b24e ""
   (generated)
   "sq_mobility_twitter.aux"
-  "sq_mobility_twitter.out"
-  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.log"
-  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.pdf"
-  "sq_mobility_twitter.pdf"
   "sq_mobility_twitter.log"
+  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.pdf"
+  "/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.log"
+  "sq_mobility_twitter.pdf"
+  "sq_mobility_twitter.out"

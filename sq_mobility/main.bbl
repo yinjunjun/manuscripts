@@ -13,4 +13,11 @@
   Science}} \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{260--271}
   (\bibinfo{year}{2014}).
 
+\bibitem{padmanabhan2014flumapper}
+\bibinfo{author}{Padmanabhan, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Flumapper: A cybergis application for interactive
+  analysis of massive location-based social media}.
+\newblock \emph{\bibinfo{journal}{Concurrency and Computation: Practice and
+  Experience}}  (\bibinfo{year}{2014}).
+
 \end{thebibliography}
