@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.15)  18 AUG 2016 02:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.15)  18 AUG 2016 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sq_mobility_twitter.tex
-(./sq_mobility_twitter.tex
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
-(./wlscirep.cls
+(/home/jun/Github/manuscripts/sq_mobility/wlscirep.cls
 Document Class: wlscirep 18/03/2016, v1.1
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -792,7 +792,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(./sq_mobility_twitter.aux)
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.aux)
 \openout1 = `sq_mobility_twitter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -893,7 +893,8 @@ LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
 
-(./sq_mobility_twitter.out) (./sq_mobility_twitter.out)
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.out)
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.out)
 \@outlinefile=\write3
 \openout3 = `sq_mobility_twitter.out'.
 
@@ -1016,27 +1017,29 @@ File: ./figure/firsttime.png Graphic file (type png)
 <use ./figure/firsttime.png>
 Package pdftex.def Info: ./figure/firsttime.png used on input line 70.
 (pdftex.def)             Requested size: 500.484pt x 239.02753pt.
- (./sq_mobility_twitter.bbl)
+
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.bbl)
 
 AED: lastpage setting LastPage
 [2 <./figure/gyration_chicago.png>] [3 <./figure/Chicago_Shape.png (PNG copy)> 
 <./figure/firsttime.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
- (./sq_mobility_twitter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+
+(/home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `sq_mobility_twitter.out' has not changed.
 (rerunfilecheck)             Checksum: D026936E26440E420849F24A868B1612;52.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 11633 strings out of 494953
- 171629 string characters out of 6180977
+ 11634 strings out of 494953
+ 172312 string characters out of 6180977
  406471 words of memory out of 5000000
  14613 multiletter control sequences out of 15000+600000
  46139 words of font info for 143 fonts, out of 8000000 for 9000
@@ -1047,7 +1050,8 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sq_mobility_twitter.pdf (3 pages, 416403 bytes).
+Output written on /home/jun/Github/manuscripts/sq_mobility/sq_mobility_twitter.
+pdf (3 pages, 416838 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
