@@ -1,13 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.10)  30 MAY 2016 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 AUG 2016 23:43
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
 **NY_Taxi_Flow_Capacity.tex
-(NY_Taxi_Flow_Capacity.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(./NY_Taxi_Flow_Capacity.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -21,7 +24,9 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(NY_Taxi_Flow_Capacity.aux)
+(./NY_Taxi_Flow_Capacity.aux)
+\openout1 = `NY_Taxi_Flow_Capacity.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
@@ -46,24 +51,25 @@ LaTeX Warning: No \author given.
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(NY_Taxi_Flow_Capacity.aux) ) 
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./NY_Taxi_Flow_Capacity.aux) ) 
 Here is how much of TeX's memory you used:
- 229 strings out of 493671
- 2552 string characters out of 3141420
- 53427 words of memory out of 3000000
- 3652 multiletter control sequences out of 15000+200000
- 7580 words of font info for 27 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 21i,6n,19p,144b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr17.pfb>
-Output written on NY_Taxi_Flow_Capacity.pdf (1 page, 52009 bytes).
+ 228 strings out of 493117
+ 2586 string characters out of 6135433
+ 53909 words of memory out of 5000000
+ 3767 multiletter control sequences out of 15000+600000
+ 7580 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 21i,6n,19p,143b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb>
+Output written on NY_Taxi_Flow_Capacity.pdf (1 page, 49383 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
