@@ -212,12 +212,22 @@ Andrienko, G.; Andrienko, N.; Wrobel, S.
 \newblock Visual analytics tools for analysis of movement data.
 \newblock {\em ACM SIGKDD Explorations Newsletter} {\bf 2007}, {\em 9},~38--46.
 
-\bibitem[Cao \em{et~al.}(2014)Cao, Wang, Hwang, Padmanabhan, Zhang, and
+\bibitem[Cao \em{et~al.}(2015)Cao, Wang, Hwang, Padmanabhan, Zhang, and
   Soltani]{cao2014scalable}
 Cao, G.; Wang, S.; Hwang, M.; Padmanabhan, A.; Zhang, Z.; Soltani, K.
-\newblock A Scalable Framework for Spatiotemporal Analysis of Location-based
-  Social Media Data.
-\newblock {\em arXiv preprint arXiv:1409.2826} {\bf 2014}.
+\newblock A scalable framework for spatiotemporal analysis of location-based
+  social media data.
+\newblock {\em Computers, Environment and Urban Systems} {\bf 2015}, {\em
+  51},~70--82.
+
+\bibitem[Padmanabhan \em{et~al.}(2014)Padmanabhan, Wang, Cao, Hwang, Zhang,
+  Gao, Soltani, and Liu]{padmanabhan2014flumapper}
+Padmanabhan, A.; Wang, S.; Cao, G.; Hwang, M.; Zhang, Z.; Gao, Y.; Soltani, K.;
+  Liu, Y.
+\newblock FluMapper: A cyberGIS application for interactive analysis of massive
+  location-based social media.
+\newblock {\em Concurrency and Computation: Practice and Experience} {\bf
+  2014}.
 
 \bibitem[Shvachko \em{et~al.}(2010)Shvachko, Kuang, Radia, and
   Chansler]{shvachko2010hadoop}

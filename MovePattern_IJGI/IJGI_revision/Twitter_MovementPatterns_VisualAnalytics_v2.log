@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  7 SEP 2016 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  9 SEP 2016 00:01
 entering extended mode
 **C:/Users/Jun/Documents/GitHub/manuscripts/MovePattern_IJGI/IJGI_revision/Twit
 ter_MovementPatterns_VisualAnalytics_v2.tex
@@ -979,137 +979,137 @@ ps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 122.
  [2] [3] [4]
-Underfull \hbox (badness 1394) in paragraph at lines 201--204
+Underfull \hbox (badness 1394) in paragraph at lines 204--207
 []\T1/ppl/m/n/10 To ad-dress the data-intensive chal-lenges, we have de-vel-ope
 d a scal-able visual-analytics
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 205--212
+Underfull \hbox (badness 3009) in paragraph at lines 208--215
 []\T1/ppl/m/n/10 Apache Hadoop com-bines a dis-tributed file sys-tem, namely Ha
 doop Dis-tributed File
  []
 
-<./figures/Overall_Architecture222.png, id=183, 638.385pt x 768.8725pt>
+[5] <./figures/Overall_Architecture222.png, id=193, 638.385pt x 768.8725pt>
 File: ./figures/Overall_Architecture222.png Graphic file (type png)
 
 <use ./figures/Overall_Architecture222.png>
 Package pdftex.def Info: ./figures/Overall_Architecture222.png used on input li
-ne 215.
-(pdftex.def)             Requested size: 266.32062pt x 320.75381pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 222--227
+ne 218.
+(pdftex.def)             Requested size: 244.1261pt x 294.02824pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--230
 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 228.
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-
- []
-
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 231.
 
 Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 237--240
 \T1/ppl/m/n/10 if the speed be-tween any two con-sec-u-tive lo-ca-tions in the 
 user's tra-jec-tory with $\OML/zplm/m/it/10 speed$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
 [6 <./figures/Overall_Architecture222.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 241--247
+Underfull \hbox (badness 10000) in paragraph at lines 244--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--274
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 269--277
 
  []
 
-[7] <./figures/multilevel.png, id=221, 584.1825pt x 709.65125pt>
+<./figures/multilevel.png, id=224, 584.1825pt x 709.65125pt>
 File: ./figures/multilevel.png Graphic file (type png)
 
 <use ./figures/multilevel.png>
-Package pdftex.def Info: ./figures/multilevel.png used on input line 280.
+Package pdftex.def Info: ./figures/multilevel.png used on input line 283.
 (pdftex.def)             Requested size: 266.32062pt x 323.53069pt.
  [8 <./figures/multilevel.png>]
-<./figures/visitation.png, id=233, 1231.60126pt x 629.35126pt>
+<./figures/visitation.png, id=236, 1231.60126pt x 629.35126pt>
 File: ./figures/visitation.png Graphic file (type png)
 
 <use ./figures/visitation.png>
-Package pdftex.def Info: ./figures/visitation.png used on input line 306.
+Package pdftex.def Info: ./figures/visitation.png used on input line 311.
 (pdftex.def)             Requested size: 443.86319pt x 226.81595pt.
  [9]
-Underfull \hbox (badness 1210) in paragraph at lines 322--325
-[]\T1/ppl/m/n/10 In par-tic-u-lar, as it is shown in Fig-ure [][]4[][] (a), the
- prob-a-bil-ity dis-tri-bu-tion of the over-all
+Underfull \hbox (badness 2057) in paragraph at lines 327--330
+[]\T1/ppl/m/n/10 Figure [][]4[][] (a) shows the prob-a-bil-ity dis-tri-bu-tion 
+of the over-all dis-place-ments, which is
  []
 
 [10 <./figures/visitation.png>]
-<./figures/displacement.png, id=259, 1477.4397pt x 1536.942pt>
+<./figures/displacement.png, id=262, 1477.4397pt x 1536.942pt>
 File: ./figures/displacement.png Graphic file (type png)
 
 <use ./figures/displacement.png>
-Package pdftex.def Info: ./figures/displacement.png used on input line 332.
+Package pdftex.def Info: ./figures/displacement.png used on input line 337.
 (pdftex.def)             Requested size: 443.86319pt x 461.74281pt.
  [11 <./figures/displacement.png>]
-<./figures/gyration2.png, id=268, 1473.3444pt x 1538.3874pt>
+<./figures/gyration2.png, id=271, 1473.3444pt x 1538.3874pt>
 File: ./figures/gyration2.png Graphic file (type png)
 
 <use ./figures/gyration2.png>
-Package pdftex.def Info: ./figures/gyration2.png used on input line 348.
+Package pdftex.def Info: ./figures/gyration2.png used on input line 353.
 (pdftex.def)             Requested size: 443.86319pt x 463.44464pt.
  [12 <./figures/gyration2.png>]
-<./figures/gyration_season.png, id=276, 1415.2875pt x 673.76718pt>
+<./figures/gyration_season.png, id=279, 1415.2875pt x 673.76718pt>
 File: ./figures/gyration_season.png Graphic file (type png)
 
 <use ./figures/gyration_season.png>
-Package pdftex.def Info: ./figures/gyration_season.png used on input line 364.
+Package pdftex.def Info: ./figures/gyration_season.png used on input line 369.
 (pdftex.def)             Requested size: 443.86319pt x 211.30223pt.
- [13 <./figures/gyration_season.png (PNG copy)>] <./figures/degree.png, id=283,
+ [13 <./figures/gyration_season.png (PNG copy)>] <./figures/degree.png, id=286,
  883.80188pt x 603.0028pt>
 File: ./figures/degree.png Graphic file (type png)
 
 <use ./figures/degree.png>
-Package pdftex.def Info: ./figures/degree.png used on input line 381.
+Package pdftex.def Info: ./figures/degree.png used on input line 387.
 (pdftex.def)             Requested size: 355.0919pt x 242.27336pt.
  [14 <./figures/degree.png>]
-<./figures/all.png, id=295, 1212.02812pt x 684.30656pt>
+<./figures/all.png, id=298, 1212.02812pt x 684.30656pt>
 File: ./figures/all.png Graphic file (type png)
 
 <use ./figures/all.png>
-Package pdftex.def Info: ./figures/all.png used on input line 403.
+Package pdftex.def Info: ./figures/all.png used on input line 412.
 (pdftex.def)             Requested size: 355.0919pt x 200.47993pt.
 
-<./figures/Chicago.png, id=296, 1212.02812pt x 685.05937pt>
+<./figures/Chicago.png, id=299, 1212.02812pt x 685.05937pt>
 File: ./figures/Chicago.png Graphic file (type png)
 
 <use ./figures/Chicago.png>
-Package pdftex.def Info: ./figures/Chicago.png used on input line 411.
+Package pdftex.def Info: ./figures/Chicago.png used on input line 420.
 (pdftex.def)             Requested size: 355.0919pt x 200.70049pt.
 
-<./figures/Chicago_airport.png, id=297, 1621.05624pt x 916.42375pt>
+<./figures/Chicago_airport.png, id=300, 1621.05624pt x 916.42375pt>
 File: ./figures/Chicago_airport.png Graphic file (type png)
 
 <use ./figures/Chicago_airport.png>
-Package pdftex.def Info: ./figures/Chicago_airport.png used on input line 419.
+Package pdftex.def Info: ./figures/Chicago_airport.png used on input line 428.
 (pdftex.def)             Requested size: 355.0919pt x 200.73288pt.
  [15 <./figures/all.png> <./figures/Chicago.png>]
-Underfull \hbox (badness 1077) in paragraph at lines 436--440
+Underfull \hbox (badness 1077) in paragraph at lines 445--449
 \T1/ppl/m/n/10 by the prob-a-bil-ity dis-tri-bu-tions of the dis-place-ments an
 d ra-dius of gy-ra-tions of in-di-vid-u-als.
  []
@@ -1122,34 +1122,34 @@ Underfull \hbox (badness 1320) in paragraph at lines 146--150
  []
 
 [18])
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 468.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 479.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 468.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 479.
 
 
 AED: lastpage setting LastPage
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
  (Twitter_MovementPatterns_VisualAnalytics_v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
 Package rerunfilecheck Info: File `Twitter_MovementPatterns_VisualAnalytics_v2.
 out' has not changed.
 (rerunfilecheck)             Checksum: 7BE8214FA3277C96046509CC330E470B;3444.
  ) 
 Here is how much of TeX's memory you used:
- 13968 strings out of 493335
- 198486 string characters out of 3139266
- 302066 words of memory out of 3000000
- 17153 multiletter control sequences out of 15000+200000
+ 13972 strings out of 493335
+ 198611 string characters out of 3139266
+ 302553 words of memory out of 3000000
+ 17156 multiletter control sequences out of 15000+200000
  54901 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,2096b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,12n,45p,2096b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Jun\A
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0500.pk><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
@@ -1163,9 +1163,9 @@ tino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
 Output written on Twitter_MovementPatterns_VisualAnalytics_v2.pdf (19 pages, 92
-86992 bytes).
+89319 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
