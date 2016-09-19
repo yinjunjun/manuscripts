@@ -1,7 +1,7 @@
 %  LaTeX support: latex@mdpi.com
 %DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL Twitter_MovementPatterns_VisualAnalytics.tex      Wed Aug 17 22:55:30 2016
-%DIF ADD Twitter_MovementPatterns_VisualAnalytics_v2.tex   Fri Sep  9 00:32:58 2016
+%DIF DEL Twitter_MovementPatterns_VisualAnalytics.tex      Fri Sep  2 23:51:57 2016
+%DIF ADD Twitter_MovementPatterns_VisualAnalytics_v2.tex   Mon Sep 19 01:19:16 2016
 %  In case you need support, please attach all files that are necessary for compiling as well as the log file, and specify the details of your LaTeX setup (which operating system and LaTeX version / tools you are using).
 
 % You need to save the "mdpi.cls" and "mdpi.bst" files into the same folder as this template file.
@@ -174,13 +174,14 @@ LBSM enables users to attach their current location as a geo-tag to the message 
 A Big Data scenario emerges when millions social media users constantly \DIFdelbegin \DIFdel{posting }\DIFdelend \DIFaddbegin \DIFadd{post }\DIFaddend messages.
 In this study, geo-located Twitter data are chosen as a source for studying detailed mobility patterns.
 Compared to other LBSM platforms, Twitter is one of the most popular platforms and is been actively used in many countries.
-It provides a publicly accessible streaming API\footnote{https://dev.twitter.com/streaming/overview} for easy \DIFdelbegin \DIFdel{access to its data , in fact}\DIFdelend \DIFaddbegin \DIFadd{data access.
-Indeed}\DIFaddend , many other LBSM data can be collected from the data streams, such as Foursquare check-in data~\cite{cranshaw2012livehoods,hasan2013understanding}.
+It provides a publicly accessible streaming API\footnote{https://dev.twitter.com/streaming/overview} for easy \DIFdelbegin \DIFdel{access to its data , in fact, }\DIFdelend \DIFaddbegin \DIFadd{data access.
+Indeed, }\DIFaddend many other LBSM data can be collected from the data streams, such as Foursquare check-in data~\cite{cranshaw2012livehoods,hasan2013understanding}.
 
 However, it is worth noting that there are some limitations and complexities in directly using LBSM data for studying human mobility patterns.
 For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located message or check-in at a new place.
 \DIFdelbegin \DIFdel{There is }\DIFdelend \DIFaddbegin \DIFadd{Although geo-located tweets tend to provide geo-locations with high position resolution as aforementioned~\mbox{%DIFAUXCMD
-\cite{Jurdak2015}}%DIFAUXCMD
+\cite{Jurdak2015}
+}%DIFAUXCMD
 , the information regarding the quality of the geo-locations is absent in each tweet.
 This will contribute to the uncertainties in calculating the distance of Twitter user movements, especially in densely built environments.   
 There is also }\DIFaddend a potential mismatch regarding the representativeness of the overall population \DIFdelbegin \DIFdel{as }\DIFdelend \DIFaddbegin \DIFadd{since }\DIFaddend not all people use social media or send geo-located messages~\cite{kung2014exploring}\DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{, }\DIFaddend the demographic information of the Twitter users cannot be easily identified\DIFdelbegin \DIFdel{, the }\DIFdelend \DIFaddbegin \DIFadd{.
@@ -219,7 +220,8 @@ To ensure complete coverage over the continuous United States, we implemented a 
 The crawler is constantly running with over 2 million geo-located raw tweets ($\sim$\DIFdelbegin \DIFdel{2GB }\DIFdelend \DIFaddbegin \DIFadd{2 GB }\DIFaddend in size) collected per day.
 We have collected more than 1.3 billion geo-located tweets from 1$^{st}$ January to 31$^{st}$ December, 2014 with 6,147,430 Twitter users and 1 TB in file size.
 \DIFaddbegin \DIFadd{In particular, this data collection of year 2014 was originally used to map the spatial spread of flu in North America during the time period~\mbox{%DIFAUXCMD
-\cite{padmanabhan2014flumapper}}%DIFAUXCMD
+\cite{padmanabhan2014flumapper}
+}%DIFAUXCMD
 .
 }\DIFaddend 
 
@@ -312,7 +314,7 @@ where $ i = 1, 2, 3...n$
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=0.6\linewidth]{./figures/multilevel}
 \caption{Hierarchical spatial layers for aggregating movements in different level-of-details}
@@ -342,7 +344,7 @@ In addition, the two-tier power law also reveals the diversity in the Twitter us
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=1.0\linewidth]{./figures/visitation2}
 %DIFDELCMD < %%%
@@ -372,7 +374,7 @@ The distribution shows that around $10\%$ the tweet population has a radius of g
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=1.0\linewidth]{./figures/displacement}
 \caption{(a) The probability distribution of the collective Twitter user displacements P(d) (b) the distance between [100 m, 80 km] is approximated by a double power-law functions (c) The probability distribution of the accumulated displacements of individual Twitter users P(d) (d) The probability distribution of the accumulated displacements of individual Twitter users in 3 different months}
@@ -390,7 +392,7 @@ However, as it reflects intra-city level mobility patterns, there is no distinct
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=1.0\linewidth]{./figures/gyration2}
 \caption{ (a) The probability distribution of radius of gyration of individual Twitter users P($r_{g}$) at the national level (b) the distance between [50 m, 30 km] is approximated by a double power-law functions (c) P($r_{g}$) at the state level (Illinois and California) (d) P($r_{g}$) for Chicago city} 
@@ -455,7 +457,7 @@ The }\DIFaddend source code of the visual-analytics framework \DIFdelbegin \DIFd
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=0.8\linewidth]{./figures/all}
 \caption{An overview of the 3D interactive web mapping interface}
@@ -465,7 +467,7 @@ The }\DIFaddend source code of the visual-analytics framework \DIFdelbegin \DIFd
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=0.8\linewidth]{./figures/Chicago}
 \caption{The top 20 $\%$ movement flows around Chicago city}
@@ -475,7 +477,7 @@ The }\DIFaddend source code of the visual-analytics framework \DIFdelbegin \DIFd
 
 \DIFdelbegin %DIFDELCMD < \begin{figure}[h]
 %DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \begin{figure}[ht]
+\DIFdelend \DIFaddbegin \begin{figure}[ht]
 \DIFaddendFL \centering
 \includegraphics[width=0.8\linewidth]{./figures/Chicago_airport}
 \caption{The top 20 $\%$ movement flows between O'Hare International Airport and the city center of Chicago city}
@@ -487,7 +489,8 @@ The }\DIFaddend source code of the visual-analytics framework \DIFdelbegin \DIFd
 In this study, we have used large volume of geo-located tweets to study Twitter user mobility patterns across multi-level spatial scales and temporal ranges in the continuous United States during the year 2014. 
 To address the data-intensive challenges, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-scale spatiotemporal Twitter user mobility patterns.
 This framework is implemented \DIFdelbegin \DIFdel{based }\DIFdelend on high-performance distributed computing environment using Apache Hadoop.
-It \DIFdelbegin \DIFdel{delivers scalability }\DIFdelend \DIFaddbegin \DIFadd{provides efficiency }\DIFaddend in filtering large volume of geo-located tweets, modeling and extracting Twitter user movements, generating space-time user trajectories, and summarizing multi-level spatiotemporal user mobility patterns.
+It \DIFdelbegin \DIFdel{delivers scalability }\DIFdelend \DIFaddbegin \DIFadd{provides efficiency }\DIFaddend in filtering large volume of geo-located tweets, modeling and extracting Twitter user movements, generating space-time user trajectories, and summarizing multi-level spatiotemporal user mobility patterns. \DIFaddbegin \DIFadd{For example, we have included an experiment for illustrating the processing time regarding generating Twitter user trajectories across different time span in the supplement material.
+}\DIFaddend 
 
 With this framework, we have found some interesting Twitter user mobility patterns, both statistically and visually.
 We studied the collective Twitter user visiting behavior regarding the frequency of Twitter users visiting different locations, which was fitted by a two-tier power-law distribution function.
@@ -499,11 +502,11 @@ These distributions can all be approximated by a combination of three functions:
 We further studied these mobility patterns in different temporal ranges to investigate the temporal changes in the mobility patterns. 
 We found that the accumulated displacements are almost identical in different months, while the long distance radius of gyration (i.e., above 30 km) will experience more seasonal changes in the Twitter user mobility pattern.
 
-Finally, it is worth noting that \DIFaddbegin \DIFadd{at the current stage }\DIFaddend the geo-located Twitter data is not able to generalize to the entire population.
+Finally, it is worth noting that \DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{at the current stage the }\DIFaddend geo-located Twitter data is not able to generalize to the entire population.
 As the demographic information of the Twitter users cannot be easily identified, the results \DIFdelbegin \DIFdel{of delineated urban boundaries }\DIFdelend \DIFaddbegin \DIFadd{derived in this study }\DIFaddend may not reflect a complete real-world image \DIFdelbegin \DIFdel{from }\DIFdelend \DIFaddbegin \DIFadd{of }\DIFaddend human movements, which should be carefully considered in future studies.
-Nevertheless, \DIFaddbegin \DIFadd{the Twitter user movements provide clear supports to reveal the distance decay effects in human mobility research, which is observed in multiple spatial and temporal scales.
+Nevertheless, \DIFdelbegin \DIFdel{as }\DIFdelend \DIFaddbegin \DIFadd{the Twitter user movements provide clear supports to reveal the distance decay effects in human mobility research, which is observed in multiple spatial and temporal scales.
 Due to the large sample size, it is difficult to generalize the mobility pattern found at national level to entire population, city-level mobility pattern may provide better insights for investigating mobility dynamics. For example, the results of radius of gyration in Chicago exhibit similar pattern found in larger spatial scale, and with inputs of other mobility dataset that are often available at city-level, such as taxi trip records and mobile phone call data, there is a potential to synthesize these different sources of information and therefore provide a more complete image for understanding human mobility patterns.
-On the other hand, }\DIFaddend as we have discussed in this paper that geo-located Twitter data show the advantages regarding the easy data accessibility, the large spatial coverage and massive sample size, our approach \DIFdelbegin \DIFdel{showed that such data can be a valuable proxy for understanding human }\DIFdelend \DIFaddbegin \DIFadd{took advantage of such data source to understand the }\DIFaddend mobility patterns across multiple spatial scales and temporal ranges.
+On the other hand, as }\DIFaddend we have discussed in this paper that geo-located Twitter data show the advantages regarding the easy data accessibility, the large spatial coverage and massive sample size, our approach \DIFdelbegin \DIFdel{showed that such data can be a valuable proxy for understanding human }\DIFdelend \DIFaddbegin \DIFadd{took advantage of such data source to understand the }\DIFaddend mobility patterns across multiple spatial scales and temporal ranges.
 Also, our approach can be applied to the setting of other countries, which can be used to carry out comparative studies regarding spatiotemporal Twitter user mobility patterns. 
 
 
