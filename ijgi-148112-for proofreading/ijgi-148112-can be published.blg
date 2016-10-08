@@ -1,0 +1,5 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'ijgi-148112-can be published.blg'
+[59] biber-MSWIN64:290> INFO - === 
+[517] Utils.pm:165> ERROR - Cannot find control file 'ijgi-148112-can be published.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[517] Biber.pm:112> INFO - ERRORS: 1

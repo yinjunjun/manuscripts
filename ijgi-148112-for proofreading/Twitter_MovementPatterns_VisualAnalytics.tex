@@ -60,15 +60,15 @@
 \Title{Exploring Multi-Scale Spatiotemporal Twitter User Mobility Patterns with a Visual-Analytics Approach}
 
 % Authors, for the paper (add full first names)
-\Author{Junjun Yin $^{1,2}$ and Zhenhong Du $^{1,3,}$*}
+\Author{Junjun Yin $^{1,3}$ and Zhenhong Du $^{2,3}$*}
 % Authors, for metadata in PDF
 \AuthorNames{Junjun Yin and Zhenhong Du}
 
 % Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
 \address{%
-$^{1}$ \quad CyberGIS Center for Advanced Digital and Spatial Studies\\
-$^{2}$ \quad Department of Geography and Geographic Information Science, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA ; jyn@illinois.edu\\
-$^{3}$ \quad Key Laboratory of Geographic Information Science, School of Earth Sciences, Zhejiang University, Hangzhou, 310028, China; duzhenhong@zju.edu.cn}
+$^{1}$ \quad Department of Geography and Geographic Information Science, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA; jyn@illinois.edu\\
+$^{2}$ \quad Institute of Geographic Information Science, School of Earth Sciences, Zhejiang University, Hangzhou, 310028, China; duzhenhong@zju.edu.cn\\
+$^{3}$ \quad CyberGIS Center for Advanced Digital and Spatial Studies, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA}
 
 % Contact information of the corresponding author
 \corres{Correspondence: duzhenhong@zju.edu.cn; Tel.: +8613819192989}
@@ -120,7 +120,7 @@ On the other hand, while the high-resolution spatiotemporal records from LBSM pr
 In this paper, we have employed a visual-analytics approach to exploring the Twitter user mobility patterns across multi-level spatial scales and temporal ranges in the continuous United States (i.e., excluding Alaska and Hawaii) during the year 2014.
 The mobility data is extracted from over 1.3 billion geo-located Twitter messages (i.e., tweets) from January 1$^{st}$ to December 31$^{st}$, 2014 over North America with over 6 million Twitter users and over 1 TB in file size.
 To address the data-intensive challenge embedded in this dataset, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets.
-This framework is implemented based on high-performance distributed computing environment using Apache Hadoop\footnote{http://hadoop.apache.org/}, which is an open source software framework to enable distributed processing of large datasets across computing clusters.
+This framework is implemented based on high-performance distributed computing environment using Apache Hadoop (http://hadoop.apache.org/), which is an open source software framework to enable distributed processing of large datasets across computing clusters.
 Enabled by this framework, we have performed a set of statistical analysis to understand multi-scale spatiotemporal Twitter user mobility patterns. 
 We have modeled the frequency of Twitter users visiting different locations to study the collective user visiting behaviors, where we have identified temporal similarities in the distributions.
 In particular, Twitter user mobility patterns measured by user displacements and radius of gyrations of individuals~\cite{gonzalez2008understanding} have revealed different groups of Twitter users with multi-scale or multi-modal mobility patterns and multiple travel modes~\cite{Jurdak2015}.
@@ -152,7 +152,7 @@ LBSM enables users to attach their current location as a geo-tag to the message 
 A Big Data scenario emerges when millions social media users constantly post messages.
 In this study, geo-located Twitter data are chosen as a source for studying detailed mobility patterns.
 Compared to other LBSM platforms, Twitter is one of the most popular platforms and is been actively used in many countries.
-It provides a publicly accessible streaming API\footnote{https://dev.twitter.com/streaming/overview} for easy data access.
+It provides a publicly accessible streaming API (https://dev.twitter.com/streaming/overview) for easy data access.
 Indeed, many other LBSM data can be collected from the data streams, such as Foursquare check-in data~\cite{cranshaw2012livehoods,hasan2013understanding}.
 
 However, it is worth noting that there are some limitations and complexities in directly using LBSM data for studying human mobility patterns.
@@ -196,10 +196,10 @@ The crawler is constantly running with over 2 million geo-located raw tweets ($\
 We have collected more than 1.3 billion geo-located tweets from January 1$^{st}$ to December 31$^{st}$, 2014 with 6,147,430 Twitter users and 1 TB in file size.
 In particular, this data collection of the year 2014 was originally used to map the spatial spread of flu in North America during the time period~\cite{padmanabhan2014flumapper}.
 
-As a social media account is not equal to a real person in the physical world~\cite{tsou2015}, to ensure the data quality, the collected raw tweets were further filtered by the following steps: We first removed duplicated messages\footnote{https://support.twitter.com/articles/18311-the-twitter-rules} in the dataset; and then we removed non-human users based on the heuristic of unusual relocating speed discussed in~\cite{hawelka2014geo,Jurdak2015}. 
+As a social media account is not equal to a real person in the physical world~\cite{tsou2015}, to ensure the data quality, the collected raw tweets were further filtered by the following steps: We first removed duplicated messages (https://support.twitter.com/articles/18311-the-twitter-rules) in the dataset; and then we removed non-human users based on the heuristic of unusual relocating speed discussed in~\cite{hawelka2014geo,Jurdak2015}. 
 In this case, we adopted the speed limit value as 240 m/s used in~\cite{Jurdak2015}, where we examined all the consecutive locations of each user and excluded those with relocating speed over the limit.
 Note that the original location information embedded in each geo-located tweet is given in units of latitude and longitude, the distance is calculated by the great-circle distance between two points on a sphere with the haversine formula.
-Finally, we used the geographic boundaries of the continuous United States\footnote{https://www.census.gov/geo/maps-data/data/} (excluding Alaska and Hawaii) to further restrict the remaining tweets, where the technical details is presented in the following section. Based on these reinforcements, the dataset contains 1,052,861,000 tweets and 4,559,205 unique users.
+Finally, we used the geographic boundaries of the continuous United States (excluding Alaska and Hawaii) to further restrict the remaining tweets, where the technical details is presented in the following section. Based on these reinforcements, the dataset contains 1,052,861,000 tweets and 4,559,205 unique users.
 
 \subsection{A scalable visual-analytics framework}
 To address the data-intensive challenges, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
@@ -262,7 +262,7 @@ It is similar to the map generation approach that when a user is interacting wit
 To enable aggregating Twitter trajectories into multiple spatial scales, we have extended the hierarchical space-time cube model developed in~\cite{cao2014scalable}, where we partitioned the geographic space of the continuous United States into 10 hierarchical spatial layers and each space-time cube is created with a fixed time window of a week interval. 
 Specifically, the state boundaries of the continuous United States are treated as the base layer (i.e. level 0) for aggregating state-level Twitter user movements, Alaska and Hawaii are excluded for the consideration of better visualization effects in the mapping interface of the framework.
 We then created an hierarchical fishnet by diving the study region into regular cells, where the finest level (level 10) consists 1 km $\times$ 1 km cells.
-Such a cell size is consistent with the spatial resolution in landscan\footnote{http://web.ornl.gov/sci/landscan/} product for measuring the global population density.
+Such a cell size is consistent with the spatial resolution in landscan (http://web.ornl.gov/sci/landscan) product for measuring the global population density.
 In our case, the cell width/height for level i-1 is twice of the size in level i.
 Figure~\ref{fig:multilevel} illustrates an hierarchical fishnet spatial units for mapping multi-level Twitter user movements.
 Note that any predefined geographic boundaries can be used and appended in this framework to show different level-of-detailed movements (e.g., national-level and census-tract level), in our case, we replaced the level 8 fishnet layer with the US county boundaries.
@@ -392,8 +392,8 @@ It indicates that the Twitter population is not proportional to account the move
 \FloatBarrier
 
 \subsection{The interactive 3D virtual globe web mapping interface}
-In addition to providing supports for understanding Twitter user mobility patterns with statistical analysis, the framework integrates a 3D virtual globe interface to enable users to perform exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements\footnote{http://sandbox.cigi.illinois.edu/home/apps.php?app=movepattern}. 
-The 3D virtual globe is developed and extended from the Cesium library\footnote{http://cesiumjs.org/}, which is an open-source WebGL virtual globe and map engine.
+In addition to providing supports for understanding Twitter user mobility patterns with statistical analysis, the framework integrates a 3D virtual globe interface to enable users to perform exploratory geo-visual analytics of the multi-level spatiotemporal Twitter user movements(http://sandbox.cigi.illinois.edu/home/apps.php?app=movepattern). 
+The 3D virtual globe is developed and extended from the Cesium library (http://cesiumjs.org), which is an open-source WebGL virtual globe and map engine.
 We customized the map engine to adapt different spatial scales, which correspond to the hierarchical spatial layers, for aggregating movements in different levels-of-detail.
 The map interface interprets user's interactions, such as area-of-interest, time window, and zoom levels, etc. as parameters and send to the dedicated visualization servlet on the CyberGIS Gateway, which is the leading online cyberGIS environment for a large number of users to perform computing- and data-intensive, and collaborative geospatial problem-solving enabled by advanced cyberinfrastructure~\cite{liu2014cybergis}.
 
@@ -468,7 +468,7 @@ D.Z. would like to thank the funding support from the Fundamental Research Funds
 The work also used the ROGER supercomputer, which is supported by NSF under grant number: 1429699.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\authorcontributions{J.Y. conceived and designed the experiments; J.Y. and D.Z. wrote the paper.}
+\authorcontributions{J.Y. conceived and designed the experiments; J.Y. and D.Z. analyzed the results; J.Y. and D.Z. wrote the paper.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \conflictofinterests{The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results.} 
