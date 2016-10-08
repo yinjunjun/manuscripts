@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Twitter_MovementPatterns_VisualAnalytics"] 1475467370 "Twitter_MovementPatterns_VisualAnalytics.aux" "Twitter_MovementPatterns_VisualAnalytics.bbl" "Twitter_MovementPatterns_VisualAnalytics" 1475468862
+["bibtex Twitter_MovementPatterns_VisualAnalytics"] 1475961640 "Twitter_MovementPatterns_VisualAnalytics.aux" "Twitter_MovementPatterns_VisualAnalytics.bbl" "Twitter_MovementPatterns_VisualAnalytics" 1475961653
   "./mdpi.bst" 1472878318 22697 dd2da5edb9dfb7edd23fb074d5803d1c ""
-  "Twitter_MovementPatterns_VisualAnalytics.aux" 1475468862 13052 e6eb2d9c9a9b337e3799f2e9242feb7b ""
+  "Twitter_MovementPatterns_VisualAnalytics.aux" 1475961652 13252 6d53ce2cb17e80c4daf7f9c035dceb11 ""
   "Twitter_MovementPatterns_VisualAnalytics.bcf" 0 -1 0 ""
-  "lite.bib" 1473486880 20185 f298b1619f9d5e2135d48079501fc4af ""
+  "lite.bib" 1475961430 20779 009a6d885820f1b49f9cab43c3ede23d ""
   (generated)
   "Twitter_MovementPatterns_VisualAnalytics.blg"
   "Twitter_MovementPatterns_VisualAnalytics.bbl"
-["pdflatex"] 1475468851 "Twitter_MovementPatterns_VisualAnalytics.tex" "Twitter_MovementPatterns_VisualAnalytics.pdf" "Twitter_MovementPatterns_VisualAnalytics" 1475468862
+["pdflatex"] 1475961641 "Twitter_MovementPatterns_VisualAnalytics.tex" "Twitter_MovementPatterns_VisualAnalytics.pdf" "Twitter_MovementPatterns_VisualAnalytics" 1475961653
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1136768653 1616 371d1ee60c04b008c8fd760060cd34f1 ""
@@ -140,10 +140,10 @@
   "/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1401025944 1445653 26a0aacf3d70032b1ec192e8c7792117 ""
   "/usr/local/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt" 1401025990 3832012 904d82bdcc8abf2b1cd296990b82553b ""
   "/usr/local/texlive/2014/texmf.cnf" 1401025936 577 a59edbde8d3a8c549d0eeaab1739e2ff ""
-  "Twitter_MovementPatterns_VisualAnalytics.aux" 1475468862 13052 e6eb2d9c9a9b337e3799f2e9242feb7b ""
-  "Twitter_MovementPatterns_VisualAnalytics.bbl" 1475467370 12471 fde92134ad338934d4a90f212e9df814 "bibtex Twitter_MovementPatterns_VisualAnalytics"
-  "Twitter_MovementPatterns_VisualAnalytics.out" 1475468862 3431 9d0b21103c65c58ab75aa2afd807c9da ""
-  "Twitter_MovementPatterns_VisualAnalytics.tex" 1475468849 58037 9b2a9f777f54494ebf2d57659c526b05 ""
+  "Twitter_MovementPatterns_VisualAnalytics.aux" 1475961652 13252 6d53ce2cb17e80c4daf7f9c035dceb11 ""
+  "Twitter_MovementPatterns_VisualAnalytics.bbl" 1475961641 13014 e6688189ea608ef58b1364ca48a4d93f "bibtex Twitter_MovementPatterns_VisualAnalytics"
+  "Twitter_MovementPatterns_VisualAnalytics.out" 1475961652 3431 9d0b21103c65c58ab75aa2afd807c9da ""
+  "Twitter_MovementPatterns_VisualAnalytics.tex" 1475961615 57993 c8a52bbf3200708e97b46b94dd38f959 ""
   "figures/Chicago.png" 1472878318 2049125 69ac38beaf479f2a2821f8586add739a ""
   "figures/Chicago_airport.png" 1472878318 2778197 016f7fb2cc2e81be500764eab67ff07d ""
   "figures/Overall_Architecture222.png" 1472878318 68092 6cd2b22b0c010b9a8f636e2c5e4de48e ""
@@ -162,10 +162,7 @@
   "logo-mdpi.eps" 1472878318 736786 8818d4fdfce9a8e859e47bd730481fab ""
   "mdpi.cls" 1472878318 55018 629e9116d368cc8ee0e9c9094acb48d3 ""
   (generated)
-  "logo-mdpi-eps-converted-to.pdf"
-  "Twitter_MovementPatterns_VisualAnalytics.out"
-  "logo-ccby-eps-converted-to.pdf"
-  "Twitter_MovementPatterns_VisualAnalytics.aux"
   "Twitter_MovementPatterns_VisualAnalytics.log"
+  "Twitter_MovementPatterns_VisualAnalytics.out"
   "Twitter_MovementPatterns_VisualAnalytics.pdf"
-  "ijgi-logo-eps-converted-to.pdf"
+  "Twitter_MovementPatterns_VisualAnalytics.aux"

@@ -156,6 +156,12 @@ Sobolevsky, S.; Szell, M.; Campari, R.; Couronn{\'e}, T.; Smoreda, Z.; Ratti,
   in an extensive set of countries.
 \newblock {\em PLoS One} {\bf 2013}, {\em 8},~e81707.
 
+\bibitem[Twitter(2016)]{twitterAPI}
+Twitter.
+\newblock Twitter streaming API.
+\newblock {\em available from: https://dev.twitter.com/streaming/overview} {\bf
+  2016}.
+
 \bibitem[Cranshaw \em{et~al.}(2012)Cranshaw, Schwartz, Hong, and
   Sadeh]{cranshaw2012livehoods}
 Cranshaw, J.; Schwartz, R.; Hong, J.I.; Sadeh, N.M.
@@ -228,6 +234,14 @@ Padmanabhan, A.; Wang, S.; Cao, G.; Hwang, M.; Zhang, Z.; Gao, Y.; Soltani, K.;
   location-based social media.
 \newblock {\em Concurrency and Computation: Practice and Experience} {\bf
   2014}.
+
+\bibitem[Black \em{et~al.}(2012)Black, Mascaro, Gallagher, and
+  Goggins]{black2012twitter}
+Black, A.; Mascaro, C.; Gallagher, M.; Goggins, S.P.
+\newblock Twitter zombie: Architecture for capturing, socially transforming and
+  analyzing the Twittersphere.
+\newblock  Proceedings of the 17th ACM international conference on Supporting
+  group work. ACM,  2012, pp. 229--238.
 
 \bibitem[Shvachko \em{et~al.}(2010)Shvachko, Kuang, Radia, and
   Chansler]{shvachko2010hadoop}
