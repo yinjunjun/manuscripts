@@ -165,7 +165,7 @@ This OD matrix is essentially a mathematical representation of a weighted direct
 To build the spatial network at a national level, we had to determine the basic units to serve as spatial nodes of the connectivity network of urban regions.
 Previous studies have suggested equi-distant spatial tessellation to generate nodes, which uses voronoi polygons to partition the space based on the collected points~\citep{rinzivillo2012,zhong2014}. 
 This approach demonstrates improvements for estimating the locations of mobile phone records based on the cell tower triangulation~\citep{gonzalez2008,qian2013}.
-However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{sakaki2010,zandbergen2009}.
+However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{sakaki2010}.
 Another approach is to partition the space into a grid of spatial pixels~\citep{liuPopMobility,ratti2010}.
 However, the size of the cell can potentially lead to biases due to the Modifiable Area Unit Problem (MAUP)~\citep{openshaw1984,wong2009}, where different choices of unit size can lead to significant variant findings. 
 To compare our investigation with the findings of similar studies, and avoid subjectively deciding the cell size, we performed statistical analysis of Twitter user mobility patterns in Great Britain and measured the distribution of collective Twitter user displacements and the radius of gyrations of individuals \citep{gonzalez2008,jurdak2015}.
@@ -270,6 +270,8 @@ It provides an adequate resolution for a country wide investigation~\citep{ratti
 The edges of this network were derived from the number of directed Twitter user displacements between each pair of cells.
 We used this connectivity network as a proxy to partition the space associated with its nodes.
 Coherent geographic regions were identified as individual fishnet cells showing more internal user movement compared to user movements across the cell boundaries to neighboring cells.
+To help readers that are not familiar with the geographic context in Great Britain better interpret the derived boundaries,
+we had added two additonal layers (i.e., locations of airport fields and population-wighted-centroids of workplace zones in the Great Britian) in the background of the figures.
 Fig.~\ref{S5_Fig}  presents the delineated urban boundaries based on Twitter user displacement distance less than 4 km, greater than 4km, greater than 10 km, and using all available displacements together compared to the administrative boundaries of Great Britain.
 One clear observation in both the coarse and fine delineations is that most of the geographic divisions are centered around big urban cores with relatively high populations.
 These results are expected given that most of the tweets originate in urban centers.
@@ -282,7 +284,7 @@ Empty cells were found in regions where no, or few, Twitter users had visited (e
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{./figure/S5_community}
-\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L(M)= 7.8$. (b) displacements longer than 10 km ($L(M)=8.5$) (c) displacements shorter than 4 km ($L(M)=4.5$) (d) and displacements longer than 4 km ($L(M)=8.1$).The partition of space was done using a 10 km fishnet for the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
+\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L(M)= 7.8$. (b) displacements longer than 10 km ($L(M)=8.5$), red symbols are the locations of airport fields in the Great Britain (c) displacements shorter than 4 km ($L(M)=4.5$) (d) and displacements longer than 4 km ($L(M)=8.1$).The partition of space was done using a 10 km fishnet for the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
 \label{S5_Fig}
 \end{center}
 \end{figure}
@@ -304,7 +306,7 @@ However, the regions extracted from the mobility network seems to be more spatia
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=1.0\linewidth]{./figure/S6_community_london}
-\caption{{\bf The non-administrative anthropographic regions inferred from Twitter user displacements greater than 4 km (left) and 10 km (right) in comparison with major cities in England (upper figures) and Scotland (bottom figures).}  Each color represents a unique community. Including short distance movements has increased the power to differentiate the influence of nearby cities such as Glasgow and Edinburgh (lower left), while restricting the analysis to longer distance movements grouped travelers from the two previous cities into the same community (lower right).}
+\caption{{\bf The non-administrative anthropographic regions inferred from Twitter user displacements greater than 4 km (left) and 10 km (right) in comparison with major cities in England (upper figures) and Scotland (bottom figures).}  Each color represents a unique community. Including short distance movements has increased the power to differentiate the influence of nearby cities such as Glasgow and Edinburgh (lower left), while restricting the analysis to longer distance movements grouped travelers from the two previous cities into the same community (lower right). Red symbols are the locations of airport fields and gray points are the population-wighted-centroids of workplace zones in the Great Britian.}
 \label{S6_Fig}
 \end{center}
 \end{figure}
@@ -322,7 +324,7 @@ For example, East Barnet and West Enfield seem to have higher interactions than 
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.9\linewidth]{./figure/S7_london}
-\caption{{\bf Non-administrative anthropographic boundaries inferred from collective Twitter user displacements in the city of London compared to the boundaries of London boroughs ($L(M)=8.1$)}  A fine fishnet of 1 km cells were used to identify the detailed connectivity patterns based on all the Twitter user displacements in the area.  Each unique color represents a different non-administrative anthropographic region. Notice that some remote regions like the airport (light purple region in south of Hillingdon) share the same class with downtown because it is well connected despite the geographic separation.}
+\caption{{\bf Non-administrative anthropographic boundaries inferred from collective Twitter user displacements in the city of London compared to the boundaries of London boroughs ($L(M)=8.1$)}  A fine fishnet of 1 km cells were used to identify the detailed connectivity patterns based on all the Twitter user displacements in the area.  Each unique color represents a different non-administrative anthropographic region. Notice that some remote regions like the airport (light purple region in south of Hillingdon) share the same class with downtown because it is well connected despite the geographic separation. Red symbols are the locations of airport fields and gray points are the population-wighted-centroids of workplace zones in London.}
 \label{S7_Fig}
 \end{center}
 \end{figure}
@@ -553,9 +555,6 @@ Vasardani, M., Winter, S. and Richter, K.F., 2013. Locating place names from pla
 
 \bibitem[\protect\citeauthoryear{Wong}{2009}]{wong2009}
 Wong, D., 2009. The modifiable areal unit problem (MAUP). SAGE Publications: London, UK.
-
-\bibitem[\protect\citeauthoryear{Zandbergen}{2009}]{zandbergen2009}
-Zandbergen, P.A., 2009. Accuracy of iPhone Locations: A Comparison of Assisted GPS, WiFi and Cellular Positioning. Transactions in GIS, 13, pp. 5-25.
 
 \bibitem[\protect\citeauthoryear{Zhao {\itshape{et~al.}}}{2015}]{zhao2015}
 Zhao, K., Musolesi, M., Hui, P., Rao, W., and Tarkoma, S., 2015. Explaining the power-law distribution of human mobility through transportation modality decomposition. Scientific reports, 5.
