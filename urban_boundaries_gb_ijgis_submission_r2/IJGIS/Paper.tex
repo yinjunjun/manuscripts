@@ -165,7 +165,7 @@ This OD matrix is essentially a mathematical representation of a weighted direct
 To build the spatial network at a national level, we had to determine the basic units to serve as spatial nodes of the connectivity network of urban regions.
 Previous studies have suggested equi-distant spatial tessellation to generate nodes, which uses voronoi polygons to partition the space based on the collected points~\citep{rinzivillo2012,zhong2014}. 
 This approach demonstrates improvements for estimating the locations of mobile phone records based on the cell tower triangulation~\citep{gonzalez2008,qian2013}.
-However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{sakaki2010}.
+However, equi-distant tessellation decreases the spatial resolution of aggregated geo-located tweets, because the location information is usually derived from the embedded GPS within mobile devices and tends to provide greater accuracy~\citep{zandbergen2009}.
 Another approach is to partition the space into a grid of spatial pixels~\citep{liuPopMobility,ratti2010}.
 However, the size of the cell can potentially lead to biases due to the Modifiable Area Unit Problem (MAUP)~\citep{openshaw1984,wong2009}, where different choices of unit size can lead to significant variant findings. 
 To compare our investigation with the findings of similar studies, and avoid subjectively deciding the cell size, we performed statistical analysis of Twitter user mobility patterns in Great Britain and measured the distribution of collective Twitter user displacements and the radius of gyrations of individuals \citep{gonzalez2008,jurdak2015}.
@@ -219,8 +219,8 @@ In particular, since we have used a mobility network of spatial interactions, if
 \section{Results}
 \subsection{Collective Mobility Patterns of Twitter Users in Great Britain}
 We modeled different aspects of the collective mobility patterns of Twitter users.
-These patterns include: the number of visited locations per user,  the collective user displacements, and the radius of gyration of individuals in order to identify natural breaks in user travel patterns.
-We then used these natural breaks within the mobility patterns to partition the geographic space of Great Britain into fine-grained cells and established the connectivity among these cells to redraw non-administrative anthropographic urban boundaries. 
+These patterns include: the number of visited locations per user,  the collective user displacements, and the radius of gyration of individuals in order to identify distinct distance ranges in user travel patterns.
+We then used these distance ranges within the mobility patterns to partition the geographic space of Great Britain into fine-grained cells and established the connectivity among these cells to redraw non-administrative anthropographic urban boundaries. 
 
 We found that the cumulative distribution function of the number of locations visited by each Twitter user follows a two-tier power law distribution (Fig.~\ref{S3_Fig}). 
 The majority of the data follow a truncated power-law distribution $P(X\geq x)\sim x^{-\alpha}e^{-\lambda x}$, where $\alpha = 1.24, \lambda =0.00132$; and the tail part (less than 2$\%$ of the whole population) follows a power-law distribution  $P(X \geq x)\sim x^{-\alpha}$ with $\alpha$ value is 3.2.
@@ -241,13 +241,13 @@ We then studied two aspects of the Twitter user mobility patterns: the distribut
 Twitter user displacement refers to the distance between two consecutive locations in a user's trajectory using a straight-line distance metric.
 The radius of gyration describes the deviation of distance from the center of mass in a user's trajectory.
 The probability distributions of the collective user displacement $P(d)$ and radius of gyration $P(r_g)$ are presented in Fig.~\ref{S4_Fig}, where the fitting method for identifying different distance ranges is derived from~\citep{jurdak2015}.
-The probability distribution of the collective displacements can be approximated by $P(d) \sim \lambda_{1} e^{-\lambda_{1}(d - d_{min})}, d_{min}=10m$ from [10m, 70m] (accounting for 3$\%$ of the population),  $ P(d) \sim \beta\lambda_{1}d^{\beta-1}e^{-\lambda^{1}(d^\beta-d_{min}^\beta)}, d_{min} = 100m$ from [70m, 70km] (93$\%$ of the population), and $P(d) \sim {d}^{-\alpha}$ [$>$ 70km] (4$\%$ of the population). 
-The displacement distance between 70m and 100km can be further approximated by two power law distributions with a cut-off point at 4km (55$\%$ distances are less than 4km and 40$\%$ distances between 4km and 100km), which indicates the urban movement captured by the geo-located Twitter data to reveal two different modes: inter-city and intra-city movement. 
+The probability distribution of the collective displacements can be approximated by $P(d) \sim \lambda_{1} e^{-\lambda_{1}(d - d_{min})}, d_{min}=10 m$ from [10 m, 70 m] (accounting for 3$\%$ of the population),  $ P(d) \sim \beta\lambda_{1}d^{\beta-1}e^{-\lambda^{1}(d^\beta-d_{min}^\beta)}, d_{min} = 100m$ from [70 m, 70 km] (93$\%$ of the population), and $P(d) \sim {d}^{-\alpha}$ [$>$ 70 km] (4$\%$ of the population). 
+The displacement distance between 70 m and 100 km can be further approximated by two power law distributions with a cut-off point at 4 km (55$\%$ distances are less than 4 km and 40$\%$ distances between 4 km and 100 km), which indicates the urban movement captured by the geo-located Twitter data to reveal two different modes: inter-city and intra-city movement. 
 In short, these fitting functions suggest the existence of multi-scale or multi-modal urban movements captured from Twitter users in Great Britain, which means the geographically cohesive, non-overlapping urban areas identified in the next section are not just a result of short distance movement but emerge naturally from the broader Twitter user mobility pattern.
 Note that a similar multiphase pattern was observed in Twitter user displacements in Australia, but with slightly different distance ranges~\citep{jurdak2015}.
 
 Further, we analyzed the distribution of radius of gyration to understand the movement from the point of view of individual Twitter users rather than separate displacements.
-The distribution of the radius of gyration of Twitter users in Great Britain can be approximated through a combination of three functions: $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}, {r_{g}}_{min}=10m$ from [10 m, 30m], $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}$ from [50m, 10km], and $P(r_{g}) \sim {r_{g}}^{-\alpha}$ [10km, 100km], where these three functions account for 92$\%$ of all the users.
+The distribution of the radius of gyration of Twitter users in Great Britain can be approximated through a combination of three functions: $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}, {r_{g}}_{min}= 10 m$ from [10 m, 30 m], $P(r_{g}) \sim \lambda_{2} e^{-\lambda_{2}(r_{g} - {r_{g}}_{min})}$ from [50 m, 10 km], and $P(r_{g}) \sim {r_{g}}^{-\alpha}$ [10 km, 100 km], where these three functions account for 92$\%$ of all the users.
 This suggests that there are three primary types of users that: (1) tend to stay at one location or at nearby locations when they tweet, or (2) tend to move at the intra-city scale when they tweet, or (3)  tend to exhibit a large spatial coverage. 
 (1) and (2) account for approximately 53$\%$ of all users.
 Note that the accuracy of these values for defining the distance bound depends upon the accuracy of the location information of each geo-located tweet. 
@@ -259,7 +259,7 @@ It explains that the communities of urban regions within the graph space are geo
 
 \begin{figure}[ht]
 \includegraphics[width=1.0\linewidth]{./figure/S4_radius_displacement_3}
-\caption{{\bf The probability distribution of Twitter user displacements and radius of gyration:} (a) $P(d)$ is approximated by an exponential, a stretched-exponential and a power-law function (b) the distance between [70m, 70km] is approximated by a double power-law functions (c) $P(r_g)$ of Great Britain is approximated by the combination of an exponential, a stretched-exponential and a power-law function. (d) $P(r_g)$ of London is approximated an exponential and a stretched-exponential function. (The green patch shows the distance range)}
+\caption{{\bf The probability distribution of Twitter user displacements and radius of gyration:} (a) $P(d)$ is approximated by an exponential, a stretched-exponential and a power-law function (b) the distance between [70 m, 70 km] is approximated by a double power-law functions (c) $P(r_g)$ of Great Britain is approximated by the combination of an exponential, a stretched-exponential and a power-law function. (d) $P(r_g)$ of London is approximated an exponential and a stretched-exponential function. (The green patch shows the distance range)}
 \label{S4_Fig}
 \end{figure}
 
@@ -271,8 +271,8 @@ The edges of this network were derived from the number of directed Twitter user 
 We used this connectivity network as a proxy to partition the space associated with its nodes.
 Coherent geographic regions were identified as individual fishnet cells showing more internal user movement compared to user movements across the cell boundaries to neighboring cells.
 To help readers that are not familiar with the geographic context in Great Britain better interpret the derived boundaries,
-we had added two additonal layers (i.e., locations of airport fields and population-wighted-centroids of workplace zones in the Great Britian) in the background of the figures.
-Fig.~\ref{S5_Fig}  presents the delineated urban boundaries based on Twitter user displacement distance less than 4 km, greater than 4km, greater than 10 km, and using all available displacements together compared to the administrative boundaries of Great Britain.
+we had added two additional layers (i.e., locations of airport fields and population-wighted-centroids of workplace zones in the Great Britain) in the background of the figures.
+Fig.~\ref{S5_Fig} presents the delineated urban boundaries based on Twitter user displacement distance less than 4 km, greater than 4 km, greater than 10 km, and using all available displacements together compared to the administrative boundaries of Great Britain.
 One clear observation in both the coarse and fine delineations is that most of the geographic divisions are centered around big urban cores with relatively high populations.
 These results are expected given that most of the tweets originate in urban centers.
 However, what is remarkable is the performance of this approach in dividing the remaining space between cities.
@@ -283,8 +283,8 @@ Empty cells were found in regions where no, or few, Twitter users had visited (e
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.9\linewidth]{./figure/S5_community}
-\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L(M)= 7.8$. (b) displacements longer than 10 km ($L(M)=8.5$), red symbols are the locations of airport fields in the Great Britain (c) displacements shorter than 4 km ($L(M)=4.5$) (d) and displacements longer than 4 km ($L(M)=8.1$).The partition of space was done using a 10 km fishnet for the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
+\includegraphics[width=0.85\linewidth]{./figure/S5_community}
+\caption{{\bf The community structure from collective Twitter user displacements reveals non-administrative anthropographic urban boundaries} (a) all displacements with $L(M)= 7.8$. (b) displacements longer than 10 km ($L(M)=8.5$), red symbols are the locations of airport fields in Great Britain (c) displacements shorter than 4 km ($L(M)=4.5$) (d) and displacements longer than 4 km ($L(M)=8.1$).The partition of space was done using a 10 km fishnet for the directed displacements from and to each cell. Each color represents a unique community with more Twitter users displacements among the cells compared to others. Major cities (urban audit functional areas) and NUTS are displayed as labels.}
 \label{S5_Fig}
 \end{center}
 \end{figure}
@@ -306,7 +306,7 @@ However, the regions extracted from the mobility network seems to be more spatia
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=1.0\linewidth]{./figure/S6_community_london}
-\caption{{\bf The non-administrative anthropographic regions inferred from Twitter user displacements greater than 4 km (left) and 10 km (right) in comparison with major cities in England (upper figures) and Scotland (bottom figures).}  Each color represents a unique community. Including short distance movements has increased the power to differentiate the influence of nearby cities such as Glasgow and Edinburgh (lower left), while restricting the analysis to longer distance movements grouped travelers from the two previous cities into the same community (lower right). Red symbols are the locations of airport fields and gray points are the population-wighted-centroids of workplace zones in the Great Britian.}
+\caption{{\bf The non-administrative anthropographic regions inferred from Twitter user displacements greater than 4 km (left) and 10 km (right) in comparison with major cities in England (upper figures) and Scotland (bottom figures).}  Each color represents a unique community. Including short distance movements has increased the power to differentiate the influence of nearby cities such as Glasgow and Edinburgh (lower left), while restricting the analysis to longer distance movements grouped travelers from the two previous cities into the same community (lower right). Red symbols are the locations of airport fields and gray points are the population-wighted-centroids of workplace zones in Great Britain.}
 \label{S6_Fig}
 \end{center}
 \end{figure}
@@ -314,7 +314,7 @@ However, the regions extracted from the mobility network seems to be more spatia
 A more detailed study was conducted over the greater London region revealing the intra-city spatial interaction patterns.
 Since the captured Twitter user movements were on intra-city level (in comparison to the national level in Fig.~\ref{S4_Fig}-c), there was no distinct distance range to separate Twitter user spatial coverage in terms of radius of gyration (see Fig.~\ref{S4_Fig}-d). 
 We chose 1-km cell size as referred from the related literature~\citep{liu2015}, which suggested 1-km cell size is detailed enough to depict urban structures.
-The spatial partitions derived from a fine grid of 1km used all available Twitter user trips without any restriction on trip distances yields geographic boundaries comparable to some of London's boroughs  (Fig.~\ref{S7_Fig}).
+The spatial partitions derived from a fine grid of 1 km used all available Twitter user trips without any restriction on trip distances yields geographic boundaries comparable to some of London's boroughs  (Fig.~\ref{S7_Fig}).
 However, some areas are shown to be more cohesive and display greater spatial interactions across the administrative boundaries, for instance, central London.
 Although, these results suggest that travelers seem to be localized over certain areas of the city most of the time, some regions do exhibit long distance interaction patterns.
 For example, the separate geographic areas in the south of Hillingdon which includes Heathrow Airport exhibits more connectivity to central London than its surrounding areas, which is explained by the usual flight passenger routes.
@@ -347,7 +347,7 @@ To elaborate, the spatial interaction strength decreases along with the decay fo
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[width=0.7\linewidth]{./figure/Gravity}
-\caption{{\bf The observed interaction strength versus the estimated ones from the adopted gravity model with $\bf{\beta}$ = 0.8 } Note that the $\beta$ value is taken from the probability density function of radius of gyration when $r_{g} > 10 km$. The red dash line indicate strong linear correlation between the estimated and observed interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.}
+\caption{{\bf The observed interaction strength versus the estimated ones from the adopted gravity model with $\bf{\beta}$ = 0.8} Note that the $\beta$ value is taken from the probability density function of radius of gyration when $r_{g} > 10 km$. The red dash line indicate strong linear correlation between the estimated and observed interaction strength with $R^{2}$ = 0.89 and $p-value < 0.01$.}
 \label{S8_Fig}
 \end{center}
 \end{figure}
@@ -363,7 +363,7 @@ Second, regarding the concern of spatial sparseness of geo-located Twitter data~
 To investigate whether this limited the ability to capture the connections made through Twitter user movements between urban regions, we visualized the flows of Twitter user movements using the method mentioned in~\citep{rae2009}(see Supplement Materials section 1). 
 The outcome showed that the Twitter user movements in this study connected most urban areas in Great Britain and clearly exhibited long and short distance movements, where was essential for investigating the connection strength between urban regions.   
 Third, since the collective radius of gyration was used to determine the cell-size in the network, we examined the temporal stability for the measurement in the geo-located Twitter data.
-The probability distributions of the radius of gyration for Twitter users in the Great Britain are verified to be consistent across different monthly time span (see Supplement Materials section 2), which indicates the stability of using such measurements in this study.  
+The probability distributions of the radius of gyration for Twitter users in Great Britain are verified to be consistent across different monthly time span (see Supplement Materials section 2), which indicates the stability of using such measurements in this study.  
 Finally, as the geo-located Twitter data offers easy data accessibility, our methods can be reproduced for other countries. 
 Along with the large sample size and spatial coverage, geo-located Twitter data demonstrated its applicability for this study.
 
@@ -383,7 +383,7 @@ Note that the cell-size could be set to any value, such as 4.9 km or 5.1 km.
 The fishnet with smaller cell-size (i.e., 5 km) produced more and smaller strongly-connected communities within the network space.
 It indicates that the spatial resolution of the fishnet cells does affect the outcome from the community detection method employed in this study, where fishnet with smaller cell-size leads to more discrete and locally connected (i.e., smaller) clusters of urban areas.
 Such an effect can be explained by the probability distributions of the radius of gyrations of individual Twitter users.
-The probability of distance that deviates from a user's center location decays with a stretched-exponential function from [50m, 10km], which means the movements from Twitter users with smaller spatial coverage dominate the delineation of the connected urban areas.
+The probability of distance that deviates from a user's center location decays with a stretched-exponential function from [50 m, 10 km], which means the movements from Twitter users with smaller spatial coverage dominate the delineation of the connected urban areas.
 To avoid arbitrarily deciding the cell-size, we studied the probability distributions of the radius of gyrations of individual Twitter users and selected 10-km as the cell-size, which is the distinct geographic distance for separating two main groups of Twitter users in terms of their spatial coverage at the national level.
 In addition, this choice enabled us to focus on the inter-connections among different urban regions with less attention to movements around a user's neighborhood (i.e., within 10 km radius), such as home or work places.
 
@@ -397,8 +397,8 @@ In this study, we presented a method that connected human mobility research with
 In contrast to administrative urban boundaries, our ``bottom-up" approach imposed a virtual fishnet over the islands of Great Britain to partition the space.
 By studying the probability distributions of the radius of gyrations of individual Twitters users, we selected a cell-size of 10 km at the national level and 1 km for the greater London region.
 Twitter user movements were used to establish a connectivity network of the fishnet cells.
-Then we applied the map equation algorithm to partition the network and associated geographic regions.
-The strongly connected communities within the network space yields geographically cohesive, non-overlapping urban areas that provides a clear delineation of the urban boundaries in Great Britain.
+We applied the map equation algorithm to partition the network and associated geographic regions.
+The strongly connected communities within the network space yielded geographically cohesive, non-overlapping urban areas that provided a clear delineation of the urban boundaries in Great Britain.
 By performing a statistical analysis of Twitter user mobility patterns in Great Britain, in particular the distribution of collective Twitter user displacements, we found multi-scale and multi-modal urban movements that were divided into several distance ranges starting from short intra-city to inter-city movements with clear destination points.
 Identifying the connected regions at each of these distance ranges yielded hierarchical boundaries of  the urban space in Great Britain.
 
@@ -523,9 +523,6 @@ Rosvall, M., Axelsson, D., Bergstrom, C.T., 2010. The map equation. The European
 \bibitem[\protect\citeauthoryear{Rosvall and Bergstrom}{2008}]{rosvall2008}
 Rosvall, M., Bergstrom, C.T., 2008. Maps of random walks on complex networks reveal community structure. Proceedings of the National Academy of Sciences, 105, pp. 1118-1123.
 
-\bibitem[\protect\citeauthoryear{Sakaki {\itshape{et~al.}}}{2010}]{sakaki2010}
-Sakaki, T., Okazaki, M., Matsuo, Y., 2010. Earthquake Shakes Twitter Users: Real-time Event Detection by Social Sensors, in: Proceedings of the 19th International Conference on World Wide Web, WWW ’10. ACM, NY, USA, pp. 851-860
-
 \bibitem[\protect\citeauthoryear{Schliephake}{2014}]{schliephake}
 Schliephake, C., 2014. Urban Ecologies: City Space, Material Agency, and Environmental Politics in Contemporary Culture. Lexington Books.
 
@@ -555,6 +552,9 @@ Vasardani, M., Winter, S. and Richter, K.F., 2013. Locating place names from pla
 
 \bibitem[\protect\citeauthoryear{Wong}{2009}]{wong2009}
 Wong, D., 2009. The modifiable areal unit problem (MAUP). SAGE Publications: London, UK.
+
+\bibitem[\protect\citeauthoryear{Zandbergen}{2009}]{zandbergen2009}
+Zandbergen, P.A., 2009. Accuracy of iPhone Locations: A Comparison of Assisted GPS, WiFi and Cellular Positioning. Transactions in GIS, 13, pp. 5-25.
 
 \bibitem[\protect\citeauthoryear{Zhao {\itshape{et~al.}}}{2015}]{zhao2015}
 Zhao, K., Musolesi, M., Hui, P., Rao, W., and Tarkoma, S., 2015. Explaining the power-law distribution of human mobility through transportation modality decomposition. Scientific reports, 5.
