@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1476300413 "Paper_track_change.tex" "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.pdf" "Paper_track_change" 1476300421
+["pdflatex"] 1476505998 "Paper_track_change.tex" "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.pdf" "Paper_track_change" 1476506006
   "./figure/Gravity.png" 1476289739 185297 40163a712639cfbc6f8704131cef582c ""
   "./figure/S2_twitter_density_Fig_1.png" 1476289739 397668 aabeb23501136c2bc67a40a5b7148127 ""
   "./figure/S3_visitation.png" 1476289739 59930 69c325dee72304757afe42fd4e3d1994 ""
@@ -8,7 +8,7 @@
   "./figure/S6_community_london.png" 1476289739 3408964 c1efe58e86e74765daf3b4777496d752 ""
   "./figure/S7_london.png" 1476289739 641462 8ffd693950acb0d637995f386f5714fc ""
   "/etc/texmf/web2c/texmf.cnf" 1471295254 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.aux" 1476300421 7570 70394176cb66cd84921291feb69aad0b ""
+  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.aux" 1476506006 7570 70394176cb66cd84921291feb69aad0b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -88,8 +88,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1471501618 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1471295268 718487 0bcf6f3137c6325297e9ecbeb0ac29ce ""
-  "Paper_track_change.aux" 1476300421 7570 70394176cb66cd84921291feb69aad0b ""
-  "Paper_track_change.tex" 1476300404 77057 c08f3a0ce9cd5f9f429c31f0375933ac ""
+  "Paper_track_change.aux" 1476506006 7570 70394176cb66cd84921291feb69aad0b ""
+  "Paper_track_change.tex" 1476505997 78257 144b6bada305565ec876eeeb56e33c0c ""
   "amsbsy.sty" 1476289739 3535 ce75ca6de8380293f2081dec8ab08a93 ""
   "amsfonts.sty" 1476289739 7992 7a12630bc841f1c895895a7b9763b259 ""
   "amsmath.sty" 1476289739 79756 c9b39210cd9d3168825ff6f880d43821 ""
@@ -109,8 +109,8 @@
   "subfigure.sty" 1476289739 14421 1d3da78e0f66f3c62133fbabffd13cf5 ""
   "tGIS2e.cls" 1476289739 59243 01909125f994126228d0555e2381e2f7 ""
   (generated)
-  "Paper_track_change.aux"
-  "Paper_track_change.pdf"
-  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.log"
-  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.pdf"
   "Paper_track_change.log"
+  "Paper_track_change.pdf"
+  "Paper_track_change.aux"
+  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.pdf"
+  "/home/jun/Github/manuscripts/urban_boundaries_gb_ijgis_submission_r2/IJGIS/Paper_track_change.log"
