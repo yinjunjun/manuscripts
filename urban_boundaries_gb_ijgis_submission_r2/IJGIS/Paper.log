@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  12 OCT 2016 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  14 OCT 2016 22:53
 entering extended mode
 **C:/Users/Jun/Documents/GitHub/manuscripts/urban_boundaries_gb_ijgis_submissio
 n_r2/IJGIS/Paper.tex
@@ -341,6 +341,18 @@ G,.JBIG2,.JB2,.eps]
 )
 
 LaTeX Warning: No \author given.
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 19--32
+ \OT1/cmr/m/n/10.95 and inter-regional ac-tiv-i-ties. Defin-ing ur-ban bound-ar
+ies which con-sider 
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 19--32
+ \OT1/cmr/m/n/10.95 socio-economic re-la-tion-ships and cit-i-zen com-mute pat-
+terns is im-por-tant 
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--32
@@ -767,18 +779,18 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S5_community.png Graphic file (type png)
 
 <use ./figure/S5_community.png>
-Package pdftex.def Info: ./figure/S5_community.png used on input line 286.
+Package pdftex.def Info: ./figure/S5_community.png used on input line 285.
 (pdftex.def)             Requested size: 357.00256pt x 626.90144pt.
 
 
-LaTeX Warning: Float too large for page by 48.40144pt on input line 290.
+LaTeX Warning: Float too large for page by 48.40144pt on input line 289.
 
 <./figure/S6_community_london.png, id=63, 1241.1168pt x 973.7178pt>
 File: ./figure/S6_community_london.png Graphic file (type png)
 
 <use ./figure/S6_community_london.png>
 Package pdftex.def Info: ./figure/S6_community_london.png used on input line 30
-8.
+7.
 (pdftex.def)             Requested size: 420.0pt x 329.51448pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -812,19 +824,19 @@ Overfull \vbox (711.0pt too high) has occurred while \output is active []
 File: ./figure/S7_london.png Graphic file (type png)
 
 <use ./figure/S7_london.png>
-Package pdftex.def Info: ./figure/S7_london.png used on input line 326.
+Package pdftex.def Info: ./figure/S7_london.png used on input line 325.
 (pdftex.def)             Requested size: 377.99744pt x 367.22752pt.
 
 <./figure/Gravity.png, id=69, 903.375pt x 1111.90407pt>
 File: ./figure/Gravity.png Graphic file (type png)
 
 <use ./figure/Gravity.png>
-Package pdftex.def Info: ./figure/Gravity.png used on input line 349.
+Package pdftex.def Info: ./figure/Gravity.png used on input line 348.
 (pdftex.def)             Requested size: 293.99872pt x 361.87352pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 356.
+(Font)              size <5> substituted on input line 355.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1150,7 +1162,7 @@ nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb>
-Output written on Paper.pdf (23 pages, 6048441 bytes).
+Output written on Paper.pdf (23 pages, 6048496 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
