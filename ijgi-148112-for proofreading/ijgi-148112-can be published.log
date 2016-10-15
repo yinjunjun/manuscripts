@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  8 OCT 2016 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  15 OCT 2016 17:59
 entering extended mode
 **"C:/Users/Jun/Documents/GitHub/manuscripts/ijgi-148112-for proofreading/ijgi-
 148112-can be published.tex"
@@ -802,23 +802,23 @@ Package: placeins 2005/04/18  v 2.2
 ("ijgi-148112-can be published.aux")
 \openout1 = `"ijgi-148112-can be published.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 97.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -839,7 +839,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 95.
+(lastpage)             ! on input line 97.
 \AtBeginShipoutBox=\box35
  ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/06/02 v1.1d Standard LaTeX Color (DPC)
@@ -849,7 +849,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 95.
+Package hyperref Info: Link coloring ON on input line 97.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -859,9 +859,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \nameref on input line 97.
 
 ("ijgi-148112-can be published.out") ("ijgi-148112-can be published.out")
 \@outlinefile=\write3
@@ -912,13 +912,13 @@ Package epstopdf Info: Source file: <ijgi-logo.eps>
 (epstopdf)                    size: 42653 bytes
 (epstopdf)             Command: <epstopdf --outfile=ijgi-logo-eps-converted-to.
 pdf ijgi-logo.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 <ijgi-logo-eps-converted-to.pdf, id=56, 204.765pt x 54.2025pt>
 File: ijgi-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ijgi-logo-eps-converted-to.pdf>
-Package pdftex.def Info: ijgi-logo-eps-converted-to.pdf used on input line 95.
+Package pdftex.def Info: ijgi-logo-eps-converted-to.pdf used on input line 97.
 (pdftex.def)             Requested size: 128.99011pt x 34.14322pt.
 Package epstopdf Info: Source file: <logo-mdpi.eps>
 (epstopdf)                    date: 2016-10-03 22:15:27
@@ -928,75 +928,75 @@ Package epstopdf Info: Source file: <logo-mdpi.eps>
 (epstopdf)                    size: 67429 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-mdpi-eps-converted-to.
 pdf logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
 <logo-mdpi-eps-converted-to.pdf, id=58, 88.33pt x 58.2175pt>
 File: logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: logo-mdpi-eps-converted-to.pdf used on input line 95.
+Package pdftex.def Info: logo-mdpi-eps-converted-to.pdf used on input line 97.
 (pdftex.def)             Requested size: 43.16885pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <18> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 95.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 97.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 95.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 97.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 95.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 97.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 95.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 97.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 97.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 95.
+(Font)              scaled to size 10.42007pt on input line 97.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 95.
+(Font)              scaled to size 7.91925pt on input line 97.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 95.
+(Font)              scaled to size 6.25204pt on input line 97.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 95.
+(Font)              scaled to size 9.37807pt on input line 97.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 95.
+(Font)              scaled to size 7.29405pt on input line 97.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 95.
+(Font)              scaled to size 5.21004pt on input line 97.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 111.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 113.
  [1
 
 {C:/Users/Jun/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ijgi-logo-e
 ps-converted-to.pdf> <./logo-mdpi-eps-converted-to.pdf>] [2] [3] [4]
-Underfull \hbox (badness 1394) in paragraph at lines 206--209
+Underfull \hbox (badness 1394) in paragraph at lines 208--211
 []\T1/ppl/m/n/10 To ad-dress the data-intensive chal-lenges, we have de-vel-ope
 d a scal-able visual-analytics
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 210--217
+Underfull \hbox (badness 3009) in paragraph at lines 212--219
 []\T1/ppl/m/n/10 Apache Hadoop com-bines a dis-tributed file sys-tem, namely Ha
 doop Dis-tributed File
  []
@@ -1006,40 +1006,40 @@ File: ./figures/Overall_Architecture222.png Graphic file (type png)
 
 <use ./figures/Overall_Architecture222.png>
 Package pdftex.def Info: ./figures/Overall_Architecture222.png used on input li
-ne 220.
+ne 222.
 (pdftex.def)             Requested size: 244.1261pt x 294.02824pt.
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 227--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
 
  []
 
 [6 <./figures/Overall_Architecture222.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 246--252
+Underfull \hbox (badness 10000) in paragraph at lines 248--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--279
+Underfull \hbox (badness 10000) in paragraph at lines 273--281
 
  []
 
@@ -1047,28 +1047,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--279
 File: ./figures/multilevel.png Graphic file (type png)
 
 <use ./figures/multilevel.png>
-Package pdftex.def Info: ./figures/multilevel.png used on input line 285.
+Package pdftex.def Info: ./figures/multilevel.png used on input line 287.
 (pdftex.def)             Requested size: 266.32062pt x 323.53069pt.
  [8 <./figures/multilevel.png>]
 <./figures/visitation.png, id=250, 1231.60126pt x 629.35126pt>
 File: ./figures/visitation.png Graphic file (type png)
 
 <use ./figures/visitation.png>
-Package pdftex.def Info: ./figures/visitation.png used on input line 313.
+Package pdftex.def Info: ./figures/visitation.png used on input line 315.
 (pdftex.def)             Requested size: 443.86319pt x 226.81595pt.
  [9 <./figures/visitation.png>]
 <./figures/displacement.png, id=270, 1477.4397pt x 1536.942pt>
 File: ./figures/displacement.png Graphic file (type png)
 
 <use ./figures/displacement.png>
-Package pdftex.def Info: ./figures/displacement.png used on input line 339.
+Package pdftex.def Info: ./figures/displacement.png used on input line 341.
 (pdftex.def)             Requested size: 443.86319pt x 461.74281pt.
  [10] [11 <./figures/displacement.png>]
 <./figures/gyration2.png, id=285, 1473.3444pt x 1538.3874pt>
 File: ./figures/gyration2.png Graphic file (type png)
 
 <use ./figures/gyration2.png>
-Package pdftex.def Info: ./figures/gyration2.png used on input line 356.
+Package pdftex.def Info: ./figures/gyration2.png used on input line 358.
 (pdftex.def)             Requested size: 443.86319pt x 463.44464pt.
  [12
 
@@ -1077,17 +1077,17 @@ Package pdftex.def Info: ./figures/gyration2.png used on input line 356.
 File: ./figures/gyration_season.png Graphic file (type png)
 
 <use ./figures/gyration_season.png>
-Package pdftex.def Info: ./figures/gyration_season.png used on input line 372.
+Package pdftex.def Info: ./figures/gyration_season.png used on input line 374.
 (pdftex.def)             Requested size: 443.86319pt x 211.30223pt.
  [13 <./figures/gyration_season.png (PNG copy)>] <./figures/degree.png, id=301,
  883.80188pt x 603.0028pt>
 File: ./figures/degree.png Graphic file (type png)
 
 <use ./figures/degree.png>
-Package pdftex.def Info: ./figures/degree.png used on input line 390.
+Package pdftex.def Info: ./figures/degree.png used on input line 392.
 (pdftex.def)             Requested size: 355.0919pt x 242.27336pt.
 
-Underfull \hbox (badness 1205) in paragraph at lines 397--401
+Underfull \hbox (badness 1205) in paragraph at lines 399--403
 \T1/ppl/m/n/10 sta-tis-ti-cal anal-y-sis, the frame-work in-te-grates a 3D vir-
 tual globe in-ter-face to en-able users to
  []
@@ -1097,30 +1097,30 @@ tual globe in-ter-face to en-able users to
 File: ./figures/all.png Graphic file (type png)
 
 <use ./figures/all.png>
-Package pdftex.def Info: ./figures/all.png used on input line 415.
+Package pdftex.def Info: ./figures/all.png used on input line 417.
 (pdftex.def)             Requested size: 355.0919pt x 200.47993pt.
 
 <./figures/Chicago.png, id=316, 1212.02812pt x 685.05937pt>
 File: ./figures/Chicago.png Graphic file (type png)
 
 <use ./figures/Chicago.png>
-Package pdftex.def Info: ./figures/Chicago.png used on input line 423.
+Package pdftex.def Info: ./figures/Chicago.png used on input line 425.
 (pdftex.def)             Requested size: 355.0919pt x 200.70049pt.
 
 <./figures/Chicago_airport.png, id=317, 1621.05624pt x 916.42375pt>
 File: ./figures/Chicago_airport.png Graphic file (type png)
 
 <use ./figures/Chicago_airport.png>
-Package pdftex.def Info: ./figures/Chicago_airport.png used on input line 431.
+Package pdftex.def Info: ./figures/Chicago_airport.png used on input line 433.
 (pdftex.def)             Requested size: 355.0919pt x 200.73288pt.
  [15 <./figures/all.png> <./figures/Chicago.png>]
-Underfull \hbox (badness 1077) in paragraph at lines 448--452
+Underfull \hbox (badness 1077) in paragraph at lines 450--454
 \T1/ppl/m/n/10 by the prob-a-bil-ity dis-tri-bu-tions of the dis-place-ments an
 d ra-dius of gy-ra-tions of in-di-vid-u-als.
  []
 
 [16 <./figures/Chicago_airport.png>] [17]
-Underfull \hbox (badness 1320) in paragraph at lines 625--629
+Underfull \hbox (badness 1320) in paragraph at lines 627--631
 \T1/ppl/m/n/9 S.; Var-shavsky, A.; Volin-sky, C.  Hu-man mo-bil-ity char-ac-ter
 -i-za-tion from cel-lu-lar net-work data.
  []
@@ -1134,42 +1134,42 @@ Package epstopdf Info: Source file: <logo-ccby.eps>
 (epstopdf)                    size: 11987 bytes
 (epstopdf)             Command: <epstopdf --outfile=logo-ccby-eps-converted-to.
 pdf logo-ccby.eps>
-(epstopdf)             \includegraphics on input line 781.
+(epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
  <logo-ccby-eps-converted-to.pdf, id=338, 120.45pt x 42.1575pt>
 File: logo-ccby-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo-ccby-eps-converted-to.pdf>
-Package pdftex.def Info: logo-ccby-eps-converted-to.pdf used on input line 781.
+Package pdftex.def Info: logo-ccby-eps-converted-to.pdf used on input line 783.
 
 (pdftex.def)             Requested size: 81.29471pt x 28.45274pt.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 781.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 783.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 781.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 783.
 
 
 AED: lastpage setting LastPage
 
-Overfull \hbox (3.61003pt too wide) in paragraph at lines 781--781
+Overfull \hbox (3.61003pt too wide) in paragraph at lines 783--783
   $[]$$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--781
+Underfull \hbox (badness 10000) in paragraph at lines 783--783
 
  []
 
 [19 <./logo-ccby-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 783.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 783.
  ("ijgi-148112-can be published.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 781.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 783.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 783.
 Package rerunfilecheck Info: File `"ijgi-148112-can be published".out' has not 
 changed.
 (rerunfilecheck)             Checksum: A9F700A8806A271F498F414AAA0A73CB;3444.
@@ -1177,11 +1177,11 @@ changed.
 Here is how much of TeX's memory you used:
  13957 strings out of 493335
  197996 string characters out of 3139266
- 300860 words of memory out of 3000000
+ 301192 words of memory out of 3000000
  17143 multiletter control sequences out of 15000+200000
  48646 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,2081b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,13n,45p,2081b,520s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
@@ -1193,7 +1193,7 @@ azo/fplmr.pfb><C:/Users/Jun/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mathp
 azo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "ijgi-148112-can be published.pdf" (19 pages, 9318334 bytes).
+Output written on "ijgi-148112-can be published.pdf" (19 pages, 9318726 bytes).
 
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
