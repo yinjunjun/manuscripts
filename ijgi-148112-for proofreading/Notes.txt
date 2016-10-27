@@ -1,0 +1,8 @@
+1. where the technical details is presented in the following section.
+where the technical details are presented in the following section.
+
+2.The movement flows are stored in the database for interactive explorations in the 3D web mapping interface, whereas the re-constructed trajectories can be further processed to produce distance measures at different spatial scales, which is illustrated as fellows:
+The movement flows are stored in the database for interactive explorations in the 3D web mapping interface, whereas the re-constructed trajectories can be further processed to produce distance measures at different spatial scales, which is illustrated as follows:
+
+3. However, it is worthy noting that the overall trends in the Twitter user mobility patterns revealed by radius of gyrations are still consistent.
+However, it is worth noting that the overall trends in the Twitter user mobility patterns revealed by radius of gyrations are still consistent.

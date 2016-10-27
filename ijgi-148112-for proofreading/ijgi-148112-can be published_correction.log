@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 OCT 2016 01:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 OCT 2016 02:04
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **"ijgi-148112-can be published_correction.tex"
 (./ijgi-148112-can be published_correction.tex
@@ -709,7 +708,7 @@ Package: placeins 2005/04/18  v 2.2
 \c@ex=\count135
 \c@re=\count136
 
-No file "ijgi-148112-can be published_correction".aux.
+(./ijgi-148112-can be published_correction.aux)
 \openout1 = `"ijgi-148112-can be published_correction.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -729,6 +728,7 @@ LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 95.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -775,6 +775,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 95.
 LaTeX Info: Redefining \pageref on input line 95.
 LaTeX Info: Redefining \nameref on input line 95.
+
+(./ijgi-148112-can be published_correction.out)
+(./ijgi-148112-can be published_correction.out)
 \@outlinefile=\write3
 \openout3 = `"ijgi-148112-can be published_correction.out"'.
 
@@ -825,7 +828,7 @@ Package epstopdf Info: Source file: <ijgi-logo.eps>
 .pdf ijgi-logo.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<ijgi-logo-eps-converted-to.pdf, id=5, 204.765pt x 54.2025pt>
+<ijgi-logo-eps-converted-to.pdf, id=57, 204.765pt x 54.2025pt>
 File: ijgi-logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ijgi-logo-eps-converted-to.pdf>
@@ -842,7 +845,7 @@ Package epstopdf Info: Source file: <logo-mdpi.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
-<logo-mdpi-eps-converted-to.pdf, id=7, 88.33pt x 58.2175pt>
+<logo-mdpi-eps-converted-to.pdf, id=59, 88.33pt x 58.2175pt>
 File: logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo-mdpi-eps-converted-to.pdf>
@@ -895,302 +898,16 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 95.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
-
-
-Package natbib Warning: Citation `zheng2008understanding' on page 1 undefined o
-n input line 104.
-
-
-Package natbib Warning: Citation `jiang2009characterizing' on page 1 undefined 
-on input line 104.
-
-
-Package natbib Warning: Citation `belik2011natural' on page 1 undefined on inpu
-t line 104.
-
-
-Package natbib Warning: Citation `greenwood1985human' on page 1 undefined on in
-put line 105.
-
-
-Package natbib Warning: Citation `brockmann2006scaling' on page 1 undefined on 
-input line 105.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 1 undefine
-d on input line 106.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 1 undefined on input line
- 106.
-
-
-Package natbib Warning: Citation `zheng2008understanding' on page 1 undefined o
-n input line 107.
-
-
-Package natbib Warning: Citation `rhee2011levy' on page 1 undefined on input li
-ne 107.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 1 undefine
-d on input line 107.
-
-
-Package natbib Warning: Citation `sevtsuk2010does' on page 1 undefined on input
- line 107.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 1 undefined on inp
-ut line 107.
-
-
-Package natbib Warning: Citation `thatcher2014living' on page 1 undefined on in
-put line 107.
-
-
-Package natbib Warning: Citation `hawelka2014geo' on page 1 undefined on input 
-line 109.
-
-
-Package natbib Warning: Citation `giannotti2008mobility' on page 1 undefined on
- input line 110.
-
-
-Package natbib Warning: Citation `crampton2014collect' on page 1 undefined on i
-nput line 110.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 1 undefined on input line
- 110.
-
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 111.
-[1
+ [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ijgi-
-logo-eps-converted-to.pdf> <./logo-mdpi-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 2 undefine
-d on input line 113.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 2 undefined on input line
- 113.
-
-
-Package natbib Warning: Citation `wu2014intra' on page 2 undefined on input lin
-e 113.
-
-
-Package natbib Warning: Citation `hasan2013understanding' on page 2 undefined o
-n input line 113.
-
-
-Package natbib Warning: Citation `cho2011friendship' on page 2 undefined on inp
-ut line 113.
-
-
-Package natbib Warning: Citation `noulas2012tale' on page 2 undefined on input 
-line 117.
-
-
-Package natbib Warning: Citation `balcan2009multiscale' on page 2 undefined on 
-input line 117.
-
-
-Package natbib Warning: Citation `tamerius2011global' on page 2 undefined on in
-put line 117.
-
-
-Package natbib Warning: Citation `hawelka2014geo' on page 2 undefined on input 
-line 117.
-
-
-Package natbib Warning: Citation `tsou2015' on page 2 undefined on input line 1
-18.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 2 undefine
-d on input line 126.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 2 undefined on input line
- 126.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 136.
-
-[2]
-
-Package natbib Warning: Citation `zheng2008understanding' on page 3 undefined o
-n input line 140.
-
-
-Package natbib Warning: Citation `rhee2011levy' on page 3 undefined on input li
-ne 141.
-
-
-Package natbib Warning: Citation `zheng2010geolife' on page 3 undefined on inpu
-t line 141.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 142.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 3 undefine
-d on input line 144.
-
-
-Package natbib Warning: Citation `sevtsuk2010does' on page 3 undefined on input
- line 144.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 144.
-
-
-Package natbib Warning: Citation `becker2013human' on page 3 undefined on input
- line 145.
-
-
-Package natbib Warning: Citation `sobolevsky2013delineating' on page 3 undefine
-d on input line 145.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 145.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 3 undefined on input line
- 151.
-
-
-Package natbib Warning: Citation `twitterAPI' on page 3 undefined on input line
- 155.
-
-
-Package natbib Warning: Citation `cranshaw2012livehoods' on page 3 undefined on
- input line 156.
-
-
-Package natbib Warning: Citation `hasan2013understanding' on page 3 undefined o
-n input line 156.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 3 undefined on input line
- 160.
-
-
-Package natbib Warning: Citation `kung2014exploring' on page 3 undefined on inp
-ut line 162.
-
-
-Package natbib Warning: Citation `mitchell2013geography' on page 3 undefined on
- input line 164.
-
-
-Package natbib Warning: Citation `longley2015geotemporal' on page 3 undefined o
-n input line 164.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 3 undefined on input line
- 167.
-
-
-Package natbib Warning: Citation `hawelka2014geo' on page 3 undefined on input 
-line 167.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 169.
-
-[3]
-
-Package natbib Warning: Citation `hagerstrand1985time' on page 4 undefined on i
-nput line 174.
-
-
-Package natbib Warning: Citation `kwan2004geovisualization' on page 4 undefined
- on input line 175.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 176.
-
-
-Package natbib Warning: Citation `maceachren2001research' on page 4 undefined o
-n input line 178.
-
-
-Package natbib Warning: Citation `maceachren2004maps' on page 4 undefined on in
-put line 178.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 179.
-
-
-Package natbib Warning: Citation `andrienko2007visual' on page 4 undefined on i
-nput line 179.
-
-
-Package natbib Warning: Citation `andrienko2007designing' on page 4 undefined o
-n input line 180.
-
-
-Package natbib Warning: Citation `cao2014scalable' on page 4 undefined on input
- line 183.
-
-
-Package natbib Warning: Citation `tsou2015' on page 4 undefined on input line 1
-87.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 198.
-
-[4]
-
-Package natbib Warning: Citation `padmanabhan2014flumapper' on page 5 undefined
- on input line 199.
-
-
-Package natbib Warning: Citation `tsou2015' on page 5 undefined on input line 2
-00.
-
-
-Package natbib Warning: Citation `black2012twitter' on page 5 undefined on inpu
-t line 200.
-
-
-Package natbib Warning: Citation `hawelka2014geo' on page 5 undefined on input 
-line 200.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 5 undefined on input line
- 200.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 5 undefined on input line
- 201.
-
-
+logo-eps-converted-to.pdf> <./logo-mdpi-eps-converted-to.pdf>] [2] [3] [4]
 Underfull \hbox (badness 1394) in paragraph at lines 206--209
 []\T1/ppl/m/n/10 To ad-dress the data-intensive chal-lenges, we have de-vel-ope
 d a scal-able visual-analytics
  []
-
-
-Package natbib Warning: Citation `shvachko2010hadoop' on page 5 undefined on in
-put line 210.
-
-
-Package natbib Warning: Citation `dean2008mapreduce' on page 5 undefined on inp
-ut line 210.
-
-
-LaTeX Warning: Reference `fig:overall_archi' on page 5 undefined on input line 
-215.
 
 
 Underfull \hbox (badness 3009) in paragraph at lines 210--217
@@ -1198,23 +915,14 @@ Underfull \hbox (badness 3009) in paragraph at lines 210--217
 doop Dis-tributed File
  []
 
-<./figures/Overall_Architecture222.png, id=49, 638.385pt x 768.8725pt>
+<./figures/Overall_Architecture222.png, id=201, 638.385pt x 768.8725pt>
 File: ./figures/Overall_Architecture222.png Graphic file (type png)
 
 <use ./figures/Overall_Architecture222.png>
 Package pdftex.def Info: ./figures/Overall_Architecture222.png used on input li
 ne 220.
 (pdftex.def)             Requested size: 244.1261pt x 294.02824pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 224.
-
-[5]
-
-Package natbib Warning: Citation `hagerstrand1985time' on page 6 undefined on i
-nput line 227.
-
-
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 227--232
 
  []
@@ -1234,31 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
-
-Package natbib Warning: Citation `gao2012exploring' on page 6 undefined on inpu
-t line 244.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 245.
-
 [6 <./figures/Overall_Architecture222.png>]
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 7 undefine
-d on input line 246.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 7 undefined on input line
- 249.
-
-
-Package natbib Warning: Citation `brockmann2006scaling' on page 7 undefined on 
-input line 249.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 7 undefine
-d on input line 250.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 246--252
 
  []
@@ -1269,265 +953,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--255
  []
 
 
-Package natbib Warning: Citation `andrienko2007designing' on page 7 undefined o
-n input line 261.
-
-
-Package natbib Warning: Citation `andrienko2007visual' on page 7 undefined on i
-nput line 261.
-
-
-Package natbib Warning: Citation `buttenfield1991map' on page 7 undefined on in
-put line 262.
-
-
-Package natbib Warning: Citation `cao2014scalable' on page 7 undefined on input
- line 263.
-
-
-LaTeX Warning: Reference `fig:multilevel' on page 7 undefined on input line 268
-.
-
-
-Package natbib Warning: Citation `samet1984quadtree' on page 7 undefined on inp
-ut line 275.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 271--279
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 279.
-
-[7] <./figures/multilevel.png, id=74, 584.1825pt x 709.65125pt>
+[7] <./figures/multilevel.png, id=240, 584.1825pt x 709.65125pt>
 File: ./figures/multilevel.png Graphic file (type png)
 
 <use ./figures/multilevel.png>
 Package pdftex.def Info: ./figures/multilevel.png used on input line 285.
 (pdftex.def)             Requested size: 266.32062pt x 323.53069pt.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 8 undefine
-d on input line 295.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 298.
-
-[8 <./figures/multilevel.png>]
-
-Package natbib Warning: Citation `clauset2009power' on page 9 undefined on inpu
-t line 299.
-
-
-LaTeX Warning: Reference `fig:visitation' on page 9 undefined on input line 302
-.
-
-
-Package natbib Warning: Citation `reynolds2012truncated' on page 9 undefined on
- input line 307.
-
-
-Package natbib Warning: Citation `rhee2011levy' on page 9 undefined on input li
-ne 307.
-
-
-Package natbib Warning: Citation `zhao2015explaining' on page 9 undefined on in
-put line 307.
-
-<./figures/visitation.png, id=82, 1231.60126pt x 629.35126pt>
+ [8 <./figures/multilevel.png>]
+<./figures/visitation.png, id=252, 1231.60126pt x 629.35126pt>
 File: ./figures/visitation.png Graphic file (type png)
 
 <use ./figures/visitation.png>
 Package pdftex.def Info: ./figures/visitation.png used on input line 313.
 (pdftex.def)             Requested size: 443.86319pt x 226.81595pt.
-
-
-Package natbib Warning: Citation `gonzalez2008understanding' on page 9 undefine
-d on input line 319.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 323.
-
-[9 <./figures/visitation.png>]
-
-Package natbib Warning: Citation `brockmann2006scaling' on page 10 undefined on
- input line 324.
-
-
-LaTeX Warning: Reference `fig:displacement' on page 10 undefined on input line 
-325.
-
-
-LaTeX Warning: Reference `fig:gyration' on page 10 undefined on input line 325.
-
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 10 undefined on input lin
-e 326.
-
-
-LaTeX Warning: Reference `fig:displacement' on page 10 undefined on input line 
-329.
-
-
-LaTeX Warning: Reference `fig:displacement' on page 10 undefined on input line 
-330.
-
-
-Package natbib Warning: Citation `Jurdak2015' on page 10 undefined on input lin
-e 331.
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 329--332
-[]\T1/ppl/m/n/10 Figure []a shows the prob-a-bil-ity dis-tri-bu-tion of the ove
-r-all dis-place-ments, which is
+ [9 <./figures/visitation.png>]
+Underfull \hbox (badness 1297) in paragraph at lines 333--336
+\T1/ppl/m/n/10 is ap-prox-i-mated by $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10 (\OML
+/zplm/m/it/10 r[]\OT1/zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^X \OML/zplm/m/it/10 ^^U[
+]e[]\OT1/ppl/m/n/10 , [][] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 10 []\OML/zplm/m/
+it/10 m$ \T1/ppl/m/n/10 from [10 m, 50 m], $\OML/zplm/m/it/10 P\OT1/zplm/m/n/10
+ (\OML/zplm/m/it/10 r[]\OT1/zplm/m/n/10 ) \OMS/zplm/m/n/10 ^^X
  []
 
-
-LaTeX Warning: Reference `fig:gyration' on page 10 undefined on input line 333.
-
-
-
-LaTeX Warning: Reference `fig:gyration' on page 10 undefined on input line 334.
-
-
-<./figures/displacement.png, id=89, 1477.4397pt x 1536.942pt>
+<./figures/displacement.png, id=272, 1477.4397pt x 1536.942pt>
 File: ./figures/displacement.png Graphic file (type png)
 
 <use ./figures/displacement.png>
 Package pdftex.def Info: ./figures/displacement.png used on input line 339.
 (pdftex.def)             Requested size: 443.86319pt x 461.74281pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 344.
-
-[10]
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 344.
-
-[11 <./figures/displacement.png>]
-
-LaTeX Warning: Reference `fig:gyration' on page 12 undefined on input line 347.
-
-
-
-LaTeX Warning: Reference `fig:gyration' on page 12 undefined on input line 347.
-
-
-<./figures/gyration2.png, id=101, 1473.3444pt x 1538.3874pt>
+ [10] [11 <./figures/displacement.png>]
+<./figures/gyration2.png, id=287, 1473.3444pt x 1538.3874pt>
 File: ./figures/gyration2.png Graphic file (type png)
 
 <use ./figures/gyration2.png>
 Package pdftex.def Info: ./figures/gyration2.png used on input line 356.
 (pdftex.def)             Requested size: 443.86319pt x 463.44464pt.
-
-
-LaTeX Warning: Reference `fig:displacement' on page 12 undefined on input line 
-362.
-
-
-LaTeX Warning: Reference `fig:gyration_season' on page 12 undefined on input li
-ne 362.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 366.
-
-[12
+ [12
 
  <./figures/gyration2.png>]
-<./figures/gyration_season.png, id=108, 1415.2875pt x 673.76718pt>
+<./figures/gyration_season.png, id=295, 1415.2875pt x 673.76718pt>
 File: ./figures/gyration_season.png Graphic file (type png)
 
 <use ./figures/gyration_season.png>
 Package pdftex.def Info: ./figures/gyration_season.png used on input line 372.
 (pdftex.def)             Requested size: 443.86319pt x 211.30223pt.
-
-
-LaTeX Warning: Reference `fig:state_flow' on page 13 undefined on input line 38
-5.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 387.
-
-[13 <./figures/gyration_season.png (PNG copy)>]
-<./figures/degree.png, id=115, 883.80188pt x 603.0028pt>
+ [13 <./figures/gyration_season.png (PNG copy)>] <./figures/degree.png, id=303,
+ 883.80188pt x 603.0028pt>
 File: ./figures/degree.png Graphic file (type png)
 
 <use ./figures/degree.png>
 Package pdftex.def Info: ./figures/degree.png used on input line 390.
 (pdftex.def)             Requested size: 355.0919pt x 242.27336pt.
 
-
-Package natbib Warning: Citation `liu2014cybergis' on page 14 undefined on inpu
-t line 400.
-
-
 Underfull \hbox (badness 1205) in paragraph at lines 397--401
 \T1/ppl/m/n/10 sta-tis-ti-cal anal-y-sis, the frame-work in-te-grates a 3D vir-
 tual globe in-ter-face to en-able users to
  []
 
-
-LaTeX Warning: Reference `fig:Web_Interface' on page 14 undefined on input line
- 402.
-
-
-LaTeX Warning: Reference `fig:chicago' on page 14 undefined on input line 407.
-
-
-LaTeX Warning: Reference `fig:Chicago_airport' on page 14 undefined on input li
-ne 407.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 412.
-
 [14 <./figures/degree.png>]
-<./figures/all.png, id=122, 1212.02812pt x 684.30656pt>
+<./figures/all.png, id=318, 1212.02812pt x 684.30656pt>
 File: ./figures/all.png Graphic file (type png)
 
 <use ./figures/all.png>
 Package pdftex.def Info: ./figures/all.png used on input line 415.
 (pdftex.def)             Requested size: 355.0919pt x 200.47993pt.
 
-<./figures/Chicago.png, id=123, 1212.02812pt x 685.05937pt>
+<./figures/Chicago.png, id=319, 1212.02812pt x 685.05937pt>
 File: ./figures/Chicago.png Graphic file (type png)
 
 <use ./figures/Chicago.png>
 Package pdftex.def Info: ./figures/Chicago.png used on input line 423.
 (pdftex.def)             Requested size: 355.0919pt x 200.70049pt.
 
-<./figures/Chicago_airport.png, id=124, 1621.05624pt x 916.42375pt>
+<./figures/Chicago_airport.png, id=320, 1621.05624pt x 916.42375pt>
 File: ./figures/Chicago_airport.png Graphic file (type png)
 
 <use ./figures/Chicago_airport.png>
 Package pdftex.def Info: ./figures/Chicago_airport.png used on input line 431.
 (pdftex.def)             Requested size: 355.0919pt x 200.73288pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 435.
-
-[15 <./figures/all.png> <./figures/Chicago.png>]
+ [15 <./figures/all.png> <./figures/Chicago.png>]
 Underfull \hbox (badness 1077) in paragraph at lines 448--452
 \T1/ppl/m/n/10 by the prob-a-bil-ity dis-tri-bu-tions of the dis-place-ments an
 d ra-dius of gy-ra-tions of in-di-vid-u-als.
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 459.
-
-[16 <./figures/Chicago_airport.png>]
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 558.
-
-[17]
+[16 <./figures/Chicago_airport.png>] [17]
 Underfull \hbox (badness 1320) in paragraph at lines 625--629
 \T1/ppl/m/n/9 S.; Var-shavsky, A.; Volin-sky, C.  Hu-man mo-bil-ity char-ac-ter
 -i-za-tion from cel-lu-lar net-work data.
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 718.
 
 [18]
 Package epstopdf Info: Source file: <logo-ccby.eps>
@@ -1540,7 +1058,7 @@ Package epstopdf Info: Source file: <logo-ccby.eps>
 .pdf logo-ccby.eps>
 (epstopdf)             \includegraphics on input line 781.
 Package epstopdf Info: Output file is already uptodate.
- <logo-ccby-eps-converted-to.pdf, id=185, 120.45pt x 42.1575pt>
+ <logo-ccby-eps-converted-to.pdf, id=341, 120.45pt x 42.1575pt>
 File: logo-ccby-eps-converted-to.pdf Graphic file (type pdf)
 
 <use logo-ccby-eps-converted-to.pdf>
@@ -1557,9 +1075,6 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 781.
 
 
-Package lastpage Warning: Rerun to get the references right on input line 781.
-
-
 AED: lastpage setting LastPage
 
 Overfull \hbox (3.61003pt too wide) in paragraph at lines 781--781
@@ -1571,49 +1086,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 781--781
 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 781.
-
 [19 <./logo-ccby-eps-converted-to.pdf>]
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
-(./ijgi-148112-can be published_correction.aux
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(./ijgi-148112-can be published_correction.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 781.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
-
-
-Package rerunfilecheck Warning: File `"ijgi-148112-can be published_correction"
-.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"ijgi-148112-can be published_corre
-ction".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  80BC36E4C0BE0088666FA75E4938BC1D;3431.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `"ijgi-148112-can be published_correction".ou
+t' has not changed.
+(rerunfilecheck)             Checksum: 80BC36E4C0BE0088666FA75E4938BC1D;3431.
  ) 
 Here is how much of TeX's memory you used:
- 13858 strings out of 493117
- 198046 string characters out of 6135433
- 292790 words of memory out of 5000000
- 16981 multiletter control sequences out of 15000+600000
+ 13878 strings out of 493117
+ 198495 string characters out of 6135433
+ 298349 words of memory out of 5000000
+ 16995 multiletter control sequences out of 15000+600000
  48646 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,2021b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,2021b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
@@ -1626,11 +1117,11 @@ texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/palatino/uplri8a.pfb>
-Output written on "ijgi-148112-can be published_correction.pdf" (19 pages, 9270
-056 bytes).
+Output written on "ijgi-148112-can be published_correction.pdf" (19 pages, 9274
+918 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
+ 412 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
  89 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
