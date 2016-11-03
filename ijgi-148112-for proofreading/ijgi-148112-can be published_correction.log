@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 OCT 2016 02:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 NOV 2016 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,7 +1041,13 @@ Underfull \hbox (badness 1077) in paragraph at lines 448--452
 d ra-dius of gy-ra-tions of in-di-vid-u-als.
  []
 
-[16 <./figures/Chicago_airport.png>] [17]
+[16 <./figures/Chicago_airport.png>]
+Underfull \hbox (badness 1292) in paragraph at lines 473--473
+\T1/ppl/b/n/9 Author Con-tri-bu-tions: \T1/ppl/m/n/9 Shaowen Wang con-ceived th
+e idea; Jun-jun Yin and Yizhao Gao de-signed the
+ []
+
+[17]
 Underfull \hbox (badness 1320) in paragraph at lines 625--629
 \T1/ppl/m/n/9 S.; Var-shavsky, A.; Volin-sky, C.  Hu-man mo-bil-ity char-ac-ter
 -i-za-tion from cel-lu-lar net-work data.
@@ -1117,8 +1123,8 @@ texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/palatino/uplri8a.pfb>
-Output written on "ijgi-148112-can be published_correction.pdf" (19 pages, 9274
-918 bytes).
+Output written on "ijgi-148112-can be published_correction.pdf" (19 pages, 9275
+007 bytes).
 PDF statistics:
  412 PDF objects out of 1000 (max. 8388607)
  349 compressed objects within 4 object streams
