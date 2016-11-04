@@ -84,7 +84,7 @@ $^{4}$ \quad Institute of Geographic Information Science, School of Earth Scienc
 However, the capability of capturing detailed human movements with fine-grained spatial and temporal granularity is still limited.
 In this study, we extracted high-resolution mobility data from a collection of over 1.3 billion geo-located Twitter messages.
 Regarding the concerns of infringement on individual privacy, such as the mobile phone call records with restricted access, the dataset is collected from publicly accessible Twitter data streams.
-In this paper, we employed a visual-analytics approach to studying multi-scale spatiotemporal Twitter user mobility patterns in the contiguous United States during the year 2014.
+In this paper, we employed a visual-analytics approach to studying multi-scale spatiotemporal Twitter user mobility patterns in the conterminous United States during the year 2014.
 Our approach included a scalable visual-analytics framework to deliver efficiency and scalability in filtering large volume of geo-located tweets, modeling and extracting Twitter user movements, generating space-time user trajectories, and summarizing multi-scale spatiotemporal user mobility patterns.
 We performed a set of statistical analysis to understand Twitter user mobility patterns across multi-level spatial scales and temporal ranges.
 In particular, Twitter user mobility patterns measured by the displacements and radius of gyrations of individuals revealed multi-scale or multi-modal representation of the patterns.
@@ -119,20 +119,20 @@ However, such insights are critical to advance our understanding of the collecti
 On the other hand, while the high-resolution spatiotemporal records from LBSM present unique research opportunities in this regard, the inherent large data volume poses significant data-intensive challenges for developing multi-scale spatiotemporal analysis approaches to dealing with the complexities in filtering movements of individuals, modeling and aggregating user trajectories at multiple spatial and temporal scales~\cite{tsou2015}.
 
 In this paper, we have employed a visual-analytics approach to exploring the Twitter user mobility patterns across multi-level spatial scales and temporal ranges in the conterminous United States (i.e., excluding Alaska and Hawaii) during the year 2014.
-The mobility data is extracted from over 1.3 billion geo-located Twitter messages (i.e., tweets) from 1st January to 31st December 2014 over North America with over 6 million Twitter users and over 1 TB in file size.
-To address the data-intensive challenge embedded in this dataset, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets.
-This framework is implemented based on high-performance distributed computing environment using Apache Hadoop (http://hadoop.apache.org/), which is an open source software framework to enable distributed processing of large datasets across computing clusters.
-Enabled by this framework, we have performed a set of statistical analysis to understand multi-scale spatiotemporal Twitter user mobility patterns. 
-We have modeled the frequency of Twitter users visiting different locations to study the collective user visiting behaviors, where we have identified temporal similarities in the distributions.
-In particular, Twitter user mobility patterns measured by user displacements and radius of gyrations of individuals~\cite{gonzalez2008understanding} have revealed different groups of Twitter users with multi-scale or multi-modal mobility patterns and multiple travel modes~\cite{Jurdak2015}.
-By further studying such mobility patterns in different temporal ranges, we have identified both consistency and seasonal fluctuations regarding the distance decay effects in the corresponding mobility patterns.
+The mobility data are extracted from over 1.3 billion geo-located Twitter messages (i.e., tweets) from 1st January to 31st December 2014 over North America with over 6 million Twitter users and over 1 TB in data size.
+To handle this large volume of geo-located tweets, we have developed a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets.
+This framework is implemented based on a high-performance distributed computing environment using the Apache Hadoop (http://hadoop.apache.org/, an open source software tool for distributed processing of large datasets across computing clusters).
+Enabled by this framework, we have performed a set of statistical analysis to understand multi-scale spatiotemporal patterns of Twitter user mobility, and modeled the frequency of Twitter users visiting different locations to study the collective user visiting behavior.
+
+Twitter user mobility patterns measured by user displacements and radius of gyrations of individuals~\cite{gonzalez2008understanding} have revealed different groups of Twitter users with multi-scale or multi-modal mobility patterns and multiple travel modes~\cite{Jurdak2015}.
+By further examining such mobility patterns in different temporal ranges, we have identified both consistency and seasonal fluctuations regarding the distance decay effects in the corresponding mobility patterns.
 In addition, our approach provides an interactive 3D virtual globe web mapping interface to enable exploratory geo-visual analytics for understanding the detailed Twitter user movement flows within a given spatial scale and time window.
 
 The remainder of this paper is organized as follows.
 Section 2 describes the related work in the context of studying mobility patterns using LBSM data, in particular, the geo-located Twitter data.
-We focus on research challenges in using visual-analytics methods to enable multi-scale spatiotemporal analysis with massive movement datasets, including data management, multi-level spatiotemporal user trajectory modeling and visualization.
+We focus on research challenges in using visual-analytics methods to enable multi-scale spatiotemporal analysis of massive movement datasets, including data management, multi-level spatiotemporal user trajectory modeling and visualization.
 Section 3 details the processes for extracting, aggregating and summarizing multi-level spatiotemporal Twitter user mobility patterns.
-Section 4 presents the case study of performing visual-analytics for seeking multi-scale spatiotemporal Twitter mobility patterns in the conterminous United States of the year 2014.
+Section 4 presents the case study of performing visual-analytics for seeking multi-scale spatiotemporal Twitter mobility patterns in the conterminous United States for the year 2014.
 Section 5 concludes the paper.
 
 \section{Mobility Patterns in Location Based Social Media data}
@@ -142,21 +142,20 @@ In this connection, using GPS trackers tends to produce, to date, the most accur
 However, such data are often limited in spatial scale (e.g., within a specific city or region) from a small group of people, for example, 226 and 182 volunteers participated in collecting such mobility data in~\cite{rhee2011levy} and~\cite{zheng2010geolife} respectively.
 Other than tracking people directly, the vehicle-based GPS traces are often tied to specific vehicles (e.g. taxi), which are only accessible for a certain group of people~\cite{kung2014exploring}. 
 
-Another approach from the literatures for studying human mobility is using mobile phone call data, such as Call Detail Records (CDR), where the locations of mobile users are estimated by cell tower triangulation with an accuracy in the order of kilometers~\cite{gonzalez2008understanding,sevtsuk2010does,kung2014exploring}.
+Another approach to studying human mobility is using mobile phone call data, such as Call Detail Records (CDR), where the locations of mobile users are estimated by cell tower triangulation with accuracy in the order of kilometers~\cite{gonzalez2008understanding,sevtsuk2010does,kung2014exploring}.
 Such a dataset can cover relatively large spatial scale~\cite{becker2013human,sobolevsky2013delineating} (e.g., national level) and a large portion of the population in the study region~\cite{kung2014exploring}.
 However, due to the concerns of infringement on individual privacy, mobile phone call data are not publicly accessible at all.
-Even such data were obtained in the mentioned studies, they came from various service providers covering different groups of users.
+Even such data were obtained in the aforementioned studies; they came from various service providers covering different groups of users.
 These issues limit the capability for conducting reproducible scientific findings for mobility research, such as validating or extending the existing discoveries.
 
 In this connection, it becomes increasingly popular for researchers to exploit the publicly accessible mobility data captured from today's pervasive Location Based Social Media (LBSM) platforms (e.g., Foursquare and Twitter).
 LBSM enables users to attach their current location as a geo-tag to the message they post, which is derived from either the GPS or Wi-Fi positioning with a high position resolution down to 10 meters~\cite{Jurdak2015}.
-A Big Data scenario emerges when millions social media users constantly post messages.
+A Big Data scenario emerges when millions of social media users constantly post messages.
 In this study, geo-located Twitter data are chosen as a source for studying detailed mobility patterns.
-Compared to other LBSM platforms, Twitter is one of the most popular platforms and is been actively used in many countries.
+Twitter is one of the most popular platforms and has been actively used in many countries.
 It provides a publicly accessible streaming API for easy data access~\cite{twitterAPI}.
-Indeed, many other LBSM data can be collected from the data streams, such as Foursquare check-in data~\cite{cranshaw2012livehoods,hasan2013understanding}.
 
-However, it is worth noting that there are some limitations and complexities in directly using LBSM data for studying human mobility patterns.
+However, it is worth noting that there are limitations and complexities in directly using LBSM data for studying human mobility patterns.
 For example, comparing to GPS traces, the update frequency of an individual's location varies depending on when a user is posting a new geo-located message or check-in at a new place.
 Although geo-located tweets tend to provide geo-locations with high position resolution as aforementioned~\cite{Jurdak2015}, the information regarding the quality of the geo-locations is absent in each tweet.
 This will contribute to the uncertainties in calculating the distance of Twitter user movements, especially in densely built environments.   
@@ -164,29 +163,29 @@ There is also a potential mismatch regarding the representativeness of the overa
 The derived mobility patterns may lead to an over or under-representation of the real-world human mobility patterns.
 Many studies started to look into the demographic information of LBSM data, in particular Twitter data~\cite{mitchell2013geography,longley2015geotemporal}.
 Although the used methods are still arguable, these issues certainly require us to pose stricter criteria in understanding human mobility patterns using geo-located Twitter data.
-On the other hand, geo-located Twitter dataset presents some unique advantages that make it a valuable proxy for studying human mobility patterns.
+On the other hand, geo-located Twitter data present some unique advantages that make it a valuable proxy for studying human mobility patterns.
 For example, the high-resolution location information enables to identify multiple travel modes in user mobility patterns~\cite{Jurdak2015}; the large spatial coverage enables to study global mobility patterns~\cite{hawelka2014geo}, which is almost impossible for other mobility datasets.
-More importantly, by continuously monitoring the geo-located Twitter data streams with large volume of detailed and frequently updated spatiotemporal records of Twitter users, it offers a great deal of potential for studying mobility patterns of large groups of individuals at different spatial scales (e.g., movements across cities, states or even countries) and temporal gratuity (e.g., weekly, monthly, and seasonal movements), which is one of the motivations for this study.
+More importantly, by continuously monitoring the geo-located Twitter data streams with large volume of detailed and frequently updated spatiotemporal records of Twitter users, it offers a great deal of potential for studying mobility patterns of large groups of individuals at different spatial scales (e.g., movements across cities, states or even countries) and temporal granularity (e.g., weekly, monthly, and seasonal movements), which is a key motivation for this study.
 
 \subsection{Data-intensive Challenges for Multi-scale Geo-visual Analytics}
-Mobility data are essentially a collection of spatiotemporal records of people re-allocating across the geographic space.
+Human mobility data are essentially a collection of spatiotemporal records of people re-allocating across geographic space.
 To study mobility patterns of individuals, a space-time trajectory of each individual user should be modeled and constructed to quantify the collective movements over space and time.
-Based on the extracted space-time trajectories, aforementioned studies are able to perform analysis, such as the measurements of user displacements and radius of gyrations of individuals, to study the mobility dynamics.
-Indeed, space-time trajectory is one of the core concepts in H{\"a}gerstrand's time geography to understand the embedded spatiotemporal dynamics~\cite{hagerstrand1985time}, which has provided useful insights to explore movements across different geographical scales and temporal ranges.
+Based on the extracted space-time trajectories, aforementioned studies are able to perform analysis, such as the measurements of user displacements and radius of gyrations of individuals, to study mobility dynamics.
+Space-time trajectory is one of the core concepts in H{\"a}gerstrand's time geography to understand the embedded spatiotemporal dynamics~\cite{hagerstrand1985time}, which has provided useful insights to explore movements across different geographical scales and temporal ranges.
 For example, a geo-visualization approach was used to study human activity patterns, where user trajectories were mapped in a 3D space ordered by timestamps in the third dimension~\cite{kwan2004geovisualization}.
 While such an approach enables visualization of individual trajectories, its capability is limited in dealing with large-volume movement datasets~\cite{andrienko2007designing}.
 Instead of directly visualizing an individual user's trajectories, a space-time cube approach was proposed to analyzing and visualizing the collective trajectories.
 It provides flexibilities in setting up both spatial scales and temporal ranges, and therefore is used to study mobility patterns across different spatial units (e.g., countries, states, and cities, etc.) and identify the changes over space and time~\cite{maceachren2001research, maceachren2004maps}.
 In this regard, visual-analytics methods are proposed to better convey the findings in terms of analyzing and visualizing multi-level spatiotemporal mobility patterns~\cite{andrienko2007designing,andrienko2007visual}.
-Visual-analytics methods focus on the synergy of computational and analytical methods to reduce the visual clutter, where aggregation methods are suggested to perform grouping/dividing individual's moving trajectories at different spatial and temporal granularity, e.g., utilizing the space-time cube approach~\cite{andrienko2007designing}.
+Visual-analytics methods focus on the synergy of computational and analytical methods to reduce the visual clutter, where aggregation methods are suggested to group and divide individual's moving trajectories at different spatial and temporal granularity, e.g., utilizing the space-time cube approach~\cite{andrienko2007designing}.
 Employing visual-analytics methods dealing with massive movement datasets is not only beneficial for optimizing visualizations but also provides a great deal of flexibilities for performing statistical analysis in seeking mobility patterns with different level of spatiotemporal details. 
 
-However, in the context of studying mobility patterns using large volume of geo-located Twitter data, the inherited large data volume poses significant data intensive challenges for visual-analytics methods to scale with both the data volume and the computational requirements (e.g., movement extraction and trajectory modeling)~\cite{cao2014scalable}.
+However, in the context of studying mobility patterns using geo-located Twitter data, the inherent large data volume poses significant data intensive challenges for visual-analytics methods to scale with both the data volume and the computational requirements (e.g., movement extraction and trajectory modeling)~\cite{cao2014scalable}.
 In particular, in our study, 1.3 billion geo-located tweets were collected with over 1 TB in file size.
 To construct a space-time trajectory of an individual, it is necessary to go through the massive dataset to sort and update the trajectory whenever a new location is found.
-Such a task is already computationally demanding, let along breaking the trajectories to construct space-time cube with multiple spatial scale and temporal ranges.
+Such a task is already computationally demanding, let alone breaking the trajectories to construct space-time cube with multiple spatial scale and temporal ranges.
 Indeed, developing a multi-scale spatiotemporal analysis approach is identified as one of the research challenges for dealing with social media Big Data~\cite{tsou2015}.
-To address the data-intensive challenges, there is a need to develop a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
+To resolve the data-intensive challenges, there is a need to develop a scalable visual-analytics framework tailored to accommodate large volume of geo-located tweets for studying multi-level spatiotemporal Twitter user mobility patterns.
 
 
 \section{Data and Methods}

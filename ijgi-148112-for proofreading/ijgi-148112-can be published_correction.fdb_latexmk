@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1478208155 "ijgi-148112-can be published_correction.tex" "ijgi-148112-can be published_correction.pdf" "ijgi-148112-can be published_correction" 1478208167
+["pdflatex"] 1478244206 "ijgi-148112-can be published_correction.tex" "ijgi-148112-can be published_correction.pdf" "ijgi-148112-can be published_correction" 1478244218
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1136768653 1616 371d1ee60c04b008c8fd760060cd34f1 ""
@@ -142,9 +142,9 @@
   "figures/gyration_season.png" 1472878318 46117 7ab0be08a7b4da9f67b46b4158dc7e0e ""
   "figures/multilevel.png" 1472878318 129384 280708d8f7fc5fbca7d154657c919be0 ""
   "figures/visitation.png" 1472878318 54273 c57545ca32ee8b57b4942b52496e2b56 ""
-  "ijgi-148112-can be published_correction.aux" 1478208166 13353 cc44539df538f9f88976e87f43ccb7c6 ""
-  "ijgi-148112-can be published_correction.out" 1478208166 3431 80bc36e4c0be0088666fa75e4938bc1d ""
-  "ijgi-148112-can be published_correction.tex" 1478208154 71258 b6a3e4b043000797b9a5b21b9b92b66e ""
+  "ijgi-148112-can be published_correction.aux" 1478244217 13278 4386ce8a6aaa8fe50894dd569817dd6b ""
+  "ijgi-148112-can be published_correction.out" 1478244217 3406 9e5fc2bef6325bba4ac5db289c3c6377 ""
+  "ijgi-148112-can be published_correction.tex" 1478244204 71107 0139d943d3ccf0c857a1d4d8a0030899 ""
   "ijgi-logo-eps-converted-to.pdf" 1474321496 42653 e7962c595fc6665e6c40e0833eac0522 ""
   "ijgi-logo.eps" 1449850660 1196602 09e900cd3cfd0ce52cb2565c0a3d6a64 ""
   "logo-ccby-eps-converted-to.pdf" 1474321508 11987 2161253398c23adf01e1d76cb99efa31 ""
@@ -153,10 +153,10 @@
   "logo-mdpi.eps" 1472878318 736786 8818d4fdfce9a8e859e47bd730481fab ""
   "mdpi.cls" 1472878318 55018 629e9116d368cc8ee0e9c9094acb48d3 ""
   (generated)
-  "ijgi-148112-can be published_correction.aux"
   "ijgi-148112-can be published_correction.log"
-  "ijgi-logo-eps-converted-to.pdf"
-  "ijgi-148112-can be published_correction.out"
-  "ijgi-148112-can be published_correction.pdf"
-  "logo-mdpi-eps-converted-to.pdf"
   "logo-ccby-eps-converted-to.pdf"
+  "ijgi-148112-can be published_correction.pdf"
+  "ijgi-148112-can be published_correction.aux"
+  "ijgi-logo-eps-converted-to.pdf"
+  "logo-mdpi-eps-converted-to.pdf"
+  "ijgi-148112-can be published_correction.out"
