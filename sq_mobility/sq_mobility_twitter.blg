@@ -1,8 +1,51 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: sq_mobility_twitter.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sq_mobility_twitter.aux
 The style file: naturemag.bst
 Database file #1: ref.bib
 Warning--I didn't find a database entry for "thatcher2014"
 Warning--I didn't find a database entry for "giannotti2008mobility"
 Warning--I didn't find a database entry for "crampton2014collect"
 Warning--I didn't find a database entry for "Jurdak2015"
+You've used 1 entry,
+            2348 wiz_defined-function locations,
+            988 strings with 9088 characters,
+and the built_in function-call counts, 433 in all, are:
+= -- 31
+> -- 8
+< -- 0
++ -- 4
+- -- 2
+* -- 52
+:= -- 55
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 36
+empty$ -- 39
+format.name$ -- 3
+if$ -- 81
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 13
+num.names$ -- 1
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 5
+stack$ -- 0
+substring$ -- 25
+swap$ -- 35
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 18
 (There were 4 warnings)

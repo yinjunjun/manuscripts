@@ -1,13 +1,15 @@
 # Fdb version 3
-["bibtex paper"] 1480714759 "paper.aux" "paper.bbl" "paper" 1480714771
+["bibtex paper"] 1480714759 "paper.aux" "paper.bbl" "paper" 1482276748
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "paper.aux" 1480714759 705 4dfef193d11871233fce6de879a427a9 ""
+  "paper.aux" 1482276748 705 4dfef193d11871233fce6de879a427a9 ""
   "paper.bcf" 0 -1 0 ""
-  "ref.bib" 1480703363 803 45d68fe4cf103504cf85861356236e6f ""
+  "ref.bib" 1481908660 803 45d68fe4cf103504cf85861356236e6f ""
   (generated)
-  "paper.blg"
   "paper.bbl"
-["pdflatex"] 1480714759 "paper.tex" "paper.pdf" "paper" 1480714771
+  "paper.blg"
+["pdflatex"] 1482276747 "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.tex" "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.pdf" "paper" 1482276748
+  "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.aux" 1482276748 705 4dfef193d11871233fce6de879a427a9 ""
+  "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.tex" 1482276745 1850 1a992cf3ebf4261e03099b784229626a ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -61,13 +63,15 @@
   "/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2016/texmf-dist/tex/latex/preprint/authblk.sty" 1368488610 7016 985a983ce041cc8959cd31133cba0244 ""
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
-  "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1480704333 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
+  "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1481906148 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "paper.aux" 1480714759 705 4dfef193d11871233fce6de879a427a9 ""
-  "paper.bbl" 1480714759 49 0eba253fc001332e731e8aba3f23127b "bibtex paper"
-  "paper.tex" 1480714771 1880 2893b476a7cc0f99f3cfe63ff8b6bd82 ""
+  "paper.aux" 1482276748 705 4dfef193d11871233fce6de879a427a9 ""
+  "paper.bbl" 1481908660 49 0eba253fc001332e731e8aba3f23127b "bibtex paper"
+  "paper.tex" 1482276745 1850 1a992cf3ebf4261e03099b784229626a ""
   (generated)
-  "paper.aux"
-  "paper.log"
   "paper.pdf"
+  "paper.log"
+  "paper.aux"
+  "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.log"
+  "/Users/junjunadmin/GitHub/manuscripts/semantic_decomposition_of_twitter_user_locations/paper.pdf"
