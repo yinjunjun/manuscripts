@@ -72,11 +72,6 @@ Cranshaw, J., Schwartz, R., Hong, J.~I., and Sadeh, N.~M. (2012).
   dynamics of a city.
 \newblock In {\em ICWSM}.
 
-\bibitem[Dean and Ghemawat, 2008]{dean2008mapreduce}
-Dean, J. and Ghemawat, S. (2008).
-\newblock Mapreduce: simplified data processing on large clusters.
-\newblock {\em Communications of the ACM}, 51(1):107--113.
-
 \bibitem[Gao et~al., 2012]{gao2012exploring}
 Gao, H., Tang, J., and Liu, H. (2012).
 \newblock Exploring social-historical ties on location-based social networks.
@@ -193,12 +188,6 @@ Sevtsuk, A. and Ratti, C. (2010).
 \newblock Does urban mobility have a daily routine? learning from the aggregate
   data of mobile networks.
 \newblock {\em Journal of Urban Technology}, 17(1):41--60.
-
-\bibitem[Shvachko et~al., 2010]{shvachko2010hadoop}
-Shvachko, K., Kuang, H., Radia, S., and Chansler, R. (2010).
-\newblock The hadoop distributed file system.
-\newblock In {\em Mass Storage Systems and Technologies (MSST), 2010 IEEE 26th
-  Symposium on}, pages 1--10. IEEE.
 
 \bibitem[Sobolevsky et~al., 2013]{sobolevsky2013delineating}
 Sobolevsky, S., Szell, M., Campari, R., Couronn{\'e}, T., Smoreda, Z., and
