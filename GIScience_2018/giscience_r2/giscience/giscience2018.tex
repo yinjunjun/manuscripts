@@ -68,7 +68,7 @@
 \maketitle
 
 \begin{abstract}
-Advances in location-aware technology have resulted in the generation of a huge volume of trajectory data.
+Advances in location-aware technology have lead to the generation of a huge volume of trajectory data.
 Origin-destination (OD) trajectories provide rich information on urban flow and transport demand.
 This study presents a new methodology to detect OD flow outliers and conduct hypothesis testing between two OD flows in terms of the variations of spatial extent, namely, spread.
 The proposed method is based on data depth, which measures the centrality and outlyingness of a point with respect to a given dataset in $\mathbb{R}^d$.
@@ -432,8 +432,10 @@ This case clearly demonstrates that most OD flows occurred in three broad areas:
 In addition, we investigated abnormal weekend OD flows that are typical weekday OD flows.
 These abnormal weekend OD flows exhibited substantial variance in number of taxi trips relative to their weekday counterparts.
 Figure \ref{fig:weekdays_rare} presents these OD flows outliers with triangle symbols.
-In Figure \ref{fig:weekdays_rare_map}, red lines indicate the substantial increases in weekend trip volumes. Conversely, blue lines indicate the decreases in trip volume.
-Figure \ref{fig:weekdays_rare_map} reveals that OD flows between the center of Manhattan and the two airports or between the two airports were not significantly different during weekdays and weekends. However, we did observe some meaningful decrease in OD flows during the weekends in business district, as depicted by the blue lines in Figure \ref{fig:weekdays_rare_map}.
+In Figure \ref{fig:weekdays_rare_map}, red lines indicate the substantial increases in weekend trip volumes.
+Conversely, blue lines indicate the decreases in trip volume.
+Figure \ref{fig:weekdays_rare_map} reveals that OD flows between the center of Manhattan and the two airports or between the two airports were not significantly different during weekdays and weekends. 
+However, we did observe some meaningful decrease in OD flows during the weekends in business district, as depicted by the blue lines in Figure \ref{fig:weekdays_rare_map}.
 
 %  decreased significantly during weekdays and weekends (e.g., left-side blue OD flows in business district in Figure \ref{fig:weekdays_rare_map}).
 
@@ -457,7 +459,8 @@ Figure \ref{fig:weekdays_rare_map} reveals that OD flows between the center of M
 
 We also detected outlier OD flows using Mahalanobis distance. The results are presented in Figure \ref{fig:week_ends_MD}. 
 Far fewer outlier OD flows were detected using Mahalanobis distance than by the proposed approach.
-The Mahalanobis method only considers the forward OD flows of the two datasets. It identified OD flow outliers with high volume of trips because Mahalanobis distance considers the correlations between two OD flows.
+The Mahalanobis method only considers the forward OD flows of the two datasets.
+It identified OD flow outliers with high volume of trips because Mahalanobis distance considers the correlations between two OD flows.
 Thus, Mahalanobis distance is more likely to identify outliers when two OD flows have large trip volumes.
 In fact, the OD flows outliers from Mahalanobis distance are a subset of the outliers identified by the proposed method, as depicted in Figure \ref{fig:weekdays_high_map}. Furthermore, the Mahalanobis distance approach could not detect the outliers detected by the proposed approach in Figure \ref{fig:weekdays_rare_OD_map} because the Mahalanobis distance approach cannot compare two flows to evaluate significant increases or decreases. 
 
@@ -484,8 +487,9 @@ Hypothesis testing of differences between two central regions in Figure \ref{fig
 	\caption{OD flows comparisons based on data depth: $\circ$ indicates the OD flows on weekdays and * indicates the OD flows on weekends; blue line presents the central region of the OD flows for the weekdays and red dotted line presents the central region of the OD flows on weekends. }\label{fig:OD_comparisons}	
 \end{figure}
 
-Interestingly, the standard statistic F-test was significant, $F(9530,7637) =1.1786$, $p \leq 0.05$. The variances of two groups were significantly different. This result directly opposed that of the proposed approach.
-
+Interestingly, the standard statistic F-test was significant, $F(9530,7637) =1.1786$, $p \leq 0.05$.
+The variances of two groups were significantly different. 
+This result directly opposed that of the proposed approach.
 
 %\subsection{Scalability}
 %
@@ -500,11 +504,15 @@ Interestingly, the standard statistic F-test was significant, $F(9530,7637) =1.1
 \section{Discussion}
 \label{sec:discussion}
 The results demonstrate that the proposed method effectively identifies outlier OD flows based on data depth.
-It is also possible to detect outlier OD flows by querying with conditional clauses, such as which outlier OD flows always have high trip volumes during time $t_1$ and time $t_2$. 
+It is also possible to detect outlier OD flows by querying with conditional clauses, such as which outlier OD flows always have high trip volumes during time $t_1$ and time $t_2$.
 
-As an alternative method, the state-of-the-art Mahalanobis distance approach detected similar outlier OD flows.
+As an alternative method, the state-of-the-art Mahalanobis distance-based approach detected similar outlier OD flows.
 However, the number of outliers detected was different.
-This occurred because our OD flows data had heavy tail distributions, that is, many of the OD flows with a long distance from the depth median depicted in Figure \ref{fig:weekdays_rare}. Mahalanobis distance is known to be inadequate when the underlying data have heavy tail distributions \cite{wilcox12Book}. Thus, the presence of outliers may mask the detection of other outliers in Mahalanobis distance approach. Furthermore, it can only detect OD flow outliers with high numbers of trips during time $t_1$ and time $t_2$. It is difficult to detect OD flows outliers that have different properties, such as substantial differences in the number of trips when comparing with time $t_1$ and time $t_2$.
+This occurred because our OD flows data had heavy tail distributions, that is, many of the OD flows with a long distance from the depth median depicted in Figure \ref{fig:weekdays_rare}. 
+Mahalanobis distance is known to be inadequate when the underlying data have heavy tailed distributions \cite{wilcox12Book}. 
+Thus, the presence of outliers may mask the detection of other outliers in Mahalanobis distance approach.
+Furthermore, it can only detect OD flow outliers with high numbers of trips during time $t_1$ and time $t_2$. 
+It is difficult to detect OD flows outliers that have different properties, such as substantial differences in the number of trips when comparing with time $t_1$ and time $t_2$.
 
 In terms of the difference in spread, our approach used a bootstrap method to compare the central regions of data depth.
 This approach investigated the difference in scale as well as the structure of data.
@@ -527,13 +535,13 @@ Conversely, data depth makes no assumptions about the distributions of the under
 This paper provides a new methodology for identifying outlier OD flows and the difference in scale between two different OD flows at $t_1$ and $t_2$.
 The proposed method is based on the concept of data depth.
 Data depth is robust statistics, which is suited to non-Gaussian distribution of the underlying datasets.
-Compared with standard statistics, this approach enhances understanding of the differences and the magnitude of the differences between tow OD flows. 
+Compared with standard statistics, this approach enhances understanding of the differences and the magnitude of the differences between two OD flows. 
 
  %adds different perspective how two OD flows differ and by how much. 
 
-This study made no attempt to consider geographic contexts such as locational circumstances or surrounding environment in understanding OD flows. 
-Further investigation will focus on integrating the analysis of OD flows with geographic context.
-Such an effort will lead to knowledge discovery and understanding the dynamics of urban flow.
+This study made no attempt to incorporate geographic contexts such as locational circumstances or surrounding environment in understanding OD flows. 
+Further investigations will focus on integrating the analysis of OD flows with geographic context.
+Such an effort will lead to knowledge discovery and better understandings regarding the dynamics of urban flow.
 
 
 %
