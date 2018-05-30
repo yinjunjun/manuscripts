@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.8)  28 MAY 2018 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.8)  29 MAY 2018 12:21
 entering extended mode
 **c:/Jun/GitHub/manuscripts/GIScience_2018/giscience_r2/giscience/giscience2018
 .tex
@@ -1212,28 +1212,28 @@ Package pdftex.def Info: orcid.pdf  used on input line 69. on input line 69.
 Package pdftex.def Info: Requested size: 9.99826pt x 10.0pt on input line 69.
 \openout3 = `giscience2018.vtc'.
 
-LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 71.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.5> on input line 71.
+(Font)              <9.5> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.64996> on input line 71.
+(Font)              <6.64996> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.75> on input line 71.
+(Font)              <4.75> on input line 74.
 <cc-by.pdf, id=70, pagebox=cropbox, 88.33pt x 31.11626pt>
 File: cc-by.pdf Graphic file (type pdf)
 <use cc-by.pdf>
-Package pdftex.def Info: cc-by.pdf  used on input line 80. on input line 80.
-Package pdftex.def Info: Requested size: 39.74274pt x 14.0pt on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 80.
+Package pdftex.def Info: cc-by.pdf  used on input line 85. on input line 85.
+Package pdftex.def Info: Requested size: 39.74274pt x 14.0pt on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 85.
  ("C:\Users\juy173\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 <lipics-logo-bw.pdf, id=74, pagebox=cropbox, 591.44762pt x 144.42657pt>
 File: lipics-logo-bw.pdf Graphic file (type pdf)
 <use lipics-logo-bw.pdf>
-Package pdftex.def Info: lipics-logo-bw.pdf  used on input line 80. on input li
-ne 80.
-Package pdftex.def Info: Requested size: 64.00354pt x 14.0pt on input line 80.
+Package pdftex.def Info: lipics-logo-bw.pdf  used on input line 85. on input li
+ne 85.
+Package pdftex.def Info: Requested size: 64.00354pt x 14.0pt on input line 85.
  [1
 
 {C:/Users/juy173/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./cc-by.pd
@@ -1249,16 +1249,16 @@ Package epstopdf Info: Source file: <images/depth_uni.eps>
 (epstopdf)                    size: 13613 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/depth_uni-eps-conver
 ted-to.pdf images/depth_uni.eps>
-(epstopdf)             \includegraphics on input line 151.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 <images/depth_uni-eps-converted-to.pdf, id=157, pagebox=cropbox, 409.53pt x 100
 .375pt>
 File: images/depth_uni-eps-converted-to.pdf Graphic file (type pdf)
 <use images/depth_uni-eps-converted-to.pdf>
 Package pdftex.def Info: images/depth_uni-eps-converted-to.pdf  used on input l
-ine 151. on input line 151.
+ine 171. on input line 171.
 Package pdftex.def Info: Requested size: 318.67207pt x 78.10991pt on input line
- 151.
+ 171.
 
 [3 <./images/depth_uni-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/depth_bi.eps>
@@ -1269,16 +1269,16 @@ Package epstopdf Info: Source file: <images/depth_bi.eps>
 (epstopdf)                    size: 14755 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/depth_bi-eps-convert
 ed-to.pdf images/depth_bi.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 <images/depth_bi-eps-converted-to.pdf, id=176, pagebox=cropbox, 222.8325pt x 22
 5.84375pt>
 File: images/depth_bi-eps-converted-to.pdf Graphic file (type pdf)
 <use images/depth_bi-eps-converted-to.pdf>
 Package pdftex.def Info: images/depth_bi-eps-converted-to.pdf  used on input li
-ne 161. on input line 161.
+ne 181. on input line 181.
 Package pdftex.def Info: Requested size: 239.00557pt x 242.23625pt on input lin
-e 161.
+e 181.
  [4 <./images/depth_bi-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/OD_0521.eps>
 (epstopdf)                    date: 2018-02-19 17:39:26
@@ -1288,16 +1288,16 @@ Package epstopdf Info: Source file: <images/OD_0521.eps>
 (epstopdf)                    size: 333040 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/OD_0521-eps-converte
 d-to.pdf images/OD_0521.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 <images/OD_0521-eps-converted-to.pdf, id=212, pagebox=cropbox, 578.16pt x 433.6
 2pt>
 File: images/OD_0521-eps-converted-to.pdf Graphic file (type pdf)
 <use images/OD_0521-eps-converted-to.pdf>
 Package pdftex.def Info: images/OD_0521-eps-converted-to.pdf  used on input lin
-e 194. on input line 194.
+e 216. on input line 216.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 194.
+e 216.
 Package epstopdf Info: Source file: <images/OD_0701.eps>
 (epstopdf)                    date: 2018-02-19 17:39:26
 (epstopdf)                    size: 196253 bytes
@@ -1306,16 +1306,16 @@ Package epstopdf Info: Source file: <images/OD_0701.eps>
 (epstopdf)                    size: 309218 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/OD_0701-eps-converte
 d-to.pdf images/OD_0701.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 <images/OD_0701-eps-converted-to.pdf, id=213, pagebox=cropbox, 578.16pt x 433.6
 2pt>
 File: images/OD_0701-eps-converted-to.pdf Graphic file (type pdf)
 <use images/OD_0701-eps-converted-to.pdf>
 Package pdftex.def Info: images/OD_0701-eps-converted-to.pdf  used on input lin
-e 200. on input line 200.
+e 222. on input line 222.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 200.
+e 222.
 Package epstopdf Info: Source file: <images/OD_0701_0521.eps>
 (epstopdf)                    date: 2018-02-19 17:39:28
 (epstopdf)                    size: 168426 bytes
@@ -1324,16 +1324,16 @@ Package epstopdf Info: Source file: <images/OD_0701_0521.eps>
 (epstopdf)                    size: 275752 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/OD_0701_0521-eps-con
 verted-to.pdf images/OD_0701_0521.eps>
-(epstopdf)             \includegraphics on input line 206.
+(epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 <images/OD_0701_0521-eps-converted-to.pdf, id=214, pagebox=cropbox, 578.16pt x 
 433.62pt>
 File: images/OD_0701_0521-eps-converted-to.pdf Graphic file (type pdf)
 <use images/OD_0701_0521-eps-converted-to.pdf>
 Package pdftex.def Info: images/OD_0701_0521-eps-converted-to.pdf  used on inpu
-t line 206. on input line 206.
+t line 228. on input line 228.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 206.
+e 228.
 Package epstopdf Info: Source file: <images/Outliers_high_0701_0521.eps>
 (epstopdf)                    date: 2018-02-19 17:38:52
 (epstopdf)                    size: 171482 bytes
@@ -1343,7 +1343,7 @@ ed-to.pdf>
 (epstopdf)                    size: 276490 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Outliers_high_0701_0
 521-eps-converted-to.pdf images/Outliers_high_0701_0521.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 <images/Outliers_high_0701_0521-eps-converted-to.pdf, id=215, pagebox=cropbox, 
 578.16pt x 433.62pt>
@@ -1351,9 +1351,9 @@ File: images/Outliers_high_0701_0521-eps-converted-to.pdf Graphic file (type pd
 f)
 <use images/Outliers_high_0701_0521-eps-converted-to.pdf>
 Package pdftex.def Info: images/Outliers_high_0701_0521-eps-converted-to.pdf  u
-sed on input line 212. on input line 212.
+sed on input line 234. on input line 234.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 212.
+e 234.
 Package epstopdf Info: Source file: <images/Outliers_rare_0701_0521.eps>
 (epstopdf)                    date: 2018-02-19 17:38:18
 (epstopdf)                    size: 171712 bytes
@@ -1363,7 +1363,7 @@ ed-to.pdf>
 (epstopdf)                    size: 276706 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Outliers_rare_0701_0
 521-eps-converted-to.pdf images/Outliers_rare_0701_0521.eps>
-(epstopdf)             \includegraphics on input line 217.
+(epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 <images/Outliers_rare_0701_0521-eps-converted-to.pdf, id=216, pagebox=cropbox, 
 578.16pt x 433.62pt>
@@ -1371,9 +1371,9 @@ File: images/Outliers_rare_0701_0521-eps-converted-to.pdf Graphic file (type pd
 f)
 <use images/Outliers_rare_0701_0521-eps-converted-to.pdf>
 Package pdftex.def Info: images/Outliers_rare_0701_0521-eps-converted-to.pdf  u
-sed on input line 217. on input line 217.
+sed on input line 239. on input line 239.
 Package pdftex.def Info: Requested size: 211.11896pt x 158.33945pt on input lin
-e 217.
+e 239.
  [5] [6 <./images/OD_0521-eps-converted-to.pdf> <./images/OD_0701-eps-converted
 -to.pdf> <./images/OD_0701_0521-eps-converted-to.pdf> <./images/Outliers_high_0
 701_0521-eps-converted-to.pdf> <./images/Outliers_rare_0701_0521-eps-converted-
@@ -1386,18 +1386,18 @@ Package epstopdf Info: Source file: <images/com_mar_0329.eps>
 (epstopdf)                    size: 116440 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/com_mar_0329-eps-con
 verted-to.pdf images/com_mar_0329.eps>
-(epstopdf)             \includegraphics on input line 264.
+(epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 <images/com_mar_0329-eps-converted-to.pdf, id=274, pagebox=cropbox, 578.16pt x 
 433.62pt>
 File: images/com_mar_0329-eps-converted-to.pdf Graphic file (type pdf)
 <use images/com_mar_0329-eps-converted-to.pdf>
 Package pdftex.def Info: images/com_mar_0329-eps-converted-to.pdf  used on inpu
-t line 264. on input line 264.
+t line 301. on input line 301.
 Package pdftex.def Info: Requested size: 239.00557pt x 179.25421pt on input lin
-e 264.
+e 301.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 265.
+(Font)              <9> on input line 302.
  [7 <./images/com_mar_0329-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/taxizone.eps>
 (epstopdf)                    date: 2018-02-21 11:50:46
@@ -1407,16 +1407,16 @@ Package epstopdf Info: Source file: <images/taxizone.eps>
 (epstopdf)                    size: 380857 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/taxizone-eps-convert
 ed-to.pdf images/taxizone.eps>
-(epstopdf)             \includegraphics on input line 288.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 <images/taxizone-eps-converted-to.pdf, id=293, pagebox=cropbox, 965.6075pt x 74
 0.7675pt>
 File: images/taxizone-eps-converted-to.pdf Graphic file (type pdf)
 <use images/taxizone-eps-converted-to.pdf>
 Package pdftex.def Info: images/taxizone-eps-converted-to.pdf  used on input li
-ne 288. on input line 288.
+ne 339. on input line 339.
 Package pdftex.def Info: Requested size: 195.18808pt x 149.73332pt on input lin
-e 288.
+e 339.
 Package epstopdf Info: Source file: <images/July1st_pic2.eps>
 (epstopdf)                    date: 2018-02-23 16:02:46
 (epstopdf)                    size: 3550482 bytes
@@ -1425,16 +1425,16 @@ Package epstopdf Info: Source file: <images/July1st_pic2.eps>
 (epstopdf)                    size: 396394 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/July1st_pic2-eps-con
 verted-to.pdf images/July1st_pic2.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
 <images/July1st_pic2-eps-converted-to.pdf, id=294, pagebox=cropbox, 965.6075pt 
 x 740.7675pt>
 File: images/July1st_pic2-eps-converted-to.pdf Graphic file (type pdf)
 <use images/July1st_pic2-eps-converted-to.pdf>
 Package pdftex.def Info: images/July1st_pic2-eps-converted-to.pdf  used on inpu
-t line 294. on input line 294.
+t line 345. on input line 345.
 Package pdftex.def Info: Requested size: 195.18808pt x 149.73332pt on input lin
-e 294.
+e 345.
  [8 <./images/taxizone-eps-converted-to.pdf> <./images/July1st_pic2-eps-convert
 ed-to.pdf>]
 Package epstopdf Info: Source file: <images/OD_weekdays.eps>
@@ -1445,16 +1445,16 @@ Package epstopdf Info: Source file: <images/OD_weekdays.eps>
 (epstopdf)                    size: 508708 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/OD_weekdays-eps-conv
 erted-to.pdf images/OD_weekdays.eps>
-(epstopdf)             \includegraphics on input line 331.
+(epstopdf)             \includegraphics on input line 394.
 Package epstopdf Info: Output file is already uptodate.
 <images/OD_weekdays-eps-converted-to.pdf, id=312, pagebox=cropbox, 578.16pt x 4
 33.62pt>
 File: images/OD_weekdays-eps-converted-to.pdf Graphic file (type pdf)
 <use images/OD_weekdays-eps-converted-to.pdf>
 Package pdftex.def Info: images/OD_weekdays-eps-converted-to.pdf  used on input
- line 331. on input line 331.
+ line 394. on input line 394.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 331.
+e 394.
 Package epstopdf Info: Source file: <images/OD_weekends.eps>
 (epstopdf)                    date: 2018-02-19 17:55:08
 (epstopdf)                    size: 176492 bytes
@@ -1463,16 +1463,16 @@ Package epstopdf Info: Source file: <images/OD_weekends.eps>
 (epstopdf)                    size: 406142 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/OD_weekends-eps-conv
 erted-to.pdf images/OD_weekends.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 <images/OD_weekends-eps-converted-to.pdf, id=313, pagebox=cropbox, 578.16pt x 4
 33.62pt>
 File: images/OD_weekends-eps-converted-to.pdf Graphic file (type pdf)
 <use images/OD_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/OD_weekends-eps-converted-to.pdf  used on input
- line 337. on input line 337.
+ line 400. on input line 400.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 337.
+e 400.
 Package epstopdf Info: Source file: <images/Outliers_high_weekdays_weekends.eps
 >
 (epstopdf)                    date: 2018-02-19 17:59:28
@@ -1483,7 +1483,7 @@ Package epstopdf Info: Source file: <images/Outliers_high_weekdays_weekends.eps
 (epstopdf)                    size: 353749 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Outliers_high_weekda
 ys_weekends-eps-converted-to.pdf images/Outliers_high_weekdays_weekends.eps>
-(epstopdf)             \includegraphics on input line 352.
+(epstopdf)             \includegraphics on input line 419.
 Package epstopdf Info: Output file is already uptodate.
 <images/Outliers_high_weekdays_weekends-eps-converted-to.pdf, id=316, pagebox=c
 ropbox, 578.16pt x 433.62pt>
@@ -1491,9 +1491,9 @@ File: images/Outliers_high_weekdays_weekends-eps-converted-to.pdf Graphic file
 (type pdf)
 <use images/Outliers_high_weekdays_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/Outliers_high_weekdays_weekends-eps-converted-t
-o.pdf  used on input line 352. on input line 352.
+o.pdf  used on input line 419. on input line 419.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 352.
+e 419.
 Package epstopdf Info: Source file: <images/outliers2_high_weekdays_weekends.ep
 s>
 (epstopdf)                    date: 2018-02-23 16:01:54
@@ -1504,7 +1504,7 @@ s-converted-to.pdf>
 (epstopdf)                    size: 411229 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/outliers2_high_weekd
 ays_weekends-eps-converted-to.pdf images/outliers2_high_weekdays_weekends.eps>
-(epstopdf)             \includegraphics on input line 358.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
 <images/outliers2_high_weekdays_weekends-eps-converted-to.pdf, id=317, pagebox=
 cropbox, 964.60374pt x 740.7675pt>
@@ -1512,9 +1512,9 @@ File: images/outliers2_high_weekdays_weekends-eps-converted-to.pdf Graphic file
  (type pdf)
 <use images/outliers2_high_weekdays_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/outliers2_high_weekdays_weekends-eps-converted-
-to.pdf  used on input line 358. on input line 358.
+to.pdf  used on input line 425. on input line 425.
 Package pdftex.def Info: Requested size: 195.18808pt x 149.89156pt on input lin
-e 358.
+e 425.
 [9] [10 <./images/OD_weekdays-eps-converted-to.pdf> <./images/OD_weekends-eps-c
 onverted-to.pdf> <./images/Outliers_high_weekdays_weekends-eps-converted-to.pdf
 > <./images/outliers2_high_weekdays_weekends-eps-converted-to.pdf>]
@@ -1528,7 +1528,7 @@ Package epstopdf Info: Source file: <images/Outliers_rare_weekdays_weekends.eps
 (epstopdf)                    size: 354058 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/Outliers_rare_weekda
 ys_weekends-eps-converted-to.pdf images/Outliers_rare_weekdays_weekends.eps>
-(epstopdf)             \includegraphics on input line 374.
+(epstopdf)             \includegraphics on input line 445.
 Package epstopdf Info: Output file is already uptodate.
 <images/Outliers_rare_weekdays_weekends-eps-converted-to.pdf, id=361, pagebox=c
 ropbox, 578.16pt x 433.62pt>
@@ -1536,9 +1536,9 @@ File: images/Outliers_rare_weekdays_weekends-eps-converted-to.pdf Graphic file
 (type pdf)
 <use images/Outliers_rare_weekdays_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/Outliers_rare_weekdays_weekends-eps-converted-t
-o.pdf  used on input line 374. on input line 374.
+o.pdf  used on input line 445. on input line 445.
 Package pdftex.def Info: Requested size: 195.18808pt x 146.39006pt on input lin
-e 374.
+e 445.
 Package epstopdf Info: Source file: <images/outliers_rare2_weekdays_weekends.ep
 s>
 (epstopdf)                    date: 2018-02-23 11:52:46
@@ -1549,7 +1549,7 @@ s-converted-to.pdf>
 (epstopdf)                    size: 462200 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/outliers_rare2_weekd
 ays_weekends-eps-converted-to.pdf images/outliers_rare2_weekdays_weekends.eps>
-(epstopdf)             \includegraphics on input line 380.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 <images/outliers_rare2_weekdays_weekends-eps-converted-to.pdf, id=362, pagebox=
 cropbox, 998.73125pt x 740.7675pt>
@@ -1557,9 +1557,9 @@ File: images/outliers_rare2_weekdays_weekends-eps-converted-to.pdf Graphic file
  (type pdf)
 <use images/outliers_rare2_weekdays_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/outliers_rare2_weekdays_weekends-eps-converted-
-to.pdf  used on input line 380. on input line 380.
+to.pdf  used on input line 451. on input line 451.
 Package pdftex.def Info: Requested size: 195.18808pt x 144.77121pt on input lin
-e 380.
+e 451.
 Package epstopdf Info: Source file: <images/out_weekdays_weekends_md2_outlier.e
 ps>
 (epstopdf)                    date: 2018-02-23 12:01:40
@@ -1571,7 +1571,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=images/out_weekdays_weekend
 s_md2_outlier-eps-converted-to.pdf images/out_weekdays_weekends_md2_outlier.eps
 >
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 469.
 Package epstopdf Info: Output file is already uptodate.
 <images/out_weekdays_weekends_md2_outlier-eps-converted-to.pdf, id=368, pagebox
 =cropbox, 965.6075pt x 740.7675pt>
@@ -1579,9 +1579,9 @@ File: images/out_weekdays_weekends_md2_outlier-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use images/out_weekdays_weekends_md2_outlier-eps-converted-to.pdf>
 Package pdftex.def Info: images/out_weekdays_weekends_md2_outlier-eps-converted
--to.pdf  used on input line 395. on input line 395.
+-to.pdf  used on input line 469. on input line 469.
 Package pdftex.def Info: Requested size: 195.18808pt x 149.73332pt on input lin
-e 395.
+e 469.
  [11 <./images/Outliers_rare_weekdays_weekends-eps-converted-to.pdf> <./images/
 outliers_rare2_weekdays_weekends-eps-converted-to.pdf> <./images/out_weekdays_w
 eekends_md2_outlier-eps-converted-to.pdf>]
@@ -1594,7 +1594,7 @@ Package epstopdf Info: Source file: <images/com_weekdays_weekends.eps>
 (epstopdf)                    size: 98499 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/com_weekdays_weekend
 s-eps-converted-to.pdf images/com_weekdays_weekends.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 482.
 Package epstopdf Info: Output file is already uptodate.
 <images/com_weekdays_weekends-eps-converted-to.pdf, id=389, pagebox=cropbox, 57
 8.16pt x 433.62pt>
@@ -1602,9 +1602,9 @@ File: images/com_weekdays_weekends-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/com_weekdays_weekends-eps-converted-to.pdf>
 Package pdftex.def Info: images/com_weekdays_weekends-eps-converted-to.pdf  use
-d on input line 406. on input line 406.
+d on input line 482. on input line 482.
 Package pdftex.def Info: Requested size: 278.83578pt x 209.1211pt on input line
- 406.
+ 482.
  [12 <./images/com_weekdays_weekends-eps-converted-to.pdf>] (giscience2018.bbl 
 [13]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 170.
@@ -1621,14 +1621,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 [14]) 
 AED: lastpage setting LastPage
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
  (giscience2018.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `giscience2018.out' has not changed.
 (rerunfilecheck)             Checksum: 7F2784AC65733C4760936FD32B65BF33;837.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 480.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
  ) 
 Here is how much of TeX's memory you used:
  13293 strings out of 493312
@@ -1637,7 +1637,7 @@ Here is how much of TeX's memory you used:
  16337 multiletter control sequences out of 15000+200000
  140077 words of font info for 181 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,42p,1421b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,42p,1413b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/juy173/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
 nc}{C:/Users/juy173/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.
 enc}{C:/Users/juy173/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
@@ -1665,7 +1665,7 @@ msy9.pfb><C:/Users/juy173/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 lm/lmtt10.pfb><C:/Users/juy173/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb><C:/Users/juy173/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on giscience2018.pdf (15 pages, 5820909 bytes).
+Output written on giscience2018.pdf (15 pages, 5820904 bytes).
 PDF statistics:
  508 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
