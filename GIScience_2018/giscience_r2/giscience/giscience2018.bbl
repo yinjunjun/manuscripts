@@ -169,6 +169,13 @@ Hans~Peter Wolf and Uni Bielefeld.
 \newblock R package version 1.3.0.
 \newblock URL: \url{https://CRAN.R-project.org/package=aplpack}.
 
+\bibitem{yin2016exploring}
+Junjun Yin, Yizhao Gao, Zhenhong Du, and Shaowen Wang.
+\newblock Exploring multi-scale spatiotemporal twitter user mobility patterns
+  with a visual-analytics approach.
+\newblock {\em ISPRS International Journal of Geo-Information}, 5(10):187,
+  2016.
+
 \bibitem{yin2017depicting}
 Junjun Yin, Aiman Soliman, Dandong Yin, and Shaowen Wang.
 \newblock Depicting urban boundaries from a mobility network of spatial

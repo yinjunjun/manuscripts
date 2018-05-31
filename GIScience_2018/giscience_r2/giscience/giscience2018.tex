@@ -68,7 +68,7 @@
 \maketitle
 
 \begin{abstract}
-Advances in location-aware technology have lead to the generation of a huge volume of trajectory data.
+Advances in location-aware technology have led to the generation of a huge volume of trajectory data.
 Origin-destination (OD) trajectories provide rich information on urban flow and transport demand.
 This study presents a new methodology to detect OD flow outliers and conduct hypothesis testing between two OD flows in terms of the variations of spatial extent, namely, spread.
 The proposed method is based on data depth, which measures the centrality and outlyingness of a point with respect to a given dataset in $\mathbb{R}^d$.
@@ -81,71 +81,52 @@ The ability of the proposed method to detect OD anomalies is compared with that 
 With the rapid rise in ubiquity of geolocation-aware sensors, knowledge discovery is greatly enhanced by extracting and mining interesting patterns from spatiotemporal big data in various domains.
 Location-acquisition technologies generate large volumes of movement data, which are used to track people, animals, vehicles, and even natural phenomena.
 Such data help us better model moving objects and reveal hidden patterns that are important to urban planning \cite{mazimpaka15AGILE}, urban human mobility \cite{yin2017depicting,kwan1998space}, the sustainability of urban systems \cite{alberti2003integrating,chen13Percom}, the environment \cite{devarakonda13SIGKDD}, and public security and safety \cite{buchin14JOSIS}.
-%Importantly, trajectory mining leads to solutions for addressing important research problems in different fields, such as urban planning \cite{mazimpaka15AGILE}, transportation \cite{chen13Percom}, environment \cite{devarakonda13SIGKDD}, and public security and safety \cite{buchin14JOSIS}.
 
-This paper presents a new algorithm which estimates origination-destination (OD) flow anomalies and conducts hypothesis testing between two sets of different OD flows. In this study, the OD flow data is a subset of trajectory data, which records the origin and destination of each movement while ignoring the actual trajectory route \cite{guo14IEEETVCG}.
-The algorithm was applied to OD flows derived from extracted origin and destination data in a dataset describing New York City taxi trips, in which each record contained the origin and destination of each trip, without intermediate locations of the actual routes.
-
+This paper presents a new algorithm which identifies origination-destination (OD) flow anomalies and conducts hypothesis testing between two sets of different OD flows.
+In this study, the OD flow data is a subset of trajectory data, which records the origin and destination of each movement while ignoring the exact trajectory route \cite{guo14IEEETVCG}.
+The algorithm was applied to OD flows derived from the New York City taxi trip records, in which each record contained the origin and destination of each trip without intermediate locations of the actual routes.
 
 In recent years, researchers have investigated a variety of approaches to trajectory data mining.
 Most contemporary trajectory mining methods can be classified into four categories: clustering, classification, frequent/group pattern mining, and outlier detection \cite{mazimpaka16JOSIS,zheng15ACMTIST}.
 These techniques can be used independently or combinatorially for trajectory mining applications.
-This study focuses on outlier detection of OD flows. Outlier detection attempts to identify trajectories that do not follow the typical flows of trajectory datasets that characterizes the connectivity between regions \cite{mazimpaka16JOSIS}. Euclidean distance is employed by \cite{fontes13GeoInfo,lee08ICDE} to find outlier patterns from trajectories. Studies by \cite{pan13ACMGIS,liu12IJGIS} question the Euclidean distance approach because of the loss of local features and unavailability when external factors, such as topography, land cover or weather condition, affect the trajectories. In their research, \cite{pan13ACMGIS,liu12IJGIS} addresses this by using robust distance measurements, i.e., Mahalanobis distance \cite{pan13ACMGIS} and relative distance \cite{liu12IJGIS}. Instead of using distance or density, anomalous trajectories are detected by exploiting comparisons of the structural features of each trajectory segment \cite{yuan11JCIS} and an isolation tree of trajectories \cite{zhang11UC}.
-Most of the above methods are related to trajectory data analysis, and thus, it is reasonable to extend the application of these approaches to the identification of OD flow anomalies. 
-To overcome the sensitivity of Euclidean distance-based approaches to non-normal distributed data and the difficulty of selecting parameters for anomaly detection techniques based on distance or density, this study employs robust statistics, such as data depth, to detect OD flow outliers.
+This study focuses on outlier detection of OD flows.
+Outlier detection attempts to identify trajectories that do not follow the typical flows of trajectory datasets that characterizes the connectivity between regions \cite{mazimpaka16JOSIS}.
+Euclidean distance is employed by \cite{fontes13GeoInfo,lee08ICDE} to find outlier patterns from trajectories.
+Studies by \cite{pan13ACMGIS,liu12IJGIS} question the Euclidean distance approach because of the loss of local features and unavailability when external factors, such as topography, land cover or weather condition, may affect the trajectories.
+In their research, \cite{pan13ACMGIS,liu12IJGIS} addresses this by using robust distance measurements, i.e., Mahalanobis distance \cite{pan13ACMGIS} and relative distance \cite{liu12IJGIS}.
+Instead of using distance or density, anomalous trajectories are detected by exploiting comparisons of the structural features of each trajectory segment \cite{yuan11JCIS} and an isolation tree of trajectories \cite{zhang11UC}.
+Most of the above methods are related to trajectory data analysis.
+In this connection, it is reasonable to extend the application of these approaches to the identification of OD flow anomalies. 
+To overcome the sensitivity of Euclidean distance-based approaches to data with non-normal distributions and the difficulty of selecting parameters for anomaly detection techniques based on distance or density, this study employs robust statistics, specifically data depth, to detect OD flow outliers.
 
-% Although most methods mentioned above are related to trajectory data analysis, it is reasonable to extend these approaches to identify  OD flows anomaly. Thus, this study employs robust statistics such as data depth to detect robustly OD flow outliers because Euclidean distance-based approaches are sensitive to non-normal distributed data and it is hard to choose  parameters for anomaly detection techniques based on distance or density.   
-%  because  Euclidean distance-based approaches are sensitive to non-normal distribution of data sets. 
-
-%In a similar fashion, this study considers the center regions of OD flows with data depth in order to robustly detect the OD flows outliers. 
-
-%In addition, visual analytics such as flow mapping is a common approach to analyze OD flow data. Visual representations of massive movement data enables comprehensive exploration of data and results in understanding complex flow trends.
-
-Flow mapping, a type of visual analytics, is a common approach to analyzing OD flow data.
+Flow mapping, as a type of visual analytics, is a common approach to analyzing OD flow data.
 Visual representations of massive movement data facilitate comprehensive exploration of data, in turn enabling perception and understanding complex flow trends.
-Aggregation and generalization of movement data are frequently utilized to resolve visual clutter \cite{guo14IEEETVCG}. %\cite{andrienko08VAST,adrienko11IEEETVCG,guo14IEEETVCG}
+Aggregation and generalization of movement data are frequently utilized to resolve visual clutter \cite{guo14IEEETVCG,yin2016exploring}.
 While visual analytics can help to extract inherent patterns from massive data, it is difficult to quantitatively compare two sets of different OD flows based on a hypothesis testing.
 In other words, it is complicated to comprehend how two OD flows differ and, more importantly, the magnitude of the difference, using a test of statistical significance.
-Recently published articles employ multidimensional spatial scan statistics \cite{Gao17IJGIS} and local Ripley’s K-function \cite{tao16GA} to identify clusters of flow data based on statistical significance tests. Thus, this paper applies bivariate hypothesis testing methods based on data depth to understand the difference between two OD flow datasets in terms of the amount of spatial extent. 
+Recently literatures employ multidimensional spatial scan statistics \cite{Gao17IJGIS} and local Ripley’s K-function \cite{tao16GA} to identify clusters of flow data based on statistical significance tests.
+This paper applies bivariate hypothesis testing methods based on data depth to understand the difference between two OD flow datasets in terms of the amount of spatial extent. 
 
 It is worth noting that flow mapping approaches frequently suffer from the modifiable areal unit problem (MAUP). 
 Essentially, MAUP is the influence of different aggregations determined by location on the presentation of coherent patterns.
 Kernel-based flow estimation and smoothing are used to overcome different spatial resolutions \cite{guo14IEEETVCG}. 
-Instead of attempting to find the best areal unit by which to partition urban space and aggregates the OD flows, this study adopted the established traffic analysis zones of New York City as base unit. That said, the proposed method can be adapted to other implementation of areal units. In this study, New York City taxi trip data includes the origin and destination within traffic analysis zones, while ignoring the intermediate locations of the actual routes.
-It is not necessary to reconstruct individual movements for flow estimation (see \cite{duckham16ICGIS}).
+Instead of attempting to find the best areal unit by which to partition urban space and aggregates the OD flows, this study adopted the established traffic analysis zones of New York City as the base units.
+That said, the proposed method can be adapted to other implementation of areal units.
+In this study, New York City taxi trip data include the origin and destination within traffic analysis zones, while ignoring the intermediate locations of the actual routes.
+Note that it is not necessary to reconstruct individual movements for flow estimation (see \cite{duckham16ICGIS}).
 
 In summary, this paper presents a new algorithm which conducts outlier detection as well as hypothesis testing on OD flow data extracted from a trajectory dataset.
 Our approach investigates the central regions of OD flows, based on data depth, to detect OD flow anomalies and conduct hypothesis testing between two different OD flow datasets.
-We believe that our method for analyzing taxi trip data has the potential to aid administrative authorities in understanding crowd patterns, in turn improving urban planning activities such as determining transportation investments. 
+We believe that our method for analyzing taxi trip data has the potential to aid administrative authorities in understanding crowd patterns and improving urban planning activities such as determining transportation investments. 
 
 The remainder of this paper is organized as follows: Section \ref{sec:methods} overviews how to detect OD flow outliers and conduct hypothesis testing between two different OD flow datasets using the concept of data depth. 
 Experimental design and the evaluation of the proposed method are presented in Section \ref{sec:experiments}. 
-These results are discussed in Section \ref{sec:discussion}. 
+The results are discussed in Section \ref{sec:discussion}. 
 Section 5 concludes this paper with a summary and future perspectives.
-
-%With the rapid rise in ubiquity of geo-tagged sensors, knowledge discovery power is enhanced by extracting interesting patterns from spatiotemporal big data in various domains. In particular, the location-acquisition technologies generate large volumes of movement data such as people, animals, vehicles and natural phenomena. These big movement data help us understand moving objects, and discover the hidden patterns. Thus, trajectory mining leads to solutions for important research problems in different fields such as urban planning \cite{mazimpaka15AGILE}, transportation \cite{chen13Percom}, environment \cite{devarakonda13SIGKDD}, and public security and safety \cite{buchin14JOSIS}.
-%
-%This paper presents a new algorithm which not only estimates origination-destination (OD)'s flows anomaly but also conducts hypothesis testing between two different OD flows. This paper utilizes a New York City Taxi data set that has the origin and destination of each movement without the whole actual trajectory routes. The analysis of digital footprints obtained from taxi data has a crucial role in  understanding crowd patterns and planning urban and transportation investments in administrative authorities.
-
-%In recent years, researchers have investigated a variety of approaches to trajectory data mining. There are generally four categories that classify trajectory mining methods: clustering, classification, frequent/group pattern mining, and outlier detection \cite{mazimpaka16JOSIS,zheng15ACMTIST}. These techniques can be used independently or combinatorially for trajectory mining application problems. 
-%
-%In particular, this study focuses on outlier detection of OD flows. Outlier detection aims to find trajectories that do not follow the typical flow of trajectory data sets for characterizing the connectivity between regions \cite{mazimpaka16JOSIS}. \cite{fontes13GeoInfo,lee08ICDE} use Euclidean distance to find outlier patterns from trajectories.  \cite{pan13ACMGIS,liu12IJGIS} raise the questions of Euclidean distance approach due to the loss of local features and unavailability when external factors affect the trajectories (e.g., topography, land cover or weather condition).  \cite{pan13ACMGIS,liu12IJGIS} addresses this by using robust distance measurements (i.e., Mahalanobis distance \cite{pan13ACMGIS} and relative distance  \cite{liu12IJGIS}). Further, structural features  \cite{yuan11JCIS} and a data-induced random tree  \cite{zhang11UC} are exploited to detect anomalous trajectories instead of using distance or density. In a similar fashion, this study considers the center regions of OD flows with data depth in order to robustly detect the trajectory outliers. 
-%
-%
-%
-%In addition, visual analytics are a common approach to analyze OD flow data. Visual representation of massive movement data enables comprehensive exploration of data and results in understanding complex flow trends. Aggregation and generalization of movement data are frequently utilized \cite{andrienko08VAST,adrienko11IEEETVCG,guo14IEEETVCG}. While visual analytics can help to extract inherent patterns from massive data, it is difficult to compare two different OD flows based on a hypothesis testing. In other words, it is complicated to comprehend how two OD flows differ and by how much. This paper uses bivariate hypothesis testing methods based on data depth to understand how different two OD flow data sets are in terms of the amount of spatial extent. % and a shift in location. 
-%
-%
-%Further, flow mapping approaches frequently suffer from the modifiable area unit problem (MAUP). For instance, it is not guaranteed that different aggregations via location can present coherent patterns. Kernel-based flow estimation and smoothing are used to overcome different spatial resolution \cite{guo14IEEETVCG}. This study uses traffic analysis zones in New York City as a base unit. Thus, it does not consider MAUP problem. In addition, New York City Taxi data includes the origin and destination within traffic analysis zones, which ignores the actual trajectory route. It is not necessary to reconstruct individual movements for flow estimation (see \cite{duckham16ICGIS}).
-%
-%In summary, this paper presents a new algorithm which conducts outlier detection as well as a hypothesis testing from OD flows data. Our approach investigates the central regions of  OD flows based on data depth to detect OD flows anomaly and conduct a hypothesis testing between two different OD flow data sets. 
-%
-%In the remainder of this paper, Section \ref{sec:methods} overviews how to detect OD flows outliers and conduct  a hypothesis testing between two different OD flows with the concept of data depth. Experimental design and the evaluation of the proposed method are presented in Section \ref{sec:experiments}. These results are discussed in Section \ref{sec:discussion}. Section \ref{sec:conclusions} concludes with a summary and future perspectives.
 
 
 \section{Methods}
 \label{sec:methods}
-%We further develop a set of well thought out techniques to improve the performance.
 
 \subsection{Data Depth}
 Data depth measures the centrality of a point with regard to a given dataset in $\mathbb{R}^d$.
@@ -163,7 +144,7 @@ The smallest probability associated with two closed halfspaces developed by $x$ 
 In Figure \ref{fig:hd_uni}, the probability of values less than or equal to 4 is $2/7$ and the probability of values greater than or equal to 4 is $6/7$.
 Thus, the halfspace depth of 4 is $2/7$, which is the minimum probability carried by any closed halfspace containing 4.
 Furthermore, as the sample median, 14 has the largest halfspace depth.
-Note that, the polluted point inflates the standard error of the sample mean, thereby distorting the view of the data. 
+Note that the polluted point inflates the standard error of the sample mean, thereby distorting the view of the data. 
 
 
 \begin{figure}
@@ -173,8 +154,11 @@ Note that, the polluted point inflates the standard error of the sample mean, th
 	\label{fig:hd_uni}	
 \end{figure}
 
-
-Similarly, the halfspace depth of $x$ for the bivariate case is defined by the minimal number of data points in any closed halfspace, which is determined by a hyperplane through $x$ \cite{rousseeuw96RSS}. In Figure \ref{fig:hd_bi}, the solid line through $x$ is rotated by $180^{\circ}$. The halfspace depth of $x$ is determined by the smallest portion of data separated by such a hyperplane. For example, the halfspace depth of $x$ is $3/13$, as determined by the dotted line. However, the halfspace depth of $x$ determined by the solid line is  $4/13$. Thus, the halfspace depth of $x$ is $3/13$, which is the minimal number of data points in any closed halfspace through $x$.
+Similarly, the halfspace depth of $x$ for the bivariate case is defined by the minimal number of data points in any closed halfspace, which is determined by a hyperplane through $x$ \cite{rousseeuw96RSS}.
+In Figure \ref{fig:hd_bi}, the solid line through $x$ is rotated by $180^{\circ}$.
+The halfspace depth of $x$ is determined by the smallest portion of data separated by such a hyperplane. For example, the halfspace depth of $x$ is $3/13$, as determined by the dotted line.
+However, the halfspace depth of $x$ determined by the solid line is  $4/13$.
+Therefore, the halfspace depth of $x$ is $3/13$, which is the minimal number of data points in any closed halfspace through $x$.
  
 \begin{figure}
 	\centering
@@ -184,30 +168,37 @@ Similarly, the halfspace depth of $x$ for the bivariate case is defined by the m
 \end{figure}
 
 The property of halfspace depth is a center-outward ordering of points in $\mathbb{R}^d$ and is affine invariant \cite{Mosler13book}.
-These features make halfspace depth useful tool in nonparametric inference, which leads to various applications such as data classification and cluster analysis
-\cite{lange14fSP,jeong16acmgis}.
-There are multiple approaches to calculating data depth, including halfspace depth \cite{rousseeuw96RSS}, projection depth \cite{wilcox03CSSC}, and simplicial depth \cite{liu90AS}. While the computational complexity of the projection approach is $\mathcal{O}(n^2)$ (where $n$ is the number of points), the computational complexity of simplicial depth is $\mathcal{O}(n^3)$. This can significantly increase execution time when $n$ is large. Thus, this paper uses the more efficient method proposed by \cite{rousseeuw96RSS}, in which the computation complexity for both approaches is $\mathcal{O}(n\log{}n)$.
-
-
+These features make halfspace depth a useful tool in nonparametric inference, which leads to various applications such as data classification and cluster analysis \cite{lange14fSP,jeong16acmgis}.
+There are multiple approaches to calculating data depth, including halfspace depth \cite{rousseeuw96RSS}, projection depth \cite{wilcox03CSSC}, and simplicial depth \cite{liu90AS}.
+While the computational complexity of the projection approach is $\mathcal{O}(n^2)$ (where $n$ is the number of points), the computational complexity of simplicial depth is $\mathcal{O}(n^3)$.
+This can significantly increase execution time when $n$ is large.
+Thus, this paper uses the more efficient method proposed by \cite{rousseeuw96RSS}, in which the computation complexity for both approaches is $\mathcal{O}(n\log{}n)$.
 
 \subsection{OD Flow Outlier Detection Based on Depth}
-The center-outward ordering in data depth is closely related to the detection of outliers. The upper level sets of data depth in $\mathbb{R}^2$ form the central regions. The most central region can be regarded as a median. Conversely, the lower level sets of data depth, which coincide with larger distances from the center, can be regarded as outlyingness. This concept was utilized by \cite{rousseeuw99AS,aplpackR} to generate bag plots, which are analogous to one-dimensional box plots based on data depth. This paper uses the bag plot to identify the outliers of OD flows. Before explaining the method of outlier detection, we first introduce a basic definition of OD flow.
-
-%\theoremstyle{definition}
-%\begin{definition}{Point.}
-%	A point $p$ is a tuple $(o,d,t)$, where $o$ and $d$  are the origin and destination ID of  traffic analysis zones and $t$ is the time when the destination ID is recorded.
-%\end{definition}
-%
-%
-%\begin{definition}{Trajectory.}
-%	A trajectory $TR$ is a list of points $(p_1, p_2, p_3,...,p_n)$, where $p_i = (o_i,d_i,t_i)$ and $t_1<t_2<t_3<...<t_n$.
-%\end{definition}
+The center-outward ordering in data depth is closely related to the detection of outliers.
+The upper level sets of data depth in $\mathbb{R}^2$ form the central regions.
+The most central region can be regarded as a median.
+Conversely, the lower level sets of data depth, which coincide with larger distances from the center, can be regarded as outlyingness.
+This concept was utilized by \cite{rousseeuw99AS,aplpackR} to generate bag plots, which are analogous to one-dimensional box plots based on data depth.
+This paper uses the bag plot to identify the outliers of OD flows.
+Before explaining the method of outlier detection, we first introduce a basic definition of OD flow.
 
 \begin{definition}{Origin-destination (OD) flow.}
 	The OD flow $OD_i = (o_i,d_i,c_i,ts_i, te_i)$ is the number of trips from the origin ID to destination ID of traffic analysis zones between the start time ($ts_i$) and the end time ($te_i$), where $ts_i<te_i$.
 \end{definition}
 
-Based on this basic definitions, Figure \ref{fig:bagplot_0521_0701} depicts bag plots representing the OD flows of New York City taxi data collected on May 21, 2014 and July 1, 2014. We exploited taxi data on May 21, 2014 because the National September 11 Memorial Museum and Pavilion was opened to the public on this date. We randomly selected another data on July 1, 2014.  In Figure \ref{fig:OD_0521}, the deepest depth of OD flows, depth median, is represented by a star symbol. This point is surrounded by a dark blue bag, which contains the half of OD flows. This region is regarded as a central region of OD flows. The OD flows in the bag are the dominant patterns.  Magnifying the bag by a factor of three, relative to depth median, constructs a fence, as indicated by the light-blue area. The fence is comparable to the whiskers of a one-dimensional boxplot. The OD flows outside the fence, represented by red circles, are outliers. Every OD pair is represented by a point in Figure \ref{fig:bagplot_0521_0701}. The x-axis indicates the counts of forward OD flows (e.g., the number of OD flows from origin ID $2$ to destination ID $10$), and the y-axis indicates the counts of reverse OD flows (e.g., the number of OD flows from origin ID $10$ to destination  ID $2$) in Figure \ref{fig:OD_0521}.
+Based on this basic definition, Figure \ref{fig:bagplot_0521_0701} depicts bag plots representing the OD flows of New York City taxi data collected on May 21, 2014 and July 1, 2014.
+We exploited taxi data on May 21, 2014 because the National September 11 Memorial Museum and Pavilion was opened to the public on this date.
+We also randomly selected another data on July 1, 2014.
+In Figure \ref{fig:OD_0521}, the deepest depth of OD flows, depth median, is represented by a star symbol.
+This point is surrounded by a dark blue bag, which contains the half of OD flows.
+This region is regarded as a central region of the OD flows.
+The OD flows in the bag are the dominant patterns.
+Magnifying the bag by a factor of three, relative to depth median, constructs a fence, as indicated by the light-blue area.
+The fence is comparable to the whiskers of a one-dimensional boxplot.
+The OD flows outside the fence, represented by red circles, are outliers.
+Every OD pair is represented by a point in Figure \ref{fig:bagplot_0521_0701}.
+The x-axis indicates the counts of forward OD flows (e.g., the number of OD flows from origin ID $2$ to destination ID $10$), and the y-axis indicates the counts of reverse OD flows (e.g., the number of OD flows from origin ID $10$ to destination  ID $2$) in Figure \ref{fig:OD_0521}.
 
 
 \begin{figure}
@@ -243,24 +234,26 @@ Based on this basic definitions, Figure \ref{fig:bagplot_0521_0701} depicts bag 
 	\caption{Outliers detection of OD flows using a bag plot}\label{fig:bagplot_0521_0701}	
 \end{figure}
 
-The bag plot presents the data using the following attributes:location is represented by the depth median; spread or the spatial extent of bag; correlation or the orientation of the bag; and skewness, as represented by the shape of the bag and the fence \cite{rousseeuw99AS}.
-In Figure \ref{fig:OD_0521}, we observe that some forward OD flows have higher counts than their paired reverse OD flows. We also note the relatively linear correlation between forward OD flows and reverse OD flows and the skewness of forward (reverse) OD flows. 
+The bag plot presents the data using the following attributes: location is represented by the depth median; spread or the spatial extent of bag; correlation or the orientation of the bag; and skewness, as represented by the shape of the bag and the fence \cite{rousseeuw99AS}.
+In Figure \ref{fig:OD_0521}, we observe that some forward OD flows have higher counts than their paired reverse OD flows.
+We also note the relatively linear correlation between forward OD flows and reverse OD flows and the skewness of forward (reverse) OD flows. 
 
 It is also possible to detect the outliers of OD flows of two different time stamps.
 In Figure \ref{fig:OD_0721_0521}, we visualize the OD flows recorded on two separated days.
 Comparing the two sets of OD flows not only indicates the central region of OD flows, it also distinguishes the significantly different OD flows. 
 
- %Therefore, we can not only see where is the central region of OD flows, but also differentiate which OD flows are significantly different by comparing two sets of different OD flows.
-
-The OD flows in high activity areas of a city are more likely to have large trip volumes.
+The OD flows in high activity areas of the city are more likely to have large trip volumes.
 We use set operations to detect such outliers.
-We regard OD flows on July 1 as the control dataset ($control$); OD flows on May 21 as test dataset ($test$); and the combination of two OD flows as combination dataset ($combination$) in Figure \ref{fig:bagplot_0521_0701}. Then we can calculate the intersection of three outliers sets ($control \cap test \cap combination$), which are represented as rectangle symbols in Figure \ref{fig:OD_outliers_high}. 
+We regard OD flows on July 1 as the control dataset ($control$); OD flows on May 21 as test dataset ($test$); and the combination of two OD flows as combination dataset ($combination$) in Figure \ref{fig:bagplot_0521_0701}.
+Then we can calculate the intersection of three outliers sets ($control \cap test \cap combination$), which are represented as rectangle symbols in Figure \ref{fig:OD_outliers_high}. 
 
-In addition, it is interesting to detect the outliers of OD flows which are typical patterns at time $t_1$ and atypical behavior at time $t_2$.
+In addition, it is interesting to detect the outliers of OD flows which are typical patterns at time $t_1$ but atypical behaviors at time $t_2$.
 We define the union of points in the bag, the central region, at time $t_1$ and $t_2$.
-Then we calculate the intersection of two sets, the outliers of the combination set and the previous union set. These outliers are represented as triangle symbols in Figure \ref{fig:OD_outliers_rare}. These outliers are typical OD flows at time $t_1$, located in the central regions in the bag plot. When we consider two OD flows together, they become unusual OD flows, some have more trips and some have less trips, relative to the control dataset. Thus, we can detect and treat outliers interactively based on data depth.
-
-% we regard OD flows on July 01 ($t_1$) as control data set($control$) and OD flows on May 21 ($t_2$) as test data set ($test$). From the combination of two OD flows set ($combination$, see Figure \ref{fig:OD_0721_0521}), we calculate the interaction of the combination of two OD flows set and the test data set ($B = \{combination \cap test\}$). We also calculate the difference between the combination of two OD flows set and the control data set ($A = \{combination - control\}$) . Finally, we can detect the outliers of OD flows based on the difference between two sets $A$ and  $B$ ($C = \{A - B\}$). The triangles indicate these outliers in Figure \ref{fig:OD_outliers}.
+Then we calculate the intersection of two sets: the outliers of the combination set and the previous union set.
+These outliers are represented as triangle symbols in Figure \ref{fig:OD_outliers_rare}.
+These outliers are typical OD flows at time $t_1$, located in the central regions in the bag plot.
+When we consider two OD flows together, they become unusual OD flows, some have more trips and some have less trips, relative to the control dataset.
+Thus, we can detect and treat outliers interactively based on data depth.
 
 \subsection{OD Flow Comparisons Based on Depth}
 Data depth can compare bivariate data from two independent groups.
@@ -294,7 +287,9 @@ Similarly, the estimate of $Q(G,F)$ can be defined as follows:
 \hat{Q}(G,F) =\frac{1}{a} \sum_{i=1}^{a} R(X_i;G_b).
 \end{equation*}
 
-Bootstrap samples are obtained by resampling from the two groups ($F$ and $G$). Under the null hypothesis ($H_0: Q(F,G) = Q(G,F)$), the difference of the resulting bootstrap estimates is $Q^*(F,G) - Q^*(G,F)$. Thus, if the confidence interval of $Q(F,G) - Q(G,F)$ does not contain zero, we can reject the null hypothesis, $H_0$ \cite{liu93JASA,wilcox03MBR}.
+Bootstrap samples are obtained by resampling from the two groups ($F$ and $G$).
+Under the null hypothesis ($H_0: Q(F,G) = Q(G,F)$), the difference of the resulting bootstrap estimates is $Q^*(F,G) - Q^*(G,F)$.
+Therefore, if the confidence interval of $Q(F,G) - Q(G,F)$ does not contain zero, we can reject the null hypothesis, $H_0$ \cite{liu93JASA,wilcox03MBR}.
 
 \begin{figure}
 	\centering
@@ -303,20 +298,18 @@ Bootstrap samples are obtained by resampling from the two groups ($F$ and $G$). 
 	\label{fig:com_mar_0329}	
 \end{figure}
 
-For ease of understanding, Figure \ref{fig:com_mar_0329} presents the central regions of two OD flows.
-One dataset is OD flows for Saturday, March 29, 2014, and the other dataset includes multiple Saturdays, those of March 1, 8, 15, 22, and April 5. At 552,064 taxi trips, the day of March 29 had the highest number of taxi trips for the year of 2014.
+For the ease of understanding, Figure \ref{fig:com_mar_0329} presents the central regions of two OD flows.
+One dataset is OD flows for Saturday, March 29, 2014, and the other dataset includes multiple Saturdays, those of March 1, 8, 15, 22, and April 5.
+At 552,064 taxi trips, the day of March 29 had the highest number of taxi trips for the year of 2014.
 The dataset for the other five Saturdays comprised 2,621,703 taxi trips.
 The bootstrap method reveals that the confidence interval is 0.0247 and 0.0596.
 This confidence interval does not include zero, thus rejecting the $H_0$ null hypothesis.
 This indicates that the amount of scale is significantly changed between two OD flow datasets.
-Furthermore, the OD flows from the group of Saturdays is nested within the OD flows corresponding to March 29. This additional perspective was based on data depth comparisons. 
+Furthermore, the OD flows from the group of Saturdays are nested within the OD flows corresponding to March 29. This additional perspective is based on data depth comparisons. 
 
 The bootstrap method is a time consuming process.
 For this study, we generate $2,000$ bootstrap samples.
-To improve the execution efficiency of the bootstrap computation, we distributed the work across multiple nodes and cores by implementing an embarrassingly parallel R code. 
-% Thus, we can effectively improve  execution efficiency.
-% investigate resource pressures between serial and parallel approaches in the following section.
-
+To improve the execution efficiency of the bootstrap computation, we distributed the work across multiple computing nodes and cores by implementing an embarrassingly parallel R code. 
 
 
 \section{Experiments}
@@ -340,7 +333,7 @@ Red lines indicate the dominant OD flows.
 		\caption{2,250 traffic analysis zones in New York City}
 		\label{fig:taxizone}
 	\end{subfigure}
-	\hfill %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 	%(or a blank line to force the subfigure onto a new line)
+	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}
 		\includegraphics[width=\textwidth]{images/July1st_pic2.eps}
 		\caption{OD flows on July 1 2014}
@@ -373,20 +366,13 @@ We developed a Hadoop program to handle the large data volume, which was compose
 To implement the OD flow outlier detection, this study used R.
 The computing environment used Amazon Web Service and the Bridges supercomputer at the Pittsburgh Supercomputing Center. 
 This study only evaluated OD flows more than 10 trips, as the low trip number OD flows could have distorted the view of the data.
-All the code will be released as open source (the link to the code will added later and currently is available upon request).
+All the code will be released as open source (the link to the code is available upon request).
 
- %Further, we used OD flows that have more than 10 trips. It is reasonable to remove the majority of low number of OD flows, which may distort the view of the data. All the code will be released as open source (the link to the code will added later and currently is available upon request).
-
-%With regard to data cleaning process, this study used Hadoop with Pig. R was used to implement the code in Amazon Web Service  and Bridges supercomputer resources. Further, we used OD flows that have more than 10 trips. It is reasonable to remove the majority of low number of OD flows, which may distort the view of the data. 
-
-
-%Data cleaning process
 
 \subsection{Case study: weekdays vs weekends}
 \subsubsection{Outlier Detection}
 The bag plots presented OD flow outliers on weekdays and weekends in Figures \ref{fig:weekdays_bag} and \ref{fig:weekends_bag}, respectively.
 The outliers are detected by considering forward OD flows and reverse OD flows together.
-
 
 \begin{figure}
 	\centering
@@ -437,9 +423,6 @@ Conversely, blue lines indicate the decreases in trip volume.
 Figure \ref{fig:weekdays_rare_map} reveals that OD flows between the center of Manhattan and the two airports or between the two airports were not significantly different during weekdays and weekends. 
 However, we did observe some meaningful decrease in OD flows during the weekends in business district, as depicted by the blue lines in Figure \ref{fig:weekdays_rare_map}.
 
-%  decreased significantly during weekdays and weekends (e.g., left-side blue OD flows in business district in Figure \ref{fig:weekdays_rare_map}).
-
-%These OD flows are represented on a map with red lines in Figure \ref{fig:weekdays_rare_map}.
 
 \begin{figure}
 	\centering
@@ -457,14 +440,15 @@ However, we did observe some meaningful decrease in OD flows during the weekends
 	\caption{Relative OD flows outliers on weekdays and weekends: Triangles in Figure \ref{fig:weekdays_rare} coincide with red and blue lines in Figure \ref{fig:weekdays_rare_map}. }\label{fig:weekdays_rare_OD_map}	
 \end{figure}
 
-We also detected outlier OD flows using Mahalanobis distance. The results are presented in Figure \ref{fig:week_ends_MD}. 
+We also detected outlier OD flows using Mahalanobis distance.
+The results are presented in Figure \ref{fig:week_ends_MD}. 
 Far fewer outlier OD flows were detected using Mahalanobis distance than by the proposed approach.
 The Mahalanobis method only considers the forward OD flows of the two datasets.
 It identified OD flow outliers with high volume of trips because Mahalanobis distance considers the correlations between two OD flows.
 Thus, Mahalanobis distance is more likely to identify outliers when two OD flows have large trip volumes.
-In fact, the OD flows outliers from Mahalanobis distance are a subset of the outliers identified by the proposed method, as depicted in Figure \ref{fig:weekdays_high_map}. Furthermore, the Mahalanobis distance approach could not detect the outliers detected by the proposed approach in Figure \ref{fig:weekdays_rare_OD_map} because the Mahalanobis distance approach cannot compare two flows to evaluate significant increases or decreases. 
+In fact, the OD flows outliers from Mahalanobis distance are a subset of the outliers identified by the proposed method, as depicted in Figure \ref{fig:weekdays_high_map}.
+Furthermore, the Mahalanobis distance approach could not detect the outliers detected by the proposed approach in Figure \ref{fig:weekdays_rare_OD_map} because the Mahalanobis distance approach cannot compare two flows to evaluate significant increases or decreases.
 
-%which OD flows significantly decrease or increase by comparing two OD flows.
 
 \begin{figure}
 	\centering
@@ -477,7 +461,8 @@ In fact, the OD flows outliers from Mahalanobis distance are a subset of the out
 \subsubsection{Comparisons in scale}
 We further investigated how two OD flows differ.
 Our approach is sensitive to the difference in scale.
-Hypothesis testing of differences between two central regions in Figure \ref{fig:OD_comparisons} inadvertently revealed that the confidence interval was -0.0277 and 0.0157, which includes zero. Thus, failing to reject the null hypothesis. The two central regions were similar in terms of the spread.  
+Hypothesis testing of the differences between two central regions in Figure \ref{fig:OD_comparisons} inadvertently revealed that the confidence interval was -0.0277 and 0.0157, which included zero.
+Therefore, it failed to reject the null hypothesis, which indicated the two central regions were similar in terms of the spread.
 
 \begin{figure}
 	\centering
@@ -491,15 +476,6 @@ Interestingly, the standard statistic F-test was significant, $F(9530,7637) =1.1
 The variances of two groups were significantly different. 
 This result directly opposed that of the proposed approach.
 
-%\subsection{Scalability}
-%
-%\begin{figure}
-%	\centering
-%	\begin{subfigure}[b]{0.7\textwidth}
-%		\includegraphics[width=\textwidth]{images/scalability.eps}
-%	\end{subfigure}
-%	\caption{Measure of time reduction. }\label{fig:scalability}	
-%\end{figure}
 
 \section{Discussion}
 \label{sec:discussion}
@@ -524,46 +500,19 @@ Our approach showed no statistically significant differences.
 The difference may be caused by the sensitivity of F-test to non-normality \cite{Field12book}, which increases the Type-I error rate.
 Conversely, data depth makes no assumptions about the distributions of the underlying dataset.
 
-%when the sample size is large, small differences in group differences can produce a F test is significant. 
-%
-%This F-test is known to be extremely sensitive to non-normality,
-
 
 \section{Conclusions and Future Work}
 \label{sec:conclusions}
 
-This paper provides a new methodology for identifying outlier OD flows and the difference in scale between two different OD flows at $t_1$ and $t_2$.
+This paper provides a new methodology for identifying outlier OD flows and detecting the difference in scale between two different OD flows at $t_1$ and $t_2$.
 The proposed method is based on the concept of data depth.
-Data depth is robust statistics, which is suited to non-Gaussian distribution of the underlying datasets.
-Compared with standard statistics, this approach enhances understanding of the differences and the magnitude of the differences between two OD flows. 
+Data depth is robust statistics, which is suited to datasets with the underlying distribution being non-Gaussian.
+Compared with standard statistics, this approach enhances understanding of the differences and the magnitude of the differences between two OD flows.
 
- %adds different perspective how two OD flows differ and by how much. 
 
-This study made no attempt to incorporate geographic contexts such as locational circumstances or surrounding environment in understanding OD flows. 
+The current study made no attempt to incorporate geographic contexts, such as locational circumstances or surrounding environment, in differentiating the OD flows. 
 Further investigations will focus on integrating the analysis of OD flows with geographic context.
-Such an effort will lead to knowledge discovery and better understandings regarding the dynamics of urban flow.
-
-
-%
-%the bag gives an idea of the shape of the majority of the data cloud.
-%how to generalize: point-based approach.
-%
-%Tukey's depth makes no assumptions about the distribution from which observations are randomly sampled.  
-%
-%
-%Outliers can be identified and treated in an interactive way.
-%
-%Multivariate depth statistics are particularly suited to analyze non-
-%Gaussian or, more general, non-elliptical distributions in Rd . Without
-%In inference, tests for
-%goodness of fit and homogeneity regarding location, scale and symmetry are based
-%on depth statistics
-
-
-
-
-%\subparagraph*{Acknowledgements.}
-
+Such an effort will lead to knowledge discovery and better understandings regarding the dynamics in urban flows.
 
 
 %%
