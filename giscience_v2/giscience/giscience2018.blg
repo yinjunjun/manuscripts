@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: giscience2018.aux
+The style file: plainurl.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: giscience2018.bib
+Warning--entry type for "aplpackR" isn't style-file defined
+--line 75 of file giscience2018.bib
+Warning--can't use both author and editor fields in Mosler13book
+You've used 33 entries,
+            2849 wiz_defined-function locations,
+            847 strings with 11364 characters,
+and the built_in function-call counts, 16482 in all, are:
+= -- 1731
+> -- 632
+< -- 15
++ -- 232
+- -- 196
+* -- 927
+:= -- 2351
+add.period$ -- 109
+call.type$ -- 33
+change.case$ -- 194
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 497
+empty$ -- 1489
+format.name$ -- 196
+if$ -- 4190
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 35
+newline$ -- 169
+num.names$ -- 66
+pop$ -- 344
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 1104
+stack$ -- 0
+substring$ -- 910
+swap$ -- 143
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 1
+while$ -- 134
+width$ -- 35
+write$ -- 376
+(There were 2 warnings)
